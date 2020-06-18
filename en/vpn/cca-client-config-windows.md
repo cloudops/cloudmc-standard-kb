@@ -27,7 +27,7 @@ The following instructions apply to Microsoft Windows 10 using its native VPN cl
 
 10. Keep **Place all certificates in the following store: Trusted Root Certification Authorities**  and click *Next*.
 10. Click on *Finish*. You should see the message *The import was successful*. You can close the pop-up and the Console.
-10. If you server is behind a NAT, follow this procedure: [Microsoft link](https://support.microsoft.com/en-us/help/926179/how-to-configure-an-l2tp-ipsec-server-behind-a-nat-t-device-in-windows-vista-and-in-windows-server-2008)
+10. If your server is behind a NAT, follow this procedure: [Microsoft link](https://support.microsoft.com/en-us/help/926179/how-to-configure-an-l2tp-ipsec-server-behind-a-nat-t-device-in-windows-vista-and-in-windows-server-2008)
 
 
 #### Create network VPN connection
