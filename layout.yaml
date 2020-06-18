@@ -1,10 +1,12 @@
 categories:
 - category: general
+  icon: fa fa-info-circle
   articles:
       - cloud.ca-in-a-nutshell.md
       - 10-noteworthy-improvements-in-the-new-cloud-ca-portal.md
       - need-more-help.md
 - category: basic-concepts
+  icon: fa fa-globe
   articles:
       - environments-to-organize-workloads-and-users.md
       - main-cloud.ca-entities.md
@@ -13,6 +15,7 @@ categories:
       - system-roles.md
       - what-is-object-storage.md
 - category: compute-service
+  icon: fa fa-cloud
   articles:
       - working-with-instances.md
       - add-storage-to-instance.md
@@ -24,6 +27,7 @@ categories:
       - working-with-snapshots-and-recovery-points.md
       - working-with-instance-templates.md
 - category: object-storage-service
+  icon: fa fa-hdd-o
   articles:
       - object-storage-terminology.md
       - use-s3-api-for-object-storage.md
@@ -32,10 +36,12 @@ categories:
       - manage-my-objects-using-the-object-storage-api.md
       - manage-my-objects-using-the-self-service-portal.md
 - category: reporting
+  icon: fa fa-signal
   articles:
       - generate-a-usage-report.md
       - dashboard.md
 - category: administration
+  icon: fa fa-wrench
   articles:
       - enable-two-factor-authentication.md
       - single-entrypoint.md
@@ -43,17 +49,20 @@ categories:
       - restrict-user-access.md
       - manage-users.md
 - category: how-to
+  icon: fa fa-question
   articles:
       - create-site-to-site-vpn-on-vpc.md
       - install-and-config-cloudmonkey.md
       - kernel-upgrade-on-ubuntu-debian.md
       - force-reboot-an-instance.md
 - category: automation
+  icon: fa fa-retweet
   articles:
       - deploy-virtual-machine-using-terraform.md
       - deploy-virtual-machine-using-cloudmonkey.md
       - deploy-a-kubernetes-cluster-with-rancher-2-x.md
 - category: vpn
+  icon: fa fa-shield
   articles:
       - cca-using-remote-access.md
       - cca-client-config-mac.md
