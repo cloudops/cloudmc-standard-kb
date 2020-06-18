@@ -10,9 +10,7 @@ categories:
   articles:
       - environments-to-organize-workloads-and-users.md
       - main-cloud.ca-entities.md
-      - what-is-an-instance-template.md
       - what-is-a-vpc.md
-      - system-roles.md
       - what-is-object-storage.md
 - category: compute-service
   icon: fa fa-cloud
@@ -44,10 +42,11 @@ categories:
   icon: fa fa-wrench
   articles:
       - enable-two-factor-authentication.md
-      - single-entrypoint.md
       - display-dates-in-your-preferred-time-zone.md
-      - restrict-user-access.md
-      - manage-users.md
+      - rbac.md
+      - rbac-use-cases-basic.md
+      - rbac-use-cases-advanced.md
+      - branding.md
 - category: how-to
   icon: fa fa-question
   articles:
