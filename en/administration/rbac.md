@@ -21,7 +21,7 @@ Access control in CloudMC is achieved through a flexible, multi-tenant model tha
 
 - **Environment Role:** A collection of environment permissions that is applied to the members of an environment.
 
-![user access control chart](../../assets/rbac-roles_chart-en.png)
+![user access control chart](../../assets/rbac-roles-chart-en.png)
 
 ## System roles
 
