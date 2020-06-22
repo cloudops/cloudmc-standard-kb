@@ -47,4 +47,4 @@ From the *Environments* page, you can click on the *Edit* icon to the right of a
 
 Clicking on the *Action* menu for an environment will allow you to manage members who have access to the environment, or to delete the environment.  Additionally, you can copy the environment's UUID from the underlying cloud orchestrator, and you can also force cached information on this environment to be refreshed from the cloud orchestrator.
 
-**Note:** Deleting an environment permanently deletes ALL resources, instances, disks, and networks in the deleted environment.  This operation cannot be undone.
+**Note:** Deleting an environment permanently deletes ALL resources, instances, disks, and networks in the deleted environment.  This is a destructive operation and it **cannot** be undone.
