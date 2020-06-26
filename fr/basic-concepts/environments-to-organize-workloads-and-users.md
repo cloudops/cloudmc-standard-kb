@@ -47,4 +47,4 @@ Tout utilisateur ayant le rôle **Utilisateur**, ou toute autre rôle disposant 
 
 Cliquer sur le menu *Action* d'un environnement vous permettra de gérer les membres qui ont accès à l'environnement, ou de supprimer l'environnement. De plus, vous pouvez également copier l'UUID de l'environnement à partir de l'orchestrateur infonuagique sous-jacent, et forcer le rafraîchissement des informations mises en cache pour cet environnement à partir de l'orchestrateur infonuagique.
 
-**Avis :** La suppression d'un environnement supprime définitivement TOUTES les ressources, instances, disques et réseaux de l'environnement supprimé. Il s'agit d'une opération destructrice qui ne peut **pas être annulée**.
+**Avis :** La suppression d'un environnement détruit définitivement TOUTES les instances, disques, réseaux, et toutes les autres ressources de l'environnement supprimé. Il s'agit d'une opération destructrice qui **ne peut pas être annulée**.
