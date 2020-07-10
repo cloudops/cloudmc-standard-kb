@@ -46,7 +46,6 @@ categories:
       - rbac.md
       - rbac-use-cases-basic.md
       - rbac-use-cases-advanced.md
-      - branding.md
 - category: how-to
   icon: fa fa-question
   articles:
