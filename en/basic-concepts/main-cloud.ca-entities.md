@@ -8,7 +8,7 @@ An **organization** is the entity to which we bill the services consumed on the 
 
 A **user** is a person that accesses the cloud.ca console to manage virtual resources.
 
-A **role** is a named collection of permissions within an organization. A user may be assigned multiple roles (which are additive) to determine what can be accessed in the cloud.ca console. See [Role-based Access Control](rbac.md) to learn more about this concept.
+A **role** is a named collection of permissions within an organization. A user may be assigned multiple roles (which are additive) to determine what can be accessed in the cloud.ca console. See [Role-based access controls](../administration/rbac.md) to learn more about this concept.
 
 A **service** is an abstraction through which a user provision and interacts with his virtual resources.
 
