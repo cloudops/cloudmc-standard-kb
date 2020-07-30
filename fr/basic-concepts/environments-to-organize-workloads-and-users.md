@@ -16,7 +16,7 @@ Naviguez au service souhaité dans la barre latérale pour accéder à la page *
 
 ### Rôles d'environnement
 
-L'appartenance à l'environnement est associée à un **rôle d'environnement**, qui contrôle ce qu'un utilisateur peut faire avec les ressources contenues dans cet environnement. Contrairement aux rôles système, les rôles d'environnement sont fixes et ne peuvent pas être personnalisés de manière granulaire.
+L'appartenance à l'environnement est associée à un **rôle d'environnement**, qui contrôle ce qu'un utilisateur peut faire avec les ressources contenues dans cet environnement. Contrairement aux rôles système, les rôles d'environnement sont fixes et ne peuvent pas être personnalisés de manière granulaire.  Voir [Contrôle d'accès à base de rôles](rbac.md) pour plus d'informations sur les rôles d'environnement.
 
 ### Créer un environnement
 
