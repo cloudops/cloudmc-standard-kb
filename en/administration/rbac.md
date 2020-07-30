@@ -66,7 +66,7 @@ cloud.ca allows a user with the *Administrator* role and higher (or a user with 
 #### Creating a custom role
 The *Administration* -> *Roles* page lists system roles and any custom roles that have been created in the organization.  To add a custom role, click the *Add custom role* button at the upper-right corner of the page.  On the *Add custom role* page, enter the name for the new role in the text box, and an optional description, and then select the desired permissions to assign to the role.  Permissions are named in the format *Feature: Operation* and are grouped according to the system role that they are assigned by default.
 
-![add custom role page](/assets/rbac-add_custom_role-en.png)
+![add custom role page](/assets/cca-rbac-add_custom_role-en.png)
 
 ## Environment roles
 To control access to resources within an environment, cloud.ca introduces the concept of the *environment role*.  When adding a new member to an environment, that user must be assigned an environment role, which governs the level of access this user will be granted within the environment.  Most plugins ship with these standard environment roles:
@@ -81,11 +81,11 @@ cloud.ca allows a user with the *Administrator* role and higher (or a user with 
 
 Primary roles are assigned to a user in the *Edit user* page.
 
-![edit user page, primary role](/assets/rbac-select_primary_role-en.png)
+![edit user page, primary role](/assets/cca-rbac-select_primary_role-en.png)
 
 Additional roles are assigned to a user by going to the *Edit user* page and clicking on *Additional roles* in the sidebar.
 
-![additional roles page](/assets/rbac-additional_roles-en.png)
+![additional roles page](/assets/cca-rbac-additional_roles-en.png)
 
 Environment roles are assigned to a user when adding members to an environment:
 1. Navigate to the desired service.
@@ -93,7 +93,7 @@ Environment roles are assigned to a user when adding members to an environment:
 1. Select *Manage members*.
 1. In the following page, enter the name of the user to add in the text box labeled *Add member to environment*.
 
-![edit environment members page](/assets/rbac-list_of_env_roles-en.png)
+![edit environment members page](/assets/cca-rbac-list_of_env_roles-en.png)
 
 ---
 [Use cases - Basic](rbac-use-cases-basic-en.md)
