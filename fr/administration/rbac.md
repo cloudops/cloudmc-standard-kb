@@ -66,7 +66,7 @@ cloud.ca permet à un utilisateur avec le rôle *Administrateur* et plus élevé
 #### Créer un rôle personnalisé
 Tous les rôles système et rôles personnalisés dans l'organisation sont énumérés à la page *Administration -> Rôles*.  Pour ajouter un rôle personnalisé, cliquer sur le bouton *Créer un rôle personnalisé* en haut à droit de la page.  Dans la page *Créer un rôle personnalisé*, saiser le nom pour le nouveau rôle dans le champ saisie, et une description facultative, et puis sélectionner les permissions souhaitées pour assigner au nouveau rôle.  Les permissions sont nommés avec le format *Charactéristique : Opération* et sont groupées selon le rôle système dont elles sont assignées par défaut.
 
-![add custom role page](/assets/rbac-add_custom_role-en.png)
+![add custom role page](/assets/cca-rbac-add_custom_role-fr.png)
 
 ## Les rôles d'environnement
 Pour contrôler l'accès aux ressources dans un environnement, cloud.ca conçoit le *rôle d'environnement*.  En ajouter un membre nouveau à un environnement, il faut assigner un rôle d'environnment à l'utilisateur, qui régit le niveau d'accès accordé à l'utilisateur à l'intérieur de l'environnement.  La plupart des modules d'extension sont livrés avec le rôles d'environnment standards celles-ci :
@@ -81,11 +81,11 @@ cloud.ca permet à un utilisateur avec le rôle *Administrateur* et plus élevé
 
 Les rôles primaires sont assignés à l'utilisateur de la page *Modifier l'utilisateur*.
 
-![edit user page, primary role](/assets/rbac-select_primary_role-en.png)
+![edit user page, primary role](/assets/cca-rbac-select_primary_role-fr.png)
 
 Les rôles additionels sont assignés à l'utilisateur en aller à la page *Modifier l'utilisateur* et cliquer sur *Rôles additionels* dans l'encadré.
 
-![additional roles page](/assets/rbac-additional_roles-en.png)
+![additional roles page](/assets/cca-rbac-additional_roles-fr.png)
 
 Les rôles d'environnment sont assignés à l'utilisateur lorsque ajouter des membres à un environnement :
 1. Naviguer au service souhaité.
@@ -93,7 +93,7 @@ Les rôles d'environnment sont assignés à l'utilisateur lorsque ajouter des me
 1. Sélectionner *Gérer les membres*.
 1. Dans la page suivante, saisir le nom de l'utilisateur à ajouter dans le champ saisie marqué *Ajouter un membre à l'environnement*.
 
-![edit environment members page](/assets/rbac-list_of_env_roles-en.png)
+![edit environment members page](/assets/rbac-list_of_env_roles-fr.png)
 
 ---
 [Cas pratiques - Basiques](rbac-use-cases-basic.md)
