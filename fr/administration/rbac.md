@@ -93,7 +93,7 @@ Les rôles d'environnment sont assignés à l'utilisateur lorsque ajouter des me
 1. Sélectionner *Gérer les membres*.
 1. Dans la page suivante, saisir le nom de l'utilisateur à ajouter dans le champ saisie marqué *Ajouter un membre à l'environnement*.
 
-![edit environment members page](/assets/rbac-list_of_env_roles-fr.png)
+![edit environment members page](/assets/cca-rbac-list_of_env_roles-fr.png)
 
 ---
 [Cas pratiques - Basiques](rbac-use-cases-basic.md)
