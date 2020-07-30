@@ -8,7 +8,7 @@ Une **organisation** est l’entité à laquelle sont facturés les services con
 
 Un **utilisateur** est une personne qui accède la console de cloud.ca pour gérer ressources virtuelles.
 
-Un **rôle** est une collection nommée de permissions à l’intérieur d’une organisation. Un utilisateur peut avoir plusieurs rôles (ils sont additifs) afin de déterminer celui que peut être accédé  dans la console de cloud.ca. Voyez [Les rôles système pour contrôler l'accès des utilisateurs](system-roles.md) pour en apprendre davantage sur ce concept.
+Un **rôle** est une collection nommée de permissions à l’intérieur d’une organisation. Un utilisateur peut avoir plusieurs rôles (ils sont additifs) afin de déterminer celui que peut être accédé  dans la console de cloud.ca.  Voir [Contrôle d'accès à base de rôles](../administration/rbac.md) pour en apprendre davantage sur ce concept.
 
 Un **service** est une abstraction à travers laquelle un utilisateur acquiert et interagit avec ses ressources virtuelles.
 

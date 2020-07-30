@@ -16,7 +16,7 @@ Navigate to the desired service in the sidebar to get to the *Environments* page
 
 ### Environment Roles
 
-Environment membership is coupled with an **environment role**, which controls what a user can do with the resources contained in this environment. Contrary to system roles, the environment roles are fixed and cannot be customized granularly.  See [Role-based access controls](rbac.md) for more information on environment roles.
+Environment membership is coupled with an **environment role**, which controls what a user can do with the resources contained in this environment. Contrary to system roles, the environment roles are fixed and cannot be customized granularly.  See [Role-based access controls](../administration/rbac.md) for more information on environment roles.
 
 ### Create an environment
 
