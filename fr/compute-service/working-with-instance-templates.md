@@ -12,22 +12,21 @@ Cette section présente comment créer un modèle à partir d'une instance exist
 
 Dans la section **Volume**, localisez l'instance dont vous voulez dérivez un modèle. Notez que ce processus ne fonctionne que pour une Volume Principal (ROOT). Disons que pour cette exemple, nous utiliserons l'instance *preprod-mysql-node01*.
 
-![Liste de volumes](/assets/working-with-instance-templates-fr-1.png)
+![Liste de volumes](/assets/cca-working-with-instance-templates-fr-1.png)
 
 Sélectionnez le volume principal de l'instance et cliquez ensuite sur le bouton Action. Sélectionnez l'option **Prendre une copie instantanée** et cliquez sur **Confirmer** dans la fenêtre contextuelle. Un message va confirmer que la tâche est en cours. Ce processus peut prendre un certain temps dépendent de la taille de l'instance.
 
-![Prendre une copie instantanée](/assets/working-with-instance-templates-fr-2.png) <br><br>
-![Copie instantanée en création](/assets/working-with-instance-templates-fr-3.png)
+![Prendre une copie instantanée](/assets/cca-working-with-instance-templates-fr-2.png)
 
 #### Créer votre modèle
 
 Maintenant, déplacez vous dans la table **Snapshot**. Vous devriez voir votre copie instantanée pour votre volume ainsi que son statut à **Sauvegarder**.
 
-![Liste de copies instantanées](/assets/working-with-instance-templates-fr-4.png)
+![Liste de copies instantanées](/assets/cca-working-with-instance-templates-fr-4.png)
 
 Sélectionnez votre copie instantanée et cliquez sur **Action**. Ensuite, cliquez sur **Créer un modèle**. Une nouvelle fenêtre va apparaître comme dans l'exemple ci-bas.
 
-![Créer un modèle](/assets/working-with-instance-templates-fr-5.png)
+![Créer un modèle](/assets/cca-working-with-instance-templates-fr-5.png)
 
 Ensuite, il faut simplement remplir le contenu des champs requis suivants :
 
@@ -47,7 +46,7 @@ cloud.ca offre la possibilité aux usagers d'importer leurs propres modèles cr�
 
 Premièrement, vous devez cliquez sur le bouton **Importer**. Une nouvelle fenêtre contextuelle va apparaître comme dans l'image suivante.
 
-![Importer un modèle](/assets/working-with-instance-templates-fr-6.png)
+![Importer un modèle](/assets/cca-working-with-instance-templates-fr-6.png)
 
 Tous les champs sont obligatoires. Voici une description de chacun d'eux :
 
