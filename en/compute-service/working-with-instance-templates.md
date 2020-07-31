@@ -10,7 +10,7 @@ This section will show how to create an instance template from an existing insta
 
 #### Make the initial Volume Snapshot
 
-In the **Volume** tab, locate the instance you want to do a template from. Note that this process will work only on the ROOT volumes. Let's say we want to do a Template out of *warrenton-mysql-node01*.
+In the **Volume** tab, locate the instance you want to do a template from. Note that this process will work only on the ROOT volumes. Let's say we want to do a Template out of *acme-db01*.
 
 ![List of volumes](/assets/cca-working-with-instance-templates-en-1.png)
 

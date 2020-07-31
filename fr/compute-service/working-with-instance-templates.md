@@ -10,7 +10,7 @@ Cette section présente comment créer un modèle à partir d'une instance exist
 
 #### Effectuer une copie instantanée initiale d'un volume
 
-Dans la section **Volume**, localisez l'instance dont vous voulez dérivez un modèle. Notez que ce processus ne fonctionne que pour une Volume Principal (ROOT). Disons que pour cette exemple, nous utiliserons l'instance *preprod-mysql-node01*.
+Dans la section **Volume**, localisez l'instance dont vous voulez dérivez un modèle. Notez que ce processus ne fonctionne que pour une Volume Principal (ROOT). Disons que pour cette exemple, nous utiliserons l'instance *acme-db01*.
 
 ![Liste de volumes](/assets/cca-working-with-instance-templates-fr-1.png)
 
