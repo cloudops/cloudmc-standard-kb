@@ -12,22 +12,21 @@ This section will show how to create an instance template from an existing insta
 
 In the **Volume** tab, locate the instance you want to do a template from. Note that this process will work only on the ROOT volumes. Let's say we want to do a Template out of *warrenton-mysql-node01*.
 
-![List of volumes](/assets/working-with-instance-templates-en-1.png)
+![List of volumes](/assets/cca-working-with-instance-templates-en-1.png)
 
 Highlight the ROOT volume of the instance, and then click on the **Action** button. Select the **Take Snapshot** option, and click **Confirm** on the pop-up. A user feedback will confirm that the snapshot process began. Wait a little, this process can take couple minutes depending of the size of your instance.
 
-![Take snapshot](/assets/working-with-instance-templates-en-2.png) <br><br>
-![Snapshot is being created](/assets/working-with-instance-templates-en-3.png)
+![Take snapshot](/assets/cca-working-with-instance-templates-en-2.png)
 
 #### Create your template
 
 Now let's move over to the snapshot tab. You should see your new snapshot in the list matching your ROOT volume name, and with status **Backed Up**.
 
-![List of snapshots](/assets/working-with-instance-templates-en-4.png)
+![List of snapshots](/assets/cca-working-with-instance-templates-en-4.png)
 
 Highlight your snapshot, and click on **Action**. Then select **Create Template**. A new wizard will show up like in the screenshot below.
 
-![Create template](/assets/working-with-instance-templates-en-5.png)
+![Create template](/assets/cca-working-with-instance-templates-en-5.png)
 
 Then you simply need to fill the required fields:
 
