@@ -46,7 +46,7 @@ cloud.ca offers the possibility to import your own template made outside the pla
 
 First, you have to click on the Import button. A new wizard window will open, like shown in the following screenshot.
 
-![Import instance template](/assets/working-with-instance-templates-en-6.png)
+![Import instance template](/assets/cca-working-with-instance-templates-en-6.png)
 
 All the fields are mandatory. Here is a quick description for each of the items :
 
