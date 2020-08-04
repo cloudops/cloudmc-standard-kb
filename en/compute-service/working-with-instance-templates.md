@@ -20,7 +20,7 @@ Highlight the ROOT volume of the instance, and then click on the **Action** butt
 
 #### Create your template
 
-Navigate to the **Snapshot** tab. You should see your new snapshot in the list, and it will be in the **Snapshot in progress** state until the snapshot is complete, when it will appear in the **Ready** state.
+Navigate to the **Snapshot** tab. You should see your new snapshot in the list, and it will be in the **Snapshot in progress** state until the snapshot is complete, when it will appear in the **Completed** state.
 
 ![List of snapshots](/assets/cca-working-with-instance-templates-en-4.png)
 
