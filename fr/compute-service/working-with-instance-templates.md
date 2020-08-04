@@ -48,18 +48,18 @@ Premièrement, vous devez cliquez sur le bouton **Importer**. Une nouvelle fenê
 
 ![Importer un modèle](/assets/cca-working-with-instance-templates-fr-6.png)
 
-Tous les champs sont obligatoires. Voici une description de chacun d'eux :
+Il faut remplir le contenu des champs requis. Voici une description de chacun d'eux :
 
 - **Nom :** Ceci est le nom qui sera affiché dans la liste des modèles et dans l'outils de création d'instance.
 - **Description :** Vous pouvez ajouter plus d'informations dans ce champs.
-- **URL d'imporation :** Vous ne téléverser pas des modèles vers cloud.ca, cloud.ca va le télécharger pour vous. Dans cette optique, vous devez fournir un **URL accessible publiquement** vers votre VHD en utilisant soit **HTTP** ou **FTP**. **Notez:** HTTPS ne fonctionnera pas.
+- **URL :** Vous ne téléverser pas des modèles vers cloud.ca, cloud.ca va le télécharger pour vous. Dans cette optique, vous devez fournir un **URL accessible publiquement** vers votre VHD en utilisant soit **HTTP** ou **FTP**. **Notez:** HTTPS ne fonctionnera pas.
 - **Hyperviseur :** Ceci sera toujours XenServer dans notre cas, du moins pour le moment.
 - **Format :** Ceci sera toujours VHD dans notre cas, du moins pour le moment.
 - **Système d'exploitation :** Fournir le type de système d'exploitation pour votre modèle. Par exemple, si vous avez installé Ubuntu 18.04 avec PVHVM, vous devrez selectionner **Ubuntu 18.04 (64-bit)**. Si vous avez installé CentOS 7 en PV, vous devrez utiliser **CentOS 7**. Une table est disponible plus bas pour facilité votre choix.
 - **Options :** Il y a 3 options pour votre modèle.
-   - *Clé SSH activé* : Ceci veut dire que votre modèle est capable de manipuler les clé SSH avec un script personnalisé ou cloud-init.
-   - *Mot de passe activé* : Ceci veut dire que votre modèle est capable de configurer le mot de passe de l'usager root avec un mot de passe généré par le système lors du premier démarrage. Là également, vous avez besoin d'un script ou de cloud-init pour que cela fonctionne.
-   - *Extensible dynamiquement* : Cela veut dire que votre modèle possède les outils XenServer et peut supporter un rehaussement de l'offre de service de calcul sans redémarrer votre instance. Il existe toutefois des limitations. Vous pouvez rehausser le niveau une seule fois et pouvez seulement doubler la capacité de CPU/Mémoire basé sur l'offre de calcul initiale.
+   - *Support l'association d'une clé SSH* : Ceci veut dire que votre modèle est capable de manipuler les clé SSH avec un script personnalisé ou cloud-init.
+   - *Supporte la réinitialisation de mot de passe* : Ceci veut dire que votre modèle est capable de configurer le mot de passe de l'usager root avec un mot de passe généré par le système lors du premier démarrage. Là également, vous avez besoin d'un script ou de cloud-init pour que cela fonctionne.
+   - *Supporte l'extension dynamique* : Cela veut dire que votre modèle possède les outils XenServer et peut supporter un rehaussement de l'offre de service de calcul sans redémarrer votre instance. Il existe toutefois des limitations. Vous pouvez rehausser le niveau une seule fois et pouvez seulement doubler la capacité de CPU/Mémoire basé sur l'offre de calcul initiale.
 
 ### Concordance des systèmes d'exploitation
 
