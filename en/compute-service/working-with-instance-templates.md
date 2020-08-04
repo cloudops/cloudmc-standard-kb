@@ -6,25 +6,25 @@ slug: working-with-instance-templates
 
 ### Creating a template from an existing instance
 
-This section will show how to create an instance template from an existing instance running on cloud.ca. This process requires a Volume Snapshot to be created.
+This section will show how to create an **instance template** from an existing instance running on cloud.ca. This process requires a volume snapshot to be created.
 
 #### Make the initial Volume Snapshot
 
-In the **Volume** tab, locate the instance you want to do a template from. Note that this process will work only on the ROOT volumes. Let's say we want to do a Template out of *acme-db01*.
+In the **Volumes** tab, locate the instance from which you wish to create a template. Note that this process will work only on ROOT volumes. Let's say we want to create an instance template out of *acme-db01*.
 
 ![List of volumes](/assets/cca-working-with-instance-templates-en-1.png)
 
-Highlight the ROOT volume of the instance, and then click on the **Action** button. Select the **Take Snapshot** option, and click **Confirm** on the pop-up. A user feedback will confirm that the snapshot process began. Wait a little, this process can take couple minutes depending of the size of your instance.
+Highlight the ROOT volume of the instance, and then click on the **Action** button. Select **Take Snapshot**.  The *Take snapshot* page will appear.  Enter a name for the snapshot if desired, then click *Submit*. A notification will confirm that the snapshot process began. This process can take couple minutes depending of the size of your instance.
 
 ![Take snapshot](/assets/cca-working-with-instance-templates-en-2.png)
 
 #### Create your template
 
-Now let's move over to the snapshot tab. You should see your new snapshot in the list matching your ROOT volume name, and with status **Backed Up**.
+Navigate to the **Snapshot** tab. You should see your new snapshot in the list, and it will be in the **Snapshot in progress** state until the snapshot is complete, when it will appear in the **Ready** state.
 
 ![List of snapshots](/assets/cca-working-with-instance-templates-en-4.png)
 
-Highlight your snapshot, and click on **Action**. Then select **Create Template**. A new wizard will show up like in the screenshot below.
+Click on the **Action** menu for your snapshot, then select **Create a template**. The *Create a template* page will appear.
 
 ![Create template](/assets/cca-working-with-instance-templates-en-5.png)
 
@@ -38,7 +38,7 @@ Then you simply need to fill the required fields:
    - *Password Enabled*: That means your template is loaded with cloud-init (or any personal script) that can reset the root password to something cloud.ca generates on the first boot.
    - *Dynamically Scalable*: That means your template is loaded with the XenServer tools, and can handle service offering scale-up without rebooting the VM. There are some limitations to this. You can scale-up once, and up to double CPU/RAM of the initial offering.
 
-Click **Done**.  You should see a user feedback stating the process began. This might take some time depending of the instance size. Once completed, you should see the new template listed in the template tab list and in the add instance wizard.
+Click *Done*.  You should see a user feedback stating the process began. This might take some time depending of the instance size. Once completed, you should see the new template listed in the template tab list and in the add instance wizard.
 
 ### Import my own Instance Template
 
@@ -55,24 +55,29 @@ All the fields are mandatory. Here is a quick description for each of the items 
 - **Import URL:** You don't upload templates on cloud.ca, cloud.ca downloads it for you. You **have to provision an URL that is publicly accessible** and using one of these two protocols: **HTTP** or **FTP**. **Note:** HTTPS will not work.
 - **Hypervisor:** This will always be XenServer in our case, for now at least.
 - **Format:** This will always be VHD in our case, for now at least.
-- **OS:** Provide the OS Type of your template. For instance, if you have a Ubuntu 14.04 using PVHVM, you would select **Other (64 bit)**. If you have a CentOS 6 using PV, you would use **CentOS 6.4 (64 bit)**. See below for the popular OS matches.
+- **OS:** Provide the OS Type of your template. For instance, if you have a Ubuntu 18.04 using PVHVM, you would select **Ubuntu 18.04 (64-bit)**. If you have a CentOS 7 using PV, you would use **CentOS 7**. See below for the popular OS matches.
 - **Options:** There are 3 options for your templates.
-   - *SSH Key Enabled*: That means your template is loaded with cloud-init (or any personal script) that can handle SSH keys to be setup.
-   - *Password Enabled*: That means your template is loaded with cloud-init (or any personal script) that can reset the root password to something cloud.ca generates on the first boot.
-   - *Dynamically Scalable*: That means your template is loaded with the XenServer tools, and can handle service offering scale-up without rebooting the VM. There are some limitations to this. You can scale-up once, and up to double CPU/RAM of the initial offering.
+   - *Supports SSH key association*: That means your template is loaded with cloud-init (or any personal script) that can handle SSH keys to be setup.
+   - *Supports password reset*: That means your template is loaded with cloud-init (or any personal script) that can reset the root password to something cloud.ca generates on the first boot.
+   - *Supports dynamic scaling*: That means your template is loaded with the XenServer tools, and can handle service offering scale-up without rebooting the VM. There are some limitations to this. You can scale-up once, and up to double CPU/RAM of the initial offering.
 
 ### OS Type Matching
 
 | Operating System | OS Type on cloud.ca |
 | --- | --- |
-| CentOS 6.x | CentOS 6.4 (32/64 bit) |
-| CentOS 7.x | Other (64 bit) |
-| Ubuntu 12.x | Ubuntu 12.04 (32/64 bit) for PV, Other (64 bit) for PVHVM |
-| Ubuntu 14.x | Ubuntu 12.04 (32/64 bit) for PV, Other (64 bit) for PVHVM |
-| Ubuntu 16.x | Ubuntu 12.04 (32/64 bit) for PV, Other (64 bit) for PVHVM |
-| CoreOS x.x | Other (64 bit) |
+| CentOS 7.x | CentOS 7 |
+| CentOS 8.x | CentOS 7 |
+| Ubuntu 18.04 | Ubuntu 18.04 (64-bit) |
+| Ubuntu 19.04 | Ubuntu 16.04 (64-bit) |
+| CoreOS x.x | CoreOS
+| Debian 9 | Debian GNU/Linux 8 (64-bit) |
+| Debian 10 | Debian GNU/Linux 8 (64-bit) |
 | Windows Server 2008 R2 | Windows Server 2008 R2 (64 bit) |
 | Windows Server 2012 | Windows Server 2012 (64 bit) |
+| Windows Server 2016 Standard | Windows Server 2016 (64-bit) |
+| Windows Server 2019 Standard | Windows Server 2019 (64-bit) |
+| Windows 10 | Windows 10 (64-bit) |
+
 
 ### Install hypervisor tools
 
