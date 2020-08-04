@@ -20,7 +20,7 @@ Sélectionnez le volume principal de l'instance et cliquez ensuite sur le bouton
 
 #### Créer votre modèle
 
-Déplacez vous dans la table **Copies instantanées**. Vous devriez voir votre copie instantanée dans la liste, et elle sera dans l'état **En cour de copie instantanée** jusqu'à ce que la copie instantanée soit terminé, quand elle apparaîtra dans l'état **Prêt**.
+Déplacez vous dans la table **Copies instantanées**. Vous devriez voir votre copie instantanée dans la liste, et elle sera dans l'état **En cour de copie instantanée** jusqu'à ce que la copie instantanée soit terminé, quand elle apparaîtra dans l'état **Sauvgardé**.
 
 ![Liste de copies instantanées](/assets/cca-working-with-instance-templates-fr-4.png)
 
