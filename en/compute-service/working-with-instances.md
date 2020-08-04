@@ -3,18 +3,23 @@ title: "Working with Instances"
 slug: working-with-instances
 ---
 
+- [Access an Instance's console](#access-an-instance-s-console)
+- [Leverage Automation (User Data)](#leverage-automation--user-data-)
+  * [Use Case: Simple Bash Script](#use-case--simple-bash-script)
+  * [Use Case: Cloud-Config](#use-case--cloud-config)
+
 ### Access an Instance's console
 Note: For this operation to be available, your user account needs to be assigned the **Environment Admin** or **User** role on the target environment.
 
-1. Go to the **Services** page.
 1. Select the appropriate compute environment on the left sidebar.
-1. Select the **Instances** tab.
-1. In the target instance's **Action** menu, select the **View Console** option.
+1. Select the appropriate environment.
+   1. If needed, select the **Instances** tab.
+1. Find the target instance in the list. In the target instance's **Action** menu, select the **View Console** option.
 
 Note: Cut / Copy / Paste functionality are not available in this console window.
 
 ### Leverage Automation (User Data)
-You may have already noticed In the last step of the instance wizard, we have the ability to pass additional data to an instance. This data can be a virtually anything, as long as you have something on your instance to query the metadata and do something with it. In out public templates, we are using cloud-init for this purpose. The [cloud-init documentation](https://cloudinit.readthedocs.org/en/latest/) is pretty explicit on what you can or cannot do.
+You may have already noticed In the last step of the instance wizard, we have the ability to pass additional data to an instance. This data can be virtually anything, as long as you have something on your instance to query the metadata and do something with it. In out public templates, we are using cloud-init for this purpose. The [cloud-init documentation](https://cloudinit.readthedocs.org/en/latest/) is pretty explicit on what you can or cannot do.
 
 This section will cover some basic examples on how to use this feature.
 
