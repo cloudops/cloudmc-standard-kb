@@ -34,9 +34,9 @@ Then you simply need to fill the required fields:
 - **Description:** You can add some information about what your template is about.
 - **OS Type:** This is automatically populated based on the instance OS type. It is very unlikely you have to change this value.
 - **Options:** There are 3 options for your templates.
-   - *SSH Key Enabled*: That means your template is loaded with cloud-init (or any personal script) that can handle SSH keys to be setup.
-   - *Password Enabled*: That means your template is loaded with cloud-init (or any personal script) that can reset the root password to something cloud.ca generates on the first boot.
-   - *Dynamically Scalable*: That means your template is loaded with the XenServer tools, and can handle service offering scale-up without rebooting the VM. There are some limitations to this. You can scale-up once, and up to double CPU/RAM of the initial offering.
+   - *Supports SSH key association*: That means your template is loaded with cloud-init (or any personal script) that can handle SSH keys to be setup.
+   - *Supports password reset*: That means your template is loaded with cloud-init (or any personal script) that can reset the root password to something cloud.ca generates on the first boot.
+   - *Supports dynamic scaling*: That means your template is loaded with the XenServer tools, and can handle service offering scale-up without rebooting the VM. There are some limitations to this. You can scale-up once, and up to double CPU/RAM of the initial offering.
 
 Click *Done*.  You should see a user feedback stating the process began. This might take some time depending of the instance size. Once completed, you should see the new template listed in the template tab list and in the add instance wizard.
 
