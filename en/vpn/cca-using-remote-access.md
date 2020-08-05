@@ -35,3 +35,9 @@ The following information is required to configure the VPN client:
    - **IKEv2 certificate:** The certificate used to authenticate the remote VPN. Save this certificate in a file with the **.crt** extension, for example cloudca-vpn.crt. Make sure you keep the exact same formatting and content as displayed on the page.
    - **Username:** a valid VPN account username.
    - **Password:** a valid VPN account password.
+
+To find how to configure your remote access VPN for your operating system, please look at the following pages:
+
+* [Client Configuration: Windows](cca-client-config-windows.md)
+* [Client Configuration: Mac](cca-client-config-mac.md)
+* [Client Configuration: Ubuntu](cca-client-config-ubuntu.md)
