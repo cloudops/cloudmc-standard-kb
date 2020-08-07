@@ -21,6 +21,7 @@ categories:
       - working-with-ssh-keys.md
       - configure-load-balancing.md
       - configure-port-forwarding.md
+      - securing-your-network.md
       - working-with-vpcs.md
       - working-with-cloudstack-compute-apis.md
       - working-with-snapshots-and-recovery-points.md
