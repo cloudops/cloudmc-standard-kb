@@ -31,7 +31,7 @@ For more information about VPCs, refer to this [What is a VPC](../basic-concepts
 
 ### Create a new network tier
 
-1. From the target VPC, find the *Network* item and click the gear menu.
+1. From the target VPC, find the *Networks* item and click the gear menu.
 1. In the top right corner, click **Add network**.
 ![VPC details page](../../assets/cca-working-with-vpcs-4-en.png)
 1. Fill the Add network form:
