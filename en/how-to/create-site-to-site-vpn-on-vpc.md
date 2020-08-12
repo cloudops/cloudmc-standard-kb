@@ -4,7 +4,7 @@ slug: create-site-to-site-vpn-on-vpc
 ---
 
 
-A site-to-site VPN is useful for interconnecting a VPC to a remote office, another data centre, or to another VPC.  For more details, see [Working with VPCs](../basic-concepts/working-with-vpcs.md).
+A site-to-site VPN is useful for interconnecting a VPC to a remote office, another data centre, or to another VPC.  For more details, see [Working with VPCs](../compute-service/working-with-vpcs.md).
 
 The following example illustrates how to connect two VPCs with a site-to-site VPN.  Details will vary for your particular devices.
 
