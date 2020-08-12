@@ -45,7 +45,7 @@ For more information about VPCs, refer to this [What is a VPC](../basic-concepts
    - **ACL:** Access control list (ACL) for communication across Tiers within the same VPC.  See [Securing your network](securing-your-network.md) for more information about ACLs.
       - **default_allow:**  (Default) Allow all type of traffic from/to other tiers in the VPC.
       - **default_deny:**  Deny all type of traffic from/to other tiers in the VPC.
-   ![Add network page](../../assets/cca-working-with-vpcs-5-en.png)]
+   ![Add network page](../../assets/cca-working-with-vpcs-5-en.png)
 1. Click on **Submit**.
 1. The *VPCs* page will appear.  The new network will appear in the list of networks in **allocated** state and is now ready for use.
 
@@ -54,6 +54,7 @@ For more information about VPCs, refer to this [What is a VPC](../basic-concepts
 Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote office to a VPC, or another cloud provider to a VPC.  An example site-to-site VPN can be found in the how-to article [Create a site-to-site VPN on a VPC](../how-to/create-site-to-site-vpn-on-vpc.md).
 
 1. From the target VPC, find the Site-to-Site VPN item and click the gear menu.
+   ![Site-to-site VPN page](../../assets/cca-working-with-vpcs-6-en.png)
 1. In the top right corner, select **Add site-to-site VPN**.
 1. Fill in the Add site-to-site VPN form:
    - **Name:** Name of the VPN connection, likely what this connection is to.
@@ -73,9 +74,10 @@ Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote o
    - **Passive connection:** Check this box if the remote end has not yet been configured. Only one passive end should exist per site-to-site VPN.
 1. Click on **Submit**.
 1. The **Site-to-site VPNs** tab will appear, and the new VPN will be listed in the **disconnected** state.
+   ![VPN created and not yet connected](../../assets/cca-working-with-vpcs-7-en.png)
 1. If necessary, set up the other end of the VPN with the same pre-shared key as this one.
 1. Once the other end of the VPN tunnel has been configured, the state will change to **connected**.
 
 ### Remote Access VPN
 
-A remote access VPN allows you network access to resources within a VPC. You can see how to configure a remote access VPN for your OS [in this article](../vpn/cca-using-remote-access.md).
+A remote access VPN allows you network access to resources within a VPC. For more information, see [Connect to a VPC using remote access VPN (IKEv2)](../vpn/cca-using-remote-access.md).

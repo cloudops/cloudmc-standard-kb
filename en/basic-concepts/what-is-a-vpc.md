@@ -57,3 +57,5 @@ Consider the following when you create a VPC:
 - If an IP address is assigned to a tier:
    - That IP can’t be used by more than one tier at a time in the VPC. For example, if you have tiers A and B, and a public IP, you can create a port-forwarding rule by using the IP either for A or B, but not for both.
    - That IP can’t be used for Static NAT, load balancing, or port forwarding rules for another guest network inside the VPC.
+
+For more information on how to implement a VPC, see [Working with VPCs](../compute-service/working-with-vpcs.md).
