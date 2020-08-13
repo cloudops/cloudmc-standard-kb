@@ -11,7 +11,7 @@ slug: gestion-des-vpcs
 
 Pour créer, modifier, ou supprimer un VPC, un compte avec le rôle *Utilisateur* doit être membre de l'environnement qui contient le VPC, et également avoir le rôle d'environnement *Éditeur* ou *Propriétaire* attribué. Un compte doté du rôle *Administrateur* ou supérieur peut créer, modifier ou supprimer des VPC dans un environnement.
 
-Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un VPC?](what-is-a-vpc.md).
+Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un VPC?](../basic-concepts/what-is-a-vpc.md).
 
 ### Création d'un VPC
 
