@@ -23,7 +23,7 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
 1. Complétez le formulaire d'ajouter un VPC :
    - **Nom :** Nom du VPC (ex. *acme-prod-vpc01*)
    - **Description :** Description du VPC (ex. "Site de production A")
-   - **Domaine Réseau :** (Facultatif) Nom de domaine pour la résolution DNS interne (ex: *interne.acme.com*). cloud.ca ajoutera ce nom de domaine au fichier */etc/hosts* pour les instances nouvelles.
+   - **Domaine Réseau :** (Facultatif) Nom de domaine pour la résolution DNS interne (ex: *interne.acme.com*). cloud.ca ajoutera ce nom de domaine au fichier */etc/hosts* pour les futures instances.
    ![Page ajouter VPC](/assets/cca-working-with-vpcs-2-fr.png)
 1. Cliquez sur **Valider**.
 1. L'onglet **Réseautique** apparaîtra, et votre nouveau VPC sera répertorié dans l'état **en démarrage**. Une fois créé, le VPC apparaîtra dans l'état **activé**.
@@ -36,12 +36,12 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
 ![Page de détails du VPC](/assets/cca-working-with-vpcs-4-fr.png)
 1. Complétez le formulaire d'ajouter un réseau :
    - **Nom :** Nom du tier (ex. *acme-net-web01*)
-   - **Description :** (Facultatif) Description du tier (ex. "Serveurs de web en production")
+   - **Description :** (Facultatif) Description du tier (ex. "Serveurs web en production")
    - **Sélectionnez une offre réseau :** Choisissez le niveau de service pour ce tier
       - **Standard Tier :**  Réseau régulier qui supporte le NAT et la translation de port. Idéal pour les applications internes comme les serveurs de base de données.
       - **Load Balanced Tier :**  (Par défaut) Similar au "Standard Tier" mais offre en plus la possibilité de faire de la répartition de charge entre plusieurs instances déployées sur ce tier, via des règles de répartition de charge appliquées sur des adresses IP publiques. **Avis : Cette offre réseau ne peut s'appliquer qu'à un seul tier à l'intérieur d'un VPC.**
-   - **Paserelle :**  Affiche l'adresse IP de la passerelle par défaut pour le tier de réseau à créer.  Ce champ n'est pas modifiable.
-   - **Masque de sous-réseau :**  Affiche le masque de sous-réseau du tier réseau à créer. Ce champ n'est pas modifiable.
+   - **Paserelle :**  Affiche l'adresse IP de la passerelle par défaut pour le tier de réseau.  Ce champ n'est pas modifiable.
+   - **Masque de sous-réseau :**  Affiche le masque de sous-réseau du tier réseau. Ce champ n'est pas modifiable.
    - **ACL :** Liste de contrôle d'accès (ACL) pour la communication entre les tiers au sein du même VPC. Voir [Sécurisation de votre réseau](securing-your-network.md) pour plus d'informations sur les ACLs.
       - **default_allow :**  (Par défaut) Permet tout le traffic de/vers un autre tier du VPC.
       - **default_deny  :**  Empêche tout traffic de/vers un autre tier du VPC.
@@ -80,4 +80,4 @@ Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs,
 
 ### Accès VPN à distance
 
-Un VPN d'accès à distance vous permet d'accéder au réseau aux ressources d'un VPC. Pour plus d'informations, consultez le [Connexion à un VPC par une connexion VPN sécurisée](../vpn/cca-using-remote-access.md).
+Un VPN d'accès à distance vous permet d'accéder au réseau aux ressources d'un VPC. Pour plus d'informations, consultez [Connexion à un VPC par une connexion VPN sécurisée](../vpn/cca-using-remote-access.md).
