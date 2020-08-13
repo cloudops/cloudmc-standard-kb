@@ -74,7 +74,7 @@ Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote o
    - **Passive connection:** Check this box if the remote end has not yet been configured. Only one passive end should exist per site-to-site VPN.
 1. Click on **Submit**.
 1. The **Site-to-site VPNs** tab will appear, and the new VPN will be listed in the **disconnected** state.
-   ![VPN created and not yet connected](/assets/cca-working-with-vpcs-7-en.png)
+   ![VPN created but not yet connected](/assets/cca-working-with-vpcs-7-en.png)
 1. If necessary, set up the other end of the VPN with the same pre-shared key as this one.
 1. Once the other end of the VPN tunnel has been configured, the state will change to **connected**.
 
