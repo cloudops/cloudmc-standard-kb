@@ -35,14 +35,14 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
 1. Dans le coin supérieur droit, cliquez sur **Ajouter un réseau**.
 ![Page de détails du VPC](/assets/cca-working-with-vpcs-4-fr.png)
 1. Complétez le formulaire d'ajouter un réseau :
-   1. **Nom :** Nom du tier (ex. *acme-net-web01*)
-   1. **Description :** (Facultatif) Description du tier (ex. "Serveurs de web en production")
-   1. **Sélectionnez une offre réseau :** Choisissez le niveau de service pour ce tier
+   - **Nom :** Nom du tier (ex. *acme-net-web01*)
+   - **Description :** (Facultatif) Description du tier (ex. "Serveurs de web en production")
+   - **Sélectionnez une offre réseau :** Choisissez le niveau de service pour ce tier
       - **Standard Tier :**  Réseau régulier qui supporte le NAT et la translation de port. Idéal pour les applications internes comme les serveurs de base de données.
       - **Load Balanced Tier :**  (Par défaut) Similar au "Standard Tier" mais offre en plus la possibilité de faire de la répartition de charge entre plusieurs instances déployées sur ce tier, via des règles de répartition de charge appliquées sur des adresses IP publiques. **Avis : Cette offre réseau ne peut s'appliquer qu'à un seul tier à l'intérieur d'un VPC.**
-   1. **Paserelle :**  Affiche l'adresse IP de la passerelle par défaut pour le tier de réseau à créer.  Ce champ n'est pas modifiable.
-   1. **Masque de sous-réseau :**  Affiche le masque de sous-réseau du tier réseau à créer. Ce champ n'est pas modifiable.
-   1. **ACL :** Liste de contrôle d'accès (ACL) pour la communication entre les tiers au sein du même VPC. Voir [Sécurisation de votre réseau](securing-your-network.md) pour plus d'informations sur les ACLs.
+   - **Paserelle :**  Affiche l'adresse IP de la passerelle par défaut pour le tier de réseau à créer.  Ce champ n'est pas modifiable.
+   - **Masque de sous-réseau :**  Affiche le masque de sous-réseau du tier réseau à créer. Ce champ n'est pas modifiable.
+   - **ACL :** Liste de contrôle d'accès (ACL) pour la communication entre les tiers au sein du même VPC. Voir [Sécurisation de votre réseau](securing-your-network.md) pour plus d'informations sur les ACLs.
       - **default_allow :**  (Par défaut) Permet tout le traffic de/vers un autre tier du VPC.
       - **default_deny  :**  Empêche tout traffic de/vers un autre tier du VPC.
    ![Page d'ajouter réseau](/assets/cca-working-with-vpcs-5-fr.png)
