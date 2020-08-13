@@ -74,7 +74,7 @@ Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs,
    - **Connexion passive :**  Cochez cette case si l'extrémité distante n'a pas encore été configurée. Une seule extrémité passive doit exister par VPN de site à site.
 1. Cliquez sur **Valider**.
 1. L'onglet **VPN site-à-site** apparaîtra, et le nouveau VPN sera répertorié dans l'état **déconnecté**.
-   ![VPN créé et pas encore connecté](/assets/cca-working-with-vpcs-7-fr.png)
+   ![VPN créé mais pas encore connecté](/assets/cca-working-with-vpcs-7-fr.png)
 1. Si nécessaire, configurez l'autre extrémité du VPN avec la même clé pré-partagée que celle-ci.
 1. Une fois que l'autre extrémité du tunnel VPN a été configurée, l'état passera à **connecté**.
 
