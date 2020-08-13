@@ -51,7 +51,7 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
 
 ### VPN site-à-site
 
-Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs, un bureau distant à un VPC, ou un autre fournisseur de cloud à un VPC. Un exemple d'un VPN site-à-site peut être trouvé dans l'article pratique [Créer un VPN site-à-site pour un VPC](../ how-to/create-site-to-site-vpn-on-vpc.md).
+Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs, un bureau distant à un VPC, ou un autre fournisseur de cloud à un VPC. Un exemple d'un VPN site-à-site peut être trouvé dans l'article pratique [Créer un VPN site-à-site pour un VPC](../how-to/create-site-to-site-vpn-on-vpc.md).
 
 1. À partir du VPC cible, recherchez l'élément **VPNs site-à-site** et cliquez sur l'icône d'engrenage.
    ![Page VPNs site-à-site](/assets/cca-working-with-vpcs-6-fr.png)
