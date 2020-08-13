@@ -4,7 +4,7 @@ slug: creer-vpn-site-a-site-pour-un-vpc
 ---
 
 
-Un VPN site-à-site est utile pour interconnecter un VPC à un bureau à distance, à un autre centre de données, ou à un autre VPC.
+Un VPN site-à-site est utile pour interconnecter un VPC à un bureau à distance, à un autre centre de données, ou à un autre VPC.  Pour plus de détails, consultez [Gestion des VPCs](../compute-service/working-with-vpcs.md).
 
 L'exemple suivant illustre comment à connecter deux VPCs avec un site-à-site VPN.  Les détails varient selon vos appareils.
 
