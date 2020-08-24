@@ -3,10 +3,10 @@ title: "Working with Instances"
 slug: working-with-instances
 ---
 
-- [Access an Instance's console](#access-an-instance-s-console)
+<!-- - [Access an Instance's console](#access-an-instance-s-console)
 - [Leverage Automation (User Data)](#leverage-automation--user-data-)
   * [Use Case: Simple Bash Script](#use-case--simple-bash-script)
-  * [Use Case: Cloud-Config](#use-case--cloud-config)
+  * [Use Case: Cloud-Config](#use-case--cloud-config) -->
 
 ### Access an Instance's console
 Note: For this operation to be available, your user account needs to be assigned the **Environment Admin** or **User** role on the target environment.
