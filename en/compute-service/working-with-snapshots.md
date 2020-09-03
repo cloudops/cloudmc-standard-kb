@@ -22,11 +22,11 @@ Existing snapshots can be accessed by navigating to the desired environment, and
       - ![Take snapshot from Volumes page](../../assets/cca-working-with-snapshots-1-en.png)
    - From an instance's details page:
       - ![Take snapshot from instance page](../../assets/cca-working-with-snapshots-2-en.png)
-1. To create the snapshot, click on that *Action* menu to the right of the volume, and select *Take snapshot*.  The *Take snapshot* page will appear:
+1. To create the snapshot, click on the *Action* menu to the right of the volume, and select *Take snapshot*.  The *Take snapshot* page will appear:
    - ![Take snapshot page](../../assets/cca-working-with-snapshots-3-en.png)
 1. You can choose to provide a name for the snapshot, or if the field is left blank cloud.ca will automatically generate a name.  You may also choose to make this a **rapid snapshot**, see below for more details.
 1. Click *Submit* to create the snapshot.
-1. The **Volumes** tab will appear, and the volume chosen for a snapshot will be in the  **Snapshot in progress** state.
+1. The **Volumes** tab will appear, and the volume chosen for the snapshot will be in the  **Snapshot in progress** state.
 1. Click on the **Snapshots** tab.  The new snapshot will appear in the **In progress** state.  When the snapshot is complete, it will appear in the **Completed** state.
 
 ### Deleting a snapshot
