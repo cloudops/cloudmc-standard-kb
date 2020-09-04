@@ -24,7 +24,7 @@ categories:
       - securing-your-network.md
       - working-with-vpcs.md
       - working-with-cloudstack-compute-apis.md
-      - working-with-snapshots-and-recovery-points.md
+      - working-with-snapshots.md
       - working-with-instance-templates.md
 - category: object-storage-service
   icon: fa fa-hdd-o
