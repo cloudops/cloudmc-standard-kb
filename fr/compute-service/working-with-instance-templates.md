@@ -6,7 +6,7 @@ slug: gestion-des-modeles
 
 ### Créer un modèle à partir d'une instance existante
 
-Cette section présente comment créer un **modèle** à partir d'une instance existante en production sur cloud.ca. Ce processus requiert d'abord qu'une copie instantanée du volume soit effectuée.
+Cette section présente comment créer un **modèle** à partir d'une instance existante en production sur cloud.ca. Ce processus requiert d'abord qu'une [copie instantanée](working-with-snapshots.md) du volume soit effectuée.
 
 #### Effectuer une copie instantanée initiale d'un volume
 
