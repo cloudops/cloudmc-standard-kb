@@ -59,7 +59,7 @@ categories:
   icon: fa fa-retweet
   articles:
       - deploy-virtual-machine-using-terraform.md
-      - deploy-virtual-machine-using-cloudmonkey.md
+      - deploy-infrastructure-using-cloudmonkey.md
       - deploy-a-kubernetes-cluster-with-rancher-2-x.md
 - category: vpn
   icon: fa fa-shield
