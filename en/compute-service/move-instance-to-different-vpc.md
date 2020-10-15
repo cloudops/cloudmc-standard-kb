@@ -1,6 +1,6 @@
 ---
-title: "Move an instance to new VPC"
-slug: move-instance-to-new-vpc
+title: "Move an instance to a different VPC"
+slug: move-instance-to-different-vpc
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Déplacer une instance vers un nouveau VPC"
-slug: deplacer-une-instance-vers-un-nouveau-vpc
+title: "Déplacer une instance vers un autre VPC"
+slug: deplacer-une-instance-vers-un-autre-vpc
 ---
 
 
