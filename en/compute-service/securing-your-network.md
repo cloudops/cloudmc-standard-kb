@@ -72,7 +72,3 @@ The following list will allow for access to an instance for HTTP and HTTPS, whil
 | 4 | HTTP Out | 0.0.0.0/0 | Allow | TCP | Egress | 80 | 80 |
 | 98 | Deny All In | 0.0.0.0/0 | Deny | ALL | Ingress | 1 | 65535 |
 | 99 | Deny All Out | 0.0.0.0/0 | Deny | ALL | Egress | 1 | 65535 |
-
-### Static NAT
-
-Use of port forwarding to get
