@@ -1,0 +1,18 @@
+---
+title: "Déplacer une instance vers un nouveau VPC"
+slug: deplacer-une-instance-vers-un-nouveau-vpc
+---
+
+
+Une fois créée, une instance est liée à la zone dans laquelle elle est déployée. Cependant, les instances peuvent être déplacées entre des VPC dans la même zone.
+
+**Avis :** Cette procédure nécessite un redémarrage pour que les modifications prennent effet.
+
+1. Accédez à l'environnement dans lequel se trouve l'instance.
+1. À partir de la page *Instances*, recherchez l'instance souhaitée et cliquez sur le menu *Action* à l'extrême droite de l'entrée.
+1. Sélectionnez *Changer de réseau*.
+1. La page *Changer de réseau* apparaît. Le nom de l'instance et son réseau actuel seront répertoriés.
+1. Le menu local *Réseau de destination* répertorie les réseaux disponibles, regroupés par VPC, auxquels l'instance peut être connectée. Sélectionnez le réseau souhaité.
+1. Cochez la case *Je comprends que l'instance sera redémarrée*.
+1. L'instance sera arrêtée, connectée au nouveau réseau et démarrera.
+1. Lorsque l'instance est démarrée et à l'état **Active**, vérifiez la connectivité réseau.
