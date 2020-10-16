@@ -21,7 +21,6 @@ categories:
       - working-with-ssh-keys.md
       - configure-load-balancing.md
       - configure-port-forwarding.md
-      - move-instance-to-different-vpc.md
       - securing-your-network.md
       - working-with-vpcs.md
       - working-with-cloudstack-compute-apis.md
@@ -55,6 +54,7 @@ categories:
       - create-site-to-site-vpn-on-vpc.md
       - install-and-config-cloudmonkey.md
       - kernel-upgrade-on-ubuntu-debian.md
+      - move-instance-to-different-vpc.md
       - force-reboot-an-instance.md
 - category: automation
   icon: fa fa-retweet
