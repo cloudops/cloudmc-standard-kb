@@ -13,6 +13,8 @@ Après avoir migré vers un autre VPC:
     - L'instance sera supprimée de toutes les règles d'équilibrage de charge dans l'ancien VPC.
     - L'instance sera dissociée de toute adresse IP publique de l'ancien VPC et une adresse devra être allouée du nouveau VPC.
 
+### Déplacer l'instance
+
 1. Accédez à l'environnement dans lequel se trouve l'instance.
 1. À partir de la page *Instances*, recherchez l'instance souhaitée et cliquez sur le menu *Action* à l'extrême droite de l'entrée.
 1. Sélectionnez *Changer de réseau*.
