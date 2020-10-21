@@ -19,7 +19,7 @@ This approach makes object storage ideal for cloud computing environments where,
 
 ### Use Cases
 
-Object Storage has a number of potential use cases. Here are just a few examples of the possibilities:
+Object storage has a number of potential use cases. Here are just a few examples of the possibilities:
 
 - Archiving and backup of logs, user data, database dumps, etc
 - Web content such as images, videos, static files, etc
