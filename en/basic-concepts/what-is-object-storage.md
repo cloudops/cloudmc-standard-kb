@@ -1,5 +1,5 @@
 ---
-title: "What is Object Storage?"
+title: "What is object storage?"
 slug: what-is-object-storage
 ---
 
