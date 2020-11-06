@@ -4,14 +4,26 @@ slug: entites-principales-cloud.ca
 ---
 
 
-Une **organisation** est l’entité à laquelle sont facturés les services consommés sur l’infrastructure de cloud.ca. Elle englobe différent attributs qui sont communs à tous ses utilisateurs (ex.: page d’entrée, logo d’entreprise, type d’authentication, politiques en vigueur, etc).
+cloud.ca dispose d'un puissant modèle d'utilisateurs et de ressources, fournissant des fonctionnalités multi-locataires au niveau de l'entreprise pour connecter une variété de services différents. Voici une liste des principales entités qui fournissent la fonctionnalité et la sécurité dans cloud.ca.
 
-Un **utilisateur** est une personne qui accède la console de cloud.ca pour gérer ressources virtuelles.
+### Entités de cloud.ca
 
-Un **rôle** est une collection nommée de permissions à l’intérieur d’une organisation. Un utilisateur peut avoir plusieurs rôles (ils sont additifs) afin de déterminer celui que peut être accédé  dans la console de cloud.ca.  Voir [Contrôle d'accès à base de rôles](../administration/rbac.md) pour en apprendre davantage sur ce concept.
+- **Organisation :** Un regroupement d'utilisateurs finaux et de ressources connexes. Une organisation peut contenir des sous-organisations.
 
-Un **service** est une abstraction à travers laquelle un utilisateur acquiert et interagit avec ses ressources virtuelles.
+- **Environnement :** Une unité logique au sein d'une organisation, utilisée pour isoler et regrouper les ressources en toute sécurité.
 
-Un **environnement** est un carré de sable au sein d’une organisation où les utilisateurs peuvent allouer et partager des ressources. Voyez [Les environnements pour compartimenter charges de travail et utilisateurs](environments-to-organize-workloads-and-users.md) pour en savoir plus sur ce concept.
+- **Service :** Une abstraction à travers laquelle un utilisateur acquiert et interagit avec des ressources virtuelles.
 
-Les **permissions** donnent accès à certaines fonctionalités de cloud.ca. Il existe deux types de permissions. Les **permissions de système** contrôlent l’accès aux fonctions intrinsèques de la console cloud.ca, tandis que les **permissions d’environnement** donnent accès aux ressources virtuelles et opérations spécifiques d’un service.
+- **Application :** Une application externe qui a été configurée pour l'accès via Master Portal.
+
+- **Utilisateur :** Un compte utilisateur est la manière dont un individu se connecte à cloud.ca.
+
+- **Permission :** Une autorisation d'exécuter une tâche particulière.
+
+- **Rôle :** Une collection nommée d'autorisations qui régissent l'accès aux fonctionnalités de la console cloud.ca, ainsi que l'accès aux ressources d'un service.
+
+### Voir aussi
+
+   - [Utiliser les environnements pour compartimenter les charges de travail et les utilisateurs](environments-to-organize-workloads-and-users.md)
+
+   - [Contrôle d'accès à base de rôles](../administration/rbac.md)
