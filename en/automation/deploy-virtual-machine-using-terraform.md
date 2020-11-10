@@ -20,7 +20,7 @@ One simple example shown here is using Terraform to create instances based on th
    - The network ID can be found by going to the *Networking* page for the target environment, clicking on the desired network in the **Networks** section of the appropriate VPC, and the network ID will be the first attribute listed.  Clicking on the network ID will copy it to your clipboard.
 
 
-### Resource definition
+### Deploy a virtual machine
 
 Refer to the [cloud.ca Terraform provider documentation](https://github.com/cloud-ca/terraform-provider-cloudca/tree/master/doc) for latest attributes.
 
