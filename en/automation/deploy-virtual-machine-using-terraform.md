@@ -1,23 +1,30 @@
 ---
-title: "Deploy Virtual Machine using Terraform"
+title: "Deploy virtual machine using Terraform"
 slug: deploy-virtual-machine-using-terraform
 ---
 
 
-Using [Terraform](https://www.terraform.io/) to create instances based on custom size compute resources.
+[Terraform](https://www.terraform.io/) is a widely used tool for automating the creation and maintenance of virtual infrastructure.  By using a declarative language to describe the desired resources in a deployment, Terraform performs the necessary tasks to bring the infrastructure to the described state.  This model of *infrastructure-as-code* makes possible cloud-based deployments that are easier to build and, when necessary, easier to quickly rebuild.
 
-### Prerequisite
+One simple example shown here is using Terraform to create instances based on the cloud.ca platform using custom size compute resources.
 
-- [Terraform](https://www.terraform.io/downloads.html) installed locally
-- cloud.ca terraform driver installed [https://github.com/cloud-ca/terraform-provider-cloudca](https://github.com/cloud-ca/terraform-provider-cloudca)
-- your cloud.ca *api_key*
-- *environment_id*
-- *network_id*,  network tier from a VPC.
+### Prerequisites
+
+- [Terraform](https://www.terraform.io/downloads.html) must be installed locally
+- The [cloud.ca Terraform provider](https://github.com/cloud-ca/terraform-provider-cloudca) must be installed
+- A valid cloud.ca API key
+   - You can generate an API key for your cloud.ca account by logging into cloud.ca, going to *My profile* (in the **User** menu at the upper right of the page), and clicking on *API credentials* in the sidebar.
+- The environment ID for the target environment
+   - The environment ID can be found by going to the *Environments* page for the appropriate service, clicking on the *Action* menu on the far right of the desired environment, and clicking *Copy environment ID*.
+- The network ID for the target network
+   - The network ID can be found by going to the *Networking* page for the target environment, clicking on the desired network in the **Networks** section of the appropriate VPC, and the network ID will be the first attribute listed.  Clicking on the network ID will copy it to your clipboard.
 
 
-### Resource definition
+### Deploy a virtual machine
 
-Refer to the [driver documentation](https://github.com/cloud-ca/terraform-provider-cloudca/tree/development/cloudca#cloudca_instance) for latest attributes :
+Refer to the [cloud.ca Terraform provider documentation](https://github.com/cloud-ca/terraform-provider-cloudca/tree/master/doc) for latest attributes.
+
+Here we define the attributes we want for our new instance, *prod-app01*:
 
 ```
 resource "cloudca_instance" "prod-app01" {
@@ -33,7 +40,7 @@ resource "cloudca_instance" "prod-app01" {
 }
 ```
 
-Create multiple instance of the same type :
+Here we create 10 instances of the same type using the attributes define above, and they will be named sequentially *prod-appXX*:
 
 ```
 resource "cloudca_instance" "prod-app" {
@@ -49,3 +56,8 @@ resource "cloudca_instance" "prod-app" {
   memory_in_mb = 1024
 }
 ```
+
+### External links
+
+- [Terraform](https://www.terraform.io/)
+- [cloud.ca Terraform provider](https://github.com/cloud-ca/terraform-provider-cloudca)
