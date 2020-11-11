@@ -6,7 +6,7 @@ slug: deploy-virtual-machine-using-terraform
 
 [Terraform](https://www.terraform.io/) is a widely used tool for automating the creation and maintenance of virtual infrastructure.  By using a declarative language to describe the desired resources in a deployment, Terraform performs the necessary tasks to bring the infrastructure to the described state.  This model of *infrastructure-as-code* makes possible cloud-based deployments that are easier to build and, when necessary, easier to quickly rebuild.
 
-One simple example shown here is using Terraform to create instances based on the cloud.ca platform using custom size compute resources.
+One simple example shown here is using Terraform to create instances based on the cloud.ca platform using custom-sized compute resources.
 
 ### Prerequisites
 
@@ -18,7 +18,6 @@ One simple example shown here is using Terraform to create instances based on th
    - The environment ID can be found by going to the *Environments* page for the appropriate service, clicking on the *Action* menu on the far right of the desired environment, and clicking *Copy environment ID*.
 - The network ID for the target network
    - The network ID can be found by going to the *Networking* page for the target environment, clicking on the desired network in the **Networks** section of the appropriate VPC, and the network ID will be the first attribute listed.  Clicking on the network ID will copy it to your clipboard.
-
 
 ### Deploy a virtual machine
 
