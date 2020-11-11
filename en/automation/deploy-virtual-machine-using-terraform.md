@@ -1,5 +1,5 @@
 ---
-title: "Deploy virtual machine using Terraform"
+title: "Deploy a virtual machine using Terraform"
 slug: deploy-virtual-machine-using-terraform
 ---
 
