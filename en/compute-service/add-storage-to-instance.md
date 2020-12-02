@@ -13,29 +13,34 @@ The various cloud.ca compute templates (e.g.: Ubuntu, CentOS) are deployed on a 
 To fulfill those use cases, you have the flexibility of adding one or multiple additional data volumes to an instance.
 
 ### Add additional volumes upon instance creation
-If you know in advance that you will need more capacity than the basic root volume provides, you can create or attach an additional data volume from within the instance creation wizard, at step 2:
+If you know in advance that you will need more capacity than the basic root volume provides, you can create and attach an additional data volume from the *Add virtual instance* page:
 
-![Additional volume](/assets/secondary-volume-en.png)
+![Additional volume](/assets/cca-secondary-volume-1-en.png)
 
-The first important piece of information is that the provided OS volume only has a size of 8 GB, of which most space will be consumed by the operating system itself. By checking the checkbox, you indicate that you wish to create a second "data" volume for the instance. You are then prompted to select a storage tier (i.e.: the volume's performance level) and the desired disk size. The effective minimal performance of each volume size is displayed beside it.
+In the **Size** section, click on *Create and attach an additional volume* to expand the sub-section:
 
-If instead you want to attach an existing volume to the instance being created, select it from the drop-down list at the bottom of step 2. Note that only volumes within the current environment that are not currently attached to any instance will be displayed there.
+![Custom disk](/assets/cca-secondary-volume-2-en.png)
+
+You may select a storage tier (i.e.: the volume's performance level) and the desired disk size. The effective minimal performance of each volume size is displayed beside it.  Next, adjust the **Disk size** slider to the desired size for the new volume.
+
+### Attach an existing volume
+
+If instead you want to attach an existing volume to the instance being created, expand the sub-section labeled *Attach an existing volume*. A popup list will appear, from which you may select a volume to attach.  Note that only volumes within the current environment that are not currently attached to any instance will be displayed here.
 
 ### Attach additional volumes to an existing instance
 A data volume can also be created at any time and attached to the desired instance, even while it is running.
 
 #### To create a new data volume:
 
-1. Go to the *Services* page.
-1. Select the environment where your target instance is located.
+1. Navigate to the environment where your target instance is located.
 1. Go to the *Volumes* tab
 1. Click on *Add Volume*.
-1. Provide a name for your volume, select the desired performance tier and volume size and click *Done*.
+1. Provide a name for your volume, select the desired performance tier and volume size and click *Submit*.
 
 #### To attach the volume to an existing instance:
 
 1. From the new volume's action menu, select *Attach to instance*.
-1. Pick the target instance from the drop-down list and click *Done*.
+1. Pick the target instance from the drop-down list and click *Submit*.
 
 #### Format and mount the volume in your instance
 Within the instance, the new volume is presented as a non-formatted block device. Before you can store data on the volume, the block device must be formatted and mounted. The first block device is usually named **xvdb**. Its presence can be confirmed using the Linux command [lsblk](http://manpages.courier-mta.org/htmlman8/lsblk.8.html), e.g.:
