@@ -3,6 +3,7 @@ title: "Ajouter de la capacité de stockage à une instance"
 slug: ajouter-de-la-capacite-de-stockage-une-instance
 ---
 
+
 Les divers modèles de calcul de cloud.ca (ex.: Ubuntu, CentOS) sont déployés sur un volume principal relativement petit car nous préférons laisser nos utilisateurs déployer exactement la quantité de stockage dont ils auront besoin. Le volume principal de base peut suffire au besoins de stockage de votre instance si ceux-ci sont modestes, mais il peut y avoir plusieurs scénarios où de l'espace additionnel sera requis, par exemple :
 
 - Espace de pagination ("Swap space")
@@ -12,13 +13,19 @@ Les divers modèles de calcul de cloud.ca (ex.: Ubuntu, CentOS) sont déployés 
 Pour répondre à ces cas d'utilisation, vous avez la flexibilité d'ajouter un ou plusieurs volumes de données à vos instances.
 
 ### Ajout de volume secondaire à la création d'une instance
-Si vous savez déjà que le volume principal de base ne vous fournira pas la capacité dont vous avez besoin lors de la création d'une instance, vous pouvez attacher un volume secondaire à cette dernière à l'étape 2 de l'assistant de lancement d'instance :
+Si vous savez déjà que le volume principal de base ne vous fournira pas la capacité dont vous avez besoin lors de la création d'une instance, vous pouvez créer et attacher un volume secondaire à partir de la page *Ajouter une instance virtuelle* :
 
-![Volume secondaire](/assets/secondary-volume-fr.png)
+![Volume secondaire](/assets/cca-secondary-volume-1-fr.png)
 
-La première information à considérer dans l'exemple ci-dessus est que le volume principal n'a qu'une taille de 8 Go (dont la majorité sera consommée par le système d'exploitation). En activant la case juste au dessous, vous indiquez votre intention de créer un nouveau volume secondaire et de l'attacher à la nouvelle instance. Vous devrez ensuite spécifier le tier de stockage (qui détermine le niveau de performance du volume) et la taille du disque à créer. La performance minimale effective de chaque taille de volume est affichée à son côté.
+Dans la section **Taille**, cliquez sur *Créer et attache un volume additionnel* pour développer la sous-section :
 
-Si vous voulez plutôt attacher un volume déjà existant à votre nouvelle instance, sélectionner celui-ci dans le menu déroulant au bas de l'étape 2. Noter que seuls les volumes appartenant à l'environnement courant qui ne sont pas déjà attachés à une instance pourront être sélectionnés.
+![Volume personnalisé](/assets/cca-secondary-volume-2-en.png)
+
+Vous devrez spécifier le tier de stockage (qui détermine le niveau de performance du volume) et la taille du disque à créer. La performance minimale effective de chaque taille de volume est affichée à son côté.  Ensuite, ajustez le curseur **Taille du disque** sur la taille souhaitée pour le nouveau volume.
+
+### Attacher un volume existant
+
+Si vous voulez plutôt attacher un volume déjà existant à votre nouvelle instance, développez la sous-section intitulée *Attacher un volume existant*. Une liste contextuelle apparaît, à partir de laquelle vous pouvez sélectionner un volume à attacher. Noter que seuls les volumes appartenant à l'environnement courant qui ne sont pas déjà attachés à une instance pourront être sélectionnés.
 
 ### Ajout de volume secondaire à une instance existante
 
@@ -26,16 +33,15 @@ Un volume secondaire peut être créé à tout moment et ensuite être attaché 
 
 #### Pour créer un nouveau volume secondaire:
 
-1. Naviguez à la page *Services*.
-1. Sélectionnez l'environnement où votre instance est déployée.
+1. Naviguez à l'environnement où votre instance est déployée.
 1. Allez dans l'onglet *Volumes*.
 1. Cliquez sur le bouton *Ajouter un volume*.
-1. Donnez un nom à votre volume, choisissez le tier de stockage et la taille du volume et cliquez sur *Terminer*.
+1. Donnez un nom à votre volume, choisissez le tier de stockage et la taille du volume et cliquez sur *Valider*.
 
 #### Pour attacher le volume à une instance existante:
 
 1. A partir du menu *Action* du nouveau volume, sélectionnez *Attacher à une instance*.
-1. Choisissez l'instance désirée dans le menu déroulant et cliquez sur *Terminer*.
+1. Choisissez l'instance désirée dans le menu déroulant et cliquez sur *Valider*.
 
 #### Initialiser et monter le volume dans votre instance
 Du point de vue de votre instance, le nouveau volume secondaire est présenté sous forme de périphérique de bloc non-initialisé. Avant de pouvoir l'utiliser, vous devrez l'initialiser et le monter. Le premier périphérique de bloc est habituellement nommé **xvdb**. Sa présence peut être confirmée en utilisant la commande Linux [lsblk](http://manpages.courier-mta.org/htmlman8/lsblk.8.html), ex. :
