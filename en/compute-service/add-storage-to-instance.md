@@ -33,7 +33,7 @@ A data volume can also be created at any time and attached to the desired instan
 #### To create a new data volume:
 
 1. Navigate to the environment where your target instance is located.
-1. Go to the *Volumes* tab
+1. Go to the **Volumes** tab
 1. Click on *Add Volume*.
 1. Provide a name for your volume, select the desired performance tier and volume size and click *Submit*.
 

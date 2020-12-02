@@ -34,7 +34,7 @@ Un volume secondaire peut être créé à tout moment et ensuite être attaché 
 #### Pour créer un nouveau volume secondaire:
 
 1. Naviguez à l'environnement où votre instance est déployée.
-1. Allez dans l'onglet *Volumes*.
+1. Allez dans l'onglet **Volumes**.
 1. Cliquez sur le bouton *Ajouter un volume*.
 1. Donnez un nom à votre volume, choisissez le tier de stockage et la taille du volume et cliquez sur *Valider*.
 
