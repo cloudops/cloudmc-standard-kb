@@ -19,7 +19,7 @@ Si vous savez déjà que le volume principal de base ne vous fournira pas la cap
 
 Dans la section **Taille**, cliquez sur *Créer et attache un volume additionnel* pour développer la sous-section :
 
-![Volume personnalisé](/assets/cca-secondary-volume-2-en.png)
+![Volume personnalisé](/assets/cca-secondary-volume-2-fr.png)
 
 Vous devrez spécifier le tier de stockage (qui détermine le niveau de performance du volume) et la taille du disque à créer. La performance minimale effective de chaque taille de volume est affichée à son côté.  Ensuite, ajustez le curseur **Taille du disque** sur la taille souhaitée pour le nouveau volume.
 
