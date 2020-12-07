@@ -12,7 +12,7 @@ Dans l'exemple qui suit, nous activerons la redirection de port pour le protocol
 1. Cliquez sur **Services** dans la barre de gauche.
 1. Sélectionnez l'environment désiré.
 1. Sélectionnez l'onglet **Réseautage**.
-1. Cliquez sur le bouton **IP publiques** du VPC cible dans la liste.
+1. Cliquez sur le bouton **Accès public** du VPC cible dans la liste.
 1. Cliquez sur *Acquérir une adresse IP*.
 ![Acquérir adresse IP](/assets/cca-config-port-fwd-1-fr.png)
 1. Vous serez invité à confirmer l'acquisition d'une nouvelle adresse IP. Cliquez sur *Valider*. La nouvelle adresse IP sera attribuée et répertoriée sous **IPs publiques**.

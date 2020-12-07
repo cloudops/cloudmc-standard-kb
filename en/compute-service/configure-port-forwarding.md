@@ -12,7 +12,7 @@ In the following example, we will enable port forwarding for HTTP (TCP port 80) 
 1. Click on **Services** in the sidebar.
 1. Select the desired compute environment.
 1. Select the **Networking** tab.
-1. From the target VPC's list item, click the **Public IPs** button.
+1. From the target VPC's list item, click the **Public access** button.
 1. Click on *Acquire IP address*.
 ![Acquire IP address](/assets/cca-config-port-fwd-1-en.png)
 1. You will be prompted to confirm the acquisition of a new IP address.  Click *Confirm*.  The new IP address will be allocated and listed under **Public IPs**.
