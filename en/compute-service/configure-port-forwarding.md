@@ -18,7 +18,8 @@ In the following example, we will enable port forwarding for HTTP (TCP port 80) 
 1. You will be prompted to confirm the acquisition of a new IP address.  Click *Confirm*.  The new IP address will be allocated and listed under **Public IPs**.
 1. Click on the entry for the new IP address:
 ![Address acquired](/assets/cca-config-port-fwd-2-en.png)
-1. The **Port forwarding rules** screen will appear.  Click on *Add port forwarding rule*:
+1. Click on the item labeled *Port forwarding rules*.  The **Port forwarding rules** screen will appear.
+1. Click on the button labeled *Add port forwarding rule*:
 ![Port forwarding rules](/assets/cca-config-port-fwd-3-en.png)
 1. Select the target instance *acme-web-01*, and its corresponding private IP address from the pop-up list, and select **TCP** as the protocol.
 1. Enter **80** into the **Public port start** field, and enter **8080** into the **Private port start** field.  Because we are entering only a single port and not a range of ports, we may leave the port end fields blank.
