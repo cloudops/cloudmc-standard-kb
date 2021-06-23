@@ -13,6 +13,7 @@ categories:
       - main-cloud.ca-entities.md
       - what-is-a-vpc.md
       - what-is-object-storage.md
+      - video-basic-deployment.md
 - category: compute-service
   icon: fa fa-cloud
   articles:
