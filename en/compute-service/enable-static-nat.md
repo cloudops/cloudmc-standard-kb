@@ -42,15 +42,15 @@ In this example we will set up static NAT for our `acme-staging-web-01` instance
 | 20 | Deny all other incoming traffic | 0.0.0.0/0 | Deny | TCP | Ingress | 1 | 65535 |
 
 1. Click on the gear icon to the right of the *Public access* section.  The *Public IPs* screen appears.
-![Public access on Networking tab](static-nat-public-access-en.png)
+![Public access on Networking tab](/assets/static-nat-public-access-en.png)
 1. Click on *Acquire public IP address*.  When the confirmation dialog box appears, click *Submit*.
-![Acquire public IP address](static-nat-acquire-ip-address-en.png)
+![Acquire public IP address](/assets/static-nat-acquire-ip-address-en.png)
 1. The public IP address (45.72.188.68) now appears in the list.  Click on the three-dot menu and select *Enable static NAT*.
-![Enable static NAT](static-nat-enable-en.png)
+![Enable static NAT](/assets/static-nat-enable-en.png)
 1. On the *Enable static NAT* screen, select the target instance (`acme-staging-web-01`), then select the desired target private IP address (10.210.69.62).
-![Select instance and private IP](static-nat-select-instance-en.png)
+![Select instance and private IP](/assets/static-nat-select-instance-en.png)
 1. Click *Submit*.  When the *Public IPs* screen appears, you will see the public IP 45.72.188.68 is now labeled as **Static NAT**:
-![Static NAT configuration complete](static-nat-complete-en.png)
+![Static NAT configuration complete](/assets/static-nat-complete-en.png)
 
 
 ### Testing
@@ -64,4 +64,4 @@ We will test connectivity through the static NAT using the `tcpdump` and the `nc
 1. On your local workstation, open a terminal window and execute the following command:
 `nc 45.72.188.68 80`
 1. The `tcpdump` outputs two lines that indicate that the traffic originating from your workstation is arriving at your instance via the static NAT:
-![Results of tcpdump](static-nat-tcpdump-en.png)
+![Results of tcpdump](/assets/static-nat-tcpdump-en.png)
