@@ -23,6 +23,7 @@ categories:
       - configure-load-balancing.md
       - configure-port-forwarding.md
       - securing-your-network.md
+      - enable-static-nat.md
       - working-with-vpcs.md
       - working-with-cloudstack-compute-apis.md
       - working-with-snapshots.md
