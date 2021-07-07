@@ -26,8 +26,8 @@ This article will guide you through the steps of configuring static NAT for a vi
 
 ## Result
 
+- The static NAT will create a one-to-one mapping from the public IP address to the target VM.  Traffic sent to the public IP address from an allowed source to an allowed port will arrive at the target VM on the selected private IP.  Similarly, all traffic sent from the instance via that private IP will be sent out from the assigned public IP.
 - The *Public IPs* screen will display the allocated public IP address with the **Static NAT** label, along with the names of the associated VPC, network, and target instance.
-- Traffic sent to the public IP address from an allowed source to an allowed port should arrive at the target VM.
 - Connectivity can be tested using the method of your choice, such as with a `tcpdump` on the target VM, or by connecting to a service running on the VM such as SSH, RDP, or a Web service.
 
 ## Example
