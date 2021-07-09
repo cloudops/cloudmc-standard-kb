@@ -42,9 +42,8 @@ In this example we will set up static NAT for our `acme-staging-web-01` instance
 | 20 | Deny all other incoming traffic | 0.0.0.0/0 | Deny | TCP | Ingress | 1 | 65535 |
 
 1. Click on the gear icon to the right of the *Public access* section.  The *Public IPs* screen appears.
-<img src="/assets/static-nat-public-access-en.png" width="400">
-
-2. Click on *Acquire public IP address*.  When the confirmation dialog box appears, click *Submit*.
+![Public access on Networking tab](/assets/static-nat-public-access-en.png)
+1. Click on *Acquire public IP address*.  When the confirmation dialog box appears, click *Submit*.
 ![Acquire public IP address](/assets/static-nat-acquire-ip-address-en.png)
 1. The public IP address (45.72.188.68) now appears in the list.  Click on the three-dot menu and select *Enable static NAT*.
 ![Enable static NAT](/assets/static-nat-enable-en.png)
