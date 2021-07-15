@@ -4,7 +4,7 @@ slug: enable-static-nat
 ---
 
 
-This article will guide you through the steps of configuring static NAT for a virtual machine in your environment.  You should be familiar with [networking concepts](../basic-concepts/what-is-a-vpc.md) such as network address translation (NAT), static NAT, port forwarding, and access control lists (ACLs).  
+This article will guide you through the steps of configuring static NAT for an instance in your environment.  Enabling static NAT for an instance will create a one-to-one mapping from a public IP address to that instance.  You should be familiar with [networking concepts](../basic-concepts/what-is-a-vpc.md) such as network address translation (NAT), static NAT, port forwarding, and access control lists (ACLs).  
 
 ## Prerequisites
 
