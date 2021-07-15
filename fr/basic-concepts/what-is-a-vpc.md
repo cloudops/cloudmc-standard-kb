@@ -50,8 +50,11 @@ Considérez les items suivants lors de la création d’un VPC:
 - Le nombre maximal de tiers que vous pouvez créer est 4.
 - Chaque tier doit avoir un réseau CIDR unique dans le VPC. L’interface web s’assure de cette dernière condition.
 - Un tier appartient à un seul VPC.
-- Lorsqu’un VPC est créé, une IP de “Source NAT” est allouée par défaut. Cette adresse est libérée lors de la destruction du VPC.
-- Une IP publique ne peut être utilisée que pour une seule tâche à la fois. Par exemple, si une adresse est utilisée pour le “Source NAT”, elle ne peut être utilisée pour la redirection de port.
+- Lorsqu’un VPC est créé, une IP de **source NAT** est allouée par défaut. Cette adresse est libérée lors de la destruction du VPC.
+- Une IP publique ne peut être utilisée que pour une seule tâche à la fois. Par exemple, si une adresse est utilisée pour le source NAT, elle ne peut être utilisée pour la redirection de port.
+- Le **NAT statique** est un mappage un-à-un entre une adresse IP publique et une instance dans un VPC. Tout le trafic envoyé à l'IP publique sera envoyé à l'instance désignée, et tout le trafic de l'instance sera envoyé à partir de l'IP publique.
+- **La redirection de port** est un mappage d'un port sur une adresse IP publique vers un port sur une IP privée dans un VPC. Différents ports sur l'adresse IP publique peuvent être redirigé vers des ports sur des instances distinctes, tant que les instances se trouvent dans le même VPC. Tout le trafic des instances utilisera l'adresse IP NAT source du VPC pour le trafic de sortie.
+- Utilisez la redirection de port lorsque tout ce dont vous avez besoin est de rediriger le trafic entrant sur des ports spécifiques vers une instance. Cela permet une utilisation efficace de l'espace d'adressage IP. Utilisez le NAT statique lorsque vous avez besoin que le trafic entrant aille toujours vers la même instance, ou lorsque vous avez besoin que tout le trafic d'une instance sorte de la même adresse IP publique.
 - Les instances ne peuvent qu’avoir une seule adresse IP, donc elles ne peuvent qu’être connectées sur un tier à la fois.
 - Le service de répartition de charge public ne peut s'appliquer qu'à un seul tier du VPC.
 - Si une adresse IP est assignée à un tier:

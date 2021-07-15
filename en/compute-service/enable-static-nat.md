@@ -4,12 +4,12 @@ slug: enable-static-nat
 ---
 
 
-This article will guide you through the steps of configuring static NAT for a virtual machine in your environment.  You should be familiar with [networking concepts](../basic-concepts/what-is-a-vpc.md) such as network address translation (NAT), port forwarding, and access control lists (ACLs).
+This article will guide you through the steps of configuring static NAT for a virtual machine in your environment.  You should be familiar with [networking concepts](../basic-concepts/what-is-a-vpc.md) such as network address translation (NAT), static NAT, port forwarding, and access control lists (ACLs).  
 
 ## Prerequisites
 
 - You will need to have an environment configured with a VPC.
-- The VPC needs to have a standard or a load-balanced network in that VPC.
+- The VPC needs to have a *standard* or a *load-balanced* network in that VPC.
 - The target VM needs to have a NIC with a private IP in that network.
 - The target network should have the appropriate [network ACLs](securing-your-network.md) configured to allow desired traffic and to deny all other traffic.
 
