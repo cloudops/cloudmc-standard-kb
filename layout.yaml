@@ -28,6 +28,7 @@ categories:
       - working-with-cloudstack-compute-apis.md
       - working-with-snapshots.md
       - working-with-instance-templates.md
+      - import-iso.md
 - category: object-storage-service
   icon: fa fa-hdd-o
   articles:
