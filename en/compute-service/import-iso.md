@@ -43,6 +43,7 @@ This procedure is split into two sections:
 - The imported image will now appear under the *Environment ISOs* section of the *Add virtual instance* page.
 - A new instance built from this image has been deployed in the target environment.
 - The image will also be listed on the **Images** tab.
+- The imported image can be tested by booting the deployed instance and viewing the console to validate that it is functioning as expected.
 
 ## Example
 
