@@ -73,7 +73,7 @@ Dans cet exemple, nous allons importer une image ISO dans notre environnement `e
 1. Saisissez `acme-ubuntu01` dans le champ **Nom**.
 1. Sélectionnez le réseau `acme-net-backend`.
 1. Dans la section **Image**, cliquez sur *ISOs d'environnement*.
-    ![Section ISOs d'environnement](/assets/import-iso-environment-isos-en.png)
+    ![Section ISOs d'environnement](/assets/import-iso-environment-isos-fr.png)
 1. Sélectionnez l'image intitulée **Ubuntu 20.04**.
 1. Faites défiler jusqu'au curseur **Taille du volume principal** et déplacez le curseur sur 10 Go.
 1. Laissez tous les autres paramètres inchangés et cliquez sur le bouton *Valider*.
