@@ -87,6 +87,6 @@ Nous allons tester l'ISO importé en regardant l'onglet **Instances** pour véri
 1. Cliquez sur le menu à trois points à l'extrême droite de l'entrée pour `acme-ubuntu01`, et sélectionnez **Ouvrir console** dans le menu contextuel.
     ![Instance avec balise d'image](/assets/import-iso-instance-tag-fr.png)
 1. Lorsque la fenêtre de la console apparaît, nous voyons que la nouvelle instance a démarré sur le gestionnaire d'installation Ubuntu.
-    ![Gestionnaire d'installation Ubuntu](/assets/import-iso-ubuntu-installation-en.png)
+    ![Gestionnaire d'installation Ubuntu](/assets/import-iso-ubuntu-installation-fr.png)
 1. Cliquez sur les invites du gestionnaire d'installation jusqu'à ce que vous arriviez à l'écran *Type d'installation*. Vérifiez que la taille du périphérique de disque `/dev/xvda` correspond à la taille sélectionnée lors de la création de l'instance (10 Go).
-    ![Gestionnaire de disques d'installation](/assets/import-iso-ubuntu-disks-en.png)
+    ![Gestionnaire de disques d'installation](/assets/import-iso-ubuntu-disks-fr.png)
