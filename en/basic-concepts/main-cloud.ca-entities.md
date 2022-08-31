@@ -1,12 +1,12 @@
 ---
-title: "Main cloud.ca entities"
+title: "Main Hypertec Cloud entities"
 slug: main-cloud.ca-entities
 ---
 
 
-cloud.ca has a powerful user and resource model, providing multi-tenant enterprise-level features for connecting a variety of different services.  The following is a list of the main entities that provide functionality and security in cloud.ca.
+Hypertec Cloud has a powerful user and resource model, providing multi-tenant enterprise-level features for connecting a variety of different services.  The following is a list of the main entities that provide functionality and security in Hypertec Cloud.
 
-### cloud.ca entities
+### Hypertec Cloud entities
 
 - **Organization:** A grouping of related end-users and resources.  An organization may contain sub-organizations.
 
@@ -16,11 +16,11 @@ cloud.ca has a powerful user and resource model, providing multi-tenant enterpri
 
 - **Application:** An external application that has been configured for access via Master Portal.
 
-- **User:** A user account is how an individual connects to cloud.ca.
+- **User:** A user account is how an individual connects to Hypertec Cloud.
 
 - **Permission:** An authorization to execute a particular task.
 
-- **Role:** A named collection of permissions which govern access to functionality in the cloud.ca console, as well as access to a service's resources.
+- **Role:** A named collection of permissions which govern access to functionality in the Hypertec Cloud console, as well as access to a service's resources.
 
 ### See also
 

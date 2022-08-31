@@ -4,7 +4,7 @@ slug: configure-load-balancing
 ---
 
 
-Load balancing provides a way to distribute workloads across multiple compute resources. This usually increases performance and availability through redundancy. In the context of cloud.ca, this is achieved by associating load-balancing rules to a VPC's public IP address.
+Load balancing provides a way to distribute workloads across multiple compute resources. This usually increases performance and availability through redundancy. In the context of Hypertec Cloud, this is achieved by associating load-balancing rules to a VPC's public IP address.
 
 Only a network that was created with the **Load Balanced Tier** offering can be used for load balancing, and a VPC can have only one network configured with this offering.  You cannot configure load balancing rules on a public IP address already being used for **source NAT**, a **VPN**, or **port forwarding**.
 

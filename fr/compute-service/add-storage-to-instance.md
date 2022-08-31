@@ -4,7 +4,7 @@ slug: ajouter-de-la-capacite-de-stockage-une-instance
 ---
 
 
-Les divers modèles de calcul de cloud.ca (ex.: Ubuntu, CentOS) sont déployés sur un volume principal relativement petit car nous préférons laisser nos utilisateurs déployer exactement la quantité de stockage dont ils auront besoin. Le volume principal de base peut suffire au besoins de stockage de votre instance si ceux-ci sont modestes, mais il peut y avoir plusieurs scénarios où de l'espace additionnel sera requis, par exemple :
+Les divers modèles de calcul de Hypertec Cloud (ex.: Ubuntu, CentOS) sont déployés sur un volume principal relativement petit car nous préférons laisser nos utilisateurs déployer exactement la quantité de stockage dont ils auront besoin. Le volume principal de base peut suffire au besoins de stockage de votre instance si ceux-ci sont modestes, mais il peut y avoir plusieurs scénarios où de l'espace additionnel sera requis, par exemple :
 
 - Espace de pagination ("Swap space")
 - Installer d'applications complexes

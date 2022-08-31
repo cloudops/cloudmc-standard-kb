@@ -3,7 +3,7 @@ title: "Deploy Infrastructure using CloudMonkey"
 slug: deploy-infrastructure-using-cloudmonkey
 ---
 
-You can use CloudMonkey as a command-line interface for deploying infrastructure on cloud.ca. [CloudMonkey](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+cloudmonkey+CLI) is the official Command-line interface (CLI) for [Apache CloudStack](http://cloudstack.apache.org/), the orchestration tool for cloud.ca. In cloud.ca, it is possible to interact directly with the [CloudStack API](http://cloudstack.apache.org/api/apidocs-4.8/TOC_User.html) to benefit from open-source automation tools.
+You can use CloudMonkey as a command-line interface for deploying infrastructure on Hypertec Cloud. [CloudMonkey](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+cloudmonkey+CLI) is the official Command-line interface (CLI) for [Apache CloudStack](http://cloudstack.apache.org/), the orchestration tool for Hypertec Cloud. In Hypertec Cloud, it is possible to interact directly with the [CloudStack API](http://cloudstack.apache.org/api/apidocs-4.8/TOC_User.html) to benefit from open-source automation tools.
 
 The following example uses compute-qc.cloud.ca's region API.
 
@@ -12,8 +12,8 @@ This documentation explains how to use CloudMonkey to deploy various parts of yo
 ## Requirements
 
 - CloudMonkey installed [https://doc.cloud.ca/kb/en/how-to#install-and-configure-cloudmonkey](https://doc.cloud.ca/kb/en/how-to#install-and-configure-cloudmonkey)
-- Access to cloud.ca:
-   - Your API credentials from cloud.ca web UI. [You can find how to access them here](../compute-service/working-with-cloudstack-compute-apis.md).
+- Access to Hypertec Cloud:
+   - Your API credentials from Hypertec Cloud web UI. [You can find how to access them here](../compute-service/working-with-cloudstack-compute-apis.md).
    - Your project ID. It can be found with your API credentials.
 
 ## Retrieving required IDs
@@ -139,7 +139,7 @@ list networks projectid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX filter=name,id
 
 #### Template ID
 
-To get cloud.ca templates IDs:
+To get Hypertec Cloud templates IDs:
 
 ```
 list templates templatefilter=featured filter=name,id
@@ -155,12 +155,12 @@ list templates templatefilter=self projectid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX
 
 Available service offerings:
 
-| cloud.ca region | Id | Name | Description |
+| Hypertec Cloud region | Id | Name | Description |
 | --- | --- | --- | --- |
 | compute-qc | 20363b3b-7607-4f34-9ba3-0ad57bd44bc1 | Standard | Customizable instance based on Standard root drive |
 | compute-on | a0a67feb-c5d8-471b-8088-32b02fd5b372 | Standard | Customizable instance based on Standard root drive |
 
-cloud.ca uses custom defined compute offerings. For these service offerings, users have to define the amount of memory and vCPU allocated to the Virtual-Machine. This is done through the `details` attribute, which is handled as an array of hashes. It can be set as follows:
+Hypertec Cloud uses custom defined compute offerings. For these service offerings, users have to define the amount of memory and vCPU allocated to the Virtual-Machine. This is done through the `details` attribute, which is handled as an array of hashes. It can be set as follows:
 - details[0].cpuNumber=X
   - X is equal to the CPU cores for the virtual machine.
 - details[0].cpuSpeed=1000

@@ -1,11 +1,11 @@
 ---
-title:  "cloud.ca in a nutshell"
+title:  "Hypertec Cloud in a nutshell"
 slug: cloud-ca-in-a-nutshell
 ---
 
-### What is cloud.ca?
+### What is Hypertec Cloud?
 
-cloud.ca is a regional virtual private cloud platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
+Hypertec Cloud is a regional virtual private cloud platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
 
 - **Regional** - Intended to be exclusively hosted in Canadian datacenters; serves Canadian markets
 - **Virtual private cloud** − An isolated environment within a bigger multi-tenant cloud
@@ -15,7 +15,7 @@ cloud.ca is a regional virtual private cloud platform. It delivers scalable, sec
 - **Cost-Effective** − Pay as you grow
 - **Resilient** − No single point of failures across our infrastructure
 
-### Why cloud.ca?
+### Why Hypertec Cloud?
 
 - **Speed your innovation** − On demand, self-service platform for DevOps, with complete API automation for continuous delivery
 - **Usage and cost transparency** − Granular metering and reporting make governance without bureaucracy possible

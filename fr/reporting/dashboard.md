@@ -4,11 +4,11 @@ slug: tableau-de-bord
 ---
 
 
-La page de **tableau de bord** de cloud.ca offre un coup d'oeil rapide sur les éléments de votre infrastructure virtuelle. Elle est composée de multiples gadgets, chacun offrant une visualisation distincte des données de votre choix.
+La page de **tableau de bord** de Hypertec Cloud offre un coup d'oeil rapide sur les éléments de votre infrastructure virtuelle. Elle est composée de multiples gadgets, chacun offrant une visualisation distincte des données de votre choix.
 
 ### Configuration du tableau de bord
 
-À votre premier accès à cloud.ca, un tableau de bord par défaut est automatiquement créé. Vous pouvez ensuite ajouter ou enlever des gadgets, les configurer pour mettre l'emphase sur les données qui vous importent, et bien sûr, modifier la présentation du tableau de bord en changeant la disposition et la dimension des gadgets.
+À votre premier accès à Hypertec Cloud, un tableau de bord par défaut est automatiquement créé. Vous pouvez ensuite ajouter ou enlever des gadgets, les configurer pour mettre l'emphase sur les données qui vous importent, et bien sûr, modifier la présentation du tableau de bord en changeant la disposition et la dimension des gadgets.
 
 #### Ajouter des gadgets
 

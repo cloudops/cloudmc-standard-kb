@@ -25,7 +25,7 @@ export OS_IDENTITY_API_VERSION=3
 ```
 
 ### Credentials for the S3-compatible API
-The AWS CLI requires several pieces of information to connect to the S3 endpoint, including the secret key and the access key, which are available at the same place as your regular cloud.ca Object Storage credentials, as well as the endpoint URL and a region name. The endpoint URL is always **https://objects.cloud.ca** and the region name *cloud.ca*.
+The AWS CLI requires several pieces of information to connect to the S3 endpoint, including the secret key and the access key, which are available at the same place as your regular Hypertec Cloud Object Storage credentials, as well as the endpoint URL and a region name. The endpoint URL is always **https://objects.cloud.ca** and the region name *Hypertec Cloud*.
 
 ![OpenStack S3 API key](/assets/object-storage-creds-en-3.png)
 

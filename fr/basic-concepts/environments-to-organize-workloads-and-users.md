@@ -6,11 +6,11 @@ slug: utiliser-les-environnements-pour-compartimenter-les-charges-de-travail-et-
 
 ## Survol des environnements
 
-cloud.ca offre un mécanisme puissant, les **environnements**, afin de ségréger les ressources et les charges de travail, et contrôler l'accès à celles-ci. Un cas d'utilisation commun est l'isolation des charges de travail de production et des systèmes en développement, ou encore la création de [carrés de sable](https://fr.wikipedia.org/wiki/Sandbox_%28s%C3%A9curit%C3%A9_informatique%29) spécifiques à certains projets.
+Hypertec Cloud offre un mécanisme puissant, les **environnements**, afin de ségréger les ressources et les charges de travail, et contrôler l'accès à celles-ci. Un cas d'utilisation commun est l'isolation des charges de travail de production et des systèmes en développement, ou encore la création de [carrés de sable](https://fr.wikipedia.org/wiki/Sandbox_%28s%C3%A9curit%C3%A9_informatique%29) spécifiques à certains projets.
 
 Un environnement appartient à une organisation, est associé à un service (ex.: Calcul ou Stockage d'objet) et est composé d'un ensemble d'utilisateurs qui ont une visibilité sur des ressources communes (ex.: instances, stockage, etc).
 
-Bien que cloud.ca mesure l'utilisation des services au niveau des organisations pour des fins de facturation, les ressources consommées par chaque environnement sont également mesurées indépendamment, ce qui permet au entreprises qui le désirent d'effectuer de la facturation interne par environnement.
+Bien que Hypertec Cloud mesure l'utilisation des services au niveau des organisations pour des fins de facturation, les ressources consommées par chaque environnement sont également mesurées indépendamment, ce qui permet au entreprises qui le désirent d'effectuer de la facturation interne par environnement.
 
 Naviguez au service souhaité dans la barre latérale pour accéder à la page *Environnements*, où tous les environnements du service sélectionné sont répertoriés. De plus, lorsque vous travaillez à l'intérieur d'un environnement, le service et l'environnement actuels sont affichés en haut à gauche de la page. Cliquer sur ce bouton affichera une option pour revenir à la page *Environnements*, ou pour basculer vers un autre environnement.
 

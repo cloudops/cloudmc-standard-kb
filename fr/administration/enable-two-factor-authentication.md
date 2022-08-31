@@ -6,11 +6,11 @@ slug: activer-l-authentification-deux-facteurs
 
 Selon Wikipédia, l'**authentification à deux facteurs** (ou l'acronyme anglophone **2FA**) fournit une manière d'identifier les utilisateurs sans ambiguité en combinant deux composants différents. Ces composants peuvent être quelque chose que l'utilisateur connaît, possède ou quelque chose d'inséparable de l'utilisateur (ie. Biométrie) .
 
-Dans le contexte de cloud.ca, ceci est réalisé en utilisant le téléphone intelligent ou l'ordinateur de l'usager comme jeton. Combiné avec son mot de passe, ceci nous donne une authentification à deux facteurs.
+Dans le contexte de Hypertec Cloud, ceci est réalisé en utilisant le téléphone intelligent ou l'ordinateur de l'usager comme jeton. Combiné avec son mot de passe, ceci nous donne une authentification à deux facteurs.
 
 ### Installation d'un générateur de jeton
 
-Sur votre téléphone intelligent, vous devez installer une application qui est capable de générer un jeton pour que le processus fonctionne. cloud.ca fonctionne très bien avec l'application Google Authenticator ou encore Authy. Les deux sont disponibles gratuitement sur Android et iPhone. Si vous n'avez pas de téléphone intelligent, notez que ces logiciels sont également disponibles pour les ordinateurs de bureau.
+Sur votre téléphone intelligent, vous devez installer une application qui est capable de générer un jeton pour que le processus fonctionne. Hypertec Cloud fonctionne très bien avec l'application Google Authenticator ou encore Authy. Les deux sont disponibles gratuitement sur Android et iPhone. Si vous n'avez pas de téléphone intelligent, notez que ces logiciels sont également disponibles pour les ordinateurs de bureau.
 
 Referez vous à la documentation de l'application pour connaître les détails d'installation sur votre plateforme.
 
@@ -38,4 +38,4 @@ Si pour une raison quelconque vous perdez vos codes de secours, nous avons la po
 
 ### Désactiver l'authentification à deux facteurs
 
-Si vous voulez désactivé l'authentification à deux facteurs sur votre compte, allez dans **Mon profil** et sous la section **Sécurité**, cliquez sur **Désactiver l'authentification à deux facteur**. Vous aurez à fournir votre mot de passe. Une fois fait, vous serez en mesure de vous authentifier à cloud.ca avec seulement votre nom d'utilisateur et mot de passe.
+Si vous voulez désactivé l'authentification à deux facteurs sur votre compte, allez dans **Mon profil** et sous la section **Sécurité**, cliquez sur **Désactiver l'authentification à deux facteur**. Vous aurez à fournir votre mot de passe. Une fois fait, vous serez en mesure de vous authentifier à Hypertec Cloud avec seulement votre nom d'utilisateur et mot de passe.

@@ -4,7 +4,7 @@ slug: dashboard
 ---
 
 
-The dashboard page in cloud.ca provides a quick and configurable overview of your virtual infrastructure. It is composed of multiple individual widgets that each provide a visualization of your selected data set.
+The dashboard page in Hypertec Cloud provides a quick and configurable overview of your virtual infrastructure. It is composed of multiple individual widgets that each provide a visualization of your selected data set.
 
 ### Configuring your dashboard
 

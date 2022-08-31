@@ -3,7 +3,7 @@ title: "Déployer l'infrastructure à l'aide de CloudMonkey"
 slug: deployer-l-infrastructure-a-l-aide-de-cloudmonkey
 ---
 
-Vous pouvez utiliser CloudMonkey comme interface en ligne de commande pour déployer l'infrastructure sur cloud.ca. [CloudMonkey](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+cloudmonkey+CLI) est l'interface en ligne de commande (CLI) officielle pour [Apache CloudStack](http://cloudstack.apache.org/), l'outil d'orchestration pour cloud.ca. Dans cloud.ca, il est possible d'interagir directement avec l'[API CloudStack](http://cloudstack.apache.org/api/apidocs-4.8/TOC_User.html) pour bénéficier d'outils d'automatisation open source.
+Vous pouvez utiliser CloudMonkey comme interface en ligne de commande pour déployer l'infrastructure sur Hypertec Cloud. [CloudMonkey](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+cloudmonkey+CLI) est l'interface en ligne de commande (CLI) officielle pour [Apache CloudStack](http://cloudstack.apache.org/), l'outil d'orchestration pour Hypertec Cloud. Dans Hypertec Cloud, il est possible d'interagir directement avec l'[API CloudStack](http://cloudstack.apache.org/api/apidocs-4.8/TOC_User.html) pour bénéficier d'outils d'automatisation open source.
 
 L'exemple suivant utilise l'API de région de compute-qc.cloud.ca.
 
@@ -12,8 +12,8 @@ Cette documentation explique comment utiliser CloudMonkey pour déployer diverse
 ## Exigences
 
 - CloudMonkey installé [https://doc.cloud.ca/kb/en/how-to#install-and-configure-cloudmonkey[https://doc.cloud.ca/kb/en/how-to#install-et-configurer-cloudmonkey)
-- Accès à cloud.ca :
-    - Vos informations d'identification API de l'interface utilisateur Web cloud.ca.  [Vous pouvez trouver comment y accéder ici](../compute-service/working-with-cloudstack-compute-apis.md).
+- Accès à Hypertec Cloud :
+    - Vos informations d'identification API de l'interface utilisateur Web Hypertec Cloud.  [Vous pouvez trouver comment y accéder ici](../compute-service/working-with-cloudstack-compute-apis.md).
     - Votre ID de projet. Il peut être trouvé avec vos informations d'identification API.
 
 ## Récupération des identifiants requis
@@ -139,7 +139,7 @@ list networks projectid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX filter=name,id
 
 #### ID du modèle
 
-Pour obtenir les identifiants des modèles cloud.ca :
+Pour obtenir les identifiants des modèles Hypertec Cloud :
 
 ```
 list templates templatefilter=featured filter=name,id
@@ -155,12 +155,12 @@ list templates templatefilter=self projectid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX
 
 Les offres de services disponibles :
 
-| Région dans cloud.ca | ID | Nom | Description |
+| Région dans Hypertec Cloud | ID | Nom | Description |
 | --- | --- | --- | --- |
 | compute-qc | 20363b3b-7607-4f34-9ba3-0ad57bd44bc1 | Standard | Customizable instance based on Standard root drive |
 | compute-on | a0a67feb-c5d8-471b-8088-32b02fd5b372 | Standard | Customizable instance based on Standard root drive |
 
-cloud.ca utilise des offres de calcul personnalisées. Pour ces offres de services, les utilisateurs doivent définir la quantité de mémoire et de vCPU alloués à la machine virtuelle. Cela se fait via l'attribut `details`, qui est géré comme un tableau de hachages. Il peut être défini comme suit :
+Hypertec Cloud utilise des offres de calcul personnalisées. Pour ces offres de services, les utilisateurs doivent définir la quantité de mémoire et de vCPU alloués à la machine virtuelle. Cela se fait via l'attribut `details`, qui est géré comme un tableau de hachages. Il peut être défini comme suit :
 - details[0].cpuNumber=X
    - X est égal aux cœurs de processeur de la machine virtuelle.
 - details[0].cpuSpeed=1000

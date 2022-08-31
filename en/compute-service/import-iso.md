@@ -49,7 +49,7 @@ This procedure is split into two sections:
 
 ### Configuration
 
-In this example we will import an ISO image into our `env-staging` environment in the `Compute - Québec` service, and use the resulting image to deploy a new instance.  The example begins on the **Images** tab of our environment, and assumes that the ISO image file has been stored on a service such as cloud.ca's [Object Storage](../basic-concepts/what-is-object-storage.md).  
+In this example we will import an ISO image into our `env-staging` environment in the `Compute - Québec` service, and use the resulting image to deploy a new instance.  The example begins on the **Images** tab of our environment, and assumes that the ISO image file has been stored on a service such as Hypertec Cloud's [Object Storage](../basic-concepts/what-is-object-storage.md).  
 
 #### Import the ISO image
 

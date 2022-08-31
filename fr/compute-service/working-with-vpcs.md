@@ -23,7 +23,7 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
 1. Complétez le formulaire d'ajouter un VPC :
    - **Nom :** Nom du VPC (ex. *acme-prod-vpc01*)
    - **Description :** Description du VPC (ex. "Site de production A")
-   - **Domaine Réseau :** (Facultatif) Nom de domaine pour la résolution DNS interne (ex: *interne.acme.com*). cloud.ca ajoutera ce nom de domaine au fichier */etc/hosts* pour les futures instances.
+   - **Domaine Réseau :** (Facultatif) Nom de domaine pour la résolution DNS interne (ex: *interne.acme.com*). Hypertec Cloud ajoutera ce nom de domaine au fichier */etc/hosts* pour les futures instances.
    ![Page ajouter VPC](/assets/cca-working-with-vpcs-2-fr.png)
 1. Cliquez sur **Valider**.
 1. L'onglet **Réseautique** apparaîtra, et votre nouveau VPC sera répertorié dans l'état **en démarrage**. Une fois créé, le VPC apparaîtra dans l'état **activé**.
@@ -58,8 +58,8 @@ Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs,
 1. Dans le coin supérieur droit, sélectionnez **Ajouter VPN site-à-site**.
 1. Remplissez le formulaire *Ajouter VPN site-à-site* :
    - **Nom de la connexion:**  Nom de la connexion VPN, possiblement à quoi cette connexion est-elle.
-   - **Adresse IP distant :**  IP à laquelle le VPN doit se connecter. Pour un autre VPC cloud.ca, il s'agit de son NAT source.  Cela peut être trouvé à partir de l'élément VPC sous l'onglet **Réseautique**.
-   - **Liste de CIDR distants :**  Une liste séparée par des virgules de CIDRs accessibles via cette connexion. Si vous vous connectez à un autre VPC cloud.ca, il s'agit du CIDR du VPC.
+   - **Adresse IP distant :**  IP à laquelle le VPN doit se connecter. Pour un autre VPC Hypertec Cloud, il s'agit de son NAT source.  Cela peut être trouvé à partir de l'élément VPC sous l'onglet **Réseautique**.
+   - **Liste de CIDR distants :**  Une liste séparée par des virgules de CIDRs accessibles via cette connexion. Si vous vous connectez à un autre VPC Hypertec Cloud, il s'agit du CIDR du VPC.
    - **Clé pré-partagée IPSec :**  Une clé utilisée par les deux extrémités du VPN pour se connecter. Il n'y a pas de minimum de complexité pour cela, mais il est suggéré de fournir une clé plus sécurisée.
    - **Chiffrement IKE :** L'algorithme de cryptage pour la connexion VPN pour les négociations de phase 1. L'authentification utilise la clé pré-partagée.
    - **Empreinte IKE :** L'algorithme de hachage pour la connexion VPN.

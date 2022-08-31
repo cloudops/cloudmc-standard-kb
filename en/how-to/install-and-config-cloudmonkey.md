@@ -6,14 +6,14 @@ slug:  install-and-config-cloudmonkey
 
 Apache CloudMonkey is a Command Line Interface written in Python to interact with Apache CloudStack APIs.
 
-This tool is useful to automate Virtual infrastructure in cloud.ca or manage it thru CLI. Apache CloudMonkey can be installed on various Operating System such as Linux and macOS, it only requires Python 2.7+ to be installed.
+This tool is useful to automate Virtual infrastructure in Hypertec Cloud or manage it through the CLI. Apache CloudMonkey can be installed on various Operating System such as Linux and macOS, it only requires Python 2.7+ to be installed.
 
 ### Installation and Configuration
 
 1. To install Apache CloudStack follow the [official project installation instruction](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+cloudmonkey+CLI).
-1. Retrieve your API credentials from cloud.ca webUI in the **API keys** below user profile.
+1. Retrieve your API credentials from Hypertec Cloud webUI in the **API keys** below user profile.
   - Note the ProjectID define in the Service Connection page as this  ProjectID will be required to perform API calls later.
-1. Create the cloudmonkey configuration file (`~/.cloudmonkey/config`) using your API credentials for cloud.ca using following content:
+1. Create the cloudmonkey configuration file (`~/.cloudmonkey/config`) using your API credentials for Hypertec Cloud using following content:
 
 ```
 [core]
@@ -45,9 +45,9 @@ apikey = <COMPUTE_ONTARIO_API_key>
 secretkey = <COMPUTE_ONTARIO_Secret_key>
 ```
 
-### Connect to cloud.ca
+### Connect to Hypertec Cloud
 
-Launch the CLI with the command `cloudmonkey`, then use the  CLI command `sync` to confirm CloudMonkey is connected to cloud.ca API.
+Launch the CLI with the command `cloudmonkey`, then use the  CLI command `sync` to confirm CloudMonkey is connected to Hypertec Cloud API.
 
 ```
 user1$ cloudmonkey

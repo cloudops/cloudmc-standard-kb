@@ -21,7 +21,7 @@ Ces instructions permettent de configurer le VPN d'accès distant avec le client
 ![All tasks menu, import option](/assets/Win-2-Import.png)
 
 8. Dans la prochaine fenêtre, cliquer sur *Next*.
-8. Cliquer sur *Browse…* et sélectionner le certificat que vous avez enregistré avec l'extension **.crt** (le certificat est disponible dans l'interface de cloud.ca, sur la page dédiée à la configuration du VPN d'accès distant) puis cliquer sur *Next*.
+8. Cliquer sur *Browse…* et sélectionner le certificat que vous avez enregistré avec l'extension **.crt** (le certificat est disponible dans l'interface de Hypertec Cloud, sur la page dédiée à la configuration du VPN d'accès distant) puis cliquer sur *Next*.
 
 ![Certificate import wizard](/assets/Win-3-Browse.png)
 

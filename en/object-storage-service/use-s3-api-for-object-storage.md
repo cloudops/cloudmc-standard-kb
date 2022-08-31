@@ -4,7 +4,7 @@ slug: use-s3-api-for-object-storage
 ---
 
 
-You can use the Amazon S3 API to connect to cloud.ca Object Storage service.
+You can use the Amazon S3 API to connect to Hypertec Cloud Object Storage service.
 
 ### Installation of the AWS CLI
 
@@ -14,14 +14,14 @@ Instructions to install the AWS CLI are available here: [https://docs.aws.amazon
 
 You will also need to install the plugin awscli-plugin-endpoint. You can find information about this and how to install it here: [https://github.com/wbingli/awscli-plugin-endpoint#installation](https://github.com/wbingli/awscli-plugin-endpoint#installation).
 
-### Configuring the CLI to use cloud.ca Object Storage
+### Configuring the CLI to use Hypertec Cloud Object Storage
 
 #### Retrieve your secret key and access key
 Follow the instructions on this page to get your AWS S3 credentials: [How to obtain Object Storage API credentials?](how-to-obtain-object-storage-api-credentials.md) Use the section **Credentials for the S3-compatible API**.
 
 #### Configure the AWS CLI
 
-You will have to set your profile to use the cloud.ca credentials and to use the cloud.ca object storage URL. After the AWS CLI and the plugin endpoint are properly installed, configure the endpoint:
+You will have to set your profile to use the Hypertec Cloud credentials and to use the Hypertec Cloud object storage URL. After the AWS CLI and the plugin endpoint are properly installed, configure the endpoint:
 
 ```
 aws configure set s3.endpoint_url https://objects.cloud.ca
@@ -44,7 +44,7 @@ Now, you can use the command `aws configure` to set your credentials:
 (venv) ccontini@cca-ccontini:~$ aws configure
 AWS Access Key ID [None]: 076d7a255a4236965ba97b4f91363f2
 AWS Secret Access Key [None]: *******************************
-Default region name [None]: cloud.ca
+Default region name [None]: Hypertec Cloud
 Default output format [None]:
 ```
 
