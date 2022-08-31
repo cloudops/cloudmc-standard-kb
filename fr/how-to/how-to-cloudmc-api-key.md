@@ -1,12 +1,12 @@
 ---
-title: "Générer une clé API cloud.ca"
+title: "Générer une clé API Hypertec Cloud"
 slug: cloud.ca-cle-api
 ---
 
 
-Lorsque vous travaillez avec l'API cloud.ca, vous devrez générer une clé API à utiliser avec votre code. Les clés d'API fournissent une méthode pratique permettant à votre application de s'identifier à un service lors des appels à l'API du service.
+Lorsque vous travaillez avec l'API Hypertec Cloud, vous devrez générer une clé API à utiliser avec votre code. Les clés d'API fournissent une méthode pratique permettant à votre application de s'identifier à un service lors des appels à l'API du service.
 
-Tout utilisateur cloud.ca peut générer une clé API. Les clés API d'un utilisateur auront le même niveau de privilège que celui de l'utilisateur. Il n'y a pas de limite au nombre de clés API qu'un utilisateur peut générer. Il est recommandé de profiter de ce en générant une clé API pour chaque application qui accédera au système.
+Tout utilisateur Hypertec Cloud peut générer une clé API. Les clés API d'un utilisateur auront le même niveau de privilège que celui de l'utilisateur. Il n'y a pas de limite au nombre de clés API qu'un utilisateur peut générer. Il est recommandé de profiter de ce en générant une clé API pour chaque application qui accédera au système.
 
 Pour gérer vos clés API, accédez au menu utilisateur en haut à droite de la page, cliquez sur *Mon profil*, puis cliquez sur l'élément intitulé *Identifiants d'API*.
 

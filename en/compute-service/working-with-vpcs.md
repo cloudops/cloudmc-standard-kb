@@ -23,7 +23,7 @@ For more information about VPCs, please see [What is a VPC](../basic-concepts/wh
 1. Fill the Add VPC form:
    - **Name:** Name of the VPC (ex: *acme-prod-vpc01*)
    - **Description:** (Optional) Description of the VPC (ex: "Production network site A")
-   - **Network Domain:** (Optional) Domain name for internal DNS resolution (ex: *internal.acme.com*).  cloud.ca will add this domain name to the */etc/hosts* file for new instances.
+   - **Network Domain:** (Optional) Domain name for internal DNS resolution (ex: *internal.acme.com*).  Hypertec Cloud will add this domain name to the */etc/hosts* file for new instances.
    ![Add VPC page](/assets/cca-working-with-vpcs-2-en.png)
 1. Click on **Submit**.
 1. The **Networking** tab will appear, and your new VPC will be listed in the **starting** state.  When it has been created, the VPC will appear in the **enabled** state.
@@ -58,8 +58,8 @@ Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote o
 1. In the top right corner, select **Add site-to-site VPN**.
 1. Fill in the *Add site-to-site VPN* form:
    - **Name this VPN connection:** Name of the VPN connection, likely what this connection is to.
-   - **Remote Public IP:** The IP for the VPN to connect to. For another cloud.ca VPC, this is its source NAT. This can be found from the VPC item under the **Networking** tab.
-   - **Remote CIDR List:** A comma-separated list of CIDRs that can be accessed through this connection. If connecting to another cloud.ca VPC, this is the VPC's CIDR.
+   - **Remote Public IP:** The IP for the VPN to connect to. For another Hypertec Cloud VPC, this is its source NAT. This can be found from the VPC item under the **Networking** tab.
+   - **Remote CIDR List:** A comma-separated list of CIDRs that can be accessed through this connection. If connecting to another Hypertec Cloud VPC, this is the VPC's CIDR.
    - **IPSec pre-shared key:** A key used by both ends of the VPN to connect. There is no complexity minimum for this, but it is suggested to provide a more secure key.
    - **IKE encryption algorithm:** The encryption algorithm for the VPN connection for phase 1 negotiations. Authentication uses the pre-shared key.
    - **IKE hash algorithm:**  The hash algorithm for the VPN connection.

@@ -4,7 +4,7 @@ slug: gestion-des-copies-instantanees
 ---
 
 
-Un volume dans cloud.ca peut être utilisé pour créer une **copie instantanée**, qui est une copie statique de ce disque et de tout son contenu au moment où la copie instantanée a été prise. Cela peut être utile dans plusieurs scénarios :
+Un volume dans Hypertec Cloud peut être utilisé pour créer une **copie instantanée**, qui est une copie statique de ce disque et de tout son contenu au moment où la copie instantanée a été prise. Cela peut être utile dans plusieurs scénarios :
    - Restauration : lorsque vous testez les modifications apportées à une instance et qu'une erreur se produit, l'instance peut être redéployée à partir d'une copie instantanée prise juste avant la modification, essentiellement en ramener l'instance à un état correct.
    - Image maître : une instance peut être configurée dans un état souhaité et une copie instantanée peut être utilisé pour provisionner un [modèle d'instance](working-with-instance-templates.md) à utiliser pour déployer plusieurs instances.
    - Dépannage : si le dépannage d'une instance est nécessaire, une copie instantanée peut être prise et utilisée pour créer une instance identique en dehors de l'environnement de production.
@@ -24,7 +24,7 @@ Les copies instantanées existantes sont accessibles en naviguer à l'environnem
        - ![Prendre une copie instantanée de la page de l'instance](../../assets/cca-working-with-snapshots-2-fr.png)
 1. Pour créer la copie instantanée, cliquez sur le menu *Action* à droite du volume, et sélectionnez *Prendre une copie instantanée*. La page *Prendre une copie instantanée* apparaîtra :
     - ![La page Prendre une copie instantanée](../../assets/cca-working-with-snapshots-3-fr.png)
-1. Vous pouvez choisir de fournir un nom pour la copie instantanée, ou si le champ est laissé vide, cloud.ca générera automatiquement un nom. Vous pouvez également choisir d'en faire une **copie instantanée rapide**, voir ci-dessous pour plus de détails.
+1. Vous pouvez choisir de fournir un nom pour la copie instantanée, ou si le champ est laissé vide, Hypertec Cloud générera automatiquement un nom. Vous pouvez également choisir d'en faire une **copie instantanée rapide**, voir ci-dessous pour plus de détails.
 1. Cliquez sur *Valider* pour créer la copie instantanée.
 1. L'onglet **Volumes** apparaîtra et le volume choisi pour la copie instantanée sera dans l'état **En cours de copie instantanée**.
 1. Cliquez sur l'onglet **Copies instantanés**. La nouvelle copie instantanée apparaîtra dans l'état **Sauvegarde en cours**. Lorsque la copie instantanée est terminée, elle apparaîtra dans l'état **Sauvegardé**.

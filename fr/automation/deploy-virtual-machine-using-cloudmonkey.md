@@ -4,7 +4,7 @@ slug: deployer-une-machine-virtuelle-l-aide-de-cloudmonkey
 ---
 
 
-Voici une introduction rapide à l'utilisation de CloudMonkey comme interface de ligne de commande pour cloud.ca.  CloudMonkey est l'interface de ligne de commande officielle pour Apache Cloudstack.  Avec cloud.ca, il est possible d'interagir directement avec l'API CloudStack pour prendre avantage des outils d'automatisation opensource.
+Voici une introduction rapide à l'utilisation de CloudMonkey comme interface de ligne de commande pour Hypertec Cloud.  CloudMonkey est l'interface de ligne de commande officielle pour Apache Cloudstack.  Avec Hypertec Cloud, il est possible d'interagir directement avec l'API CloudStack pour prendre avantage des outils d'automatisation opensource.
 
 L'exemple suivant se base sur la région compute-qc pour les appels d'API.
 
@@ -13,8 +13,8 @@ Cette documentation explique comment utiliser CloudMonkey pour créer des machin
 ### Prérequis
 
 - CloudMonkey installé [https://doc.cloud.ca/kb/en/how-to#install-and-configure-cloudmonkey](https://doc.cloud.ca/kb/en/how-to#install-and-configure-cloudmonkey)
-- Acccès à cloud.ca
-   - Récupérez vos informations d'identification d'API sur cloud.ca webUI dans "Clés d'API" sous le profil utilisateur.
+- Acccès à Hypertec Cloud
+   - Récupérez vos informations d'identification d'API sur Hypertec Cloud webUI dans "Clés d'API" sous le profil utilisateur.
    - projectid; defined in the API keys page
    - VPC déjà déployé avec au moins un réseau
 
@@ -33,16 +33,16 @@ Les IDs que nous allons devoir ajouter sont les suivants :
 
 Offres de services disponibles :
 
-| cloud.ca region | id | name | description |
+| Hypertec Cloud region | id | name | description |
 | --- | --- | --- | --- |
 | compute-qc | 20363b3b-7607-4f34-9ba3-0ad57bd44bc1 | Standard | Customizable instance based on Standard root drive |
 | compute-on | a0a67feb-c5d8-471b-8088-32b02fd5b372 | Standard | Customizable instance based on Standard root drive |
 
-De récents changements dans cloud.ca introduisent une nouvelle façon de déployer vos machines virtuelles.  Cloud.ca utilise maintenant des offres de services personnalisées. Cela signifie qu'au lieu de sélectionner une offre quelconque lors de la création d'une machine virtuelle, les utilisateurs doivent définir la quantité de mémoire et de vCPU qui sera allouée à la machine virtuelle.
+De récents changements dans Hypertec Cloud introduisent une nouvelle façon de déployer vos machines virtuelles.  Hypertec Cloud utilise maintenant des offres de services personnalisées. Cela signifie qu'au lieu de sélectionner une offre quelconque lors de la création d'une machine virtuelle, les utilisateurs doivent définir la quantité de mémoire et de vCPU qui sera allouée à la machine virtuelle.
 
 #### ID de zone
 
-| cloud.ca region | zone name | id |
+| Hypertec Cloud region | zone name | id |
 | --- | --- | --- |
 | compute-qc | QC-1 | 04afdbd1-e32d-4999-86d0-96703736dded |
 | compute-qc | QC-2 | 5149f99b-f5c9-4523-8039-3f1bfe466c6b |
@@ -54,7 +54,7 @@ list zones filter=id,name
 
 #### Network id (nécessaire pour networkids)
 
-Lister les réseaux disponibles dans un environnement cloud.ca en tant que projet dans l’API de Cloudstack :
+Lister les réseaux disponibles dans un environnement Hypertec Cloud en tant que projet dans l’API de Cloudstack :
 
 1. Sélectionner le bon VPC :
 
@@ -90,7 +90,7 @@ Pour l'exemple ci-dessous, le networkid sélectionné sera `networkids=4857c729-
 
 #### ID du template
 
-La commande `list templates templatefilter=featured filter=name,displaytext,id` retournera les derniers templates disponibles sur cloud.ca et leurs identifiants.
+La commande `list templates templatefilter=featured filter=name,displaytext,id` retournera les derniers templates disponibles sur Hypertec Cloud et leurs identifiants.
 
 ```
 list templates templatefilter=featured filter=name,displaytext,id
@@ -123,7 +123,7 @@ Nous avons maintenant tous les IDs nécessaires et il ne nous reste qu'à ajoute
 | --- | --- | --- | --- |
 | serviceofferingid | ID of the VM offering | 20363b3b-7607-4f34-9ba3-0ad57bd44bc1 | compute-qc: 20363b3b-7607-4f34-9ba3-0ad57bd44bc1 <br><br> compute-on: a0a67feb-c5d8-471b-8088-32b02fd5b372 |
 | zoneid | ID of the zone, use the zone defined in the VPC | 5149f99b-f5c9-4523-8039-3f1bfe466c6b | compute-qc: 5149f99b-f5c9-4523-8039-3f1bfe466c6b <br><br> compute-on: |
-| projectid | ID of the project defined in the API keys page of cloud.ca portal | <UUID> | |
+| projectid | ID of the project defined in the API keys page of Hypertec Cloud portal | <UUID> | |
 | networkids | network tier ID of the VPC | <UUID> | |
 | templateid | ID of the OS template | <UUID> |
 | keypair | name of the ssh public key | user3 | |

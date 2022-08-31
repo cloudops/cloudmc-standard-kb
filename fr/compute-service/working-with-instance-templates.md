@@ -6,7 +6,7 @@ slug: gestion-des-modeles
 
 ### Créer un modèle à partir d'une instance existante
 
-Cette section présente comment créer un **modèle** à partir d'une instance existante en production sur cloud.ca. Ce processus requiert d'abord qu'une [copie instantanée](working-with-snapshots.md) du volume soit effectuée.
+Cette section présente comment créer un **modèle** à partir d'une instance existante en production sur Hypertec Cloud. Ce processus requiert d'abord qu'une [copie instantanée](working-with-snapshots.md) du volume soit effectuée.
 
 #### Effectuer une copie instantanée initiale d'un volume
 
@@ -42,7 +42,7 @@ Cliquez sur *Valider*. Vous devriez recevoir un message de confirmation que le p
 
 ### Importer son propre modèle
 
-cloud.ca offre la possibilité aux usagers d'importer leurs propres modèles créés à l'extérieur de la plateforme. Ce processus est décrit dans cette section.
+Hypertec Cloud offre la possibilité aux usagers d'importer leurs propres modèles créés à l'extérieur de la plateforme. Ce processus est décrit dans cette section.
 
 Premièrement, vous devez cliquez sur le bouton **Importer**. Une nouvelle fenêtre contextuelle va apparaître comme dans l'image suivante.
 
@@ -52,7 +52,7 @@ Il faut remplir le contenu des champs requis. Voici une description de chacun d'
 
 - **Nom :** Ceci est le nom qui sera affiché dans la liste des modèles et dans l'outils de création d'instance.
 - **Description :** Vous pouvez ajouter plus d'informations dans ce champs.
-- **URL :** Vous ne téléverser pas des modèles vers cloud.ca, cloud.ca va le télécharger pour vous. Dans cette optique, vous devez fournir un **URL accessible publiquement** vers votre VHD en utilisant soit **HTTP** ou **FTP**. **Notez:** HTTPS ne fonctionnera pas.
+- **URL :** Vous ne téléverser pas des modèles vers Hypertec Cloud, Hypertec Cloud va le télécharger pour vous. Dans cette optique, vous devez fournir un **URL accessible publiquement** vers votre VHD en utilisant soit **HTTP** ou **FTP**. **Notez:** HTTPS ne fonctionnera pas.
 - **Hyperviseur :** Ceci sera toujours XenServer dans notre cas, du moins pour le moment.
 - **Format :** Ceci sera toujours VHD dans notre cas, du moins pour le moment.
 - **Système d'exploitation :** Fournir le type de système d'exploitation pour votre modèle. Par exemple, si vous avez installé Ubuntu 18.04 avec PVHVM, vous devrez selectionner **Ubuntu 18.04 (64-bit)**. Si vous avez installé CentOS 7 en PV, vous devrez utiliser **CentOS 7**. Une table est disponible plus bas pour facilité votre choix.
@@ -63,7 +63,7 @@ Il faut remplir le contenu des champs requis. Voici une description de chacun d'
 
 ### Concordance des systèmes d'exploitation
 
-| Système d'exploitation du modèle | Système d'exploitation pour cloud.ca |
+| Système d'exploitation du modèle | Système d'exploitation pour Hypertec Cloud |
 | --- | --- |
 | CentOS 7.x | CentOS 7 |
 | CentOS 8.x | CentOS 7 |

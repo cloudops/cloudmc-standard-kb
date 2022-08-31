@@ -4,7 +4,7 @@ slug: what-is-object-storage
 ---
 
 
-**Object storage** is a cloud.ca service that allows a stored file to be accessed via a URL.  The [object storage architecture](https://en.wikipedia.org/wiki/Object_storage) enables many possibilities, including significantly faster access, ease of sharing files, and much less overhead than locating a file through a traditional file system.
+**Object storage** is a Hypertec Cloud service that allows a stored file to be accessed via a URL.  The [object storage architecture](https://en.wikipedia.org/wiki/Object_storage) enables many possibilities, including significantly faster access, ease of sharing files, and much less overhead than locating a file through a traditional file system.
 
 A traditional file system requires a file to be stored in a specific location on a disk, and it locates that file within a hierarchy of directories (eg, **/data/shared/my-big-data.zip**).  This is sensible for an individual working on a local workstation.  Object storage, on the other hand, treats a file as an *object*: something to be retrieved using its URL, similar to a Web page or an image (eg, **https://objects.acme.com/public/my-big-data.zip**).  Because the file is referenced by a URL, it becomes irrelevant whether the file is local or remote.
 

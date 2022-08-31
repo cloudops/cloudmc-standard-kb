@@ -4,18 +4,18 @@ slug: controle-d-accès-a-base-de-roles
 ---
 
 
-Le contrôle d'accès dans cloud.ca est obtenu par un modèle flexible et multi-locataire qui fournit une manière simple pour gérer les permissions à tous les niveaux d'une hiérarchie d'organisations et d'environnements.  La fonctionnalité du contrôle d'accès à base de rôles de cloud.ca permet un niveaux de contrôle précis sur les permissions qui sont accordées aux utilisateurs.
+Le contrôle d'accès dans Hypertec Cloud est obtenu par un modèle flexible et multi-locataire qui fournit une manière simple pour gérer les permissions à tous les niveaux d'une hiérarchie d'organisations et d'environnements.  La fonctionnalité du contrôle d'accès à base de rôles de Hypertec Cloud permet un niveaux de contrôle précis sur les permissions qui sont accordées aux utilisateurs.
 
 ## Définitions
-- **Permission :** Une autorisation pour exécuter une tâche.  **Les permissions de système** régissent l'accès à la fonctionalité de la console de cloud.ca, **les permissions d'environnement** régissent l'accès aux ressources d'un service.
+- **Permission :** Une autorisation pour exécuter une tâche.  **Les permissions de système** régissent l'accès à la fonctionalité de la console de Hypertec Cloud, **les permissions d'environnement** régissent l'accès aux ressources d'un service.
 
-- **Rôle système :** Une collection composée de permissions de système à l'intérieur d'une organisation.  cloud.ca vient avec des **rôles fixes** qui ne peuvent être modifiés, et permet la création de **rôles personnalisés**.  Généralement, les rôles système sont simplement nommés ≪les rôles≫.
+- **Rôle système :** Une collection composée de permissions de système à l'intérieur d'une organisation.  Hypertec Cloud vient avec des **rôles fixes** qui ne peuvent être modifiés, et permet la création de **rôles personnalisés**.  Généralement, les rôles système sont simplement nommés ≪les rôles≫.
 
 - **Portée :**  L'organisation ou les organisations auxquelles un rôle système s'applique.
 
 - **Organisation :**  Un groupement d'utilisateurs reliés.
 
-- **Utilisateur :**  Le compte utilisateur est la façon de se connecter au portal cloud.ca.  Un utilisateur est toujours assigné un rôle primaire dans l'organisation où son compte est créé.  Un utilisateur peut avoir des rôles additionels assignés, qui peuvent avoir une porté à une ou plusieurs organisation.
+- **Utilisateur :**  Le compte utilisateur est la façon de se connecter au portal Hypertec Cloud.  Un utilisateur est toujours assigné un rôle primaire dans l'organisation où son compte est créé.  Un utilisateur peut avoir des rôles additionels assignés, qui peuvent avoir une porté à une ou plusieurs organisation.
 
 - **Environnement :** Un regroupement logique et sécurisé au sein d'une organisation, utilisée pour isoler et grouper des ressources sûrement.  L'accès est contrôlé par une combinaison de rôles d'environnement et des contrôles d'accès de l'organisation.
 
@@ -25,10 +25,10 @@ Le contrôle d'accès dans cloud.ca est obtenu par un modèle flexible et multi-
 
 ## Les rôles systèmes
 
-La fonctionnalité d'un rôle système permet de controller l'accès à la fonctionnalité de cloud.ca d'un façon simple et standard.  Un rôle système peut être assigné aux utilisateurs dans une organisation, et peut aussi permettre la collaboration à travers d'autres organisations.  Le rôles système sont appliqués dans l'interface Web autant que dans l'API cloud.ca.  Les rôles personnalisés peuvent être définis avec des permissions qui sont alignées avec les règles d'affaires.
+La fonctionnalité d'un rôle système permet de controller l'accès à la fonctionnalité de Hypertec Cloud d'un façon simple et standard.  Un rôle système peut être assigné aux utilisateurs dans une organisation, et peut aussi permettre la collaboration à travers d'autres organisations.  Le rôles système sont appliqués dans l'interface Web autant que dans l'API Hypertec Cloud.  Les rôles personnalisés peuvent être définis avec des permissions qui sont alignées avec les règles d'affaires.
 
 Tous les rôles système ont une portée définie, qui peut être une des celles-ci :
-- Toutes les organisations dans cloud.ca.
+- Toutes les organisations dans Hypertec Cloud.
 - Toutes les organisations de premier niveau.
 - Une organisation spécifique, sans ses sous-organisations.
 - Une organisation avec toutes ses sous-organisations.
@@ -38,7 +38,7 @@ Tous les rôles système ont une portée définie, qui peut être une des celles
 En utilisant les étiquettes, la portée d'un rôle assigné peut être augmentée automatiquement aux organisations qui reçoivent l'étiquette, et retiré lorsque l'éttiquette est supprimée.  Cette fonctionnalité rend possible les scénarios où la portée d'un rôle se change dynamiquement selon les règles d'affaires.
 
 ### Les rôles fixes
-Les rôles fixes incorporés dans cloud.ca s'appliquent à un vaste gamme de cas d'utilisation.  Ils peut être assignés au rôle primaire d'un utilisateur, ou comme un rôle additionel.
+Les rôles fixes incorporés dans Hypertec Cloud s'appliquent à un vaste gamme de cas d'utilisation.  Ils peut être assignés au rôle primaire d'un utilisateur, ou comme un rôle additionel.
 
 Voici un sommaire de chaque rôle fixe quand il est appliqué au rôle primaire :
 
@@ -59,7 +59,7 @@ Comme l'illustre le diagramme ci-dessous, en montant dans le hiérarchie, chaque
 
 ### Les rôles personnalisés
 
-cloud.ca permet à un utilisateur avec le rôle *Administrateur* et plus élevé (ou un utilisateaur avec un rôle personnalisé incluyant la permission *Rôles : Gérer*, expliqué dans cette section) à créer des nouveaux rôles avec les permissions qui sont alignées avec les règles d'affiares.  L'administrateur peut sélectionner permissions individuelles et sauvegarder le rôle, et après appliquer ce rôle aux utilisateurs dans l'organisation.  Les permissions effectives d'un utilisateur sont régies par l'union de toutes le permissions et la portée du rôle primarire avec toutes les rôles additionels.  Il faut que le rôle primaire de l'utilisateur soit un des rôles fixes incorporés, jamais un rôle personnalisé.
+Hypertec Cloud permet à un utilisateur avec le rôle *Administrateur* et plus élevé (ou un utilisateaur avec un rôle personnalisé incluyant la permission *Rôles : Gérer*, expliqué dans cette section) à créer des nouveaux rôles avec les permissions qui sont alignées avec les règles d'affiares.  L'administrateur peut sélectionner permissions individuelles et sauvegarder le rôle, et après appliquer ce rôle aux utilisateurs dans l'organisation.  Les permissions effectives d'un utilisateur sont régies par l'union de toutes le permissions et la portée du rôle primarire avec toutes les rôles additionels.  Il faut que le rôle primaire de l'utilisateur soit un des rôles fixes incorporés, jamais un rôle personnalisé.
 
 **Avis :** Lorsque une organisation est supprimée, tous le rôles personnalisés définis dans cette organisation seront aussi supprimés.
 
@@ -69,7 +69,7 @@ Tous les rôles système et rôles personnalisés dans l'organisation sont énum
 ![add custom role page](/assets/cca-rbac-add_custom_role-fr.png)
 
 ## Les rôles d'environnement
-Pour contrôler l'accès aux ressources dans un environnement, cloud.ca conçoit le *rôle d'environnement*.  En ajouter un membre nouveau à un environnement, il faut assigner un rôle d'environnment à l'utilisateur, qui régit le niveau d'accès accordé à l'utilisateur à l'intérieur de l'environnement.  La plupart des modules d'extension sont livrés avec le rôles d'environnment standards celles-ci :
+Pour contrôler l'accès aux ressources dans un environnement, Hypertec Cloud conçoit le *rôle d'environnement*.  En ajouter un membre nouveau à un environnement, il faut assigner un rôle d'environnment à l'utilisateur, qui régit le niveau d'accès accordé à l'utilisateur à l'intérieur de l'environnement.  La plupart des modules d'extension sont livrés avec le rôles d'environnment standards celles-ci :
 
 - **Observateur :**  Accès en lecture seule à l'environnement.
 - **Éditeur :**  Peut modifier toutes les charactéristiques de l'environnement.  Pas capable ni de changer les paramètres de l'evironnment ni de gérer les utilisateurs.
@@ -77,7 +77,7 @@ Pour contrôler l'accès aux ressources dans un environnement, cloud.ca conçoit
 
 ## Comment assigner le rôles
 
-cloud.ca permet à un utilisateur avec le rôle *Administrateur* et plus élevé (ou un utilisateur avec un rôle personnalisé incluyant la permission *Utilisateurs : Gérer*) à assigner des rôles fixes et personnalisés aux utilisateurs.  L'administrateur n'est pas permis à accorder une permission à un autre utilisateur sans déjà avoir cette même permission.  Ce modèle de sécurité empêche un utilisateur d'augmenter son propre accès sans autorisation (élévation des privilèges).
+Hypertec Cloud permet à un utilisateur avec le rôle *Administrateur* et plus élevé (ou un utilisateur avec un rôle personnalisé incluyant la permission *Utilisateurs : Gérer*) à assigner des rôles fixes et personnalisés aux utilisateurs.  L'administrateur n'est pas permis à accorder une permission à un autre utilisateur sans déjà avoir cette même permission.  Ce modèle de sécurité empêche un utilisateur d'augmenter son propre accès sans autorisation (élévation des privilèges).
 
 Les rôles primaires sont assignés à l'utilisateur de la page *Modifier l'utilisateur*.
 

@@ -1,12 +1,12 @@
 ---
-title: "Generate a cloud.ca API key"
+title: "Generate a Hypertec Cloud API key"
 slug: cloud.ca-api-key
 ---
 
 
-When working with the cloud.ca API, you will need to generate an API key for use with your code.  API keys provide a convenient method for your application to identify itself to a service when making calls to the service's API.
+When working with the Hypertec Cloud API, you will need to generate an API key for use with your code.  API keys provide a convenient method for your application to identify itself to a service when making calls to the service's API.
 
-Any cloud.ca user may generate an API key.  A user's API keys will have the same level of privilege that the user has.  There is no limit to the number of API keys that a user may generate.  It is recommended to take advantage of this by generating an API key for each application that will be accessing the system.
+Any Hypertec Cloud user may generate an API key.  A user's API keys will have the same level of privilege that the user has.  There is no limit to the number of API keys that a user may generate.  It is recommended to take advantage of this by generating an API key for each application that will be accessing the system.
 
 To manage your API keys, navigate to the user menu on the upper right of the page, click on *My profile*, then click on the item labeled *API credentials*.
 

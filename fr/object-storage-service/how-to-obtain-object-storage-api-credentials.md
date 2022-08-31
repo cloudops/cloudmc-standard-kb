@@ -26,7 +26,7 @@ export OS_IDENTITY_API_VERSION=3
 
 ### Identifiants pour l'API compatible S3
 
-Le CLI AWS requiert plusieurs informations pour pouvoir se connecter à un environnement de stockage objet, notamment la clé secrète et la clé d'accès, qui sont accessible au même endroit que vos identifiants de stockage objet habituels, ainsi qu'une URL de connection et un nom de région. L'URL de connection est toujours **https://objects.cloud.ca** et le nom de la région est **cloud.ca**.
+Le CLI AWS requiert plusieurs informations pour pouvoir se connecter à un environnement de stockage objet, notamment la clé secrète et la clé d'accès, qui sont accessible au même endroit que vos identifiants de stockage objet habituels, ainsi qu'une URL de connection et un nom de région. L'URL de connection est toujours **https://objects.cloud.ca** et le nom de la région est **Hypertec Cloud**.
 
 ![Clé d'API de OpenStack S3](/assets/object-storage-creds-fr-3.png)
 

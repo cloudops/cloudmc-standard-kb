@@ -4,11 +4,11 @@ slug: gerer-mes-objets-avec-le-portail-de-libre-service
 ---
 
 
-Il existe plusieurs façons de gérer vos objets dans cloud.ca, en utilisant [l'API de Swift](https://docs.openstack.org/api-ref/object-store/), avec le [CLI Swift](https://ops.cloud.ca/hc/service-de-stockage-object/gerer-mes-objets-avec-outil-de-ligne-de-commande-swift) ou en utilisant le portail de cloud.ca.
+Il existe plusieurs façons de gérer vos objets dans Hypertec Cloud, en utilisant [l'API de Swift](https://docs.openstack.org/api-ref/object-store/), avec le [CLI Swift](https://ops.cloud.ca/hc/service-de-stockage-object/gerer-mes-objets-avec-outil-de-ligne-de-commande-swift) ou en utilisant le portail de Hypertec Cloud.
 
 ### Gérer les récipients
 
-cloud.ca possède une vue pour pouvoir gérer les objets de façon simple et intuitive. On y accède en cliquant sur **Services** dans les menu à gauche, en cliquant sur **Object Storage** et en sélectionnant un environnement dans la liste.
+Hypertec Cloud possède une vue pour pouvoir gérer les objets de façon simple et intuitive. On y accède en cliquant sur **Services** dans les menu à gauche, en cliquant sur **Object Storage** et en sélectionnant un environnement dans la liste.
 
 L'image suivante montre la liste des récipients dans un environnement. Pour chaque récipient, vous pouvez voir leur niveau d'accès (public ou privé), leur stratégie de stockage et leur taille totale. Vous pouvez également ajouter ou retirer des récipients depuis cette vue.
 

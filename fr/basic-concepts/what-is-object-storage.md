@@ -4,7 +4,7 @@ slug: qu-est-ce-que-le-stockage-objet
 ---
 
 
-Le **stockage objet** (*object storage*, en anglais) est un service cloud.ca qui permet d'accéder à un fichier stocké via une URL. [L'architecture de stockage d'objets](https://en.wikipedia.org/wiki/Object_storage) (*en anglais*) offre de nombreuses possibilités, y compris un accès nettement plus rapide, une facilité de partage de fichiers et bien moins de frais généraux que la localisation d'un fichier via un système de fichiers traditionnel.
+Le **stockage objet** (*object storage*, en anglais) est un service Hypertec Cloud qui permet d'accéder à un fichier stocké via une URL. [L'architecture de stockage d'objets](https://en.wikipedia.org/wiki/Object_storage) (*en anglais*) offre de nombreuses possibilités, y compris un accès nettement plus rapide, une facilité de partage de fichiers et bien moins de frais généraux que la localisation d'un fichier via un système de fichiers traditionnel.
 
 Un système de fichiers traditionnel nécessite qu'un fichier soit stocké dans un emplacement spécifique sur un disque, et localise ce fichier dans une hiérarchie de répertoires (par exemple, **/data/shared/mes-grosses-donnees.zip**). Ceci est approprié pour une personne travaillant sur un poste de travail local. Le stockage d'objets, par contre, traite un fichier comme un *objet* : quelque chose à récupérer à l'aide de son URL, similaire à une page Web ou à une image (par exemple, **https://objects.acme.com/public/mes-grosses-donnees.zip**). À cause de que le fichier est référencé par une URL, il n'est pas pertinent de savoir si le fichier est local ou distant.
 

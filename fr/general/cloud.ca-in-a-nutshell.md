@@ -1,11 +1,11 @@
 ---
-title: "cloud.ca en bref"
+title: "Hypertec Cloud en bref"
 slug: cloud-ca-en-bref
 ---
 
-### Qu'est-ce que cloud.ca?
+### Qu'est-ce que Hypertec Cloud?
 
-cloud.ca est une plateforme régionale permettant la création de nuages privés virtuels. Cette dernière permet l'extensibilité, la sécurité, la performance, le contrôle des coûts et la résilience de vos services infonuagiques.
+Hypertec Cloud est une plateforme régionale permettant la création de nuages privés virtuels. Cette dernière permet l'extensibilité, la sécurité, la performance, le contrôle des coûts et la résilience de vos services infonuagiques.
 
 - **Régional** - Créé dans le but d'être exclusivement héberger dans des centres de données canadiens afin de desservir les marchés canadiens et/ou internationaux.
 - **Nuage privé virtuel** - Un environnement isolé dans un plus grand nuage multi-usagers
@@ -15,7 +15,7 @@ cloud.ca est une plateforme régionale permettant la création de nuages privés
 - **Contrôle des coûts** - Payez selon votre utilisation
 - **Résilience** - Aucun point d'échec unique dans nos infrastructures
 
-### Pourquoi cloud.ca?
+### Pourquoi Hypertec Cloud?
 
 - **Accélérez votre innovation** - À la demande, plateforme libre-service pour développeurs,API complet pour favoriser l'automatisation et le déploiement continue
 - **Utilisation et transparence des coûts** - Mesures et rapports granulaires rendant possible la gouvernance sans avoir de bureaucratie

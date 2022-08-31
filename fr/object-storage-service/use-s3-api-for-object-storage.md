@@ -4,7 +4,7 @@ slug: utiliser-l-api-de-s3-pour-le-stockage-d-objets
 ---
 
 
-Vous pouvez utilisez l'API d'Amazon S3 pour vous connecter au service de stockage objet de cloud.ca.
+Vous pouvez utilisez l'API d'Amazon S3 pour vous connecter au service de stockage objet de Hypertec Cloud.
 
 ### Installation du CLI AWS
 
@@ -14,14 +14,14 @@ Les instructions pour installer le CLI AWS sont disponibles ici : [https://docs.
 
 Nous allons aussi installer le plugin awscli-plugin-endpoint. Vous pouvez trouver plus d'information et les instructions d'installation : [https://github.com/wbingli/awscli-plugin-endpoint#installation](https://github.com/wbingli/awscli-plugin-endpoint#installation).
 
-### Configurer le CLI pour utiliser le service de stockage objet de cloud.ca
+### Configurer le CLI pour utiliser le service de stockage objet de Hypertec Cloud
 
 #### Retrieve your secret key and access key
 Suivez les instructions disponibles sur cette page : [Comment obtenir les informations pour l'API de stockage objet?](how-to-obtain-object-storage-api-credentials.md) Suivre la section **Identifiants pour l'API compatible S3**.
 
 #### Configurer le CLI AWS
 
-Vous allez devoir configurer votre profil afin d'utiliser les identifiants de cloud.ca ainsi que l'URL du service de stockage objet. Après que le CLI AWS et que le plugin ont été installés, il faut définir l'URL pour contacter l'API S3 :
+Vous allez devoir configurer votre profil afin d'utiliser les identifiants de Hypertec Cloud ainsi que l'URL du service de stockage objet. Après que le CLI AWS et que le plugin ont été installés, il faut définir l'URL pour contacter l'API S3 :
 
 ```
 aws configure set s3.endpoint_url https://objects.cloud.ca

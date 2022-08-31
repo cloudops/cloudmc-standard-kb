@@ -3,7 +3,7 @@ title: "Working with CloudStack compute APIs"
 slug: working-with-cloudstack-compute-apis
 ---
 
-cloud.ca uses CloudStack for its compute orchestrator. As a cloud.ca user, you have access to a subset of CloudStack's compute APIs to enable your automation workflows.
+Hypertec Cloud uses CloudStack for its compute orchestrator. As a Hypertec Cloud user, you have access to a subset of CloudStack's compute APIs to enable your automation workflows.
 
 ### Accessing CloudStack compute APIs
 
@@ -16,4 +16,4 @@ You can call these HTTP-based APIs by [manually crafting](http://docs.cloudstack
 To obtain the information required to make API calls to any of your environments, do the following:
 
 1. In the sidebar menu, select **Profile**, and then **API Credentials**.
-1. Underneath the section **Service API keys**, select the desired **Service** and **Environment** combination. The HTTP entrypoint, API key, and Secret key required to call CloudStack User APIs are displayed. Because there is a one-to-one relationship between a cloud.ca *environment* and a CloudStack *project*, you are also provided with the query parameter required to point to the corresponding CloudStack project.
+1. Underneath the section **Service API keys**, select the desired **Service** and **Environment** combination. The HTTP entrypoint, API key, and Secret key required to call CloudStack User APIs are displayed. Because there is a one-to-one relationship between a Hypertec Cloud *environment* and a CloudStack *project*, you are also provided with the query parameter required to point to the corresponding CloudStack project.

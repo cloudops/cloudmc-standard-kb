@@ -3,7 +3,7 @@ title: "Qu’est-ce qu’un VPC?"
 slug: qu-est-ce-qu-un-vpc
 ---
 
-Un nuage virtuel privé (VPC) est une section logiquement isolée de cloud.ca où vous pouvez construire une architecture applicative multi-tiers.
+Un nuage virtuel privé (VPC) est une section logiquement isolée de Hypertec Cloud où vous pouvez construire une architecture applicative multi-tiers.
 
 Typiquement, dans la plupart des nuages publiques sur le marché, vous déployez vos instances dans ce qu'on aime appeler un "réseau simple". Dans d'autres mots, vos instances ainsi que celles des autres clients sont connectées sur le même réseau.
 

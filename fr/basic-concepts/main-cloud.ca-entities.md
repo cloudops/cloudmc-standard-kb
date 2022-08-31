@@ -1,12 +1,12 @@
 ---
-title: "Entités principales de cloud.ca"
+title: "Entités principales de Hypertec Cloud"
 slug: entites-principales-cloud.ca
 ---
 
 
-cloud.ca dispose d'un puissant modèle d'utilisateurs et de ressources, fournissant des fonctionnalités multi-locataires au niveau de l'entreprise pour connecter une variété de services différents. Voici une liste des principales entités qui fournissent la fonctionnalité et la sécurité dans cloud.ca.
+Hypertec Cloud dispose d'un puissant modèle d'utilisateurs et de ressources, fournissant des fonctionnalités multi-locataires au niveau de l'entreprise pour connecter une variété de services différents. Voici une liste des principales entités qui fournissent la fonctionnalité et la sécurité dans Hypertec Cloud.
 
-### Entités de cloud.ca
+### Entités de Hypertec Cloud
 
 - **Organisation :** Un regroupement d'utilisateurs finaux et de ressources connexes. Une organisation peut contenir des sous-organisations.
 
@@ -16,11 +16,11 @@ cloud.ca dispose d'un puissant modèle d'utilisateurs et de ressources, fourniss
 
 - **Application :** Une application externe qui a été configurée pour l'accès via Master Portal.
 
-- **Utilisateur :** Un compte utilisateur est la manière dont un individu se connecte à cloud.ca.
+- **Utilisateur :** Un compte utilisateur est la manière dont un individu se connecte à Hypertec Cloud.
 
 - **Permission :** Une autorisation d'exécuter une tâche particulière.
 
-- **Rôle :** Une collection nommée d'autorisations qui régissent l'accès aux fonctionnalités de la console cloud.ca, ainsi que l'accès aux ressources d'un service.
+- **Rôle :** Une collection nommée d'autorisations qui régissent l'accès aux fonctionnalités de la console Hypertec Cloud, ainsi que l'accès aux ressources d'un service.
 
 ### Voir aussi
 

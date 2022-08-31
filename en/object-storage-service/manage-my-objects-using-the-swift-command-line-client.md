@@ -4,7 +4,7 @@ slug: manage-my-objects-using-the-swift-command-line-client
 ---
 
 
-The swift command-line client is a very practical way to interact with your object-storage environments. Using simple commands you can manage **buckets** and **objects** from shell scripts, making it easy to automate repetitive tasks. Other valid options are to use cloud.ca's [Web UI](manage-my-objects-using-the-self-service-portal.md) or leverage the Object Storage API directly.
+The swift command-line client is a very practical way to interact with your object-storage environments. Using simple commands you can manage **buckets** and **objects** from shell scripts, making it easy to automate repetitive tasks. Other valid options are to use Hypertec Cloud's [Web UI](manage-my-objects-using-the-self-service-portal.md) or leverage the Object Storage API directly.
 
 ### Set-up your environment
 

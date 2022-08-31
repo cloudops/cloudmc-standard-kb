@@ -4,7 +4,7 @@ slug: what-is-a-vpc
 ---
 
 
-A Virtual Private Cloud (VPC) is a logically isolated section of cloud.ca, where you can build a multi-tier application architecture.
+A Virtual Private Cloud (VPC) is a logically isolated section of Hypertec Cloud, where you can build a multi-tier application architecture.
 
 Typically, in most of the public clouds on the market, you deploy your instances on what we like to call a "basic network". In other words, your instance and other tenants' instances are all connected on the same huge network.
 

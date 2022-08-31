@@ -4,7 +4,7 @@ slug: configurer-la-repartition-de-charge
 ---
 
 
-La répartition de charge permet de distribuer les requêtes entrantes sur plusieurs ressources de calcul. Ceci permet d'améliorer la performance ainsi que la disponibilité à travers un niveau de redondance. Dans le contexte de cloud.ca, cet objectif est réalisé en associant des règles de répartition de charge à une adresse IP publique d'un VPC.
+La répartition de charge permet de distribuer les requêtes entrantes sur plusieurs ressources de calcul. Ceci permet d'améliorer la performance ainsi que la disponibilité à travers un niveau de redondance. Dans le contexte de Hypertec Cloud, cet objectif est réalisé en associant des règles de répartition de charge à une adresse IP publique d'un VPC.
 
 Seul un réseau créé avec l'offre **Load Balanced Tier** peut être utilisé pour l'répartition de charge, et un VPC ne peut avoir qu'un seul réseau configuré avec cette offre. Vous ne pouvez pas configurer de règles de répartition de charge sur une adresse IP publique déjà utilisée pour le **NAT source**, un **VPN**, ou le **redirection de port**.
 
