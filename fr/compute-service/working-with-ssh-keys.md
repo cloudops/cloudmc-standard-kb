@@ -46,6 +46,6 @@ A cette étape, vous téléversez la clé publique sur la plateforme (donc le co
 
 Dans la section Clés SSH, cliquez sur **Ajouter une clé SSH**. Une nouvelle fenêtre contextuelle va apparaître. Mettre un nom pour votre clé et ensuite insérer le contenu de votre clé publique comme dans l'image ci-bas.
 
-![Ajouter une clé SSH](/assets/add-an-ssh-key-fr.jpeg)
+![Ajouter une clé SSH](/assets/add-an-ssh-key-fr.png)
 
 Une fois prêt, cliquez sur *Ajouter*. La clé SSH va donc afficher dans la liste et elle sera disponible lors d'un lancement d'instance en selectionnant un modèle avec le support pour Clé SSH activé.

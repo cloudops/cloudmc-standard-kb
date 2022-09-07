@@ -45,6 +45,6 @@ In this step, we upload the public part of our key-pair (so the cloudca_private.
 
 In the SSH Key tab, click on **Add SSH Key**. A new pop-up will show up. Put a name on your key and the content of the public key like shown below.
 
-![Add SSH key](/assets/add-an-ssh-key-en.jpeg)
+![Add SSH key](/assets/add-an-ssh-key-en.png)
 
 Once done, click on **Add**. The SSH Key will then show up in the list, and also when you want to deploy an instance using a SSH Key enabled template.
