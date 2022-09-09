@@ -18,7 +18,7 @@ In the following example, we will enable load balancing for HTTP (TCP port 80) o
 1. From the target VPC's list item, click the **Public access** button.
 1. Click on *Acquire IP address*.
 ![Acquire IP address](/assets/cca-load-balancing-1-en.png)
-1. You will be prompted to confirm the acquisition of a new IP address.  Click *Confirm*.  The new IP address will be allocated and listed under **Public IPs**.
+1. You will be prompted to confirm the acquisition of a new IP address.  Click *Submit*.  The new IP address will be allocated and listed under **Public IPs**.
 1. Click on the entry for the new IP address:
 ![Address acquired](/assets/cca-load-balancing-2-en.png)
 1. Click on the item labeled **Load balancer rules**.  The *Load balancer rules* screen will appear:
