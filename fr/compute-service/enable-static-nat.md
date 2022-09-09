@@ -62,6 +62,6 @@ Nous allons tester la connectivité via le NAT statique en utilisant les utilita
 1. Exécutez la commande suivante :
 `sudo tcpdump port 80`
 1. Sur votre poste de travail local, ouvrez une fenêtre de terminal et exécutez la commande suivante :
-`nc 45.72.188.68 80`
+`nc 45.72.188.220 80`
 1. Le `tcpdump` génère deux lignes qui indiquent que le trafic provenant de votre poste de travail arrive à votre instance via le NAT statique :
 ![Résultats du tcpdump](../../assets/cca-static-nat-tcpdump-en.png)
