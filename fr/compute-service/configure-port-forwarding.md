@@ -26,4 +26,4 @@ Dans l'exemple qui suit, nous activerons la redirection de port pour le protocol
 1. Cliquez sur *Valider*. L'écran **Règles de redirection de port** apparaîtra et la nouvelle règle sera répertoriée :
 ![Règle de redirection de port ajoutée](/assets/cca-config-port-fwd-5-fr.png)
 1. Validez le bon fonctionnement de la règle de redirection de port en vous connectant à l'instance via l'adresse IP publique sur le port 80 :
-![Valider avec HTTP](/assets/cca-config-port-fwd-6.png)
+![Valider avec HTTP](/assets/cca-config-port-fwd-6-fr.png)

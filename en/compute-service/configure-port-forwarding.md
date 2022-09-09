@@ -27,4 +27,4 @@ In the following example, we will enable port forwarding for HTTP (TCP port 80) 
 1. Click on *Submit*. The **Port forwarding rules** screen will appear, and the new rule will be listed:
 ![Port forwarding rule added](/assets/cca-config-port-fwd-5-en.png)
 1. Validate that the port forwarding rule is working by connecting to the instance on via the public IP on port 80:
-![Validate with HTTP](/assets/cca-config-port-fwd-6.png)
+![Validate with HTTP](/assets/cca-config-port-fwd-6-en.png)
