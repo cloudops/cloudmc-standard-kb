@@ -7,10 +7,10 @@ slug: importer-iso
 Cet article vous guidera à travers les étapes de création d'une image à partir d'une ISO importée, puis de déploiement d'une nouvelle instance à partir de cette image. La création de vos propres images à partir d'ISO vous permet d'étendre votre choix de systèmes d'exploitation au-delà de l'offre standard, y compris les appliances virtuelles et autres systèmes autonomes. Vous devez être familiarisé avec des concepts tels que les images ISO et [travailler avec des instances](working-with-instances.md).
 
 ## Prérequis
-    - Vous devez avoir une image ISO initialisable.
-    - L'image doit être récupérable via une URL HTTP ou HTTPS.
-    - Le système d'exploitation de l'image doit être compatible avec l'architecture x86 32 bits ou 64 bits.
-    - Votre compte utilisateur doit être membre de l'environnement cible et avoir le rôle d'environnement **Éditeur** ou **Propriétaire** attribué.
+   - Vous devez avoir une image ISO initialisable.
+   - L'image doit être récupérable via une URL HTTP ou HTTPS.
+   - Le système d'exploitation de l'image doit être compatible avec l'architecture x86 32 bits ou 64 bits.
+   - Votre compte utilisateur doit être membre de l'environnement cible et avoir le rôle d'environnement **Éditeur** ou **Propriétaire** attribué.
 
 ## Étapes
 
