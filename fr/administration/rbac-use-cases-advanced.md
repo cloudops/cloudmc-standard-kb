@@ -1,6 +1,6 @@
 ---
 title: "Contrôle d'accès à base de rôles - Cas pratiques avancés"
-slug: controle-d-accès-a-base-de-roles-cas-pratiques-avances
+slug: controle-d-acces-a-base-de-roles-cas-pratiques-avances
 ---
 
 Les cas suivants illustre la flexibilité des rôles en Hypertec Cloud avec des exmples du monde réel.  Sauf mention contraire, les exemples font la supposition que le compte utilisateur a un rôle primare de *Invité*, sans rôle additionnel, l'accès *Obsérvateur* pour une environnement dans l'organisation, et que le compte est crée dans l'organisation prévu pour être accédé.  Ceci sont des exemples seulement, les besoins varient d'individuel.

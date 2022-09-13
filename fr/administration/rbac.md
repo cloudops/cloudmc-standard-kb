@@ -1,6 +1,6 @@
 ---
 title: "Contrôle d'accès à base de rôles"
-slug: controle-d-accès-a-base-de-roles
+slug: controle-d-acces-a-base-de-roles
 ---
 
 
