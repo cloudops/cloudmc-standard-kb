@@ -14,8 +14,8 @@ The following image shows the buckets view. This is where you will see the list 
 
 ![Buckets list](/assets/cca-managing-objects-portal-en-1.png)
 
-When you click on the **Add Bucket** located on the top-right of our browser, you will be asked:
-- To provide a name for your Bucket
+When you click on the **Add bucket** located on the top-right of your browser, you will be asked:
+- To provide a name for your bucket
 - Select the storage policy you want to use
 - By default, new buckets are private. But we offer the possibility to make it publicly accessible so no authentication is required to retrieve an object (click on "Enable Public Access" for this)
 
@@ -27,6 +27,6 @@ From this page, you can also retrieve the object URL to use it in your applicati
 
 ![Object Action menu](/assets/cca-managing-objects-portal-en-2.png)
 
-Note that you can also click on **Add Folder** (from the 3 dots right next to Upload) to create a pseudo-directory object. If you want to insert a new object, click on the **Upload** button. It will open a new window where you will be able to select your files. We do support multi-files selection, and these will be uploaded one after the other. You can also simply drag an object to the screen to upload it in the bucket.
+Note that you can also click on **Add folder** (from the 3 dots right next to Upload) to create a pseudo-directory object. If you want to insert a new object, click on the **Upload** button. It will open a new window where you will be able to select your files. We do support multi-files selection, and these will be uploaded one after the other. You can also simply drag an object to the screen to upload it in the bucket.
 
 ![Object upload](/assets/cca-managing-objects-portal-en-3.png)
