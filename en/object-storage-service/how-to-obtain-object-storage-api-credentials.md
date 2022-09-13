@@ -4,9 +4,13 @@ slug: how-to-obtain-object-storage-api-credentials
 ---
 
 
-To get your API credentials, you need to go in the self-service portal, click on **Profile** on the menu on the left, then **API Credentials**. Then select your Object Storage Environment from the text box under **Service API keys**.
+To get your API credentials, you need to go in the self-service portal, click on the **User** menu in the upper-right corner, then **API credentials**.  
 
-![Service API keys](/assets/object-storage-creds-en-1.png)
+![User menu](/assets/cca-object-storage-creds-usermenu-en.png)
+
+When the *API credentials* screen appears, scroll down to the *Service API keys* section, then use the search box to find select your Object Storage environment.
+
+![Service API keys](/assets/cca-object-storage-creds-keys-en.png)
 
 ### Credentials for Object Storage using Keystone v3 (default)
 

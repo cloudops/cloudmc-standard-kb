@@ -4,9 +4,13 @@ slug: comment-obtenir-les-informations-pour-api-de-stockage-objet
 ---
 
 
-Pour récupérer vos identifiants d'API, vous devez vous rendre sur le portail, cliquer sur **Profil** dans le menu de gauche puis sur **Identifiants d'API**. Vous pouvez ensuite sélectionner l'environnement que vous souhaitez dans la boite de texte sous **Clés d'API de service**.
+Pour récupérer vos identifiants d'API, vous devez vous rendre sur le portail en libre-service, cliquer sur le menu **Utilisateur** dans le coin supérieur droit, puis sur **Identifiants d'API**.
 
-![Clés d'API](/assets/object-storage-creds-fr-1.png)
+![Le menu Utilisateur](/assets/cca-object-storage-creds-usermenu-fr.png)
+
+Lorsque l'écran *Identifiants d'API* s'affiche, faites défiler jusqu'à la section *Clés d'API de service*, puis utilisez la boîte de recherche pour trouver votre environnement Object Storage.
+
+![Clés d'API de service](/assets/cca-object-storage-creds-keys-fr.png)
 
 ### Identifiants pour le service de stockage objet avec Keystone v3 (défaut)
 
