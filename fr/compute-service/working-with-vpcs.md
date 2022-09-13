@@ -48,6 +48,7 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
    ![Page d'ajouter réseau](/assets/cca-working-with-vpcs-5-fr.png)
 1. Cliquez sur **Valider**.
 1. La page *VPCs* apparaîtra. Le nouveau réseau apparaîtra dans la liste des réseaux à l'état **alloué** et est maintenant prêt à être utilisé.
+   ![Réseau répertorié sur la page des VPC](/assets/cca-working-with-vpcs-enabled-fr.png)
 
 ### VPN site-à-site
 
@@ -74,9 +75,10 @@ Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs,
    - **Connexion passive :**  Cochez cette case si l'extrémité distante n'a pas encore été configurée. Une seule extrémité passive doit exister par VPN de site à site.
 1. Cliquez sur **Valider**.
 1. L'onglet **VPN site-à-site** apparaîtra, et le nouveau VPN sera répertorié dans l'état **déconnecté**.
-   ![VPN créé mais pas encore connecté](/assets/cca-working-with-vpcs-7-fr.png)
 1. Si nécessaire, configurez l'autre extrémité du VPN avec la même clé pré-partagée que celle-ci.
 1. Une fois que l'autre extrémité du tunnel VPN a été configurée, l'état passera à **connecté**.
+   ![VPN créé et connecté](/assets/cca-working-with-vpcs-7-fr.png)
+
 
 ### Accès VPN à distance
 
