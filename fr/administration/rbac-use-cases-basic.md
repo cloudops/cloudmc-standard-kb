@@ -1,6 +1,6 @@
 ---
 title: "Contrôle d'accès à base de rôles - Cas pratiques basiques"
-slug: controle-d-accès-a-base-de-roles-cas-pratiques-basiques
+slug: controle-d-acces-a-base-de-roles-cas-pratiques-basiques
 ---
 
 
