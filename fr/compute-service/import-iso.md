@@ -54,17 +54,17 @@ Dans cet exemple, nous allons importer une image ISO dans notre environnement `e
 #### Importer l'image ISO
 
 1. Cliquez sur le bouton intitulé *Importer*, puis sélectionnez *Importer ISO* dans le menu contextuel.
-   ![Le bouton Importer ISO](/assets/import-iso-button-fr.png) <!-- This image needs to be updated once CCA gets the fix for the broken button label -->
+   ![Le bouton Importer ISO](/assets/cca-import-iso-button-fr.png) <!-- This image needs to be updated once CCA gets the fix for the broken button label -->
 1. Sur la page *Importer ISO* :
     - Saisissez `Ubuntu 20.04` dans la zone intitulée **Nom** et `Ubuntu 20.04 de l'ISO` dans le champ **Description**.
     - Saisissez l'URL de l'image ISO.
     - Cochez la case étiquetée *Initialisable*.
     - Sélectionnez **Ubuntu 19.04 (64-bit)** dans le menu contextuel *Système d'exploitation*.
     - Ne cochez pas la case *Permet la génération d'URL de téléchargement*.
-    ![Le formulaire Importer ISO](/assets/import-iso-form-fr.png)
+    ![Le formulaire Importer ISO](/assets/cca-import-iso-form-fr.png)
 1. Cliquez sur *Valider*. Le système commencera la récupération de l'image et l'onglet **Images** apparaîtra. La récupération prendra plusieurs minutes.
 1. Lorsque l'image ISO a été entièrement récupérée, nous voyons dans le panneau Notifications que l'ISO a été importée :
-   ![Notification d'importation](/assets/import-iso-notif-fr.png)
+   ![Notification d'importation](/assets/cca-import-iso-notif-fr.png)
 
 #### Créer une instance à partir de l'image
 
@@ -73,7 +73,7 @@ Dans cet exemple, nous allons importer une image ISO dans notre environnement `e
 1. Saisissez `acme-ubuntu01` dans le champ **Nom**.
 1. Sélectionnez le réseau `acme-net-backend`.
 1. Dans la section **Image**, cliquez sur *ISOs d'environnement*.
-    ![Section ISOs d'environnement](/assets/import-iso-environment-isos-fr.png)
+    ![Section ISOs d'environnement](/assets/cca-import-iso-environment-isos-fr.png)
 1. Sélectionnez l'image intitulée **Ubuntu 20.04**.
 1. Faites défiler jusqu'au curseur **Taille du volume principal** et déplacez le curseur sur 10 Go.
 1. Laissez tous les autres paramètres inchangés et cliquez sur le bouton *Valider*.
@@ -85,7 +85,7 @@ Nous allons tester l'ISO importé en regardant l'onglet **Instances** pour véri
 1. Accédez à l'onglet **Instance**.
 1. Vérifiez que l'instance `acme-ubuntu01` est balisée avec le nom de l'image **Ubuntu 20.04**.
 1. Cliquez sur le menu à trois points à l'extrême droite de l'entrée pour `acme-ubuntu01`, et sélectionnez **Ouvrir console** dans le menu contextuel.
-    ![Instance avec balise d'image](/assets/import-iso-instance-tag-fr.png)
+    ![Instance avec balise d'image](/assets/cca-import-iso-instance-tag-fr.png)
 1. Lorsque la fenêtre de la console apparaît, nous voyons que la nouvelle instance a démarré sur le gestionnaire d'installation Ubuntu.
     ![Gestionnaire d'installation Ubuntu](/assets/import-iso-ubuntu-installation-fr.png)
 1. Cliquez sur les invites du gestionnaire d'installation jusqu'à ce que vous arriviez à l'écran *Type d'installation*. Vérifiez que la taille du périphérique de disque `/dev/xvda` correspond à la taille sélectionnée lors de la création de l'instance (10 Go).

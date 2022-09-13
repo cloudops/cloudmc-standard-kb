@@ -42,7 +42,7 @@ categories:
   icon: fa fa-signal
   articles:
       - generate-a-usage-report.md
-      - dashboard.md
+#      - dashboard.md
 - category: administration
   icon: fa fa-wrench
   articles:

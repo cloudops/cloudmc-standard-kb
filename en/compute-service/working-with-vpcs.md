@@ -48,6 +48,7 @@ For more information about VPCs, please see [What is a VPC](../basic-concepts/wh
    ![Add network page](/assets/cca-working-with-vpcs-5-en.png)
 1. Click on **Submit**.
 1. The *VPCs* page will appear.  The new network will appear in the list of networks in **allocated** state and is now ready for use.
+   ![Network listed on VPCs page](/assets/cca-working-with-vpcs-enabled-en.png)
 
 ### Site-to-Site VPN
 
@@ -74,9 +75,10 @@ Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote o
    - **Passive connection:** Check this box if the remote end has not yet been configured. Only one passive end should exist per site-to-site VPN.
 1. Click on **Submit**.
 1. The **Site-to-site VPNs** tab will appear, and the new VPN will be listed in the **disconnected** state.
-   ![VPN created but not yet connected](/assets/cca-working-with-vpcs-7-en.png)
 1. If necessary, set up the other end of the VPN with the same pre-shared key as this one.
 1. Once the other end of the VPN tunnel has been configured, the state will change to **connected**.
+   ![VPN created and connected](/assets/cca-working-with-vpcs-7-en.png)
+
 
 ### Remote Access VPN
 
