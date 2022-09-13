@@ -20,15 +20,15 @@ Pour effectuer cette action, vous devez vous diriger dans votre page de préfér
 
 Regardez vers le bas de la page, il existe une section Authentification à deux facteurs. Le processus de configuration est très simple. Premièrement, cliquez sur le bouton Activer comme dans l'image ci-bas.
 
-![Activer le 2FA](/assets/2FA-fr-1.jpeg)
+![Activer le 2FA](/assets/cca-2FA-fr-1.png)
 
 Le système vous demandera une validation de votre mot de passe pour confirmer votre identité. Ensuite, suivez simplement les indications à l'écran pour poursuivre.
 
-![Code QR](/assets/2FA-fr-2.jpeg)
+![Code QR](/assets/cca-2FA-fr-2.png)
 
 Assurez vous de bien entrer le code à 6 chiffres fournis par le générateur de jeton pour confirmer que le processus fonctionne. Ensuite, cliquez sur **Vérifier et Sauvegarder**. Une nouvelle fenêtre contextuelle qui présente vos 8 codes de secours apparaîtra. Ces codes de secours sont votre bouée de sauvetage dans le cas où vous perdez ou changez votre téléphone. Donc, vous ne serez pas bloqué en dehors de la plateforme et vous pourrez reconfigurer l'authentification. ***ASSUREZ VOUS DE GARDER CES CODES DANS UN ENDROIT SÉCURITAIRE***.
 
-![Codes de secours](/assets/2FA-fr-3.jpeg)
+![Codes de secours](/assets/cca-2FA-fr-3.png)
 
 Une fois que vous cliquerez sur **Fermer**, vous serez tenu de fournir votre jeton chaque fois que vous vous re-authentifierez à la plateforme.
 

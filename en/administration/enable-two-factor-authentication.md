@@ -20,15 +20,15 @@ This is done by accessing your own user preference page. Click on your username 
 
 Look towards the bottom of the page, you will see a section about Two Factor Authentication. The workflow is very straightforward. First, click on the **Enable** button as show below.
 
-![Enable 2FA](/assets/2FA-en-1.jpeg)
+![Enable 2FA](/assets/cca-2FA-en-1.png)
 
 The system will ask for a password validation to confirm the user's identity. Then, simply follow the on-screen instructions.
 
-![QR code](/assets/2FA-en-2.jpeg)
+![QR code](/assets/cca-2FA-en-2.png)
 
 Make sure to enter your 6 digit code from your token generator to confirm the process worked. Then click on **Verify and Save**. This will open a new window showing you 8 backup codes. These backup codes are your safety net in case you loose or change your phone. So you won't be locked out and will be able to re-configure the authentication. ***MAKE SURE YOU KEEP THESE IN A SAFE PLACE***.
 
-![Backup codes](/assets/2FA-en-3.jpeg)
+![Backup codes](/assets/cca-2FA-en-3.png)
 
 Once you've clicked **Close**, you will your token each time you re-authenticate yourself on the platform.
 
