@@ -54,17 +54,17 @@ In this example we will import an ISO image into our `env-staging` environment i
 #### Import the ISO image
 
 1. Click the button labeled *Import*, then select *Import ISO* from the pop-up menu.
-  ![Import ISO button](/assets/import-iso-button-en.png)
+  ![Import ISO button](/assets/cca-import-iso-button-en.png)
 1. On the *Import ISO* page:
    - Enter `Ubuntu 20.04` into the box labeled **Name**, and `Ubuntu 20.04 from ISO` into the **Description** field.
    - Enter the URL for the ISO image.
    - Check the box labeled *Bootable*.
    - Select **Ubuntu 19.04 (64-bit)** from the *OS* pop-up menu.
    - Leave the box labeled *Allows generation of download URL* unchecked.
-   ![Import ISO form](/assets/import-iso-form-en.png)
+   ![Import ISO form](/assets/cca-import-iso-form-en.png)
 1. Click *Submit*.  The system will begin the retrieval of the image, and the **Images** tab will appear.  The retrieval will take several minutes to complete.
 1. When the ISO image has been fully retrieved, we see in the Notifications panel that the ISO was imported:
-  ![Import notification](/assets/import-iso-notif-en.png)
+  ![Import notification](/assets/cca-import-iso-notif-en.png)
 
 #### Create an instance from the image
 
@@ -73,7 +73,7 @@ In this example we will import an ISO image into our `env-staging` environment i
 1. Enter `acme-ubuntu01` into the **Name** field.
 1. Select the `acme-net-backend` network.
 1. Under the **Image** section, click on *Environment ISOs*.
-   ![Environment ISOs section](/assets/import-iso-environment-isos-en.png)
+   ![Environment ISOs section](/assets/cca-import-iso-environment-isos-en.png)
 1. Select the image titled **Ubuntu 20.04**.
 1. Scroll to the **OS volume size** slider, and move the slider to 10GB.
 1. Leave all other settings unchanged, and click the *Submit* button.
@@ -85,7 +85,7 @@ We will test the imported ISO by looking at the **Instances** tab to verify that
 1. Navigate to the **Instance** tab.
 1. Verify that the instance `acme-ubuntu01` is tagged with the image name **Ubuntu 20.04**.
 1. Click on the three-dot menu at the far right of the entry for `acme-ubuntu01`, and select **View Console** from the pop-up menu.
-   ![Instance with image tag](/assets/import-iso-instance-tag-en.png)
+   ![Instance with image tag](/assets/cca-import-iso-instance-tag-en.png)
 1. When the console window appears, we see that the new instance has booted to the Ubuntu installation manager.
    ![Ubuntu installation manager](/assets/import-iso-ubuntu-installation-en.png)
 1. Click through the installation manager prompts until you arrive at the *Installation type* screen.  Verify that the size of the `/dev/xvda` disk device matches the size selected when the instance was created (10GB).
