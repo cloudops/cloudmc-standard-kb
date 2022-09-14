@@ -21,7 +21,7 @@ Access control in Hypertec Cloud is achieved through a flexible, multi-tenant mo
 
 - **Environment Role:** A collection of environment permissions that is applied to the members of an environment.
 
-![user access control chart](/assets/rbac-roles-chart-en.png)
+![User access control chart](/assets/rbac-roles-chart-en.png)
 
 ## System roles
 
@@ -55,7 +55,7 @@ Each fixed role has a default scope:
 
 As the diagram below indicates, rising through the hierarchy every role has all of the privileges as the preceding one:
 
-![permissions chart](/assets/rbac-permissions-en.png)
+![Permissions chart](/assets/rbac-permissions-en.png)
 
 ### Custom Roles
 
