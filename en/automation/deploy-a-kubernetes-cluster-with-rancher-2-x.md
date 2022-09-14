@@ -37,12 +37,12 @@ slug: deploy-a-kubernetes-cluster-with-rancher-2-x
      - "docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher"
    ```
 1. Set up port forwarding rules for the new instance. Directly link them to 80 and 443. Be sure when creating the second rule to use the public IP address created by the first rule. You can also optionally add port forwarding for port 22 if you wish to connect to the box.
-![Instance details](/assets/deploy-kubernetes-with-rancher-en-1.png) <br><br>
-![Port forwarding](/assets/deploy-kubernetes-with-rancher-en-2.png)
+![Instance details](/assets/cca-deploy-kubernetes-with-rancher-en-1.png) <br><br>
+![Port forwarding](/assets/cca-deploy-kubernetes-with-rancher-en-2.png)
 1. Open the public IP address in your browser in a separate tab. Add a security exception for the certificate.
 1. You will see a prompt for an admin password. Set it and click next.
 1. You will see a prompt for the Rancher server URL. Copy the private IP address from the instance you've created and use it. You may receive a warning that this is a private IP address, but it should be used.
-![Instances detail with port fowarding rules](/assets/deploy-kubernetes-with-rancher-en-3.png)
+![Instances detail with port fowarding rules](/assets/cca-deploy-kubernetes-with-rancher-en-3.png)
 1. Select Node Drivers from the navigation bar. Depending on your version of Rancher, Hypertec Cloud may not be available as a provider. If it is a provider, simply select it, and click the activate button. If it is not an available provider, click "Add Node Driver" and add it with the following information:
    1. Download URL: [https://github.com/cloud-ca/docker-machine-driver-cloudca/files/2446837/docker-machine-driver-cloudca_v2.0.0_linux-amd64.zip](https://github.com/cloud-ca/docker-machine-driver-cloudca/files/2446837/docker-machine-driver-cloudca_v2.0.0_linux-amd64.zip)
    1. Custom UI URL: [https://objects-east.cloud.ca/v1/5ef827605f884961b94881e928e7a250/ui-driver-cloudca/component.js](https://objects-east.cloud.ca/v1/5ef827605f884961b94881e928e7a250/ui-driver-cloudca/component.js)
@@ -54,7 +54,7 @@ slug: deploy-a-kubernetes-cluster-with-rancher-2-x
 1. Scroll down to Node Clusters, and then add at least more Node Pool. Check the boxes so that you have fulfilled the required number for etcd, Control Planes, and Workers. If you're looking to save on space, the Control Plane and etcd can share a server.
 1. Click on Node Template for one of the servers. You will be prompted for your Hypertec Cloud API key.
 1. If you do not have your API key, you can generate one in Hypertec Cloud by clicking your name in the bottom left corner of the Hypertec Cloud UI to bring up your profile.
-   1. ![Hypertec Cloud Sidebar](/assets/deploy-kubernetes-with-rancher-en-5.png)
+   1. ![Hypertec Cloud Sidebar](/assets/cca-deploy-kubernetes-with-rancher-en-5.png)
    1. Select API credentials from the Settings Menu, then click "Generate API key".
    1. Enter a name, then select generate. A notification will be displayed with the API key. The API key here must be copied and stored securely, as it will not be displayed again.
    1. Enter your new key into Rancher's prompt.
