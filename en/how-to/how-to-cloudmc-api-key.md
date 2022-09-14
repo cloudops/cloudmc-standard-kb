@@ -1,6 +1,6 @@
 ---
 title: "Generate a Hypertec Cloud API key"
-slug: cloud.ca-api-key
+slug: generate-hypertec-cloud-api-key
 ---
 
 
@@ -12,7 +12,7 @@ To manage your API keys, navigate to the user menu on the upper right of the pag
 
 ### List existing API keys and endpoints
 
-![API credentials screen](/assets/cloudmc-api-key-en-01.png)
+![API credentials screen](/assets/cca-cloudmc-api-key-en-01.png)
 
 The *API credentials* screen lists all existing keys under the **API keys** section.  The name of each key, the IP address from which it was used last, and the time and date it was last used are displayed.
 
@@ -22,7 +22,7 @@ The endpoint for making API calls to the system is displayed above the list of k
 
 ### Generate a new API key
 
-![API key generated](/assets/cloudmc-api-key-en-02.png)
+![API key generated](/assets/cca-cloudmc-api-key-en-02.png)
 
 1. From the *API credentials* screen, click the button labeled *Generate API key*.
 1. Enter a name for the new key into the **Name** text field.  You may wish to give the key a name which reflects the application it will be used for.  Click *Generate*.

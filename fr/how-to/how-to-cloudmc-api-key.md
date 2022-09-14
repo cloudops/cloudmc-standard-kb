@@ -1,6 +1,6 @@
 ---
 title: "Générer une clé API Hypertec Cloud"
-slug: cloud.ca-cle-api
+slug: generer-cle-api-hypertec-cloud
 ---
 
 
@@ -12,7 +12,7 @@ Pour gérer vos clés API, accédez au menu utilisateur en haut à droite de la 
 
 ### Afficher les clés d'API et les points de terminaison existants
 
-![L'écran des identifiants d'API](/assets/cloudmc-api-key-fr-01.png)
+![L'écran des identifiants d'API](/assets/cca-cloudmc-api-key-fr-01.png)
 
 L'écran *Identifiants d'API* affiche toutes les clés existantes dans la section **Clés d'API**. Le nom de chaque clé, l'adresse IP à partir de laquelle elle a été utilisée en dernier lieu, ainsi que l'heure et la date à laquelle elle a été utilisée pour la dernière fois sont affichés.
 
@@ -22,7 +22,7 @@ Le point de terminaison pour effectuer des appels d'API vers le système est aff
 
 ### Générer une nouvelle clé d'API
 
-![Clé d'API généré](/assets/cloudmc-api-key-fr-02.png)
+![Clé d'API généré](/assets/cca-cloudmc-api-key-fr-02.png)
 
 1. À partir de l'écran *Identifiants d'API*, cliquez sur le bouton *Générer une clé d'API*.
 1. Entrez un nom pour la nouvelle clé dans le champ de texte **Nom**. Vous pouvez donner à la clé un nom qui reflète l'application pour laquelle elle sera utilisée. Cliquez sur *Générer*.
