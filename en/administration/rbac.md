@@ -96,6 +96,6 @@ Environment roles are assigned to a user when adding members to an environment:
 ![edit environment members page](/assets/cca-rbac-list_of_env_roles-en.png)
 
 ---
-[Use cases - Basic](rbac-use-cases-basic-en.md)
+[Use cases - Basic](rbac-use-cases-basic.md)
 
-[Use cases - Advanced](rbac-use-cases-advanced-en.md)
+[Use cases - Advanced](rbac-use-cases-advanced.md)
