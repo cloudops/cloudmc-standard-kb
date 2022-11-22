@@ -21,7 +21,7 @@ Un exemple simple présenté ici est l'utilisation de Terraform pour créer des 
 
 ### Déployer une machine virtuelle
 
-Se référer à la [documentation du provider de Terraform pour Hypertec Cloud](https://github.com/cloud-ca/terraform-provider-cloudca/tree/master/doc) pour les derniers attributs.
+Se référer à la [documentation du provider de Terraform pour Hypertec Cloud](https://github.com/cloud-ca/terraform-provider-cloudca/tree/master/docs) pour les derniers attributs.
 
 Ici, nous définissons les attributs que nous voulons pour notre nouvelle instance, *prod-app01*:
 
