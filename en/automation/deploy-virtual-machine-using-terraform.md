@@ -21,7 +21,7 @@ One simple example shown here is using Terraform to create instances based on th
 
 ### Deploy a virtual machine
 
-Refer to the [Hypertec Cloud Terraform provider documentation](https://github.com/cloud-ca/terraform-provider-cloudca/tree/master/doc) for latest attributes.
+Refer to the [Hypertec Cloud Terraform provider documentation](https://github.com/cloud-ca/terraform-provider-cloudca/tree/master/docs) for latest attributes.
 
 Here we define the attributes we want for our new instance, *prod-app01*:
 
