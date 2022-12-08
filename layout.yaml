@@ -3,6 +3,7 @@ categories:
   icon: fa fa-info-circle
   articles:
       - cloud.ca-in-a-nutshell.md
+      - general-hypertec_cloud_home_page.md
       - 10-noteworthy-improvements-in-the-new-cloud-ca-portal.md
       - need-more-help.md
 - category: basic-concepts
