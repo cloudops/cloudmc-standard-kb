@@ -6,7 +6,7 @@ slug: general-hypertec-cloud-page-d-accueil
 
 La page d'accueil Hypertec Cloud est la page par défaut qui s'affiche lorsqu'un utilisateur se connecte au système.
 
-![Capture d'écran de la page d'accueil de Hypertec Cloud, avec des points numérotés mettant en évidence les fonctionnalités intéressantes](/assets/general-cmc-ui-home-en.png)
+![Capture d'écran de la page d'accueil de Hypertec Cloud, avec des points numérotés mettant en évidence les fonctionnalités intéressantes](/assets/cca-general-cmc-ui-home-en.png)
 
 1.  **L'espace de travail**
 
