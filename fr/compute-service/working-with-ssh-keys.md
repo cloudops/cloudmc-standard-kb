@@ -24,25 +24,25 @@ Premièrement, vérifiez si vous avez déjà une pair de clé sur votre ordinate
 ls -al ~/.ssh
 ```
 
-Si vous voyez des fichiers nommés id_rsa ou id_rsa.pub, cela veut dire que vous avez déjà une clé disponible. Si vous voulez quand même en faire un nouvelle, suivez les instructions suivantes :
+Si vous voyez des fichiers nommés `id_rsa` et `id_rsa.pub`, cela veut dire que vous avez déjà une clé disponible. Si vous voulez quand même en faire un nouvelle, suivez les instructions suivantes :
 
 ```
 ssh-keygen -t rsa
-Enter file in which to save the key (/Users/fgaudreault/.ssh/id_rsa): cloudca_private
+Enter file in which to save the key (/Users/rwalker/.ssh/id_rsa): cle-ssh-rwalker
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in cloudca_private.
-Your public key has been saved in cloudca_private.pub.
+Your identification has been saved in cle-ssh-rwalker.
+Your public key has been saved in cle-ssh-rwalker.pub.
 ```
 
 Pour copier le contenu de la clé publique, ouvrir le fichier et copier le contenu ou:
 
 ```
-pbcopy < ~/.ssh/cloudca_private.pub
+pbcopy < ~/.ssh/cle-ssh-rwalker.pub
 ```
 
 ### Téléverser une clé SSH
-A cette étape, vous téléversez la clé publique sur la plateforme (donc le contenu du fichier cloudca_private.pub). Il est très important de conserver la clé privée de manière sécuritaire sur votre système.
+A cette étape, vous téléversez la clé publique sur la plateforme (donc le contenu du fichier `cle-ssh-rwalker.pub`). Il est très important de conserver la clé privée (`cle-ssh-rwalker`) de manière sécuritaire sur votre système.
 
 Dans la section Clés SSH, cliquez sur **Ajouter une clé SSH**. Une nouvelle fenêtre contextuelle va apparaître. Mettre un nom pour votre clé et ensuite insérer le contenu de votre clé publique comme dans l'image ci-bas.
 

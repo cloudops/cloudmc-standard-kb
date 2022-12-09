@@ -23,25 +23,25 @@ First, check to see if you have an existing SSH key-pair on your computer. On a 
 ls -al ~/.ssh
 ```
 
-If you see something like id_rsa and id_rsa.pub, it means you have a key-pair already that you can use. If you want a new one, follow the next steps:
+If you see something like `id_rsa` and `id_rsa.pub`, it means you have a key-pair already that you can use. If you want a new one, follow the next steps:
 
 ```
 ssh-keygen -t rsa
-Enter file in which to save the key (/Users/fgaudreault/.ssh/id_rsa): cloudca_private
+Enter file in which to save the key (/Users/rwalker/.ssh/id_rsa): rwalker_ssh_key
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in cloudca_private.
-Your public key has been saved in cloudca_private.pub.
+Your identification has been saved in rwalker_ssh_key.
+Your public key has been saved in rwalker_ssh_key.pub.
 ```
 
 To copy the contents of the public key, either open the file and copy the contents, or:
 
 ```
-pbcopy < ~/.ssh/cloudca_private.pub
+pbcopy < ~/.ssh/rwalker_ssh_key.pub
 ```
 
 ### Manually upload a SSH Key
-In this step, we upload the public part of our key-pair (so the cloudca_private.pub file). It is really important to keep the private key secured on your system.
+In this step, we upload the public part of our key-pair (the `rwalker_ssh_key.pub` file). It is really important to keep the private key (`rwalker_ssh_key`) secured on your system.
 
 In the SSH Key tab, click on **Add SSH Key**. A new pop-up will show up. Put a name on your key and the content of the public key like shown below.
 
