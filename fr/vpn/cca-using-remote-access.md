@@ -33,6 +33,6 @@ Après avoir configuré votre VPC pour y accéder via un connexion VPN, et cré�
 Les informations suivantes sont requises pour configurer le client VPN :
 
    - **Adresse IP publique :**  L'adresse IP publique du VPC identifiée avec l'utilité VPN.
-   - **Certificat IKEv2 :**  Le certificat pour authentifier le VPN.
+   - **Certificat IKEv2 :**  Le certificat pour authentifier le VPN.  Enregistrez ce certificat dans un fichier avec l'extension .crt, par exemple `hypertec-cloud-vpn.crt`. Assurez-vous de conserver exactement la même mise en forme et le même contenu que ceux affichés sur la page.
    - **Nom d'utilisateur :**  Un nom d'utilisateur valide pour le VPN.
    - **Mot de passe :**  Un mot de passe valide pour l'utilisateur du VPN.

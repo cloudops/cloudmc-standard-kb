@@ -32,7 +32,7 @@ After you've successfully configured your VPC for VPN access, and created at lea
 The following information is required to configure the VPN client:
 
    - **Public IP:** The VPC's public IP address with tagged with the "VPN" purpose.
-   - **IKEv2 certificate:** The certificate used to authenticate the remote VPN. Save this certificate in a file with the **.crt** extension, for example cloudca-vpn.crt. Make sure you keep the exact same formatting and content as displayed on the page.
+   - **IKEv2 certificate:** The certificate used to authenticate the remote VPN. Save this certificate in a file with the **.crt** extension, for example `hypertec-cloud-vpn.crt`. Make sure you keep the exact same formatting and content as displayed on the page.
    - **Username:** a valid VPN account username.
    - **Password:** a valid VPN account password.
 
