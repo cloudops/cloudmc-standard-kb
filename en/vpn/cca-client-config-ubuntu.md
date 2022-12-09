@@ -14,7 +14,7 @@ This guide will help you configure the remote management VPN on Ubuntu using the
 ![VPN selection dialogue](/assets/Lx-1-Strongswan.png)
 
 5. Go to the *Identity* tab.
-5. Give the VPN a name, for example: **cloudca-vpn**
+5. Give the VPN a name, for example: **hypertec-cloud-vpn**
 5. Under *Gateway*, the *Address* field is the public IP displayed in the VPN configuration page, and *Certificate* is the certificate file displayed in the VPN configuration page.
 5. In *Client*, set *Authentication* to *EAP*.
 5. Fill in the *Username* and *Password* fields.
