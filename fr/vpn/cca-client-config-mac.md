@@ -11,7 +11,7 @@ Ce système d'exploitation offre une client IKEv2 natif. Voici les étapes pour 
    ![Add Certificate](/assets/Mac-1-Add-Certificate.png)
 1. Ouvrir l'application *Trousseaux d’accès* : *Finder > Applications > Utilitaires > Trousseaux d’accès.app*
 1. Cliquer sur **session** à gauche et sur *Certificats* en bas à gauche.
-1. Dans la boîte de recherche en haut à droite de la fenêtre du Trousseaux d’accès, rechercher "Hypertec Cloud" pour trouver le certificat "Hypertec Cloud VPN System CA".
+1. Dans la boîte de recherche en haut à droite de la fenêtre du Trousseaux d’accès, rechercher "Cloud.ca" pour trouver le certificat "Cloud.ca VPN System CA".
    ![Keychain Access](/assets/Mac-2-Keychain.png)
 1. Faire un double-clic sur le certificat et sélectionner **Toujours approuver** dans le premier menu déroulant intitulé *Sécurité IP (IPsec)*. Vous pouvez maintenant fermer la fenêtre.
    ![Always trust this certificate](/assets/Mac-3-Always-Trust.png)

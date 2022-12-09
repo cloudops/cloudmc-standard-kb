@@ -11,7 +11,7 @@ This operating system provides a native IKEv2 VPN client. Here are the steps to 
    ![Add certificate](/assets/Mac-1-Add-Certificate.png)
 1. Open the *Keychain Access* application: *Finder > Applications > Utilities > Keychain Access.app*
 1. Click **login** on the left side, then on *Certificates* on the bottom left.
-1. In the search box at the top right of the Keychain Access window, search for "Hypertec Cloud" to locate the **Hypertec Cloud VPN System CA** certificate.
+1. In the search box at the top right of the Keychain Access window, search for "Cloud.ca" to locate the **Cloud.ca VPN System CA** certificate.
    ![Keychain Access](/assets/Mac-2-Keychain.png)
 1. Double click on the certificate, and in the first dropdown box that reads *IP Security (IPsec)*, select **Always Trust**. You can now close the window.
    ![Always trust this certificate](/assets/Mac-3-Always-Trust.png)
