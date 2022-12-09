@@ -15,7 +15,7 @@ Ce guide va vous aider à configurer l'accès VPN à distance sur Ubuntu en util
 ![Sélection de VPN](/assets/Lx-1-Strongswan.png)
 
 5. Naviguer à l'onglet *Identity*.
-5. Donner un nom à la connexion VPN, par exemple: **cloudca-vpn**
+5. Donner un nom à la connexion VPN, par exemple: **hypertec-cloud-vpn**
 5. Dans *Gateway*, le champ *Address* est l'IP publique fournie dans la page de configuration du VPN, et *Certificat* est le certificat fourni dans la page de configuration du VPN.
 5. Dans *Client*, mettre *Authentication* à *EAP*.
 5. Renseigner les champs *Username* et *Password*.
