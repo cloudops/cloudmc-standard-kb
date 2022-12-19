@@ -57,7 +57,6 @@ categories:
   articles:
       - create-site-to-site-vpn-on-vpc.md
       - how-to-cloudmc-api-key.md
-      - install-and-config-cloudmonkey.md
       - kernel-upgrade-on-ubuntu-debian.md
       - move-instance-to-different-vpc.md
       - force-reboot-an-instance.md
