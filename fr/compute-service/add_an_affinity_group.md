@@ -75,6 +75,8 @@ Dans cet exemple, nous allons ajouter un nouveau groupe d'affinité à l'environ
 
      L'affichage de la confirmation peut prendre plusieurs minutes après avoir cliqué sur **Valider**, car les instances doivent redémarrer.
 
+![Capture d'écran de la page Ajouter un groupe d'affinité, remplie et prête à appuyer sur le bouton Soumettre](/assets/cca-add-affinity-group-fr.png)
+
 
 ### Résultats
 

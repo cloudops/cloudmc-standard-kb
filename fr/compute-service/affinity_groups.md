@@ -10,6 +10,16 @@ Cet article présente le concept de groupes d'affinité et les cas d'utilisation
 
 Un groupe d'affinités est un ensemble d'instances liées par une règle d'affinité. Les groupes d'affinité vous permettent de définir des relations entre les instances spécifiées et de contrôler la façon dont ces instances seront lancées dans votre environnement Hypertec Cloud. Ils jouent un rôle important dans la mise en œuvre des politiques de la haute disponibilité \(HA, en anglais\) et des règles métier.
 
+Les groupes d'affinité sont répertoriés et gérés sur la page **Groupes d'affinité** d'un environnement Hypertec Cloud :
+
+![Capture d'écran de la page des groupes d'affinité dans un environnement Hypertec Cloud](/assets/cca-affinity-groups-fr.png)
+
+Des instances peuvent être ajoutées à un groupe d'affinité :
+
+- lors de la création du groupe affinitaire,
+- en éditant un groupe d'affinité existant,
+- soit lors de la création de l'instance.
+
 ## Anti-affinité
 
 Afin de mettre en œuvre des politiques HA, plusieurs instances exécutant la même application doivent être déployées. Lorsqu'un hôte de calcul physique tombe en panne, toutes les instances exécutées sur cet hôte s'arrêtent immédiatement et sont perdues. Pour s'assurer que l'application continue de fonctionner en cas de panne, l'environnement Hypertec Cloud doit être informé de la manière de lancer correctement chacune des instances de votre application.

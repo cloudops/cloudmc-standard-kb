@@ -75,6 +75,8 @@ In this example, we will add a new affinity group to the Acme `production` Hyper
 
     It may take several minutes after clicking **Submit**for the confirmation to appear, because the instances have to restart.
 
+    ![Screenshot of the Add affinity group page, filled out and ready to press the Submit button](/assets/cca-add-affinity-group-en.png)
+
 
 ### Results
 
