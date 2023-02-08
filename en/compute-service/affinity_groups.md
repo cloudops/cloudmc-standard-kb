@@ -10,6 +10,16 @@ This article introduces the concept of affinity groups, and the use cases for th
 
 An affinity group is a set of instances that are bound with an affinity rule. Affinity groups allow you to define relationships between the specified instances, and to control how those instances will be launched in your Hypertec Cloud environment. They are an important part of implementing high-availability \(HA\) policies and business rules.
 
+Affinity groups are listed and managed on the **Affinity groups** page of a Hypertec Cloud environment:
+
+![Screenshot of the Affinity groups page in a Hypertec Cloud environment](/assets/cca-affinity-groups-en.png)
+
+Instances may be added to an affinity group:
+
+-   at the time of creation of the affinity group,
+-   by editing an existing affinity group,
+-   or at the time of creation of the instance.
+
 ## Anti-affinity
 
 In order to implement HA policies, multiple instances running the same application must be deployed. When a physical compute host fails, all the instances running on that host immediately terminate and are lost. To ensure that the application remains running in the event of such a failure, the Hypertec Cloud environment must be instructed on how to properly launch each of the instances for your application.
