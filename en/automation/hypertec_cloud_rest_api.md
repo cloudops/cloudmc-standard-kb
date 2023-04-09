@@ -22,5 +22,5 @@ In addition to the API keys, the **API credentials** page will also list the URL
 
 For full documentation of the API, including the structure of requests and responses, available functionality, and a listing of all endpoints, see the following article:
 
--   [Hypertec Cloud API](https://hypertec-cloud.github.io/hci-api-docs/#getting-started)
+-   <a href="https://hypertec-cloud.github.io/hci-api-docs/#getting-started" target="_blank">Hypertec Cloud API</a>
 

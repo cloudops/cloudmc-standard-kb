@@ -22,5 +22,5 @@ Outre les clés API, la page **Identifiants API** répertorie également l'URL �
 
 Pour une documentation complète de l'API, y compris la structure des requêtes et des réponses, les fonctionnalités disponibles et une liste de tous les points de terminaison, consultez l'article suivant :
 
--   [Hypertec Cloud API](https://hypertec-cloud.github.io/hci-api-docs/#getting-started) (*en anglais*)
+-   <a href="https://hypertec-cloud.github.io/hci-api-docs/#getting-started" target="_blank">Hypertec Cloud API</a> (*en anglais*)
 
