@@ -66,6 +66,7 @@ categories:
 - category: automation
   icon: fa fa-retweet
   articles:
+      - hypertec_cloud_rest_api.md
       - deploy-virtual-machine-using-terraform.md
       - deploy-infrastructure-using-cloudmonkey.md
       - deploy-a-kubernetes-cluster-with-rancher-2-x.md
