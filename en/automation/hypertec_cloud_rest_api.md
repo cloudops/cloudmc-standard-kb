@@ -14,7 +14,7 @@ As an API-driven orchestration platform, Hypertec Cloud provides access to all f
 
 In order to use the Hypertec Cloud API, you will start by logging into the system and creating an API key for your requests. The following article provides the steps on creating a new API key:
 
--   [Generate a Hypertec Cloud API key](../how-to/generate-hypertec-cloud-api-key.md)
+-   [Generate a Hypertec Cloud API key](../how-to/how-to-cloudmc-api-key.md)
 
 In addition to the API keys, the **API credentials** page will also list the URL to use when connecting to an endpoint.
 

@@ -14,7 +14,7 @@ En tant que plate-forme d'orchestration pilotée par API, Hypertec Cloud donne a
 
 Afin d'utiliser l'API Hypertec Cloud, vous commencerez par vous connecter au système et créer une clé API pour vos requêtes. L'article suivant décrit les étapes de création d'une nouvelle clé d'API :
 
--   [Générer une clé API Hypertec Cloud](../how-to/generate-hypertec-cloud-api-key.md)
+-   [Générer une clé API Hypertec Cloud](../how-to/how-to-cloudmc-api-key.md)
 
 Outre les clés API, la page **Identifiants API** répertorie également l'URL à utiliser lors de la connexion à un point de terminaison.
 
