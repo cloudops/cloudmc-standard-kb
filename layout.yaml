@@ -63,6 +63,7 @@ categories:
       - kernel-upgrade-on-ubuntu-debian.md
       - move-instance-to-different-vpc.md
       - force-reboot-an-instance.md
+      - access_your_notifications.md
 - category: automation
   icon: fa fa-retweet
   articles:
