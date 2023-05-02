@@ -32,6 +32,7 @@ categories:
       - import-iso.md
       - affinity_groups.md
       - add_an_affinity_group.md
+      - private_gateways.md
 - category: object-storage-service
   icon: fa fa-hdd-o
   articles:
