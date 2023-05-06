@@ -50,7 +50,7 @@ categories:
 - category: administration
   icon: fa fa-wrench
   articles:
-      - enable-two-factor-authentication.md
+      - enable-2fa.md
       - display-dates-in-your-preferred-time-zone.md
       - rbac.md
       - rbac-use-cases-basic.md
