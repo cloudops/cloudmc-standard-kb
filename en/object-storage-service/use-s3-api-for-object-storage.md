@@ -44,7 +44,7 @@ Now, you can use the command `aws configure` to set your credentials:
 (venv) ccontini@cca-ccontini:~$ aws configure
 AWS Access Key ID [None]: 076d7a255a4236965ba97b4f91363f2
 AWS Secret Access Key [None]: *******************************
-Default region name [None]: Hypertec Cloud
+Default region name [None]: cloud.ca
 Default output format [None]:
 ```
 
