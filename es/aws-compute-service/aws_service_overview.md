@@ -1,28 +1,28 @@
 ---
-title: "AWS: Service overview"
-slug: aws-service-overview
+title: "AWS: Resumen de servicios"
+slug: aws-resumen-de-servicios
 ---
 
 
-## Summary
+## Resumen
 
-CloudMC allows cloud operators to access and manage infrastructure and resources that have been deployed on the Amazon Web Services \(AWS\) platform. This article will introduce basic concepts of AWS and working with AWS resources in CloudMC.
+CloudMC permite a los operadores de la nube acceder y administrar la infraestructura y los recursos que se han implementado en la plataforma de Amazon Web Services \(AWS\). Este artículo presentará los conceptos básicos de AWS y el trabajo con los recursos de AWS en CloudMC.
 
-## Detailed overview
+## Resumen detallado
 
-The AWS platform is a public cloud, where customers can allocate resources to build an infrastructure for their applications. CloudMC provides a unified interface to access AWS and other services from a single portal. Through CloudMC, users can manage:
+La plataforma de AWS es una nube pública, donde los clientes pueden asignar recursos para construir una infraestructura para sus aplicaciones. CloudMC proporciona una interfaz unificada para acceder a AWS y otros servicios desde un único portal. A través de CloudMC, los usuarios pueden gestionar:
 
--   [Compute and storage resources](aws-compute.md):
-    -   [Instances](aws-instances.md)
-    -   [Amazon Machine Images \(AMIs\)](aws-amis.md)
-    -   [Volumes](aws-volumes.md)
--   [Networking resources](aws-networking.md):
+-   [Recursos de cómputo y almacenamiento](aws-compute.md):
+    -   [Instancias](aws-instances.md)
+    -   [Imágenes de máquina de Amazon \(AMIs\)](aws-amis.md)
+    -   [Volúmenes](aws-volumes.md)
+-   [Recursos de red](aws-networking.md):
     -   [VPCs](aws-vpcs.md)
-    -   [Subnetworks](aws-subnetworks.md)
--   [Object storage resources](aws-object_storage.md)
--   Kubernetes clusters
+    -   [Subredes](aws-subnetworks.md)
+-   [Recursos de almacenamiento de objetos](aws-object_storage.md)
+-   Clústeres de Kubernetes
 
-Because CloudMC acts as a portal to AWS services, you may find that some operations appear to behave differently than when interacting with AWS directly. However, behind the scenes, all operations execute exactly as they normally would. Changes made to AWS entities in CloudMC will be reflected immediately in the actual resources.
+Debido a que CloudMC actúa como un portal para los servicios de AWS, es posible que algunas operaciones parezcan comportarse de manera diferente que cuando interactúa directamente con AWS. Sin embargo, detrás de escena, todas las operaciones se ejecutan exactamente como lo harían normalmente. Los cambios realizados en las entidades de AWS en CloudMC se reflejarán inmediatamente en los recursos reales.
 
-CloudMC provides administrators the ability to manage access to resources and generate detailed usage reports. In addition, user activity in the Web user interface as well as via the API is captured and made available via the Activity Log. To ensure proper governance, CloudMC automatically creates an IAM user on the AWS service for every member of an environment. Any operation performed by a user in CloudMC is executed on the AWS service using that IAM user, providing complete accountability.
+CloudMC brinda a los administradores la capacidad de administrar el acceso a los recursos y generar informes de uso detallados. Además, la actividad del usuario en la interfaz de usuario web, así como a través de la API, se captura y se pone a disposición a través del registro de actividad. Para garantizar una gobernanza adecuada, CloudMC crea automáticamente un usuario de IAM en el servicio de AWS para cada miembro de un entorno. Cualquier operación realizada por un usuario en CloudMC se ejecuta en el servicio de AWS utilizando ese usuario de IAM, lo que proporciona una responsabilidad completa.
 
