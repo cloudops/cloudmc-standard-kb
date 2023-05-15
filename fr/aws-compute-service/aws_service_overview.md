@@ -14,7 +14,7 @@ La plate-forme AWS est un cloud public, où les clients peuvent allouer des ress
 
 -   [Ressources de calcul et de stockage](aws-compute.md):
     -   [Instances](aws-instances.md)
-    -   [Amazon Machine Images \(AMIs\)](aws-amis.md)
+    -   [Amazon Machine Images \(AMI\)](aws-amis.md)
     -   [Volumes](aws-volumes.md)
 -   [Ressources de réseautage](aws-networking.md):
     -   [Le VPC](aws-vpcs.md)
