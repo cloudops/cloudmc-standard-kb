@@ -12,7 +12,7 @@ slug: aws-computo
 
 2. **Cuadro de búsqueda**
 
-     Escriba en el cuadro de búsqueda para filtrar la lista de instancias. El sistema buscará a través de los campos de nombre de la instancia y de la subred, y devolverá cualquier instancia que coincida con la cadena en el cuadro de búsqueda.
+     Escribe en el cuadro de búsqueda para filtrar la lista de instancias. El sistema buscará a través de los campos de nombre de la instancia y de la subred, y devolverá cualquier instancia que coincida con la cadena en el cuadro de búsqueda.
 
 3. **Agregar instancia**
 
