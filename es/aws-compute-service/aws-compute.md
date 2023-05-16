@@ -1,36 +1,36 @@
 ---
-title: "AWS: Compute"
-slug: aws-compute
+title: "AWS: Cómputo"
+slug: aws-computo
 ---
 
 
-![A screenshot of the AWS Compute instances page, with numbered dots indicating features of interest](/assets/aws-compute-instancelist-numdots-en.png)
+![Una captura de pantalla de la página de instancias informáticas de AWS, con puntos numerados que indican características de interés](/assets/aws-compute-instancelist-numdots-en.png)
 
-1.  **List of instances**
+1. **Lista de instancias**
 
-    In the main area of the workspace, a list of all instances in the selected environment appears.
+     En el área principal del espacio de trabajo, aparece una lista de todas las instancias del entorno seleccionado.
 
-2.  **Search box**
+2. **Cuadro de búsqueda**
 
-    Type in the search box to filter the instance list. The system will search through the instance name and the subnetwork fields, and returns any instance that matches the string in the search box.
+     Escriba en el cuadro de búsqueda para filtrar la lista de instancias. El sistema buscará a través de los campos de nombre de la instancia y de la subred, y devolverá cualquier instancia que coincida con la cadena en el cuadro de búsqueda.
 
-3.  **Add instance**
+3. **Agregar instancia**
 
-    Clicking this button will open the **Add instance** wizard.
+     Al hacer clic en este botón, se abrirá el asistente **Agregar instancia**.
 
-4.  **Instance entry**
+4. **Entrada de instancia**
 
-    Each entry includes the name of the instance, the instance type, its state, the subnetwork the instance is attached to, and the date the instance was created. Click on an entry to navigate to a page with configuration details, graphs of resource consumption, and a list of all operations for that individual instance.
+     Cada entrada incluye el nombre de la instancia, el tipo de instancia, su estado, la subred a la que está conectada la instancia y la fecha en que se creó la instancia. Haz clic en una entrada para navegar a una página con detalles de configuración, gráficos de consumo de recursos y una lista de todas las operaciones para esa instancia individual.
 
-5.  **Hidden Actions menu**
+5. **Menú de acciones escondidas**
 
-    Each entry in the instance list has a Hidden Actions menu. Click on the Hidden Actions menu to access a list of frequently-used operations for the instance.
+     Cada entrada en la lista de instancias tiene un menú de acciones escondidas. Haz clic en el menú de acciones escondidas para acceder a una lista de operaciones de uso frecuente para la instancia.
 
 
--   **[AWS: Instances](aws-instances.md)**  
+-   **[AWS: Instancias](aws-instances.md)**  
 
 -   **[AWS: AMIs](aws-amis.md)**  
 
--   **[AWS: Volumes](aws-volumes.md)**  
+-   **[AWS: Volúmenes](aws-volumes.md)**  
 
 

@@ -12,7 +12,7 @@ slug: aws-calcul
 
 2. **Zone de recherche**
 
-     Tapez dans la zone de recherche pour filtrer la liste des instances. Le système effectue une recherche dans le nom de l'instance et les champs de sous-réseau, et renvoie toute instance correspondant à la chaîne dans la zone de recherche.
+     Tapez dans la zone de recherche pour filtrer la liste des instances. Le système effectue une recherche dans les champs du nom de l'instance et de sous-réseau, et renvoie toute instance correspondant à la chaîne dans la zone de recherche.
 
 3. **Ajouter une instance**
 
