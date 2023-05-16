@@ -27,10 +27,10 @@ slug: aws-calcul
      Chaque entrée de la liste d'instances possède un menu des actions cachées. Cliquez sur le menu des actions cachées pour accéder à une liste des opérations fréquemment utilisées pour l'instance.
 
 
--   **[AWS: Instances](aws-instances.md)**  
+-   **[AWS : Instances](aws-instances.md)**  
 
--   **[AWS: AMI](aws-amis.md)**  
+-   **[AWS : AMI](aws-amis.md)**  
 
--   **[AWS: Volumes](aws-volumes.md)**  
+-   **[AWS : Volumes](aws-volumes.md)**  
 
 
