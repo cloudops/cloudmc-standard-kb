@@ -1,20 +1,20 @@
 ---
-title: "AWS: Instances"
-slug: aws-instances
+title: "AWS: Instancias"
+slug: aws-instancias
 ---
 
 
-Similar to other cloud platforms, AWS provides you with the infrastructure to run virtual machines. These virtual machines are referred to as instances. An instance is based on a pre-defined image called an **[AMI](aws-amis.md)**, which cannot be changed once an instance is deployed. Different sets of specifications are grouped together as instance types. Each instance type is a bundle of various sizes of vCPU, memory, and a root storage volume. For more details, see [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) in the AWS documentation.
+Al igual que otras plataformas en la nube, AWS le proporciona la infraestructura para ejecutar máquinas virtuales. Estas máquinas virtuales se denominan instancias. Una instancia se basa en una imagen predefinida llamada **[AMI](aws-amis.md)**, que no se puede cambiar una vez que se implementa una instancia. Diferentes conjuntos de especificaciones se agrupan como tipos de instancia. Cada tipo de instancia es un paquete de varios tamaños de vCPU, memoria y un volumen de almacenamiento raíz. Para obtener más detalles, consulte [Tipos de instancias de Amazon EC2](https://aws.amazon.com/es/ec2/instance-types/) en la documentación de AWS.
 
-When deploying an instance, an AWS region must be selected. The region determines which subnetworks, volumes, AMIs, and other resources will be available to the new instances.
+Al implementar una instancia, se debe seleccionar una región de AWS. La región determina qué subredes, volúmenes, AMI y otros recursos estarán disponibles para las nuevas instancias.
 
-Using auto scaling rules, you can define conditions under which the AWS system will automatically deploy additional instances, should your application require more compute resources. The added instances will all have an identical name and configuration. AWS will create up to the maximum number of instances defined in the **Maximum \# of instances** field on the **Add instance** page. AWS will also terminate unneeded instances when conditions are met, down to the value specified in the field labeled **Minimum \# of instances**, also on the **Add instance** page. For convenience, this guide will refer to the creation of a single instance, but if you choose to create more than one instance, the selected configuration will be applied to all instances equally.
+Con las reglas de escalado automático, puedes definir las condiciones bajo las cuales el sistema de AWS implementará automáticamente instancias adicionales, en caso de que su aplicación requiera más recursos informáticos. Todas las instancias añadidas tendrán un nombre y una configuración idénticos. AWS creará hasta el número máximo de instancias definidas en el campo **Número máximo de instancias** en la página **Agregar instancia**. AWS también finalizará las instancias innecesarias cuando se cumplan las condiciones, hasta el valor especificado en el campo etiquetado **Número mínimo de instancias**, también en la página **Agregar instancia**. Para mayor comodidad, esta guía se referirá a la creación de una sola instancia, pero si eligas crear más de una instancia, la configuración seleccionada se aplicará a todas las instancias por igual.
 
-To log into an instance, use the SSH key pair that is created automatically upon creation of the instance. The private SSH key is your only way to log into the instance, and should be securely stored and installed into the SSH application you will use to connect to the instance. When multiple instances are created via auto scaling, you can use this private SSH key to connect to every instance.
+Para iniciar sesión en una instancia, usa el par de claves SSH que se crea automáticamente al crear la instancia. La clave SSH privada es su única forma de iniciar sesión en la instancia y debe almacenarse e instalarse de manera segura en la aplicación SSH que usará para conectarse a la instancia. Cuando se crean varias instancias a través del escalado automático, puedes usar esta clave SSH privada para conectarte a cada instancia.
 
-**Important:** You must securely store the private SSH key immediately. It will not be stored anywhere in the CloudMC user interface, and it cannot be recovered once the notification is cleared from the panel. You cannot log into an instance without this key. If it is lost, you will have to follow a recovery procedure, which requires the restart of the instance.
+**Importante:** Debes almacenar de forma segura la clave SSH privada inmediatamente. No se almacenará en ningún lugar de la interfaz de usuario de CloudMC y no se podrá recuperar una vez que se borre la notificación del panel. No se puede iniciar sesión en una instancia sin esta clave. Si se pierde, deberás seguir un procedimiento de recuperación, que requiere el reinicio de la instancia.
 
-Instances are listed under the **Compute** tab of your AWS environment, in the **Instances** section.
+Las instancias se enumeran en la pestaña **Cómputo** de tu entorno de AWS, en la sección **Instancias**.
 
-**Parent topic:**[AWS: Compute](aws-compute.md)
+**Tema principal:**[AWS: Cómputo](aws-compute.md)
 
