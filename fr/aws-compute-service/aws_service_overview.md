@@ -17,7 +17,7 @@ La plate-forme AWS est un cloud public, où les clients peuvent allouer des ress
     -   [Amazon Machine Images \(AMI\)](aws-amis.md)
     -   [Volumes](aws-volumes.md)
 -   [Ressources de réseautage](aws-networking.md):
-    -   [Le VPC](aws-vpcs.md)
+    -   [VPC](aws-vpcs.md)
     -   [Sous-réseaux](aws-subnetworks.md)
 -   [Ressources de stockage d'objets](aws-object_storage.md)
 -   Grappes Kubernetes
