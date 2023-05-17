@@ -52,7 +52,7 @@ In this example, we will add a new VPC to the Acme `production` AWS environment.
 
 3.  Enter `acme-prod-vpc01` into the **Name** field.
 
-4.  Enter `172.16.0.0/26` into the **CIDR** field, or accept the default.
+4.  Enter `172.16.0.0/26` into the **CIDR** field.
 
     This will give us the desired smaller IP range of 64 addresses, beginning at 172.16.0.0 and ending at 172.16.0.63.
 
