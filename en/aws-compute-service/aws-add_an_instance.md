@@ -78,11 +78,11 @@ This article will guide you through the process of adding a new instance to an A
 
     2.  Enter the desired device name into the **Device name** field.
 
-    Click the **Remove** button to eliminate that volume from the list.
+    Clicking the **Remove** button eliminates that volume from the list.
 
 8.  Click the **Submit** button.
 
-    The wizard screen will close and you will be returned to the **Instances** screen of the **Compute** tab. It may take several moments for the instance to be added. During this time, the **Notification panel** will indicate that the instance is being created.
+    The wizard screen will close and you will be returned to the **Instances** screen of the **Compute** tab. It may take several moments for the instance to be added. During this time, the Notification panel will indicate that the instance is being created.
 
 9.  Save the private SSH key provided in the notification.
 
@@ -98,7 +98,7 @@ This article will guide you through the process of adding a new instance to an A
 ## Results
 
 -   The instance is created with the selected configuration options
--   The number of instances created is the value provided in the **Minimum \# of instances** field.
+-   The number of instances created is the value provided in the **Minimum \# of instances** field
 -   The instance will be created in the availability zone of the selected subnetwork
 -   Any new volumes that were defined will be attached to the new instance
 -   Any existing volumes that were specified to the wizard will be attached to the new instance
@@ -113,8 +113,8 @@ In this example, we will add an instance to our Acme `production` environment. T
 
 ### Before you begin
 
--   The `acme-prod-vpc01` VPC must already exist in the `production` AWS environment.
--   The `acme-prod-net-frontend` subnetwork must already exist.
+-   The `acme-prod-vpc01` VPC must already exist in the `production` AWS environment
+-   The `acme-prod-net-frontend` subnetwork must already exist
 -   The subnetwork must have at least one IP address available
 -   Only one instance will be initially deployed
 -   We will allow only once instance maximum, there will be no autoscaling
@@ -171,7 +171,7 @@ In this example, we will add an instance to our Acme `production` environment. T
 
 8.  Click the **Submit** button.
 
-    The wizard screen will close and you will be returned to the **Instances** screen of the **Compute** tab. It may take several moments for the instance to be added. During this time, the **Notification panel** will indicate that the instance is being created.
+    The wizard screen will close and you will be returned to the **Instances** screen of the **Compute** tab. It may take several moments for the instance to be added. During this time, the Notification panel will indicate that the instance is being created.
 
 9.  Save the private SSH key provided in the notification.
 
@@ -187,8 +187,8 @@ In this example, we will add an instance to our Acme `production` environment. T
 ### Results
 
 -   Our new instance `acme-prod-web01`is created with the selected configuration options
--   Only once instance is configured and deployed
--   It is in the `us-east-1` region.
+-   Only one instance is configured and deployed
+-   It is in the `us-east-1` region
 -   It has a root volume with 10GB of storage
 -   No other volumes are attached
 -   The instance is now listed in the **Instances** page of the **Compute** tab.
