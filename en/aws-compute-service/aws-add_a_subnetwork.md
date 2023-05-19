@@ -18,7 +18,7 @@ This article will guide you through the process of adding a new subnetwork to yo
 
 1.  Navigate to the desired environment, and click **Networking**.
 
-2.  Find the desired VPC, and click on the **Edit feature settings** icon. The **Subnets** page will appear.
+2.  Find the desired VPC, and click on the gear icon in the **Subnets** section. The **Subnets** page will appear.
 
 3.  Click the **Add subnetworks** button. The **Add subnetworks** page appears.
 
@@ -55,7 +55,7 @@ In this example, we will add a subnetwork to the `acme-prod-vpc01` VPC. We want 
 
 1.  Navigate to the Acme `production` environment, and click **Networking**.
 
-2.  Find the `acme-prod-vpc01` VPC, and click on the **Edit feature settings** icon. The **Subnets** page will appear.
+2.  Find the `acme-prod-vpc01` VPC, and click on the gear icon in the **Subnets** section. The **Subnets** page will appear.
 
 3.  Click the **Add subnetworks** button. The **Add subnetworks** page appears.
 
