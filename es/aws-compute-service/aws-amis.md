@@ -10,5 +10,5 @@ Tu administrador de CloudMC ha proporcionado un conjunto de AMIs que puedes sele
 
 Las AMIs se enumeran en la página **Agregar instancia**, en la sección **Elige una imagen**.
 
-**Tema principal:**[AWS: Cómputo](aws-compute.md)
+**Tema principal:** [AWS: Cómputo](aws-compute.md)
 

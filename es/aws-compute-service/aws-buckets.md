@@ -37,5 +37,5 @@ Cada cubo tiene un nombre, una región de AWS y permisos de acceso.
 
 **Atención:** Una vez que se ha creado un cubo, su nombre y región no se pueden cambiar.
 
-**Tema principal:**[AWS: Almacenamiento de objetos](aws-object_storage.md)
+**Tema principal:** [AWS: Almacenamiento de objetos](aws-object_storage.md)
 

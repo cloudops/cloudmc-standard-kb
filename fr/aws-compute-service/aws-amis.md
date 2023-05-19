@@ -10,5 +10,5 @@ Votre administrateur CloudMC a fourni un ensemble d'AMI que vous pouvez sélecti
 
 Les AMI sont répertoriées sur la page **Ajouter une instance**, sous la section **Choisir une image**.
 
-**Sujet parent :**[AWS : Calcul](aws-compute.md)
+**Sujet parent :** [AWS : Calcul](aws-compute.md)
 

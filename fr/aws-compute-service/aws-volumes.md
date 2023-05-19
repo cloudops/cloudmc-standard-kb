@@ -18,5 +18,5 @@ Dans certaines circonstances, un volume attaché à une instance peut être conf
 
 Les volumes sont répertoriés sous l'onglet **Calcul** de votre environnement AWS, dans la section **Volumes**.
 
-**Sujet parent :**[AWS : Calcul](aws-compute.md)
+**Sujet parent :** [AWS : Calcul](aws-compute.md)
 

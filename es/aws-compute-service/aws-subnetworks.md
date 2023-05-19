@@ -12,5 +12,5 @@ La elección de la subred determinará la zona de disponibilidad de una instanci
 
 Las subredes se encuentran en la pestaña **Redes** de su entorno de AWS. Busque la VPC deseada y haga clic en la función **Subredes** para ver una lista completa.
 
-**Tema principal:**[AWS: Redes](aws-networking.md)
+**Tema principal:** [AWS: Redes](aws-networking.md)
 

@@ -16,5 +16,5 @@ Para iniciar sesión en una instancia, usa el par de claves SSH que se crea auto
 
 Las instancias se enumeran en la pestaña **Cómputo** de tu entorno de AWS, en la sección **Instancias**.
 
-**Tema principal:**[AWS: Cómputo](aws-compute.md)
+**Tema principal:** [AWS: Cómputo](aws-compute.md)
 

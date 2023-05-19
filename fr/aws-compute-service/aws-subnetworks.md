@@ -12,5 +12,5 @@ Le choix du sous-réseau déterminera la zone de disponibilité d'une instance. 
 
 Les sous-réseaux se trouvent dans l'onglet **Réseautique** de votre environnement AWS. Recherchez le VPC souhaité et cliquez sur la fonctionnalité **Sous-réseaux** pour afficher une liste complète.
 
-**Sujet parent :**[AWS : Réseautage](aws-networking.md)
+**Sujet parent :** [AWS : Réseautage](aws-networking.md)
 

@@ -21,5 +21,5 @@ Lors du déploiement d'une nouvelle instance, l'assistant **Ajouter une instance
      Vous pouvez spécifier une adresse IP ou un bloc CIDR, un protocole et des numéros de port pour autoriser l'entrée. Saisissez un nom et une description pour le groupe de sécurité ou acceptez les valeurs par défaut, puis saisissez les critères du groupe.
 
 
-**Sujet parent :**[AWS : Réseautage](aws-networking.md)
+**Sujet parent :** [AWS : Réseautage](aws-networking.md)
 

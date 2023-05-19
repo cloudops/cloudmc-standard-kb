@@ -22,5 +22,5 @@ Antes de que se pueda usar una VPC para implementar instancias, se debe agregar 
 
 Las VPCs se enumeran en la pestaña **Redes** de tu entorno de AWS, en la sección **Redes VPC**.
 
-**Tema principal:**[AWS: Redes](aws-networking.md)
+**Tema principal:** [AWS: Redes](aws-networking.md)
 

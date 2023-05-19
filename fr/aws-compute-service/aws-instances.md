@@ -16,5 +16,5 @@ Pour vous connecter à une instance, utilisez la paire de clés SSH créée auto
 
 Les instances sont répertoriées sous l'onglet **Calcul** de votre environnement AWS, dans la section **Instances**.
 
-**Sujet parent :**[AWS: Calcul](aws-compute.md)
+**Sujet parent :** [AWS: Calcul](aws-compute.md)
 

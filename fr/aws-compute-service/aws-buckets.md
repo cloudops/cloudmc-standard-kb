@@ -37,5 +37,5 @@ Chaque récipient a un nom, une région AWS et des autorisations d'accès.
 
 **Attention :** Une fois qu'un récipient a été créé, son nom et sa région ne peuvent pas être modifiés.
 
-**Sujet parent :**[AWS : Stockage d'objets](aws-object_storage.md)
+**Sujet parent :** [AWS : Stockage d'objets](aws-object_storage.md)
 

@@ -12,11 +12,11 @@ CloudMC permet aux opérateurs de cloud d'accéder et de gérer l'infrastructure
 
 La plate-forme AWS est un cloud public, où les clients peuvent allouer des ressources pour créer une infrastructure pour leurs applications. CloudMC fournit une interface unifiée pour accéder à AWS et à d'autres services à partir d'un portail unique. Grâce à CloudMC, les utilisateurs peuvent gérer :
 
--   [Ressources de calcul et de stockage](aws-compute.md):
+-   [Ressources de calcul et de stockage](aws-compute.md) :
     -   [Instances](aws-instances.md)
     -   [Amazon Machine Images \(AMI\)](aws-amis.md)
     -   [Volumes](aws-volumes.md)
--   [Ressources de réseautage](aws-networking.md):
+-   [Ressources de réseautage](aws-networking.md) :
     -   [VPC](aws-vpcs.md)
     -   [Sous-réseaux](aws-subnetworks.md)
 -   [Ressources de stockage d'objets](aws-object_storage.md)

@@ -31,6 +31,6 @@ slug: aws-stockage-objets
      Chaque entrée de la liste de récipients possède un menu des actions cachées. Cliquez sur le menu des actions cachées pour accéder à une liste des opérations fréquemment utilisées pour le récipient.
 
 
--   **[AWS: Récipients](aws-buckets.md)**  
+-   **[AWS : Récipients](aws-buckets.md)**  
 
 

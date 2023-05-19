@@ -18,5 +18,5 @@ En algunas circunstancias, un volumen adjunto a una instancia puede configurarse
 
 Los volúmenes se enumeran en la pestaña **Cómputo** de su entorno de AWS, en la sección **Volúmenes**.
 
-**Tema principal:**[AWS: Cómputo](aws-compute.md)
+**Tema principal:** [AWS: Cómputo](aws-compute.md)
 

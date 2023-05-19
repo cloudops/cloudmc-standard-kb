@@ -22,5 +22,5 @@ Avant qu'un VPC puisse être utilisé pour déployer des instances, au moins un 
 
 Les VPC sont répertoriés sous l'onglet **Réseautique** de votre environnement AWS, dans la section **Réseaux de VPC**.
 
-**Sujet parent :**[AWS : Réseautage](aws-networking.md)
+**Sujet parent :** [AWS : Réseautage](aws-networking.md)
 
