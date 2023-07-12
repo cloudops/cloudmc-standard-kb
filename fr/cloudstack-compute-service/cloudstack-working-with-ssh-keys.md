@@ -1,6 +1,6 @@
 ---
-title: "Gestion des clés SSH"
-slug: gestion-des-cles-ssh
+title: "CloudStack: Gestion des clés SSH"
+slug: cloudstack-gestion-des-cles-ssh
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Gestion des copies instantanées et points de reprise"
-slug: gestion-des-copies-instantanees-et-points-de-reprise
+title: "CloudStack: Gestion des copies instantanées et points de reprise"
+slug: cloudstack-gestion-des-copies-instantanees-et-points-de-reprise
 ---
 
 

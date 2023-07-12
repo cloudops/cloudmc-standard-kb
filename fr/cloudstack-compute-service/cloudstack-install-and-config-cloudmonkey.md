@@ -1,6 +1,6 @@
 ---
-title: "Installer et configurer CloudMonkey"
-slug:  installer-et-configurer-cloudmonkey
+title: "CloudStack: Installer et configurer CloudMonkey"
+slug:  cloudstack-installer-et-configurer-cloudmonkey
 ---
 
 

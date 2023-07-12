@@ -1,6 +1,6 @@
 ---
-title: "Gestion des modèles"
-slug: gestion-des-modeles
+title: "CloudStack: Gestion des modèles"
+slug: cloudstack-gestion-des-modeles
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Ajouter un groupe d'affinité"
-slug: ajouter-un-groupe-d-affinite
+title: "CloudStack: Ajouter un groupe d'affinité"
+slug: cloudstack-ajouter-un-groupe-d-affinite
 ---
 
 

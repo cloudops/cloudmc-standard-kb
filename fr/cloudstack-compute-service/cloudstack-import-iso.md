@@ -1,6 +1,6 @@
 ---
-title: "Importer et déployer à partir d'une image ISO"
-slug: importer-iso
+title: "CloudStack: Importer et déployer à partir d'une image ISO"
+slug: cloudstack-importer-iso
 ---
 
 

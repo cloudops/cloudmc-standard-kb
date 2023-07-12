@@ -1,6 +1,6 @@
 ---
-title: "Gestion des instances"
-slug: gestion-des-instances
+title: "CloudStack: Gestion des instances"
+slug: cloudstack-gestion-des-instances
 ---
 
 

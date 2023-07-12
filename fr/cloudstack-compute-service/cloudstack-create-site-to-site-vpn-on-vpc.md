@@ -1,6 +1,6 @@
 ---
-title: "Créer un VPN site-à-site pour un VPC"
-slug: creer-vpn-site-a-site-pour-un-vpc
+title: "CloudStack: Créer un VPN site-à-site pour un VPC"
+slug: cloudstack-creer-vpn-site-a-site-pour-un-vpc
 ---
 
 

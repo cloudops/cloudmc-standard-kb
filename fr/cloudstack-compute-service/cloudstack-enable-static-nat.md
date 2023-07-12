@@ -1,6 +1,6 @@
 ---
-title: "Activer le NAT statique"
-slug: activer-le-nat-statique
+title: "CloudStack: Activer le NAT statique"
+slug: cloudstack-activer-le-nat-statique
 ---
 
 

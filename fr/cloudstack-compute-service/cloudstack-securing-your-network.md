@@ -1,6 +1,6 @@
 ---
-title: "Sécuriser votre réseau"
-slug: securiser-votre-reseau
+title: "CloudStack: Sécuriser votre réseau"
+slug: cloudstack-securiser-votre-reseau
 ---
 
 ### Empêcher l'accès à vos instances

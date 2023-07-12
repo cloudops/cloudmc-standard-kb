@@ -1,6 +1,6 @@
 ---
-title: "Mise à niveau du noyau sur instance basé sur Ubuntu et Debian"
-slug: mise-niveau-du-noyau-sur-ubuntu-debian
+title: "CloudStack: Mise à niveau du noyau sur instance basé sur Ubuntu et Debian"
+slug: cloudstack-mise-niveau-du-noyau-sur-ubuntu-debian
 ---
 
 

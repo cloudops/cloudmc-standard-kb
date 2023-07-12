@@ -1,6 +1,6 @@
 ---
-title: "Configurer la répartition de charge"
-slug: configurer-la-repartition-de-charge
+title: "CloudStack: Configurer la répartition de charge"
+slug: cloudstack-configurer-la-repartition-de-charge
 ---
 
 

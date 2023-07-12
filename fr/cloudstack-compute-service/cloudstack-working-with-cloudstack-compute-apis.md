@@ -1,6 +1,6 @@
 ---
-title: "Utilisation des APIs de calcul de CloudStack"
-slug: utilisation-des-apis-de-calcul-de-cloudstack
+title: "CloudStack: Utilisation des APIs de calcul de CloudStack"
+slug: cloudstack-utilisation-des-apis-de-calcul-de-cloudstack
 ---
 
 

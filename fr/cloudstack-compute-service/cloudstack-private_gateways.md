@@ -1,6 +1,6 @@
 ---
-title: "Passerelles privées"
-slug: passerelles-privees
+title: "CloudStack: Passerelles privées"
+slug: cloudstack-passerelles-privees
 ---
 
 

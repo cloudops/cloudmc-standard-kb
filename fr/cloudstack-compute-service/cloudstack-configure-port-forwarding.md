@@ -1,6 +1,6 @@
 ---
-title: "Configurer la redirection de ports"
-slug: configurer-la-redirection-de-ports
+title: "CloudStack: Configurer la redirection de ports"
+slug: cloudstack-configurer-la-redirection-de-ports
 ---
 
 La redirection de ports permet d'établir la connectivité en provenance d'internet vers un (ou plusieurs) port d'une instance. Cette configuration est effectuée à partir d'une adresse IP publique d'un VPC dédiée à la redirection de ports.

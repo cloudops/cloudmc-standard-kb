@@ -1,6 +1,6 @@
 ---
-title: "Qu’est-ce qu’un VPC?"
-slug: qu-est-ce-qu-un-vpc
+title: "CloudStack: Qu’est-ce qu’un VPC?"
+slug: cloudstack-qu-est-ce-qu-un-vpc
 ---
 
 Un nuage virtuel privé (VPC) est une section logiquement isolée dans un environnement où vous pouvez construire une architecture applicative multi-tiers.

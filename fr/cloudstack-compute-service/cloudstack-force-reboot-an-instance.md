@@ -1,6 +1,6 @@
 ---
-title: "Forcer l'arrêt d'une instance"
-slug: forcer-le-redemarrage-d-une-instance
+title: "CloudStack: Forcer l'arrêt d'une instance"
+slug: cloudstack-forcer-le-redemarrage-d-une-instance
 ---
 
 
