@@ -1,6 +1,6 @@
 ---
-title:  "Configurar el reenvío de puertos"
-slug:  configurar-reenvio-de-puertos
+title:  "CloudStack: Configurar el reenvío de puertos"
+slug:  cloudstack-configurar-reenvio-de-puertos
 ---
 
 El reenvío de puertos proporciona conectividad entrante desde Internet a un puerto o protocolo de instancia específico. Se configura a través de la dirección IP pública de una VPC dedicada al reenvío de puertos.

@@ -1,6 +1,6 @@
 ---
-title: "Agregar capacidad de almacenamiento a una instancia"
-slug: agregar-capacidad-de-almacenamiento-a-una-instancia
+title: "CloudStack: Agregar capacidad de almacenamiento a una instancia"
+slug: cloudstack-agregar-capacidad-de-almacenamiento-a-una-instancia
 ---
 
 

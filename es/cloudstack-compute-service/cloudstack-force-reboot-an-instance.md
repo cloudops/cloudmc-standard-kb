@@ -1,6 +1,6 @@
 ---
-title: "Forzar el cierre de una instancia"
-slug: forzar-el-cierre-de-una-instancia
+title: "CloudStack: Forzar el cierre de una instancia"
+slug: cloudstack-forzar-el-cierre-de-una-instancia
 ---
 
 

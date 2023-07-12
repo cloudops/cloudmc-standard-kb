@@ -1,6 +1,6 @@
 ---
-title: "Grupos de afinidad"
-slug: grupos-de-afinidad
+title: "CloudStack: Grupos de afinidad"
+slug: cloudstack-grupos-de-afinidad
 ---
 
 

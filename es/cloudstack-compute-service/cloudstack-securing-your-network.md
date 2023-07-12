@@ -1,6 +1,6 @@
 ---
-title: "Asegurar la red"
-slug: asegurar-la-red
+title: "CloudStack: Asegurar la red"
+slug: cloudstack-asegurar-la-red
 ---
 
 ### Impedir el acceso a sus instancias

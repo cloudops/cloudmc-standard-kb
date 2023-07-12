@@ -1,6 +1,6 @@
 ---
-title: "Puertas de enlace privadas"
-slug: puertas-de-enlace-privadas
+title: "CloudStack: Puertas de enlace privadas"
+slug: cloudstack-puertas-de-enlace-privadas
 ---
 
 

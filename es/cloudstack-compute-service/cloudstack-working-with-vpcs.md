@@ -1,6 +1,6 @@
 ---
-title: "Gestion de VPC"
-slug: gestion-de-vpc
+title: "CloudStack: Gestion de VPC"
+slug: cloudstack-gestion-de-vpc
 ---
 
 

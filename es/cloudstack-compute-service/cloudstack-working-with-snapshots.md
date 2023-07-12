@@ -1,6 +1,6 @@
 ---
-title: "Gestión de copias instantáneas"
-slug: gestion-de-copias-instantaneas
+title: "CloudStack: Gestión de copias instantáneas"
+slug: cloudstack-gestion-de-copias-instantaneas
 ---
 
 

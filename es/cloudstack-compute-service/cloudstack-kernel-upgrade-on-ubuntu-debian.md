@@ -1,6 +1,6 @@
 ---
-title: "Actualización del kernel en instancias basadas en Ubuntu y Debian"
-slug: actualizar-kernel-para-ubuntu-debian
+title: "CloudStack: Actualización del kernel en instancias basadas en Ubuntu y Debian"
+slug: cloudstack-actualizar-kernel-para-ubuntu-debian
 ---
 
 

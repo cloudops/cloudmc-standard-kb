@@ -1,6 +1,6 @@
 ---
-title: "Gestión de instancias"
-slug: gestion-de-instancias
+title: "CloudStack: Gestión de instancias"
+slug: cloudstack-gestion-de-instancias
 ---
 
 <!-- Slight modifications to import from CCA KB -->

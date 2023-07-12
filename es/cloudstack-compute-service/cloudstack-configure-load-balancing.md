@@ -1,6 +1,6 @@
 ---
-title: "Configurar equilibrio de carga"
-slug: configurar-equilibrio-de-carga
+title: "CloudStack: Configurar equilibrio de carga"
+slug: cloudstack-configurar-equilibrio-de-carga
 ---
 
 

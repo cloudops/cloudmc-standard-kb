@@ -1,6 +1,6 @@
 ---
-title: "Trabajar con plantillas de instancias"
-slug: trabajar-con-plantillas-de-instancias
+title: "CloudStack: Trabajar con plantillas de instancias"
+slug: cloudstack-trabajar-con-plantillas-de-instancias
 ---
 
 
