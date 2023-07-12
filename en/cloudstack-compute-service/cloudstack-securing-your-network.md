@@ -1,6 +1,6 @@
 ---
-title: "Securing your network"
-slug: securing-your-network
+title: "CloudStack: Securing your network"
+slug: cloudstack-securing-your-network
 ---
 
 ### Preventing Access to Your Instances

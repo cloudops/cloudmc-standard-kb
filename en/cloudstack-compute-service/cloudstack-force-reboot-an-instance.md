@@ -1,6 +1,6 @@
 ---
-title: "Force shutdown an instance"
-slug: force-reboot-an-instance
+title: "CloudStack: Force shutdown an instance"
+slug: cloudstack-force-reboot-an-instance
 ---
 
 

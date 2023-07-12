@@ -1,6 +1,6 @@
 ---
-title: "Working with VPCs"
-slug: working-with-vpcs
+title: "CloudStack: Working with VPCs"
+slug: cloudstack-working-with-vpcs
 ---
 
 

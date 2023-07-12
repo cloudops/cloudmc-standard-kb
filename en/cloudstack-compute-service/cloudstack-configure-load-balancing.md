@@ -1,6 +1,6 @@
 ---
-title: "Configure Load Balancing"
-slug: configure-load-balancing
+title: "CloudStack: Configure Load Balancing"
+slug: cloudstack-configure-load-balancing
 ---
 
 

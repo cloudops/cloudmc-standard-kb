@@ -1,6 +1,6 @@
 ---
-title: "Working with Instance Templates"
-slug: working-with-instance-templates
+title: "CloudStack: Working with Instance Templates"
+slug: cloudstack-working-with-instance-templates
 ---
 
 

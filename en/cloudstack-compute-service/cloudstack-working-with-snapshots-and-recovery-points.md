@@ -1,6 +1,6 @@
 ---
-title: "Working with Snapshots and Recovery Points"
-slug: working-with-snapshots-and-recovery-points
+title: "CloudStack: Working with Snapshots and Recovery Points"
+slug: cloudstack-working-with-snapshots-and-recovery-points
 ---
 
 

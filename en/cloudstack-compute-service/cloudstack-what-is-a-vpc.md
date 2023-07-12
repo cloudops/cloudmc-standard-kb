@@ -1,6 +1,6 @@
 ---
-title: "What is a VPC?"
-slug: what-is-a-vpc
+title: "CloudStack: What is a VPC?"
+slug: cloudstack-what-is-a-vpc
 ---
 
 

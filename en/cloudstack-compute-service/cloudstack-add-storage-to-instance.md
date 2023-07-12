@@ -1,6 +1,6 @@
 ---
-title: "Adding storage capacity to an instance"
-slug: adding-storage-capacity-to-an-instance
+title: "CloudStack: Adding storage capacity to an instance"
+slug: cloudstack-adding-storage-capacity-to-an-instance
 ---
 
 

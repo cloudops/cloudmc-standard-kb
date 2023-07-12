@@ -1,6 +1,6 @@
 ---
-title: "Working with Instances"
-slug: working-with-instances
+title: "CloudStack: Working with Instances"
+slug: cloudstack-working-with-instances
 ---
 
 <!-- Slight modifications to import from CCA KB -->

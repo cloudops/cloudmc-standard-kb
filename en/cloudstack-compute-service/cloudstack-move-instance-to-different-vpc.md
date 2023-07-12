@@ -1,6 +1,6 @@
 ---
 title: "CloudStack: Move an instance to a different VPC"
-slug: move-instance-to-different-vpc
+slug: cloudstack-move-instance-to-different-vpc
 ---
 
 

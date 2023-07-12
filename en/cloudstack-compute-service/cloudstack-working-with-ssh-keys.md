@@ -1,6 +1,6 @@
 ---
-title: "Working with SSH Keys"
-slug: working-with-ssh-keys
+title: "CloudStack: Working with SSH Keys"
+slug: cloudstack-working-with-ssh-keys
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Working with snapshots"
-slug: working-with-snapshots
+title: "CloudStack: Working with snapshots"
+slug: cloudstack-working-with-snapshots
 ---
 
 

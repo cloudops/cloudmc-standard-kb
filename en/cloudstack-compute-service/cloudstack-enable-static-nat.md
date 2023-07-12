@@ -1,6 +1,6 @@
 ---
-title: "Enable static NAT"
-slug: enable-static-nat
+title: "CloudStack: Enable static NAT"
+slug: cloudstack-enable-static-nat
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Add an affinity group"
-slug: add-an-affinity-group
+title: "CloudStack: Add an affinity group"
+slug: cloudstack-add-an-affinity-group
 ---
 
 

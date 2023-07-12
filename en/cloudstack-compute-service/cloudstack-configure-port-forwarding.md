@@ -1,6 +1,6 @@
 ---
-title:  "Configure Port Forwarding"
-slug:  configure-port-forwarding
+title:  "CloudStack: Configure Port Forwarding"
+slug:  cloudstack-configure-port-forwarding
 ---
 
 Port forwarding provide inbound connectivity from the Internet to a specific Instance Port or Protocol. It is configured through a VPC's public IP address dedicated to the purpose of port forwarding.

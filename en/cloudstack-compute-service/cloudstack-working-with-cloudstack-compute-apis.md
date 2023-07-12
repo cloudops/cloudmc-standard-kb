@@ -1,6 +1,6 @@
 ---
-title: "Working with CloudStack compute APIs"
-slug: working-with-cloudstack-compute-apis
+title: "CloudStack: Working with CloudStack compute APIs"
+slug: cloudstack-working-with-cloudstack-compute-apis
 ---
 
 

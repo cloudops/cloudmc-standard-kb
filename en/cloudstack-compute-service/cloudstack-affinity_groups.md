@@ -1,6 +1,6 @@
 ---
-title: "Affinity groups"
-slug: affinity-groups
+title: "CloudStack: Affinity groups"
+slug: cloudstack-affinity-groups
 ---
 
 

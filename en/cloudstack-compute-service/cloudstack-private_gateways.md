@@ -1,6 +1,6 @@
 ---
-title: "Private gateways"
-slug: private-gateways
+title: "CloudStack: Private gateways"
+slug: cloudstack-private-gateways
 ---
 
 

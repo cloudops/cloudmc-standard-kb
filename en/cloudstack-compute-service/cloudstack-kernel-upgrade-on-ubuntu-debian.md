@@ -1,6 +1,6 @@
 ---
-title: "Kernel upgrade on Ubuntu-based and Debian-based instances"
-slug: kernel-upgrade-on-ubuntu-debian
+title: "CloudStack: Kernel upgrade on Ubuntu-based and Debian-based instances"
+slug: cloudstack-kernel-upgrade-on-ubuntu-debian
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Import and deploy from an ISO image"
-slug: import-iso
+title: "CloudStack: Import and deploy from an ISO image"
+slug: cloudstack-import-iso
 ---
 
 
