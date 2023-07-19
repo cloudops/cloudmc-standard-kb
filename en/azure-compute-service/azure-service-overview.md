@@ -10,8 +10,8 @@ CloudMC allows cloud operators to access and manage infrastructure and resources
 
 The Microsoft Azure platform is a public cloud, where customers can allocate resources to build an infrastructure for their applications. CloudMC provides a unified interface to access Azure and other services from a single portal. Through CloudMC, users can manage:
 
--   Virtual machines
--   Volumes
+-   [Instances](azure-instances.md)
+-   [Disks](azure-disks.md)
 -   Networks
 
 Because CloudMC acts as a portal to Azure services, you may find that some operations appear to behave differently than when interacting with Azure directly. However, behind the scenes, all operations execute exactly as they normally would. Changes made to Azure entities in CloudMC will be reflected immediately in the actual resources. For example, Azure manages resources within resource groups. CloudMC, on the other hand, exposes resources to users inside of environments, which is a concept that is already familiar to CloudMC users.

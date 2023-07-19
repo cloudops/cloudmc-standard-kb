@@ -6,6 +6,8 @@ slug: azure-instances
 
 Virtual machines are a fundamental type of infrastructure provided by Microsoft Azure. This article discusses the concept of virtual machines and how they are managed in CloudMC.
 
+Virtual machines are listed under the **Instances** section of the selected Azure environment.
+
 ## Detailed overview
 
 Similar to other cloud platforms, Microsoft Azure provides you with the capability to run virtual machines. These virtual machines are also often referred to as instances. Once an instance is provisioned, it can be used to execute the various components of your applications.
@@ -20,7 +22,7 @@ After a new instance has been deployed, the system will provide the user with a 
 
 Virtual machines are listed under the **Instances** section of the selected Azure environment.
 
-![A screenshot of the Azure Instance page, with numbered dots indicating features of interest](/assets/azure-instances-numdot.png)
+![A screenshot of the Azure Instances page, with numbered dots indicating features of interest](/assets/azure-instances-numdot.png)
 
 1.  **List of instances**
 
@@ -36,7 +38,7 @@ Virtual machines are listed under the **Instances** section of the selected Azur
 
 4.  **Instance row**
 
-    Each row includes that name of the instance, the power state of the instance, the name of the image from which the instance was created, and the details of the network to which it is attached. Click on an entry to navigate to a page with configuration details, graphs of resource consumption, and a list of all operations for that individual instance.
+    Each row includes the name of the instance, the power state of the instance, the name of the image from which the instance was created, and the details of the network to which it is attached. Click on an entry to navigate to a page with configuration details, graphs of resource consumption, and a list of all operations for that individual instance.
 
 5.  **Hidden Actions menu**
 
