@@ -47,6 +47,7 @@ categories:
       - azure-service-overview.md
       - azure-instances.md
       - azure-working-with-instances.md
+      - azure-disks.md
       - azure-working-with-disks.md
 - category: stackpath-service
   icon: fa fa-cloud
