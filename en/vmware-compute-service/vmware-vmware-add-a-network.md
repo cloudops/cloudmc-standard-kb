@@ -1,8 +1,9 @@
 ---
-title: "VMware: Add a network
-slug: vmware-add-a-network
+author: "VMware: Add a network"
+publisher: vmware-add-a-network
 ---
 
+# VMware: Add a network
 
 ## About this task
 

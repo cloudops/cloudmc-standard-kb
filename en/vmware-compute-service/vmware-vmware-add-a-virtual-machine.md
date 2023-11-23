@@ -1,3 +1,9 @@
+---
+author: "VMware: Add a virtual machine"
+publisher: vmware-add-virtual-machine
+---
+
+# VMware: Add a virtual machine
 
 ## About this task
 

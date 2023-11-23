@@ -95,7 +95,6 @@ categories:
       - vmware-virtual-applications.md
       - vmware-vmware-add-a-network.md
       - vmware-vmware-add-a-virtual-machine.md
-      - vmware-vmware-add-a-virtual-application.md
 - category: object-storage-service
   icon: fa fa-hdd-o
   articles:
