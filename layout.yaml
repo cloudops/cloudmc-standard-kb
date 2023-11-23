@@ -86,6 +86,16 @@ categories:
       - aws-add_a_subnetwork.md
       - aws-add_an_instance.md
       - aws-add_a_volume.md
+- category: vmware-compute-service
+  icon: fa fa-cloud
+  articles:
+      - vmware-service-overview.md
+      - vmware-networking.md
+      - vmware-virtual-machines.md
+      - vmware-virtual-applications.md
+      - vmware-vmware-add-a-network.md
+      - vmware-vmware-add-a-virtual-machine.md
+      - vmware-vmware-add-a-virtual-application.md
 - category: object-storage-service
   icon: fa fa-hdd-o
   articles:
