@@ -1,6 +1,6 @@
 ---
-author: "VMware: Add a virtual machine"
-publisher: vmware-add-virtual-machine
+title: "VMware: Add a virtual machine"
+slug: vmware-add-virtual-machine
 ---
 
 # VMware: Add a virtual machine
