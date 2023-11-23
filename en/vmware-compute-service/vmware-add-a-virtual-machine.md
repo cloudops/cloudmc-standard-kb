@@ -3,8 +3,6 @@ title: "VMware: Add a virtual machine"
 slug: vmware-add-virtual-machine
 ---
 
-# VMware: Add a virtual machine
-
 ## About this task
 
 This article will guide you through the process of adding a new virtual machine to a VMware environment.

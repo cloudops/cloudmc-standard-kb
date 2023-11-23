@@ -3,8 +3,6 @@ title: "VMware: Add a network"
 slug: vmware-add-a-network
 ---
 
-# VMware: Add a network
-
 ## About this task
 
 This article will guide you through the process of adding a new network to a VMware environment. The CloudMC interface provides a single-page wizard for selecting and deploying a new network configuration.
