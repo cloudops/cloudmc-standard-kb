@@ -19,12 +19,12 @@ Note: For this operation to be available, your user account needs to be assigned
 Note: Cut / Copy / Paste functionality are not available in this console window.
 
 ### Leverage Automation (User Data)
-You may have already noticed In the last step of the instance wizard, we have the ability to pass additional data to an instance. This data can be virtually anything, as long as you have something on your instance to query the metadata and do something with it. In out public templates, we are using cloud-init for this purpose. The [cloud-init documentation](https://cloudinit.readthedocs.org/en/latest/) is pretty explicit on what you can or cannot do.
+You may have already noticed In the last step of the instance wizard, we have the ability to pass additional data to an instance. This data can be virtually anything, as long as you have something on your instance to query the metadata and do something with it. In our public templates, we are using cloud-init for this purpose. The [cloud-init documentation](https://cloudinit.readthedocs.org/en/latest/) is pretty explicit on what you can or cannot do.
 
 This section will cover some basic examples on how to use this feature.
 
 #### Use Case: Simple Bash Script
-Let's start simple. You want to make sure your instances auto-updates by itself on the first boot, and you want to also install some additional services. In the user-data field, you would have to pass something like:
+Let's start simple. You want to make sure that your instances auto-update by themselves on the first boot, and you want to also install some additional services. In the user-data field, you would have to pass something like:
 
 ```
 #!/bin/bash
@@ -66,7 +66,7 @@ runcmd:
 
 This example work with CentOS 7 template with a Data volume and perform the following:
 
-1. Format and mount the data volume in /var/lib/docker.
+1. Format and mount the data volume in /var/lib/docker
 1. Install docker from the official repository
 1. Disable Firewalld and SElinux
-1. Deploy Rancher as docker container.
+1. Deploy Rancher as docker container
