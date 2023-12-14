@@ -16,7 +16,7 @@ The following different types of networks are supported:
 
 -   **Isolated**
 
-    The most basic networking mode, an isolated network provides connectivity between interfaces attached to it. Isolated provides no connectivity to the outside world. Only virtual machines within the same environment as a isolated network can connect to that network.
+    The most basic networking mode, an isolated network provides connectivity between interfaces attached to it. Isolated networks provide no connectivity to the outside world. Only virtual machines within the same environment as a isolated network can connect to that network.
 
 -   **Routed**
 

@@ -47,15 +47,15 @@ A virtual machine may also transition through the following sub-states:
 
 -   **Powering off**
 
-    Is being powered off
+    Is being powered off.
 
 -   **Deletion**
 
-    Is being deleted
+    Is being deleted.
 
 -   **Unknown**
 
-    Part of the deletion process
+    Part of the deletion process.
 
 
 ## Virtual machines list

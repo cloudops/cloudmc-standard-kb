@@ -6,9 +6,9 @@ slug: aws-resumen-de-servicios
 
 ## Resumen
 
-CloudMC permite a los operadores de la nube acceder y administrar la infraestructura y los recursos que se han implementado en la plataforma de Amazon Web Services \(AWS\). Este artículo presentará los conceptos básicos de AWS y el trabajo con los recursos de AWS en CloudMC.
+CloudMC permite a los operadores de la nube acceder y administrar la infraestructura y los recursos que se han implementado en la plataforma de Amazon Web Services \(AWS\). Este artículo presentará los conceptos básicos de AWS y de trabajar con los recursos de AWS en CloudMC.
 
-## Resumen detallado
+## Descripción detallada
 
 La plataforma de AWS es una nube pública, donde los clientes pueden asignar recursos para construir una infraestructura para sus aplicaciones. CloudMC proporciona una interfaz unificada para acceder a AWS y otros servicios desde un único portal. A través de CloudMC, los usuarios pueden gestionar:
 
