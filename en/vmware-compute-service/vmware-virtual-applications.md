@@ -49,7 +49,7 @@ Virtual applications are listed under the **Virtual Applications** section of th
 
 4.  **Virtual application row**
 
-    Each row includes the name of the virtual application, its status, the total amount of vCPUs, memory, and storage provisioned among all the virtual machines in the virtual application, and a couple of the number of virtual machines in the application. Click on an entry to navigate to a page with configuration details and a list of all operations for that individual virtual application.
+    Each row includes the name of the virtual application, its status, the total amount of vCPUs, memory, and storage provisioned among all the virtual machines in the virtual application, and a count of all virtual machines in the application. Click on an entry to navigate to a page with configuration details and a list of all operations for that individual virtual application.
 
 5.  **Hidden Actions menu**
 

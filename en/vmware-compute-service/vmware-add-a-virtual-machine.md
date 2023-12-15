@@ -46,6 +46,5 @@ This article will guide you through the process of adding a new virtual machine 
 -   If **Power On** was selected, the system starts the virtual machine immediately after creating it
 -   The virtual machine is listed in the **Virtual Machines** screen
 
--   **[Example: Add a virtual machine](vmware-example-add-a-virtual-machine.md)**  
 
 

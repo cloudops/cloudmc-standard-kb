@@ -23,7 +23,7 @@ Se admiten los siguientes tipos diferentes de redes:
     Esto también se conoce como red enrutada NAT. Una red enrutada proporciona conectividad externa junto con servicios NAT, firewall y VPN.
 
 
-## Estados de red
+## Estados de redes
 
 Las redes VMware tienen los siguientes estados:
 
