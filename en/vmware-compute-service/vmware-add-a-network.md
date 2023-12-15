@@ -32,7 +32,7 @@ This article will guide you through the process of adding a new network to a VMw
 
     4.  Select the desired type of network from the **Network Type** popup menu.
 
-        To provide external connectivity to your network, choose **Routed**. You will be asked to specify an edge gateway from the **Edge Gateways** popup menu. If no edge gateway is configured for this environment, the new network will be unable to connect to the public Internet.
+        To provide external connectivity to your network, choose **Routed**. You will be asked to specify an Edge gateway from the **Edge Gateways** popup menu. If no edge gateway is configured for this environment, the new network will be unable to connect to the public Internet.
 
         If you do not need external connectivity for your network, choose **Isolated**. This is useful for networks that have privileged or sensitive information, or for compliance with access restrictions and other business rules.
 
@@ -53,6 +53,5 @@ This article will guide you through the process of adding a new network to a VMw
 -   The address space, network size, and gateway IP address are as specified in the **Gateway CIDR** field
 -   The network is listed in the **Networking** tab
 
--   **[Example: Add a network](vmware-example-add-a-network.md)**  
 
 

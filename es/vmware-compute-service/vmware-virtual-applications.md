@@ -1,58 +1,57 @@
 ---
-title: "VMware: Virtual Applications"
+title: "VMware: Aplicaciones virtuales"
 slug: vmware-vapps
 ---
 
 
-A virtual application is a container of virtual machines which provide the infrastructure for a cloud-native application. This article discusses the concept of virtual applications and how they are managed in CloudMC.
+Una aplicación virtual es un contenedor de máquinas virtuales que proporciona la infraestructura para una aplicación nativa de la nube. Este artículo analiza el concepto de aplicaciones virtuales y cómo se administran en CloudMC.
 
-Virtual applications are listed under the **Virtual Applications** section of the selected VMware environment.
+Las aplicaciones virtuales se enumeran en la sección **Aplicaciones virtuales** del entorno VMware seleccionado.
 
-## Detailed overview
+## Descripción detallada
 
-A virtual application serves as a container for managing and executing an application as a single entity. It is composed of virtual machines that have been created as part of that virtual application, either from the **Virtual Applications** page or from the **Add Virtual Machine** wizard.
+Una aplicación virtual sirve como contenedor para gestionar y ejecutar una aplicación como una sola entidad. Está compuesta por máquinas virtuales que se han creado como parte de esa aplicación virtual, ya sea desde la página **Aplicaciones virtuales** o desde el asistente **Agregar máquina virtual**.
 
-A virtual application is created with its own network, which allows the virtual machines in the application to communicate with each other. A virtual application's network may be isolated or routed. It is automatically destroyed when the virtual application is deleted.
+Se crea una aplicación virtual con su propia red, lo que permite que las máquinas virtuales de la aplicación se comuniquen entre sí. La red de una aplicación virtual puede estar aislada o con enrutamiento. Se destruye automáticamente cuando se elimina la aplicación virtual.
 
-## Virtual application status
+## Estados de aplicaciones virtuales
 
--   **Powered on**
+-   **Encendida**
 
-    All of the virtual machines assigned to this virtual application are powered on.
+     Todas las máquinas virtuales asignadas a esta aplicación virtual están encendidas.
 
--   **Partially powered off**
+- **Parcialmente apagada**
 
-    During the normal boot process, a virtual application will briefly enter this state.
+     Durante el proceso de inicio normal, una aplicación virtual entrará brevemente en este estado.
 
--   **Partially running**
+- **Parcialmente funcionando**
 
-    One or more virtual machines assigned to this virtual application is either suspended or powered off.
+     Una o más máquinas virtuales asignadas a esta aplicación virtual están suspendidas o apagadas.
 
 
-## Virtual application list
+## Lista de aplicaciones virtuales
 
-Virtual applications are listed under the **Virtual Applications** section of the selected VMware environment.
+Las aplicaciones virtuales se enumeran en la sección **Aplicaciones virtuales** del entorno VMware seleccionado.
 
-![A screenshot of the VMware virtual applications page, with numbered dots indicating features of interest](/assets/vmware-vapps-list-en.png)
+![Una captura de pantalla de la página de aplicaciones virtuales de VMware, con puntos numerados que indican características de interés](/assets/vmware-vapps-list-en.png)
 
-1.  **List of virtual applications**
+1.  **Lista de aplicaciones virtuales**
 
-    A list of all virtual applications in the selected environment appears here in this area.
+     Aquí, en esta área, aparece una lista de todas las aplicaciones virtuales en el entorno seleccionado.
 
-2.  **Search box**
+2. **Cuadro de búsqueda**
 
-    Type in the search box to filter the virtual applications list. The system will search through the name field, as well as the internal UUID, and returns any virtual application that matches the string in the search box.
+     Escriba en el cuadro de búsqueda para filtrar la lista de aplicaciones virtuales. El sistema buscará en el campo de nombre, así como en el UUID interno, y devolverá cualquier aplicación virtual que coincida con la cadena en el cuadro de búsqueda.
 
-3.  **Add virtual application**
+3. **Agregar aplicación virtual**
 
-    Clicking this button will open the **Add virtual application** wizard.
+     Al hacer clic en este botón se abrirá el asistente **Agregar aplicación virtual**.
 
-4.  **Virtual application row**
+4. **Entrada de aplicación virtual**
 
-    Each row includes the name of the virtual application, its status, the total amount of vCPUs, memory, and storage provisioned among all the virtual machines in the virtual application, and a couple of the number of virtual machines in the application. Click on an entry to navigate to a page with configuration details and a list of all operations for that individual virtual application.
+     Cada entrada incluye el nombre de la aplicación virtual, su estado, la cantidad total de vCPU, memoria y almacenamiento aprovisionados entre todas las máquinas virtuales de la aplicación virtual y un recuento de todas las máquinas virtuales en la aplicación. Haga clic en una entrada para navegar a una página con detalles de configuración y una lista de todas las operaciones para esa aplicación virtual individual.
 
-5.  **Hidden Actions menu**
+5. **Menú de acciones ocultas**
 
-    Each entry in the virtual applications list has a Hidden Actions menu. Click on the Hidden Actions menu to access a list of frequently-used operations for the virtual application.
-
+     Cada entrada en la lista de aplicaciones virtuales tiene un menú de acciones ocultas. Haga clic en el menú acciones ocultas para acceder a una lista de operaciones utilizadas con frecuencia para la aplicación virtual.
 

@@ -1,51 +1,47 @@
 ---
-title: "VMware: Add a virtual machine"
-slug: vmware-add-virtual-machine
+title: "VMware: Agregar una máquina virtual"
+slug: vmware-agregar-maquina-virtual
 ---
 
-## About this task
+## Acerca de esta tarea
 
-This article will guide you through the process of adding a new virtual machine to a VMware environment.
+Este artículo lo guiará a través del proceso de agregar una nueva máquina virtual a un entorno VMware.
 
-## Before you begin
+## Antes de comenzar
 
--   You must have a network already realized in your VMware environment
+- Debe tener una red ya realizada en su entorno VMware
 
-## Procedure
+## Procedimiento
 
-1.  Navigate to the desired environment. The **Virtual Machines** page appears.
+1. Navegue hasta el entorno deseado. Aparece la página **Máquinas virtuales**.
 
-2.  Click on the **Add Virtual Machine** buttton. The **Add Virtual Machine** wizard appears.
+2. Haga clic en el botón **Agregar máquina virtual**. Aparece el asistente **Agregar máquina virtual**.
 
-3.  Enter a name for the new virtual machine in the **Name** field, or accept the default.
+3. Ingrese un nombre para la nueva máquina virtual en el campo **Nombre** o acepte el valor predeterminado.
 
-4.  To have the virtual machine automatically power on at creation time, mark the **Power On** checkbox.
+4. Para que la máquina virtual se encienda automáticamente en el momento de la creación, marque la casilla de verificación **Encender**.
 
-5.  If you wish to have the virtual machine be a part of an existing virtual application, select the desired application from the **Virtual Application** popup menu.
+5. Si desea que la máquina virtual forme parte de una aplicación virtual existente, seleccione la aplicación deseada en el menú emergente **Aplicación virtual**.
 
-6.  Select from the **Network** popup menu which network to attach the new virtual machine to, or accept the default.
+6. Seleccione en el menú emergente **Red** a qué red conectar la nueva máquina virtual o acepte la opción predeterminada.
 
-7.  Select the manner in which to configure the new virtual machine using the **Type** popup menu:
+7. Seleccione la forma en que configurar la nueva máquina virtual usando el menú emergente **Tipo**:
 
-    1.  To configure a virtual machine from a template using predefined configurations, select **From Template**.
+    1.  Para configurar una máquina virtual desde una plantilla usando configuraciones predefinidas, seleccione **De plantilla**.
 
-        You will be able to select from a set of templates with various operating systems and versions already installed. Additionally, the default vCPU and memory sizes may be overridden by making a selection from the **VM Sizing Policy** popup menu.
+         Podrás seleccionar entre un conjunto de plantillas con varios sistemas operativos y versiones ya instaladas. Además, los tamaños de memoria y vCPU predeterminados se pueden anular haciendo una selección en el menú emergente **Política de dimensionamiento de máquinas virtuales**.
 
-    2.  To configure a virtual machine with your own settings, select **Custom**.
+    2. Para configurar una máquina virtual con su propia configuración, seleccione **Personalizada**.
 
-        For vCPU and memory sizes, use the **VM Sizing Policy** popup menu to select from a set of predefined offerings, or select **System Default** to enter your own settings \(limited by the system defaults defined by your administrator\).
+         Para tamaños de memoria y vCPU, use el menú emergente **Política de dimensionamiento de máquinas virtuales** para seleccionar entre un conjunto de ofertas predefinidas, o seleccione **Predeterminado del sistema** para ingresar su propia configuración \(limitada por los valores predeterminados del sistema definidos por su administrador \).
 
-        For the operating system, first identify the type of operating system that you will install on the new virtual machine, and then select the corresponding ISO image to attached to the virtual machine at creation time from the **Boot Image** popup menu. You may also choose **None** and no ISO will be attached to the new virtual machine, useful for network-boot scenarios.
+         Para el sistema operativo, primero identifique el tipo de sistema operativo que instalará en la nueva máquina virtual y luego seleccione la imagen ISO correspondiente para adjuntarla a la máquina virtual en el momento de la creación en el menú emergente **Imagen de arranque**. También puede elegir **Ninguno** y no se adjuntará ningún ISO a la nueva máquina virtual, lo que resulta útil para escenarios de arranque de red.
 
-8.  Click the **Submit** button to create the new virtual machine.
-
-
-## Results
-
--   The virtual machine is created using the specified settings
--   If **Power On** was selected, the system starts the virtual machine immediately after creating it
--   The virtual machine is listed in the **Virtual Machines** screen
-
--   **[Example: Add a virtual machine](vmware-example-add-a-virtual-machine.md)**  
+8. Haga clic en el botón **Aplicar** para crear la nueva máquina virtual.
 
 
+## Resultados
+
+- La máquina virtual se crea utilizando la configuración especificada
+- Si se seleccionó **Encender**, el sistema inicia la máquina virtual inmediatamente después de crearla
+- La máquina virtual aparece en la pantalla **Máquinas virtuales**

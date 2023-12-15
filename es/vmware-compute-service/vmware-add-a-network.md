@@ -1,58 +1,57 @@
 ---
-title: "VMware: Add a network"
-slug: vmware-add-a-network
+title: "VMware: Agregar una red"
+slug: vmware-agregar-una-red
 ---
 
-## About this task
+## Acerca de esta tarea
 
-This article will guide you through the process of adding a new network to a VMware environment. The CloudMC interface provides a single-page wizard for selecting and deploying a new network configuration.
+Este artículo lo guiará a través del proceso de agregar una nueva red a un entorno VMware. La interfaz de CloudMC proporciona un asistente de una sola página para seleccionar e implementar una nueva configuración de red.
 
-## Before you begin
+## Antes de comenzar
 
--   Your VMware environment must already exist
--   To create a routed network, you must have an edge gateway already configured
+- Su entorno VMware ya debe existir
+- Para crear una red enrutada NAT, debe tener una puerta de enlace Edge ya configurada
 
-## Procedure
+## Procedimiento
 
-1.  Navigate to the desired environment. The **Virtual Machines** page appears.
+1. Navegue hasta el entorno deseado. Aparece la página **Máquinas virtuales**.
 
-2.  Click on the **Networking** tab.
+2. Haga clic en la pestaña **Redes**.
 
-3.  Click on the **Add Network** button. The **Add Network** wizard appears.
+3. Haga clic en el botón **Agregar red**. Aparece el asistente **Agregar red**.
 
-4.  Configure the new network:
+4. Configure la nueva red:
 
-    1.  Enter a name into the **Name** field, or accept the default.
+     1. Ingrese un nombre en el campo **Nombre** o acepte el valor predeterminado.
 
-    2.  *\(Optional\)* Enter a description into the **Description** field.
+     2. *\(Opcional\)* Ingrese una descripción en el campo **Descripción**.
 
-    3.  Enter an IP address in CIDR format for the gateway into the **Gateway CIDR** field.
+     3. Ingrese una dirección IP en formato CIDR para la puerta de enlace en el campo **CIDR de la puerta de enlace**.
 
-        The system will interpret this entry for network number and subnet mask and use them to configure the network address and size. The IP address itself will be automatically assigned to the gateway that will be created for this network.
+         El sistema interpretará esta entrada para el número de red y la máscara de subred y los utilizará para configurar la dirección y el tamaño de la red. La dirección IP en sí se asignará automáticamente a la puerta de enlace que se creará para esta red.
 
-    4.  Select the desired type of network from the **Network Type** popup menu.
+     4. Seleccione el tipo de red deseado en el menú emergente **Tipo de red**.
 
-        To provide external connectivity to your network, choose **Routed**. You will be asked to specify an edge gateway from the **Edge Gateways** popup menu. If no edge gateway is configured for this environment, the new network will be unable to connect to the public Internet.
+         Para proporcionar conectividad externa a su red, elija **Enrutada**. Se le pedirá que especifique una puerta de enlace Edge en el menú emergente **Puertas de enlace Edge**. Si no se configura ninguna puerta de enlace perimetral para este entorno, la nueva red no podrá conectarse al Internet público.
 
-        If you do not need external connectivity for your network, choose **Isolated**. This is useful for networks that have privileged or sensitive information, or for compliance with access restrictions and other business rules.
+         Si no necesita conectividad externa para su red, elija **Aislada**. Esto es útil para redes que tienen información privilegiada o confidencial, o para cumplir con restricciones de acceso y otras reglas comerciales.
 
-    5.  Enter one or more IP addresses, or IP ranges, into the **Static IP Pools** field to reserve for static assignment.
+    5. Ingrese una o más direcciones IP, o rangos de IP, en el campo **Grupos de IP estáticas** para reservarlas para la asignación estática.
 
-        These addresses will not be offered by the new network's DHCP server. This is useful for manually assigning IP addresses to interfaces on the network. All of the addresses must be within the address space of the new network, as specified in the **Gateway CIDR** field.
+         Estas direcciones no serán ofrecidas por el servidor DHCP de la nueva red. Esto es útil para asignar manualmente direcciones IP a interfaces en la red. Todas las direcciones deben estar dentro del espacio de direcciones de la nueva red, como se especifica en el campo **CIDR de la puerta de enlace**.
 
-        You may enter a single IP address or a single contiguous range \(specify the lowest and highest IP addresses in the range, separated by a hyphen\). To specify multiple individual IP addresses or ranges, use the **+** button to reveal additional input fields.
+         Puede ingresar una única dirección IP o un único rango contiguo \(especifique las direcciones IP más baja y más alta del rango, separadas por un guión\). Para especificar múltiples rangos o direcciones IP individuales, use el botón **+** para revelar campos de entrada adicionales.
 
-    6.  *\(Optional\)* To override the default primary \(and, if desired, secondary\) DNS servers that will be offered by the DHCP server, enter the IP addresses of your name servers into the **Primary DNS** and **Secondary DNS** fields.
+    6. *\(Opcional\)* Para anular los servidores DNS primarios predeterminados \(y, si lo desea, secundarios\) que ofrecerá el servidor DHCP, ingrese las direcciones IP de sus servidores de nombres en los campos **DNS primario** y **DNS secundario**.
 
-5.  Click the **Submit** button.
+5. Haga clic en el botón **Aplicar**.
 
 
-## Results
+## Resultados
 
--   The network with the specified configuration is realized in the active environment
--   The address space, network size, and gateway IP address are as specified in the **Gateway CIDR** field
--   The network is listed in the **Networking** tab
+- La red con la configuración especificada se realiza en el entorno activo.
+- El espacio de direcciones IP, el tamaño de la red y la dirección IP de la puerta de enlace son los especificados en el campo **CIDR de la puerta de enlace**
+- La red aparece en la pestaña **Redes**
 
--   **[Example: Add a network](vmware-example-add-a-network.md)**  
 
 
