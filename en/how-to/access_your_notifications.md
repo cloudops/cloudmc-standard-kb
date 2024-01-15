@@ -19,7 +19,7 @@ In order to provide accountability and traceability, all user operations are log
 
 ![A screenshot of an expanded Notifications panel with a notification indication progress of an operation](announcements-notificationpanel-en.png "An activity notification in the Notifications panel")
 
-Furthermore, when certain operations are performed, the system may need to communicate further information to you in order to complete the operation. For example, when adding a new instance, new credentials will be generated, or when generating new API credentials, the system will generate a new key. These will be provided to you via activity notifications.
+Furthermore, when certain operations are performed, the system may need to communicate further information to you in order to complete the operation. For example, when adding a new instance, new credentials will be generated, or, when generating new API credentials, the system will generate a new key. These will be provided to you via activity notifications.
 
 For these situations, CloudMC will create a notification in the Notifications panel, an amber badge will appear on the bell icon, and the sensitive information will be presented inside the notification. You can copy the information out of the notification, and then clear the notification to preserve security.
 
