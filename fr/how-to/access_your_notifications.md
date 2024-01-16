@@ -1,6 +1,6 @@
 ---
-title: "Gérez vos notifications"
-slug: gerez-vos-notifications
+title: "Gérer vos notifications"
+slug: gerer-vos-notifications
 ---
 
 
