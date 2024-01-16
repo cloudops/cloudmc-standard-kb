@@ -1,9 +1,8 @@
 ---
-author: "Gérez vos notifications"
-publisher: gerez-vos-notifications
+title: "Gérez vos notifications"
+slug: gerez-vos-notifications
 ---
 
-# Gérez vos notifications
 
 Cet article décrit les notifications et comment y accéder et les gérer dans CloudMC.
 
@@ -17,13 +16,13 @@ Vos notifications apparaissent dans le panneau **Notifications**, accessible via
 
 Afin d'assurer la responsabilité et la traçabilité, toutes les opérations des utilisateurs sont enregistrées et stockées dans le **Journal d'activités**. Dans certains contextes, comme pour les opérations qui prendront plus de temps, une notification d'activité fournira des informations supplémentaires telles que la progression ou l'état d'achèvement. Un badge ambre apparaîtra sur l'icône de cloche dans la barre de menu en haut de la page pour indiquer qu'il y a une nouvelle notification. Cliquez sur l'icône de cloche pour afficher le panneau Notifications. L'onglet **Activité** est sélectionné par défaut et toutes les notifications d'activité seront répertoriées ci-dessous.
 
-![Une capture d'écran d'un panneau de notifications étendu avec une notification indiquant la progression d'une opération](announcements-notificationpanel-en.png "Une notification d'activité dans le panneau Notifications")
+![Une capture d'écran d'un panneau de notifications étendu avec une notification indiquant la progression d'une opération](/assets/announcements-notificationpanel-en.png)
 
 De plus, lorsque certaines opérations sont effectuées, le système peut être amené à vous communiquer des informations complémentaires afin de finaliser l'opération. Par exemple, lors de l'ajout d'une nouvelle instance, de nouvelles informations d'identification seront générées, ou, lors de la génération de nouvelles informations d'identification API, le système générera une nouvelle clé. Ceux-ci vous seront fournis via des notifications d’activité.
 
 Pour ces situations, CloudMC créera une notification dans le panneau Notifications, un badge ambre apparaîtra sur l'icône en forme de cloche et les informations sensibles seront présentées dans la notification. Vous pouvez copier les informations de la notification, puis effacer la notification pour préserver la sécurité.
 
-![Une capture d'écran d'une notification contenant un mot de passe caché avec des gadgets pour exposer le mot de passe et le copier dans le presse-papiers](announcements-credentials-en.png "Une notification d'activité avec les informations d'identification pour une nouvelle instance")
+![Une capture d'écran d'une notification contenant un mot de passe caché avec des gadgets pour exposer le mot de passe et le copier dans le presse-papiers](/assets/announcements-credentials-en.png)
 
 En raison de la nature transitoire et sensible des notifications d'activité, elles sont accessibles uniquement à partir du panneau de notifications et ne sont jamais enregistrées par CloudMC. Elles peuvent être effacées manuellement si vous le souhaitez en cliquant sur les boutons **Effacer** ou **Effacer toutes**.
 
@@ -38,11 +37,11 @@ Lorsqu'une nouvelle annonce régulière est publiée, un badge ambre apparaîtra
 
 Les annonces persisteront dans votre panneau de notifications même après avoir été lues, jusqu'à ce que votre administrateur système les supprime.
 
-![Capture d'écran du panneau de Notifications avec une annonce régulière indiquant une modification à venir sur un produit affiché](announcements-regular-en.png "Exemple d'annonce régulière dans le panneau Notifications")
+![Capture d'écran du panneau de Notifications avec une annonce régulière indiquant une modification à venir sur un produit affiché](/assets/announcements-regular-en.png)
 
 Les annonces splash n'apparaissent pas dans le panneau Notifications. Au lieu de cela, ceux-ci apparaissent au centre de l'interface CloudMC. Ils ont un bouton **Effacer** et toutes les fonctionnalités de la plateforme ne sont pas disponibles jusqu'à ce que vous fermiez l'annonce. Si vous vous déconnectez puis vous reconnectez, l'annonce s'affichera à nouveau jusqu'à ce que vous cliquiez sur le bouton **Fermer**.
 
 Une fois qu'une annonce splash a été fermée, elle ne réapparaîtra pas.
 
-![Capture d'écran de l'interface utilisateur CloudMC avec une annonce splash indiquant un temps d'arrêt d'urgence plus tard dans la journée](announcements-splash-en.png "Exemple d'annonce splash dans l'interface utilisateur CloudMC")
+![Capture d'écran de l'interface utilisateur CloudMC avec une annonce splash indiquant un temps d'arrêt d'urgence plus tard dans la journée](/assets/announcements-splash-en.png)
 

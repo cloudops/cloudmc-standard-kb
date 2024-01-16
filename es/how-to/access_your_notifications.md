@@ -1,9 +1,8 @@
 ---
-author: "Gestionar tus notificaciones"
-publisher: gestionar-tus-notificaciones
+title: "Gestionar tus notificaciones"
+slug: gestionar-tus-notificaciones
 ---
 
-# Gestionar tus notificaciones
 
 Este artículo describe las notificaciones y cómo acceder a ellas y administrarlas en CloudMC.
 
@@ -17,13 +16,13 @@ Sus notificaciones aparecen en el panel **Notificaciones**, al que se puede acce
 
 Para brindar responsabilidad y trazabilidad, todas las operaciones del usuario se registran y almacenan en el **Registro de actividad**. En algunos contextos, como en el caso de operaciones que tardarán más en completarse, una notificación de actividad proporcionará más información, como el progreso o el estado de finalización. Aparecerá una insignia ámbar en el ícono de campana en la barra de menú en la parte superior de la página para indicar que hay una nueva notificación. Haz clic en el icono de campana para revelar el panel de notificaciones. La pestaña **Actividad** está seleccionada de forma predeterminada y todas las notificaciones de actividad se enumerarán a continuación.
 
-![Una captura de pantalla de un panel de notificaciones ampliado con una notificación que indica el progreso de una operación.](announcements-notificationpanel-en.png "Una notificación de actividad en el panel de notificaciones.")
+![Una captura de pantalla de un panel de notificaciones ampliado con una notificación que indica el progreso de una operación.](/assets/announcements-notificationpanel-en.png)
 
 Además, cuando se realizan ciertas operaciones, es posible que el sistema necesite comunicarte más información para completar la operación. Por ejemplo, al agregar una nueva instancia, se generarán nuevas credenciales, o, al generar nuevas credenciales de API, el sistema generará una nueva clave. Estos se le proporcionarán a través de las notificaciones de actividad.
 
 Para estas situaciones, CloudMC creará una notificación en el panel de Notificaciones, aparecerá una insignia ámbar en el ícono de campana y la información confidencial se presentará dentro de la notificación. Puedes copiar la información de la notificación y luego borrarla para preservar la seguridad.
 
-![Una captura de pantalla de una notificación que contiene una contraseña oculta con dispositivos para exponer la contraseña y copiarla al portapapeles.](announcements-credentials-en.png "Una notificación de actividad con credenciales para una nueva instancia.")
+![Una captura de pantalla de una notificación que contiene una contraseña oculta con dispositivos para exponer la contraseña y copiarla al portapapeles.](/assets/announcements-credentials-en.png)
 
 Debido a la naturaleza transitoria y sensible de las notificaciones de actividad, solo se puede acceder a ellas desde el panel de notificaciones y CloudMC nunca las guarda, y se pueden borrar manualmente si lo deseas haciendo clic en los botones **Borrar** o **Borrar todo**.
 
@@ -38,11 +37,11 @@ Cuando se publique un nuevo anuncio regular, aparecerá una insignia de color á
 
 Los anuncios persistirán en tu panel de notificaciones incluso después de haberlos leído, hasta que el administrador del sistema los elimine.
 
-![Captura de pantalla del panel de notificaciones con un anuncio periódico que indica un próximo cambio en un producto mostrado](announcements-regular-en.png "Ejemplo de un anuncio regular en el panel de Notificaciones")
+![Captura de pantalla del panel de notificaciones con un anuncio periódico que indica un próximo cambio en un producto mostrado](/assets/announcements-regular-en.png)
 
 Los anuncios splash no aparecen en el panel de notificaciones. En cambio, aparecen en el centro de la interfaz de CloudMC. Tienen un botón **Cerrar** y todas las funciones de la plataforma no estarán disponibles hasta que cierres el anuncio. Si cierras sesión y luego vuelves a iniciarla, el anuncio se mostrará nuevamente hasta que hagas clic en el botón **Cerrar**.
 
 Una vez que se haya cerrado un anuncio de presentación, no volverá a aparecer.
 
-![Captura de pantalla de la interfaz de usuario de CloudMC con un anuncio de bienvenida que indica un tiempo de indisponibilidad de emergencia para más tarde ese día.](announcements-splash-en.png "Ejemplo de un anuncio splash en la interfaz de usuario de CloudMC")
+![Captura de pantalla de la interfaz de usuario de CloudMC con un anuncio de bienvenida que indica un tiempo de indisponibilidad de emergencia para más tarde ese día.](/assets/announcements-splash-en.png)
 
