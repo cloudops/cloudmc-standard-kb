@@ -8,30 +8,40 @@ Este artículo describe las notificaciones y cómo acceder a ellas y administrar
 
 ## Descripción general
 
-De vez en cuando, recibirás varios mensajes dentro de la plataforma. Algunos de estos mensajes pueden ser generados automáticamente por el sistema, otros pueden ser escritos y publicados por el administrador del sistema. En conjunto, estos mensajes se denominan **notificaciones**.
+De vez en cuando recibirás varios mensajes dentro de la plataforma. Algunos de estos mensajes pueden generarse automáticamente para la actividad dentro del sistema, otros pueden ser anuncios escritos y publicados por el administrador del sistema. En conjunto, estos mensajes se denominan **notificaciones**.
 
-Tus notificaciones aparecen en el panel de **Notificaciones**, al que se puede acceder a través del ícono de campana en el lado derecho de la barra de menú, en la parte superior de la página.
+Sus notificaciones aparecen en el panel **Notificaciones**, al que se puede acceder mediante el ícono de campana en el lado derecho de la barra de menú, en la parte superior de la página.
 
-## Notificaciones del sistema
+## Notificaciones de actividad
 
-Cuando se realizan ciertas operaciones, es posible que el sistema necesite comunicarte más información para completar la operación. Por ejemplo, al agregar una nueva instancia, necesitas la nueva contraseña para iniciar sesión, o al generar nuevas credenciales de API, debes recibir la nueva clave.
+Para brindar responsabilidad y trazabilidad, todas las operaciones del usuario se registran y almacenan en el **Registro de actividad**. En algunos contextos, como en el caso de operaciones que tardarán más en completarse, una notificación de actividad proporcionará más información, como el progreso o el estado de finalización. Aparecerá una insignia ámbar en el ícono de campana en la barra de menú en la parte superior de la página para indicar que hay una nueva notificación. Haz clic en el icono de campana para revelar el panel de notificaciones. La pestaña **Actividad** está seleccionada de forma predeterminada y todas las notificaciones de actividad se enumerarán a continuación.
 
-Para estas situaciones, CloudMC creará una notificación en el panel de notificaciones, aparecerá una insignia roja en el icono de campana en la barra de menú en la parte superior de la página y la información confidencial se presentará dentro de la notificación. Haz clic en el ícono de la campana para revelar el panel de **Notificaciones**. Puedes copiar la información de la notificación y luego borrar la notificación para preservar la seguridad.
+![Una captura de pantalla de un panel de notificaciones ampliado con una notificación que indica el progreso de una operación.](/assets/announcements-notificationpanel-en.png)
 
-Debido al carácter transitorio y confidencial de las notificaciones del sistema, solo se puede acceder a ellas desde el panel de notificaciones y CloudMC nunca las guarda.
+Además, cuando se realizan ciertas operaciones, es posible que el sistema necesite comunicarte más información para completar la operación. Por ejemplo, al agregar una nueva instancia, se generarán nuevas credenciales, o, al generar nuevas credenciales de API, el sistema generará una nueva clave. Estos se le proporcionarán a través de las notificaciones de actividad.
 
-## Notificaciones de tu organización
+Para estas situaciones, CloudMC creará una notificación en el panel de Notificaciones, aparecerá una insignia ámbar en el ícono de campana y la información confidencial se presentará dentro de la notificación. Puedes copiar la información de la notificación y luego borrarla para preservar la seguridad.
 
-Cuando tu organización necesite comunicarse con usted, el administrador de tu sistema publicará una notificación. Las notificaciones de tu organización aparecerán de dos maneras:
+![Una captura de pantalla de una notificación que contiene una contraseña oculta con dispositivos para exponer la contraseña y copiarla al portapapeles.](/assets/announcements-credentials-en.png)
 
-- **Notificación normal**: aparecerán en el panel de **Notificaciones**
-- **Notificación splash**: aparecerán en el centro de la página, similar a un cuadro de diálogo
+Debido a la naturaleza transitoria y sensible de las notificaciones de actividad, solo se puede acceder a ellas desde el panel de notificaciones y CloudMC nunca las guarda, y se pueden borrar manualmente si lo deseas haciendo clic en los botones **Borrar** o **Borrar todo**.
 
-Cuando se publique una nueva notificación regular, aparecerá una insignia roja en el ícono de la campana en la barra de menú en la parte superior de la página. Haz clic en el ícono de la campana para revelar el panel de **Notificaciones**. Si una notificación es demasiado grande para caber en el panel, habrá un botón para **Leer más**, que te llevará a tu página de **Notificaciones** donde podrás leer el mensaje completo. Una vez que se haya abierto y cerrado el panel de Notificaciones, las notificaciones se considerarán reconocidas y desaparecerán del panel, y la insignia roja se quitará del icono de la campana. Abrir el panel de Notificaciones es la única forma de reconocer una notificación.
+## Anuncios de tu organización
 
-Las notificaciones que hayan desaparecido del panel de **Notificaciones** serán visibles en la página de **Notificaciones** hasta que tu administrador elimine la notificación. También puedes navegar directamente a la página **Notificaciones** haciendo clic en el menú **Usuario** en la barra de herramientas, haciendo clic en **Mi perfil** y luego haciendo clic en el elemento **Notificaciones**. Las notificaciones no se pueden confirmar desde la página de **Notificaciones**.
+Cuando tu organización necesite comunicarse contigo, el administrador del sistema publicará un anuncio. Los anuncios de tu organización aparecerán de dos maneras:
 
-Algunas notificaciones son fijas, lo que significa que tu administrador requiere que borres manualmente la notificación después de leerla. Para borrar una notificación fija, abre el panel de notificaciones y haz clic en el botón **Borrar** junto a la notificación. También puedes usar el botón **Borrar todo** en la parte superior del panel.
+- **Anuncios regulares**: Aparecerán en el panel de **Notificaciones** y normalmente son sobre temas generales o no urgentes
+- **Anuncios splash**: Aparecerán en el centro de la interfaz de CloudMC, similar a un cuadro de diálogo, y normalmente tratan sobre temas urgentes que necesitan tu atención inmediata
 
-Las notificaciones splash, por otro lado, no aparecen en el panel de notificaciones. En cambio, estos aparecen en el centro de la página de CloudMC. Tienen un botón **Cerrar** y todas las funciones de la plataforma no están disponibles hasta que cierras la notificación. Si cierras sesión y luego vuelves a iniciar sesión, la notificación se mostrará nuevamente, hasta que haces clic en el botón **Cerrar**.
+Cuando se publique un nuevo anuncio regular, aparecerá una insignia de color ámbar en el ícono de campana. Haz clic en el ícono de campana para expandir el panel de notificaciones. Haz clic en la pestaña **Anuncios** para enumerar tus anuncios. Aparecerán todos los anuncios publicados, ordenados del más nuevo al más antiguo. Una vez que cierres el panel de Notificaciones, cualquier anuncio se considerará leído y la insignia ámbar se eliminará del ícono de campana. Abrir, hacer clic en la pestaña Anuncios y luego cerrar el panel de Notificaciones es la única forma de reconocer un anuncio.
+
+Los anuncios persistirán en tu panel de notificaciones incluso después de haberlos leído, hasta que el administrador del sistema los elimine.
+
+![Captura de pantalla del panel de notificaciones con un anuncio periódico que indica un próximo cambio en un producto mostrado](/assets/announcements-regular-en.png)
+
+Los anuncios splash no aparecen en el panel de notificaciones. En cambio, aparecen en el centro de la interfaz de CloudMC. Tienen un botón **Cerrar** y todas las funciones de la plataforma no estarán disponibles hasta que cierres el anuncio. Si cierras sesión y luego vuelves a iniciarla, el anuncio se mostrará nuevamente hasta que hagas clic en el botón **Cerrar**.
+
+Una vez que se haya cerrado un anuncio de presentación, no volverá a aparecer.
+
+![Captura de pantalla de la interfaz de usuario de CloudMC con un anuncio de bienvenida que indica un tiempo de indisponibilidad de emergencia para más tarde ese día.](/assets/announcements-splash-en.png)
 
