@@ -28,9 +28,9 @@ The user may supply the system with a public SSH key to install on the instance 
 
 Also, during configuration, a cost estimator will appear at the bottom of the page. Listed in the cost estimator are the selected configuration options and their individual costs, as well as an hourly and monthly estimated total. It will update dynamically as you select the desired configuration for your instance.
 
-![Screenshot of the Add Instance page with the cost estimator displayed](/assets/cloudstack-instances-cost-estimator.png)
+![Screenshot of the Add Instance page with the cost estimator displayed](/assets/instances-cost-estimator.png)
 
 ## Instance list
 
-![A screenshot of the Hypertec Cloud Instances page, with numbered dots indicating features of interest](/assets/cloudstack-instances-list.png)
+![A screenshot of the Hypertec Cloud Instances page, with numbered dots indicating features of interest](/assets/instances-list.png)
 
