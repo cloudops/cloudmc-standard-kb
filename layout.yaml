@@ -18,6 +18,8 @@ categories:
 - category: compute-service
   icon: fa fa-cloud
   articles:
+      - instances.md
+      - add-an-instance.md
       - working-with-instances.md
       - add-storage-to-instance.md
       - working-with-ssh-keys.md
