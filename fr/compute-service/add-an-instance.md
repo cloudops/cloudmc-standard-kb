@@ -25,7 +25,7 @@ Cet article vous guidera tout au long du processus d'ajout d'une nouvelle instan
 2. **Offres**
 
      - Machine virtuelle : choisissez parmi les combinaisons standard de vCPU et de mémoire, ou choisissez la vôtre.
-     - Bare metal : sélectionnez parmi les configurations disponibles.
+     - Physique : sélectionnez parmi les configurations disponibles.
 3. **Image**
 
      - Sélectionnez parmi une liste de modèles et d'ISO mis à disposition pour cette connexion de service.
