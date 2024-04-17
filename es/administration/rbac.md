@@ -19,7 +19,7 @@ El control de acceso en CloudMC se alcanza a través un modelo flexible y multi-
 
 - **Entorno:** Una unidad lógica dentro de una organización, usada para apartar y agrupar recursos de una manera segura.  El acceso está controlar por una combinación de roles de entorno y de controles de acceso del alcance.
 
-- **Miembros:**  Los miembros son usuarios a los que se les ha concedido acceso a un entorno determinado. Un usuario de una organización no es necesariamente miembro de los entornos de esa organización.
+- **Miembro:**  Los miembros son usuarios a los que se les ha concedido acceso a un entorno determinado. Un usuario de una organización no es necesariamente miembro de los entornos de esa organización.
 
 - **Rol de entorno:** Una colección compuesta de permisos de entorno, que está asignada a los miembros de un entorno.
 
