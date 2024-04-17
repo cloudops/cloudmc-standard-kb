@@ -8,7 +8,7 @@ slug: utiliser-les-environnements-pour-compartimenter-les-charges-de-travail-et-
 
 La plateforme offre un mécanisme puissant, les **environnements**, afin de ségréger les ressources et les charges de travail, et contrôler l'accès à celles-ci. Un cas d'utilisation commun est l'isolation des charges de travail de production et des systèmes en développement, ou encore la création de [carrés de sable](https://fr.wikipedia.org/wiki/Sandbox_%28s%C3%A9curit%C3%A9_informatique%29) spécifiques à certains projets.
 
-Un environnement appartient à une organisation, est associé à un service (ex.: Calcul ou Stockage d'objet) et est composé d'un ensemble d'utilisateurs qui ont une visibilité sur des ressources communes (ex.: instances, stockage, etc).
+Un environnement appartient à une organisation, est associé à un service (ex.: Calcul ou Stockage d'objet) et est composé d'un ensemble de membres qui ont une visibilité sur des ressources communes (ex.: instances, stockage, etc).  Les membres sont des utilisateurs qui ont obtenu l'accès à un environnement donné. Un utilisateur d'une organisation n'est pas nécessairement membre des environnements de cette organisation.
 
 Bien que le système mesure l'utilisation des services au niveau des organisations pour des fins de facturation, les ressources consommées par chaque environnement sont également mesurées indépendamment, ce qui permet au entreprises qui le désirent d'effectuer de la facturation interne par environnement.
 
