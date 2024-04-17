@@ -8,7 +8,6 @@ Ce système d'exploitation offre une client IKEv2 natif. Voici les étapes pour 
 #### Autoriser le certificat
 
 1. Faire un double-clic sur le certificat que vous avez téléchargé et enregistré sur votre ordinateur (par exemple: **acme-vpn.crt**) et ajouter-le dans votre trousseau **session**.
-   ![Add Certificate](/assets/Mac-1-Add-Certificate.png)
 1. Ouvrir l'application *Trousseaux d’accès* : *Finder > Applications > Utilitaires > Trousseaux d’accès*.
 1. Cliquer sur **session** à gauche et sur *Certificats* en bas à gauche.
 1. Dans la boîte de recherche en haut à droite de la fenêtre du Trousseaux d’accès, rechercher le certificat que vous venez d'ajouter.
