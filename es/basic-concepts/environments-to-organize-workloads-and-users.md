@@ -8,7 +8,7 @@ slug: entornos-para-organizar-cargas-de-trabajo-y-usuarios
 
 La plataforma proporciona un mecanismo poderoso, el de **entornos**, para segregar cargas de trabajo y recursos, y para controlar quién tiene acceso a ellos. Los ejemplos de casos de uso de este concepto incluyen la creación de entornos distintos para aislar las cargas de trabajo de producción de los sistemas de desarrollo, o el establecimiento de [aislamiento de procesos](https://es.wikipedia.org/wiki/Aislamiento_de_procesos) específicos del proyecto.
 
-Un entorno pertenece a una organización, está asociado con un servicio específico (por ejemplo, Computación o Almacenamiento de objetos) y está compuesto por un conjunto de usuarios que tienen visibilidad en un grupo de recursos compartidos, como instancias, almacenamiento, etc.
+Un entorno pertenece a una organización, está asociado con un servicio específico (por ejemplo, Computación o Almacenamiento de objetos) y está compuesto por un conjunto de miembros que tienen visibilidad en un grupo de recursos compartidos, como instancias, almacenamiento, etc.  Los miembros son usuarios a los que se les ha concedido acceso a un entorno determinado. Un usuario de una organización no es necesariamente miembro de los entornos de esa organización.
 
 Aunque el sistema calcula el uso del servicio a nivel de la organización para fines de facturación, los recursos consumidos por cada entorno también se rastrean por separado, lo que permite a las empresas generar informes internos de devolución de cargo por entorno si así lo desean.
 

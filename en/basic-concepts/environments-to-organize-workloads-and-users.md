@@ -8,7 +8,7 @@ slug: environments-to-organize-workloads-and-users
 
 The platform provides a powerful mechanism, **environments**, to segregate workloads and resources, and to control who gets access to those. Example use-cases of this concept include creating distinct environments to isolate production workloads from development systems, or establishing project-specific [sandboxes](https://en.wikipedia.org/wiki/Sandbox_%28computer_security%29).
 
-An environment belongs to an organization, is associated with a specific service (e.g. Compute or Object Storage), and is comprised of a set of users who have visibility on a pool of shared resources, such as instances, storage, etc.
+An environment belongs to an organization, is associated with a specific service (e.g. Compute or Object Storage), and is comprised of a set of members who have visibility on a pool of shared resources, such as instances, storage, etc.  Members are users that have been granted access to a given environment.  A user in an organization is not necessarily a member of the environments in that organization.
 
 Although the system calculates service usage at the organization-level for billing purposes, the resources consumed by each environments are also tracked separately, which allows businesses to generate internal chargeback reports on a per-environment basis if they wish.
 
