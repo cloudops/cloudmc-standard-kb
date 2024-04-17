@@ -19,6 +19,8 @@ Le contrôle d'accès dans CloudMC est obtenu par un modèle flexible et multi-l
 
 - **Environnement :** Un regroupement logique et sécurisé au sein d'une organisation, utilisée pour isoler et grouper des ressources sûrement.  L'accès est contrôlé par une combinaison de rôles d'environnement et des contrôles d'accès de l'organisation.
 
+- **Membre :**  Les membres sont des utilisateurs qui ont obtenu l'accès à un environnement donné. Un utilisateur d'une organisation n'est pas nécessairement membre des environnements de cette organisation.
+
 - **Rôle d'environnement :**  Une collection de permissions d'environnement qui s'applique aux membres d'un environnement.
 
 ![user access control chart](/assets/rbac-roles-chart-fr.png)

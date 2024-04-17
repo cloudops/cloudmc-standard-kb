@@ -19,6 +19,8 @@ Access control in CloudMC is achieved through a flexible, multi-tenant model tha
 
 - **Environment:**  A logical unit within an organization, used to isolate and group resources securely. Access is controlled via a combination of environment roles and organization access controls.
 
+- **Member:**  Members are users that have been granted access to a given environment.  A user in an organization is not necessarily a member of the environments in that organization.
+
 - **Environment Role:** A collection of environment permissions that is applied to the members of an environment.
 
 ![user access control chart](/assets/rbac-roles-chart-en.png)
