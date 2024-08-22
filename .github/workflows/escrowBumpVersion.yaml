@@ -55,4 +55,5 @@ jobs:
         with:
           add: 'deposit_information.json'
           message: 'Bump escrow version to ${{ steps.bumpVersion.outputs.new_version }}'
+          github_token: ${{ secrets.ACTION_GITHUB_TOKEN }}
 
