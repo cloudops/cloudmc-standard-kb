@@ -23,8 +23,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4.1.7
-        with: 
-          token: ${{ secrets.ACTION_GITHUB_TOKEN }}
 
       - uses: ashley-taylor/read-json-property-action@v1.0
         with:
@@ -55,7 +53,6 @@ jobs:
         with:
           add: 'deposit_information.json'
           message: 'Bump escrow version to ${{ steps.bumpVersion.outputs.new_version }}'
-          author_name: jenkins
-          author_email: jenkins@cloudops.com
+          default_author: github_actions
           github_token: ${{ secrets.ACTION_GITHUB_TOKEN }}
 
