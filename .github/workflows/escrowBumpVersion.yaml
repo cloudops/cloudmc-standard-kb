@@ -55,5 +55,7 @@ jobs:
         with:
           add: 'deposit_information.json'
           message: 'Bump escrow version to ${{ steps.bumpVersion.outputs.new_version }}'
+          author_name: jenkins
+          author_email: jenkins@cloudops.com
           github_token: ${{ secrets.ACTION_GITHUB_TOKEN }}
 
