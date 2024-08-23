@@ -20,11 +20,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - shell: bash
-        env:
-          SUPER_SECRET: ${{ secrets.ACTION_GITHUB_TOKEN }}
-        run: |
-          echo "secret : --$SUPER_SECRET--"
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4.1.7
