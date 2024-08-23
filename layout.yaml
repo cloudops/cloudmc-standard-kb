@@ -1,3 +1,5 @@
+## Use this file to define the categories and articles for the knowledge base.
+
 categories:
 - category: basic-concepts
   icon: fa fa-globe
