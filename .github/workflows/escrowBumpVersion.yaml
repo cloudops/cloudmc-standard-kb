@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.7
         with:
-          token: ${{ secrets.ACTION_GITHUB_TOKEN }}
+          token: "${{ secrets.ACTION_GITHUB_TOKEN }}"
 
       - uses: ashley-taylor/read-json-property-action@v1.0
         with:
