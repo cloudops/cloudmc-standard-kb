@@ -1,5 +1,5 @@
 ---
-title: "Instances"
+title: "CloudStack: Instances"
 slug: cloudstack-instances
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Add an instance"
+title: "CloudStack: Add an instance"
 slug: cloudstack-add-an-instance
 ---
 
