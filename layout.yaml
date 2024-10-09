@@ -13,6 +13,8 @@ categories:
 - category: cloudstack-compute-service
   icon: fa fa-cloud
   articles:
+      - cloudstack-instances.md
+      - cloudstack-add-an-instance.md
       - cloudstack-working-with-instances.md
       - cloudstack-what-is-a-vpc.md
       - cloudstack-add-storage-to-instance.md
