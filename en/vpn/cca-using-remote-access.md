@@ -11,14 +11,17 @@ CloudMC provides the ability to connect securely from your home or office to you
 #### Enable VPN access
 Before you can connect to your VPC through a client VPN connection, you need to enable VPN access on the VPC.
 
-1. Select the appropriate compute environment.
+1. Navigate to the target CloudStack environment.
 1. Select the *Networking* tab.
-1. From the target VPC's list item, click the *Remote Access VPN* button for the VPC that you want to enable VPN access.
-1. Click on the action menu and select *Enable* to enable VPN access.
-1. After a few seconds, a pop-up window will appear to confirm the VPN is now enabled and you will find a certificate being displayed on the page.
+1. Locate the target VPC.  This is the VPC that you wish to connect to via the VPN.
+1. Click the *Remote Access VPN* gear icon for the target VPC.  The *Remote access VPN* page appears.
+1. Click on the Hidden Actions menu and select *Enable* to activate VPN access.
+1. Click on the *Submit* button when it appears.
+1. After a few moments, a certificate being displayed on the page.
+1. Copy and paste this certificate into a new empty file with the **.crt** extension, for example `hypertec-cloud-vpn.crt`. Make sure you keep the exact same formatting and content as displayed on the page.
 
 #### Create VPN account
-1. In the VPN page of a VPC, the list of VPN users is also displayed.
+1. In the VPN page of a VPC, the list of VPN users is also displayed below the certificate.
 1. Click on *Add VPN User*.
 1. Fill the *Add VPN User* form.
 1. Click on *Done*.
@@ -31,6 +34,6 @@ After you've successfully configured your VPC for VPN access, and created at lea
 The following information is required to configure the VPN client:
 
    - **Public IP:** The VPC's public IP address with tagged with the "VPN" purpose.
-   - **IKEv2 certificate:** The certificate used to authenticate the remote VPN. Save this certificate in a file with the **.crt** extension, for example `cloud-vpn.crt`. Make sure you keep the exact same formatting and content as displayed on the page.
+   - **IKEv2 certificate:** The certificate used to authenticate the remote VPN. This is the SSL certificate that you saved when enabling VPN access.
    - **Username:** a valid VPN account username.
    - **Password:** a valid VPN account password.
