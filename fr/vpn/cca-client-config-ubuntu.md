@@ -15,7 +15,7 @@ Ce guide va vous aider à configurer l'accès VPN à distance sur Ubuntu en util
 
 5. Naviguer à l'onglet *Identity*.
 5. Donnez un nom au VPN dans le champ **Name**, par exemple : **Hypertec VPN**
-5. Sous la section *Server*, le champ *Address* correspond à l'IP publique affichée dans la page de configuration du VPN et *Certificate* correspond au fichier de certificat que vous avez créé lors de [l'activation du VPN](cca-user-remote-access.md).
+5. Sous la section *Server*, le champ *Address* correspond à l'IP publique affichée dans la page de configuration du VPN et *Certificate* correspond au fichier de certificat que vous avez créé lors de [l'activation du VPN](cca-using-remote-access.md).
 5. Dans la section *Client*, définissez *Authentication* sur **EAP (Username/Password)**.
 5. Saisissez le nom d'utilisateur VPN dans les champs *Identity* et *Username*.
 5. Dans la section *Options*, cochez la case **Request an inner IP address**.
