@@ -1,5 +1,5 @@
 ---
-title: "Configuration Client :  Ubuntu 18.04"
+title: "Configuration Client :  Ubuntu 24.04"
 slug: cca-config-client-ubuntu
 ---
 
@@ -8,18 +8,17 @@ Ce guide va vous aider à configurer l'accès VPN à distance sur Ubuntu en util
 
 1. Installer les paquets requises :
    - `apt-get install strongswan network-manager-strongswan libcharon-extra-plugins`
-1. Ouvrir l'application *Paramètres*, aller à l'onglet *Réseau* à gauche.
-1. Cliquer sur **+** à côté de *VPN*.
+1. Dans la section *VPN*, cliquez sur le bouton **+** à l'extrême droite.
 1. Sélectionner **IPsec/IKEv2 (strongswan)** comme type de VPN.
 
 ![Sélection de VPN](/assets/Lx-1-Strongswan.png)
 
 5. Naviguer à l'onglet *Identity*.
-5. Donner un nom à la connexion VPN, par exemple: **cloud-vpn.cer**
-5. Dans *Gateway*, le champ *Address* est l'IP publique fournie dans la page de configuration du VPN, et *Certificat* est le certificat fourni dans la page de configuration du VPN.
-5. Dans *Client*, mettre *Authentication* à *EAP*.
-5. Renseigner les champs *Username* et *Password*.
-5. Dans *Options*, cocher la case **Request an inner IP address**.
+5. Donnez un nom au VPN dans le champ **Name**, par exemple : **Hypertec VPN**
+5. Sous la section *Server*, le champ *Address* correspond à l'IP publique affichée dans la page de configuration du VPN et *Certificate* correspond au fichier de certificat que vous avez créé lors de [l'activation du VPN](cca-user-remote-access.md).
+5. Dans la section *Client*, définissez *Authentication* sur **EAP (Username/Password)**.
+5. Saisissez le nom d'utilisateur VPN dans les champs *Identity* et *Username*.
+5. Dans la section *Options*, cochez la case **Request an inner IP address**.
 
 ![Page de configuration du VPN](/assets/Lx-2-Request-internal.png)
 

@@ -3,7 +3,6 @@ title: "Connexion à un VPC par une connexion VPN sécurisée"
 slug: connexion-a-un-vpc-par-un-vpn-a-distance-ikev2
 ---
 
-
 CloudMC vous offre la possibilité de vous connecter de façon sécurisée depuis votre maison ou votre bureau aux réseaux de vos VPCs.  Grâce à un client VPN basé sur IKEv2 et IPSec installé sur votre plateforme (Windows, macOS, Ubuntu…), vous pourrez accéder à vos machines virtuelles sans utiliser la redirection de port sur adresses IP publiques.
 
 ## Configuration du VPC
@@ -12,14 +11,17 @@ CloudMC vous offre la possibilité de vous connecter de façon sécurisée depui
 #### Activation du VPN
 Avant de pouvoir vous connecter à votre VPC à travers une connexion VPN, vous devrez activer l'accès au VPN sur le VPC.
 
-1. Sélectionner l'environnement désiré.
-1. Sélectionner l'onglet *Réseautage*.
-1. Cliquer sur le bouton *Accès VPN à distance* du VPC cible dans la liste.
-1. Cliquer sur le menu d'action et sélectionner *Activer* pour l'accès au VPN cible.
-1. Après quelques secondes, une fenêtre contextuelle apparaîtra pour confirmer l'activation du VPN et communiquer le certificat.
+1. Accédez à l’environnement CloudStack cible.
+1. Sélectionner l'onglet *Réseautique*.
+1. Localisez le VPC cible. Il s'agit du VPC auquel vous souhaitez vous connecter via le VPN.
+1. Cliquez sur l'icône d'engrenage *Accès VPN à distance* pour le VPC cible. La page *Accès VPN à distance* apparaît.
+1. Cliquez sur le menu des actions cachées et sélectionnez *Activer* pour activer l'accès VPN.
+1. Cliquez sur le bouton *Valider* lorsqu'il apparaît.
+1. Après quelques instants, un certificat s'affiche sur la page.
+1. Copiez et collez ce certificat dans un nouveau fichier vide avec l'extension **.crt**, par exemple `hypertec-cloud-vpn.crt`. Assurez-vous de conserver exactement le même formatage et le même contenu que ceux affichés sur la page.
 
 #### Création de comptes VPN
-1. Dans la page VPN d'un VPC, la liste des utilisateurs du VPN est également affichée.
+1. Dans la page VPN d’un VPC, la liste des utilisateurs VPN est également affichée sous le certificat.
 1. Cliquer sur *Ajouter un utilisateur au VPN*.
 1. Compléter le formulaire *Ajouter un utilisateur au VPN*.
 1. Cliquer sur *Valider*.
@@ -32,6 +34,6 @@ Après avoir configuré votre VPC pour y accéder via un connexion VPN, et cré�
 Les informations suivantes sont requises pour configurer le client VPN :
 
    - **Adresse IP publique :**  L'adresse IP publique du VPC identifiée avec l'utilité VPN.
-   - **Certificat IKEv2 :**  Le certificat pour authentifier le VPN.  Enregistrez ce certificat dans un fichier avec l'extension .crt, par exemple `cloud-vpn.crt`. Assurez-vous de conserver exactement la même mise en forme et le même contenu que ceux affichés sur la page.
+   - **Certificat IKEv2 :** Le certificat pour authentifier le VPN. Il s’agit du certificat SSL que vous avez enregistré lors de l’activation de l’accès VPN.
    - **Nom d'utilisateur :**  Un nom d'utilisateur valide pour le VPN.
    - **Mot de passe :**  Un mot de passe valide pour l'utilisateur du VPN.
