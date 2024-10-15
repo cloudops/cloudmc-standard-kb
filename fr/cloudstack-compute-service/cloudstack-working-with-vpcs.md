@@ -82,4 +82,4 @@ Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs,
 
 ### Accès VPN à distance
 
-Un VPN d'accès à distance vous permet d'accéder au réseau aux ressources d'un VPC. Pour plus d'informations, consultez [Connexion à un VPC par une connexion VPN sécurisée](../vpn/cca-using-remote-access.md).
+Un VPN d'accès à distance vous permet d'accéder au réseau aux ressources d'un VPC. Pour plus d'informations, consultez [Connexion à un VPC par une connexion VPN sécurisée](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md).

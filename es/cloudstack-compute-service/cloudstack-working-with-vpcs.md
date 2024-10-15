@@ -82,4 +82,4 @@ Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una o
 
 ### VPN de acceso remoto
 
-Una VPN de acceso remoto permite acceder a la red a los recursos dentro de una VPC. Para obtener más información, consulte [Conectarse a una VPC mediante VPN de acceso remoto (IKEv2)](../vpn/cca-using-remote-access.md).
+Una VPN de acceso remoto permite acceder a la red a los recursos dentro de una VPC. Para obtener más información, consulte [Conectarse a una VPC mediante VPN de acceso remoto (IKEv2)](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md).

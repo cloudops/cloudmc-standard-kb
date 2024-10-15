@@ -82,4 +82,4 @@ Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote o
 
 ### Remote Access VPN
 
-A remote access VPN allows you network access to resources within a VPC. For more information, see [Connect to a VPC using remote access VPN (IKEv2)](../vpn/cca-using-remote-access.md).
+A remote access VPN allows you network access to resources within a VPC. For more information, see [Connect to a VPC using remote access VPN (IKEv2)](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md).
