@@ -4,7 +4,7 @@ slug: cloudstack-importar-iso
 ---
 
 
-Este artículo te guiará a través de los pasos para crear una imagen a partir de un ISO importado y luego implementar una nueva instancia a partir de esa imagen. La creación de tus propias imágenes a partir de ISO te permite ampliar tu elección de sistemas operativos más allá de la oferta estándar, incluidos los dispositivos virtuales y otros sistemas autónomos. Debes estar familiarizado con conceptos como los imágenes ISO y [trabajar con instancias](working-with-instances.md).
+Este artículo te guiará a través de los pasos para crear una imagen a partir de un ISO importado y luego implementar una nueva instancia a partir de esa imagen. La creación de tus propias imágenes a partir de ISO te permite ampliar tu elección de sistemas operativos más allá de la oferta estándar, incluidos los dispositivos virtuales y otros sistemas autónomos. Debes estar familiarizado con conceptos como los imágenes ISO y [trabajar con instancias](cloudstack-working-with-instances.md).
 
 ## Prerrequisitos
 - Debes tener una imagen ISO de arranque.

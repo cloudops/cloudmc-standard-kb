@@ -4,14 +4,14 @@ slug: cloudstack-activar-nat-estatico
 ---
 
 
-Este artículo te guiará a través de los pasos para configurar NAT estática para una instancia en tu entorno. Activar NAT estática para una instancia creará una asignación uno a uno desde una dirección IP pública a esa instancia. Debes estar familiarizado con [conceptos de redes](../cloudstack-compute-service/what-is-a-vpc.md) como la traducción de direcciones de red (NAT), la NAT estática, el reenvío de puertos y las listas de control de acceso (ACL).
+Este artículo te guiará a través de los pasos para configurar NAT estática para una instancia en tu entorno. Activar NAT estática para una instancia creará una asignación uno a uno desde una dirección IP pública a esa instancia. Debes estar familiarizado con [conceptos de redes](../cloudstack-compute-service/cloudstack-what-is-a-vpc.md) como la traducción de direcciones de red (NAT), la NAT estática, el reenvío de puertos y las listas de control de acceso (ACL).
 
 ## Prerrequisitos
 
 - Deberás tener un entorno configurado con una VPC.
 - La VPC debe tener una red *estándar* o *de carga equilibrada* en esa VPC.
 - La máquina virtual de destino debe tener una NIC con una IP privada en esa red.
-- La red de destino debe tener las [ACL de red](securing-your-network.md) adecuadas configuradas para permitir el tráfico deseado y denegar el resto del tráfico.
+- La red de destino debe tener las [ACL de red](cloudstack-securing-your-network.md) adecuadas configuradas para permitir el tráfico deseado y denegar el resto del tráfico.
 
 ## Pasos
 

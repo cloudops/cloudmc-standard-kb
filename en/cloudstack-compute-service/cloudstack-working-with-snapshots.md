@@ -6,7 +6,7 @@ slug: cloudstack-working-with-snapshots
 
 A volume in CloudMC can be used to create a **snapshot**, which is a static copy of that disk and all of its contents at the time the snapshot was taken.  This can be useful in several scenarios:
    - Rollback: When testing changes to an instance and an error occurs, the instance can be re-deployed from a snapshot taken just before the change, essentially rolling the instance back to a known-good state.
-   - Golden image: An instance can be configured to a desired state, and a snapshot can be used to provision an [instance template](working-with-instance-templates.md) to be used for deploying multiple instances.
+   - Golden image: An instance can be configured to a desired state, and a snapshot can be used to provision an [instance template](cloudstack-working-with-instance-templates.md) to be used for deploying multiple instances.
    - Troubleshooting: If troubleshooting of a production instance is necessary, a snapshot can be taken and used to create an identical instance outside of the production environment.
 
 Both **root** volumes and **data** volumes can be used to create a snapshot.

@@ -11,7 +11,7 @@ slug: cloudstack-gestion-des-vpcs
 
 Pour créer, modifier, ou supprimer un VPC, un compte avec le rôle *Utilisateur* doit être membre de l'environnement qui contient le VPC, et également avoir le rôle d'environnement *Éditeur* ou *Propriétaire* attribué. Un compte doté du rôle *Administrateur* ou supérieur peut créer, modifier ou supprimer des VPC dans un environnement.
 
-Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un VPC?](../cloudstack-compute-service/what-is-a-vpc.md).
+Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un VPC?](../cloudstack-compute-service/cloudstack-what-is-a-vpc.md).
 
 ### Création d'un VPC
 
@@ -44,7 +44,7 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
       - **Load Balanced Tier :**  (Par défaut) Similar au "Standard Tier" mais offre en plus la possibilité de faire de la répartition de charge entre plusieurs instances déployées sur ce tier, via des règles de répartition de charge appliquées sur des adresses IP publiques. **Avis : Cette offre réseau ne peut s'appliquer qu'à un seul tier à l'intérieur d'un VPC.**
    - **Paserelle :**  L'adresse IP de la passerelle par défaut pour le tier de réseau.
    - **Masque de sous-réseau :**  Le masque de sous-réseau du tier réseau.
-   - **ACL :** Liste de contrôle d'accès (ACL) pour la communication entre les tiers au sein du même VPC. Voir [Sécurisation de votre réseau](securing-your-network.md) pour plus d'informations sur les ACLs.
+   - **ACL :** Liste de contrôle d'accès (ACL) pour la communication entre les tiers au sein du même VPC. Voir [Sécurisation de votre réseau](cloudstack-securing-your-network.md) pour plus d'informations sur les ACLs.
       - **default_allow :**  (Par défaut) Permet tout le traffic de/vers un autre tier du VPC.
       - **default_deny  :**  Empêche tout traffic de/vers un autre tier du VPC.
    ![Page d'ajouter réseau](/assets/working-with-vpcs-5-fr.png)
@@ -53,7 +53,7 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
 
 ### VPN site-à-site
 
-Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs, un bureau distant à un VPC, ou un autre fournisseur de cloud à un VPC. Un exemple d'un VPN site-à-site peut être trouvé dans l'article pratique [Créer un VPN site-à-site pour un VPC](../cloudstack-compute-service/create-site-to-site-vpn-on-vpc.md).
+Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs, un bureau distant à un VPC, ou un autre fournisseur de cloud à un VPC. Un exemple d'un VPN site-à-site peut être trouvé dans l'article pratique [Créer un VPN site-à-site pour un VPC](../cloudstack-compute-service/cloudstack-create-site-to-site-vpn-on-vpc.md).
 
 1. À partir du VPC cible, recherchez l'élément **VPNs site-à-site** et cliquez sur l'icône d'engrenage.
    ![Page VPNs site-à-site](/assets/working-with-vpcs-6-fr.png)

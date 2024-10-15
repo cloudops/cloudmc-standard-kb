@@ -11,7 +11,7 @@ slug: cloudstack-working-with-vpcs
 
 To create, modify, or delete a VPC, an account with the *User* role must be a member of the environment which contains the VPC, and also have the *Editor* or *Owner* environment role assigned.  An account with the *Administrator* role or higher may create, modify, or delete VPCs in an environment.
 
-For more information about VPCs, please see [What is a VPC](../cloudstack-compute-service/what-is-a-vpc.md).
+For more information about VPCs, please see [What is a VPC](../cloudstack-compute-service/cloudstack-what-is-a-vpc.md).
 
 ### Create a new VPC
 
@@ -44,7 +44,7 @@ For more information about VPCs, please see [What is a VPC](../cloudstack-comput
       - **Load Balanced Tier:**  (Default) Includes the features of the Standard Tier and also offers the ability to load-balance traffic across multiple instances within that tier, via rules that are applied on a public IP Address. **Note: Only a single tier within a VPC can have this offering.**
    - **Gateway:** The IP address of the default gateway for the network tier to be created.
    - **Netmask:**  The subnet mask of the network tier to be created.
-   - **ACL:** Access control list (ACL) for communication across tiers within the same VPC.  See [Securing your network](securing-your-network.md) for more information about ACLs.
+   - **ACL:** Access control list (ACL) for communication across tiers within the same VPC.  See [Securing your network](cloudstack-securing-your-network.md) for more information about ACLs.
       - **default_allow:**  (Default) Allow all type of traffic from/to other tiers in the VPC.
       - **default_deny:**  Deny all type of traffic from/to other tiers in the VPC.
    ![Add network page](/assets/working-with-vpcs-5-en.png)
@@ -53,7 +53,7 @@ For more information about VPCs, please see [What is a VPC](../cloudstack-comput
 
 ### Site-to-Site VPN
 
-Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote office to a VPC, or another cloud provider to a VPC.  An example site-to-site VPN can be found in the how-to article [Create a site-to-site VPN on a VPC](../cloudstack-compute-service/create-site-to-site-vpn-on-vpc.md).
+Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote office to a VPC, or another cloud provider to a VPC.  An example site-to-site VPN can be found in the how-to article [Create a site-to-site VPN on a VPC](../cloudstack-compute-service/cloudstack-create-site-to-site-vpn-on-vpc.md).
 
 1. From the target VPC, find the **Site-to-Site VPNs** item and click the gear menu.
    ![Site-to-site VPN page](/assets/working-with-vpcs-6-en.png)

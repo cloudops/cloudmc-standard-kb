@@ -4,7 +4,7 @@ slug: cloudstack-import-iso
 ---
 
 
-This article will guide you through the steps of creating an image from an imported ISO, and then deploying a new instance from that image.  Creating your own images from ISOs allows you to extend your choice of operating systems beyond the standard offering, including virtual appliances and other self-contained systems.  You should be familiar with concepts such as ISO images and [working with instances](working-with-instances.md).
+This article will guide you through the steps of creating an image from an imported ISO, and then deploying a new instance from that image.  Creating your own images from ISOs allows you to extend your choice of operating systems beyond the standard offering, including virtual appliances and other self-contained systems.  You should be familiar with concepts such as ISO images and [working with instances](cloudstack-working-with-instances.md).
 
 ## Prerequisites
    - You must have a bootable ISO image.

@@ -6,7 +6,7 @@ slug: cloudstack-gestion-des-copies-instantanees
 
 Un volume dans CloudMC peut être utilisé pour créer une **copie instantanée**, qui est une copie statique de ce disque et de tout son contenu au moment où la copie instantanée a été prise. Cela peut être utile dans plusieurs scénarios :
    - Restauration : lorsque vous testez les modifications apportées à une instance et qu'une erreur se produit, l'instance peut être redéployée à partir d'une copie instantanée prise juste avant la modification, essentiellement en ramener l'instance à un état correct.
-   - Image maître : une instance peut être configurée dans un état souhaité et une copie instantanée peut être utilisé pour provisionner un [modèle d'instance](working-with-instance-templates.md) à utiliser pour déployer plusieurs instances.
+   - Image maître : une instance peut être configurée dans un état souhaité et une copie instantanée peut être utilisé pour provisionner un [modèle d'instance](cloudstack-working-with-instance-templates.md) à utiliser pour déployer plusieurs instances.
    - Dépannage : si le dépannage d'une instance est nécessaire, une copie instantanée peut être prise et utilisée pour créer une instance identique en dehors de l'environnement de production.
 
 Les volumes de genres **root** et **data** peuvent être utilisés pour créer une copie instantanée. Les copies instantanées sont stockées dans un stockage d'objets à l'échelle de la région, ce qui les rend disponibles pour une utilisation dans plusieurs zones. <!-- Take out for standard KB -->

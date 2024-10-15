@@ -6,7 +6,7 @@ slug: cloudstack-gestion-de-copias-instantaneas
 
 Se puede usar un volumen en CloudMC para crear una **copia instantánea**, que es una copia estática de ese disco y todo su contenido en el momento en que se tomó la copia instantánea. Esto puede ser útil en varios escenarios:
     - Retroceder: cuando se prueban los cambios en una instancia y se produce un error, la instancia se puede volver a implementar a partir de una instantánea tomada justo antes del cambio, lo que básicamente hace que la instancia vuelva a un estado bueno conocido.
-    - Imagen dorada: se puede configurar una instancia en el estado deseado y se puede usar una instantánea para aprovisionar una [plantilla de instancia](working-with-instance-templates.md) para usarla para implementar varias instancias.
+    - Imagen dorada: se puede configurar una instancia en el estado deseado y se puede usar una instantánea para aprovisionar una [plantilla de instancia](cloudstack-working-with-instance-templates.md) para usarla para implementar varias instancias.
     - Resolución de problemas: si es necesaria la resolución de problemas de una instancia de producción, se puede tomar una instantánea y usarla para crear una instancia idéntica fuera del entorno de producción.
 
 Tanto los volúmenes **raíz** como los volúmenes de **datos** se pueden usar para crear una copia instantánea.

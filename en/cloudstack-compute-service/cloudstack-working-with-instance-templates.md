@@ -6,7 +6,7 @@ slug: cloudstack-working-with-instance-templates
 
 ### Creating a template from an existing instance
 
-This section will show how to create an **instance template** from an existing instance running on CloudMC. This process requires a [volume snapshot](working-with-snapshots.md) to be created.
+This section will show how to create an **instance template** from an existing instance running on CloudMC. This process requires a [volume snapshot](cloudstack-working-with-snapshots.md) to be created.
 
 #### Make the initial Volume Snapshot
 
