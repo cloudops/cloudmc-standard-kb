@@ -9,7 +9,7 @@ You may need to be able to access your instances, or allow access instances to b
 
 ### Remote Access VPN
 
-A remote access VPN will allow you to access your instances without the need for connecting them to the outside world. If you don't require public access to your instances, this is suggested. [You can find how to set up a remote access VPN here.](../vpn/cca-using-remote-access.md)
+A remote access VPN will allow you to access your instances without the need for connecting them to the outside world. If you don't require public access to your instances, this is suggested. [You can find how to set up a remote access VPN here.](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md)
 
 ### Network ACLs
 

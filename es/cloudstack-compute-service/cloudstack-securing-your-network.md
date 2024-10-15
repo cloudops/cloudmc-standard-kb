@@ -9,7 +9,7 @@ Es posible que debas poder acceder a tus instancias o permitir que usuarios exte
 
 ### VPN de acceso remoto
 
-Una VPN de acceso remoto te permitirá acceder a sus instancias sin necesidad de conectarlas al mundo exterior. Si no necesitas acceso público a tus instancias, se sugiere esto. [Se puede encontrar cómo configurar una VPN de acceso remoto aquí.](../vpn/cca-using-remote-access.md)
+Una VPN de acceso remoto te permitirá acceder a sus instancias sin necesidad de conectarlas al mundo exterior. Si no necesitas acceso público a tus instancias, se sugiere esto. [Se puede encontrar cómo configurar una VPN de acceso remoto aquí.](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md)
 
 ### ACL de red
 

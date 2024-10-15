@@ -9,7 +9,7 @@ Il se peut que vous deviez pouvoir accéder à vos instances ou autoriser l'acc�
 
 ### Accès VPN à distance
 
-Un VPN d'accès à distance vous permettra d'accéder à vos instances sans avoir besoin de les connecter au monde extérieur. Si vous n'avez pas besoin d'un accès public à vos instances, cela est suggéré. [Vous pouvez trouver comment configurer un VPN d'accès à distance ici.](../vpn/cca-using-remote-access.md)
+Un VPN d'accès à distance vous permettra d'accéder à vos instances sans avoir besoin de les connecter au monde extérieur. Si vous n'avez pas besoin d'un accès public à vos instances, cela est suggéré. [Vous pouvez trouver comment configurer un VPN d'accès à distance ici.](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md)
 
 ### ACLs réseau
 
