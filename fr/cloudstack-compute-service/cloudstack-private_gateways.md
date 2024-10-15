@@ -8,7 +8,7 @@ Cet article présente le concept de passerelle privée et inclut des détails su
 
 ## Aperçu détaillé
 
-Les instances dans des VPC distincts sont isolées les unes des autres. Souvent, la configuration d'un [VPN site-à-site](create-site-to-site-vpn-on-vpc.md) est un moyen pratique d'établir une connexion entre deux VPC, permettant à leurs instances de communiquer entre elles . Il y a cependant des limites à cette approche. Un VPN crypte le trafic réseau, ce qui peut réduire les performances. De plus, les connexions VPN peuvent se terminer de manière inattendue et doivent être réinitialisées, ce qui affecte la disponibilité et les performances.
+Les instances dans des VPC distincts sont isolées les unes des autres. Souvent, la configuration d'un [VPN site-à-site](cloudstack-create-site-to-site-vpn-on-vpc.md) est un moyen pratique d'établir une connexion entre deux VPC, permettant à leurs instances de communiquer entre elles . Il y a cependant des limites à cette approche. Un VPN crypte le trafic réseau, ce qui peut réduire les performances. De plus, les connexions VPN peuvent se terminer de manière inattendue et doivent être réinitialisées, ce qui affecte la disponibilité et les performances.
 
 Pour résoudre ces problèmes, les fournisseurs de services peuvent proposer une infrastructure de réseau privé dédiée pour permettre l'appairage de deux VPC. Le trafic réseau entre les VPC traverse un chemin interne au lieu du réseau public. Ceci est utile lorsqu'une connexion fiable et rapide est nécessaire, comme pour les applications en temps réel ou pour la surveillance et la gestion. Dans un tel scénario, CloudMC est en mesure de tirer parti du chemin interne en créant une passerelle privée entre les VPC.
 

@@ -8,7 +8,7 @@ Este artículo presenta el concepto de una puerta de enlace privada e incluye de
 
 ## Resumen detallado
 
-Las instancias en VPCs separadas están aisladas entre sí. A menudo, configurar una [VPN de sitio a sitio](create-site-to-site-vpn-on-vpc.md) es una forma conveniente de establecer una conexión entre dos VPCs y permitir que sus instancias se comuniquen entre sí. Sin embargo, existen limitaciones con este enfoque. Una VPN cifra el tráfico de la red, lo que puede reducir el rendimiento. Además, las conexiones VPNes pueden terminar inesperadamente y deben restablecerse, lo que afecta la disponibilidad y el rendimiento.
+Las instancias en VPCs separadas están aisladas entre sí. A menudo, configurar una [VPN de sitio a sitio](cloudstack-create-site-to-site-vpn-on-vpc.md) es una forma conveniente de establecer una conexión entre dos VPCs y permitir que sus instancias se comuniquen entre sí. Sin embargo, existen limitaciones con este enfoque. Una VPN cifra el tráfico de la red, lo que puede reducir el rendimiento. Además, las conexiones VPNes pueden terminar inesperadamente y deben restablecerse, lo que afecta la disponibilidad y el rendimiento.
 
 Para abordar estos problemas, los proveedores de servicios pueden ofrecer una infraestructura de red privada dedicada para permitir que se interconecten dos VPCs. El tráfico de red entre las VPCs atraviesa una ruta interna en lugar de la red pública. Esto es útil cuando se necesita una conexión confiable y rápida, como para aplicaciones en tiempo real o para monitoreo y administración. En tal escenario, CloudMC puede aprovechar la ruta interna mediante la creación de una puerta de enlace privada entre las VPCs.
 

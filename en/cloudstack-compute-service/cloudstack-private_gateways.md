@@ -8,7 +8,7 @@ This article introduces the concept of a private gateway, and includes details o
 
 ## Detailed overview
 
-Instances in separate VPCs are isolated from each other. Often, setting up a [site-to-site VPN](create-site-to-site-vpn-on-vpc.md) is a convenient way to establish a connection between two VPCs, allow their instances to communicate with each other. There are limitations with this approach, however. A VPN encrypts the network traffic, which can reduce performance. Also, VPN connections may unexpectedly terminate and need to be reset, affecting availability and performance.
+Instances in separate VPCs are isolated from each other. Often, setting up a [site-to-site VPN](cloudstack-create-site-to-site-vpn-on-vpc.md) is a convenient way to establish a connection between two VPCs, allow their instances to communicate with each other. There are limitations with this approach, however. A VPN encrypts the network traffic, which can reduce performance. Also, VPN connections may unexpectedly terminate and need to be reset, affecting availability and performance.
 
 To address these issues, service providers can offer dedicated private networking infrastructure to allow two VPCs to be peered. Network traffic between the VPCs traverses an internal path instead of the public network. This is useful when a reliable and fast connection is needed, such as for real-time applications or for monitoring and management. In such a scenario, CloudMC is able to take advantage of the internal path by creating a private gateway between the VPCs.
 
