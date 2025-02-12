@@ -54,7 +54,7 @@ slug: deploy-a-kubernetes-cluster-with-rancher-2-x
 1. Scroll down to Node Clusters, and then add at least more Node Pool. Check the boxes so that you have fulfilled the required number for etcd, Control Planes, and Workers. If you're looking to save on space, the Control Plane and etcd can share a server.
 1. Click on Node Template for one of the servers. You will be prompted for your cloud.ca API key.
 1. If you do not have your API key, you can generate one in cloud.ca by clicking your name in the bottom left corner of the cloud.ca UI to bring up your profile.
-   1. ![CloudMC Sidebar](/assets/deploy-kubernetes-with-rancher-en-5.png)
+   1. ![CloudOps Sidebar](/assets/deploy-kubernetes-with-rancher-en-5.png)
    1. Select API credentials from the Settings Menu, then click "Generate API key".
    1. Enter a name, then select generate. A notification will be displayed with the API key. The API key here must be copied and stored securely, as it will not be displayed again.
    1. Enter your new key into Rancher's prompt.

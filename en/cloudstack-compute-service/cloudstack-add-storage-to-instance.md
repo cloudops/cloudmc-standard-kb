@@ -4,7 +4,7 @@ slug: cloudstack-adding-storage-capacity-to-an-instance
 ---
 
 
-The various CloudMC compute templates (e.g.: Ubuntu, CentOS) are deployed on a relatively small OS volume because we prefer that our end-users allocate the exact storage space that they need. The small initial OS volume size may be sufficient if your instance's storage requirements are modest, but there are various scenarios where you might require additional storage space, for example:
+The various CloudOps compute templates (e.g.: Ubuntu, CentOS) are deployed on a relatively small OS volume because we prefer that our end-users allocate the exact storage space that they need. The small initial OS volume size may be sufficient if your instance's storage requirements are modest, but there are various scenarios where you might require additional storage space, for example:
 
 - Swap space
 - Installation of large applications

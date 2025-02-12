@@ -4,7 +4,7 @@ slug: cloudstack-working-with-ssh-keys
 ---
 
 
-Instead of using only password to login your instance, CloudMC supports the push of SSH keys. This article covers the different prerequisites for this feature to work, and how to generate and upload a SSH key.
+Instead of using only password to login your instance, CloudOps supports the push of SSH keys. This article covers the different prerequisites for this feature to work, and how to generate and upload a SSH key.
 
 ### Prerequisites
 This feature will work properly only if:

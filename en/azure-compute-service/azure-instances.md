@@ -4,7 +4,7 @@ slug: azure-instances
 ---
 
 
-Virtual machines are a fundamental type of infrastructure provided by Microsoft Azure. This article discusses the concept of virtual machines and how they are managed in CloudMC.
+Virtual machines are a fundamental type of infrastructure provided by Microsoft Azure. This article discusses the concept of virtual machines and how they are managed in CloudOps.
 
 Virtual machines are listed under the **Instances** section of the selected Azure environment.
 

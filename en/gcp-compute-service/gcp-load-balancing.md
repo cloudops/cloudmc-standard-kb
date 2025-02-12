@@ -4,7 +4,7 @@ slug: gcp-load-balancing
 ---
 
 
-CloudMC supports Google Cloud Platform's load balancing features, whereby traffic can be directed to a reliable backend service with multiple servers for delivering an application.
+CloudOps supports Google Cloud Platform's load balancing features, whereby traffic can be directed to a reliable backend service with multiple servers for delivering an application.
 
 GCP load balancing is accessed by navigating to the desired GCP environment, clicking on the **Networking** tab, and clicking on the **Load balancing** item.
 
@@ -37,7 +37,7 @@ Prior to manually configuring a new load balancer, you must already have the fol
 
 #### One-step load balancer configuration
 
-If a backend service has already been defined, CloudMC enables the creation of a load balancer on a single page, and will create the necessary components on your behalf using reasonable default values.
+If a backend service has already been defined, CloudOps enables the creation of a load balancer on a single page, and will create the necessary components on your behalf using reasonable default values.
 
 1. From the *Load balancers* page, click on the *Add load balancer* button.
 1. Enter a name for the load balancer, or accept the default.
@@ -63,7 +63,7 @@ The new load balancer is now active and ready for testing with public traffic.  
    - Click on **Target proxies**, and click on the *Add target proxy* button
    - Enter a name, or accept the default, and enter a description if desired.
    - Select the protocol the target proxy will use for listening for incoming requests from clients.
-      - To support HTTPS connections from clients, select HTTPS.  A list of the SSL certificates available to CloudMC will appear beneath **Protocol**, and you will need to select the appropriate one for this load balancer.
+      - To support HTTPS connections from clients, select HTTPS.  A list of the SSL certificates available to CloudOps will appear beneath **Protocol**, and you will need to select the appropriate one for this load balancer.
    - Select a URL map.  If no URL maps have been created, a default URL map will be created at the same time as the target proxy.
    - Click *Submit*.
 1. Create a forwarding rule.

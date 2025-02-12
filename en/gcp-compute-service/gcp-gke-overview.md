@@ -4,7 +4,7 @@ slug: gcp-gke-overview
 ---
 
 
-If your Google Cloud Platform project has a Google Kubernetes Engine cluster configured, CloudMC will detect it automatically and allow you to view and manage various properties of the cluster.  At this time, CloudMC does not support creation of clusters in GKE.
+If your Google Cloud Platform project has a Google Kubernetes Engine cluster configured, CloudOps will detect it automatically and allow you to view and manage various properties of the cluster.  At this time, CloudOps does not support creation of clusters in GKE.
 
 To access your GKE resources, navigate to the desired GCP environment and click on the **Kubernetes engine** tab.
 
