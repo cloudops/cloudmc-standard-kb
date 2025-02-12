@@ -6,11 +6,11 @@ slug: enable-two-factor-authentication
 
 According to Wikipedia, **Two-Factor Authentication** (also known as **2FA**) provides unambiguous identification of users by means of the combination of two different components. These components may be something that the user knows, something that the user possesses or something that is inseparable from the user.
 
-In the context of CloudMC, this is achieved by leveraging the user's smartphone or laptop as a token. Combined with a username and password, that gives us a two-factor authentication.
+In the context of CloudOps, this is achieved by leveraging the user's smartphone or laptop as a token. Combined with a username and password, that gives us a two-factor authentication.
 
 ### Install a token generator
 
-On your smartphone, you have to install a token generator in order for the process to work. CloudMC does work well with the Google Authenticator or Authy application. Both are available free of charge for Android or iPhone. If you do not own a smartphone, these software have a version for desktop computers.
+On your smartphone, you have to install a token generator in order for the process to work. CloudOps does work well with the Google Authenticator or Authy application. Both are available free of charge for Android or iPhone. If you do not own a smartphone, these software have a version for desktop computers.
 
 Refer to the application-specific documentation about how to install it on your device.
 
@@ -38,4 +38,4 @@ If for whatever reason you should lose your backup codes, your codes can be re-g
 
 ### Deactivate Two-Factor Authentication
 
-If you wish to deactivate two-factor authentication on your account, go to *My profile* and under the *Security* section, click on *Disable two-factor authentication*.  You will be asked to enter your password.  Once this is done, you will be asked only for your username and password when authenticating yourself to CloudMC.
+If you wish to deactivate two-factor authentication on your account, go to *My profile* and under the *Security* section, click on *Disable two-factor authentication*.  You will be asked to enter your password.  Once this is done, you will be asked only for your username and password when authenticating yourself to CloudOps.

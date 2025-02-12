@@ -1,18 +1,18 @@
 ---
-title: "Manage the CloudMC knowledge base"
+title: "Manage the CloudOps knowledge base"
 slug: manage-kb
 ---
 
 
 <!-- Need to add information about inheritance and branding. -->
 
-The CloudMC knowledge base is the source for information related to the operation and administration of the CloudMC system.  It is designed to be highly customizable for the needs of each enterprise.  Articles, categories, and languages may be added or removed as desired.
+The CloudOps knowledge base is the source for information related to the operation and administration of the CloudOps system.  It is designed to be highly customizable for the needs of each enterprise.  Articles, categories, and languages may be added or removed as desired.
 
 The knowledge base is accessed from the user interface by going to the Help menu and clicking on Help Center.  Authentication is not necessary for accessing the Help Center, which can also be accessed directly via its URL.
 
-Content is stored in a Git repository and is manually retrieved for local storage by CloudMC.  All articles are written in standard Markdown format, and can include images, references to other articles in the knowledge base, external links, and other features.  A given category can be marked as **featured**, and will have a larger icon and will be arranged above the other categories in the Help Center.
+Content is stored in a Git repository and is manually retrieved for local storage by CloudOps.  All articles are written in standard Markdown format, and can include images, references to other articles in the knowledge base, external links, and other features.  A given category can be marked as **featured**, and will have a larger icon and will be arranged above the other categories in the Help Center.
 
-Resellers and administrators working with the CloudMC knowledge base will need basic familiarity with Git tools and the Markdown format.  
+Resellers and administrators working with the CloudOps knowledge base will need basic familiarity with Git tools and the Markdown format.  
 
 Managing the knowledge base requires the **Reseller** role, or the **Administrator** role with the *Knowledge base: Manage* role applied.
 
@@ -20,7 +20,7 @@ To manage the knowledge base, click on *Administration* in the sidebar on the le
 
 ### Quick Start
 
-1. Git clone the CloudMC standard knowledge base repository to your local workstation:  https://github.com/cloudops/cloudmc-standard-kb <!-- Rephrase this in v2, and also rename directory!!!! Also, git remote remove origin then git remote add origin ...-->
+1. Git clone the CloudOps standard knowledge base repository to your local workstation:  https://github.com/cloudops/cloudmc-standard-kb <!-- Rephrase this in v2, and also rename directory!!!! Also, git remote remove origin then git remote add origin ...-->
 1. Explore the top-level directory structure:
    - The `assets` directory contains all images.
    - Each supported language has a directory, for example `en` for English-language content, and `fr` for French.
@@ -31,7 +31,7 @@ To manage the knowledge base, click on *Administration* in the sidebar on the le
 1. Navigate to the *Knowledge base* page.
 1. Click on the button labeled *Create new knowledge base*.
 1. A dialog box will appear, asking for the URL of the repository to use for the knowledge base.  Enter it into the text field and click *Confirm*.
-1. CloudMC will grab the contents of the repository, and all categories and articles will be listed.  The content may now be viewed under the Help Center.
+1. CloudOps will grab the contents of the repository, and all categories and articles will be listed.  The content may now be viewed under the Help Center.
 
 ### Structure of the knowledge base repository
 
@@ -65,11 +65,11 @@ The `README.md` file is a requirement of the Git tool.  It can be an empty, zero
 
 #### The assets directory
 
-CloudMC will search in the `assets` directory for images referenced from the article files.  Supported image formats include JPEG, GIF, and PNG.
+CloudOps will search in the `assets` directory for images referenced from the article files.  Supported image formats include JPEG, GIF, and PNG.
 
 #### Languages
 
-CloudMC can be configured for multiple language support via the [Brand Management](../administration/brand.md) page.  For each enabled language, a top-level directory may be created in the knowledge base repository for content in that language.  The name of the directory must be the ISO 639-1 code for the language, in lower-case letters, for example, `en` for English, `fr` for French, or `es` for Spanish.
+CloudOps can be configured for multiple language support via the [Brand Management](../administration/brand.md) page.  For each enabled language, a top-level directory may be created in the knowledge base repository for content in that language.  The name of the directory must be the ISO 639-1 code for the language, in lower-case letters, for example, `en` for English, `fr` for French, or `es` for Spanish.
 
 If an enabled language does not have a top-level directory in the repository, content will not appear for that language in the Help Center.
 
@@ -120,7 +120,7 @@ Links to external content as well as HTML comments work as expected (the text wi
 
 ### Synchronizing with a repository
 
-When changes have been committed to the `master` branch of your repository, a sync is required make the changes available in the Help Center.  Be aware that although a given repository may have multiple working branches, CloudMC pulls exclusively from the `master` branch.
+When changes have been committed to the `master` branch of your repository, a sync is required make the changes available in the Help Center.  Be aware that although a given repository may have multiple working branches, CloudOps pulls exclusively from the `master` branch.
 
 1. Navigate to the *Knowledge base* page.
 1. Click on the button labeled *Synchronize from repository*.

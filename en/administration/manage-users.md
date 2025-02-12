@@ -4,7 +4,7 @@ slug: manage-users
 ---
 
 
-You can provide CloudMC access to multiple users in your organization. By default, users with the permission *Users: Manage* can create new user accounts.
+You can provide CloudOps access to multiple users in your organization. By default, users with the permission *Users: Manage* can create new user accounts.
 1. In the *Administration* menu, click **Users**.
 1. Click *Add user*.
 1. In the Identification section, type a **First name**, **Last name**, **Email address**, and **Username**, and select a **Language**.
