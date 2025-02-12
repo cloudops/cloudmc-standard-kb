@@ -4,7 +4,7 @@ slug: vmware-vms
 ---
 
 
-Las máquinas virtuales son un tipo fundamental de infraestructura proporcionada por VMware Cloud Director. Este artículo analiza el concepto de máquinas virtuales y cómo se administran en CloudMC.
+Las máquinas virtuales son un tipo fundamental de infraestructura proporcionada por VMware Cloud Director. Este artículo analiza el concepto de máquinas virtuales y cómo se administran en CloudOps.
 
 Las máquinas virtuales se enumeran en la sección **Máquinas virtuales** del entorno VMware seleccionado.
 
@@ -39,7 +39,7 @@ Una máquina virtual también puede pasar por los siguientes subestados:
 
 - **Estado inconsistente**
 
-     Una máquina virtual en este estado se modificó directamente dentro de VMware vSphere en lugar de a través de CloudMC y ahora no está sincronizada con VMware Cloud Director. Apague la máquina virtual y luego vuelva a encenderla para devolverla a su estado normal.
+     Una máquina virtual en este estado se modificó directamente dentro de VMware vSphere en lugar de a través de CloudOps y ahora no está sincronizada con VMware Cloud Director. Apague la máquina virtual y luego vuelva a encenderla para devolverla a su estado normal.
 
 - **Iniciando**
 

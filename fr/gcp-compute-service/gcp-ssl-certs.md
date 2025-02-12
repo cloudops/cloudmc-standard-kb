@@ -4,14 +4,14 @@ slug: gcp-certificats-ssl
 ---
 
 
-CloudMC vous permet d'importer un [certificat SSL](https://fr.wikipedia.org/wiki/Certificat_%C3%A9lectronique) et sa clé privée associée dans votre environnement Google Cloud Platform, et de les lier à un **proxy cible** pour fournir des connexions HTTPS à vos clients. Les certificats peuvent être signés par une autorité de certification (CA), par un certificat intermédiaire, ou ils peuvent être auto-signés.
+CloudOps vous permet d'importer un [certificat SSL](https://fr.wikipedia.org/wiki/Certificat_%C3%A9lectronique) et sa clé privée associée dans votre environnement Google Cloud Platform, et de les lier à un **proxy cible** pour fournir des connexions HTTPS à vos clients. Les certificats peuvent être signés par une autorité de certification (CA), par un certificat intermédiaire, ou ils peuvent être auto-signés.
 
 Actuellement, GCP limite les certificats SSL aux éléments suivants:
     - Le certificat et la clé privée doivent être au format PEM
     - La clé privée ne doit avoir aucun mot de passe
     - La clé privée doit être de 2048 bits
 
-Les certificats SSL peuvent être gérés dans CloudMC en accédant à l'environnement GCP souhaité, en sélectionnant l'onglet **Réseautique**, en cliquant sur l'élément **Équilibrage de charge** et en cliquant sur **Certificats SSL**.
+Les certificats SSL peuvent être gérés dans CloudOps en accédant à l'environnement GCP souhaité, en sélectionnant l'onglet **Réseautique**, en cliquant sur l'élément **Équilibrage de charge** et en cliquant sur **Certificats SSL**.
 
 ### Téléchargement d'un certificat SSL
 

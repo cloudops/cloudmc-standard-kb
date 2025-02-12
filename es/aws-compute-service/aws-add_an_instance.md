@@ -6,7 +6,7 @@ slug: aws-agregar-una-instancia
 
 ## Acerca de esta tarea
 
-Este artículo te guiará a través del proceso de agregar una nueva instancia a un entorno de AWS. La interfaz de CloudMC proporciona un asistente de varios pasos para seleccionar una configuración y la instancia (o instancias) se creará después del paso final del asistente.
+Este artículo te guiará a través del proceso de agregar una nueva instancia a un entorno de AWS. La interfaz de CloudOps proporciona un asistente de varios pasos para seleccionar una configuración y la instancia (o instancias) se creará después del paso final del asistente.
 
 ## Antes de comenzar
 

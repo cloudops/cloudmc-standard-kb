@@ -54,7 +54,7 @@ slug:  deployer-un-cluster-kubernetes-avec-rancher-2-x
 1. Faites défiler jusqu'à "Nodes from an Infrastructure Provider", puis ajoutez au moins un "Node Pool".  Cochez les cases pour que vous ayez rempli le nombre requis pour "etcd", "Control plane" et "workers". Si vous souhaitez économiser de l'espace, le "Control Plane" et "etcd" peuvent partager un seul serveur.
 1. Cliquez sur "Node Template" pour l'un des serveurs. Vous serez invité à saisir votre clé d'API cloud.ca.
 1. Si vous ne disposez pas de votre clé API, vous pouvez en générer une sur cloud.ca en cliquant sur votre nom dans le coin inférieur gauche de l'interface cloud.ca pour afficher votre profil.
-   1. ![Barre latérale de CloudMC](/assets/deploy-kubernetes-with-rancher-en-5.png)
+   1. ![Barre latérale de CloudOps](/assets/deploy-kubernetes-with-rancher-en-5.png)
    1. Sélectionnez les informations d'identification de l'API dans le menu Paramètres, puis cliquez sur "Générer une clé API".
    1. Entrez un nom, puis cliquez sur Générer. Un pop-up sera affiché avec la clé API. La clé API ici doit être copiée et stockée de manière sécurisée, car elle ne sera plus affichée.
    1. Entrez votre nouvelle clé dans l'invite de Rancher.

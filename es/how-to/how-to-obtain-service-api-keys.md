@@ -4,7 +4,7 @@ slug: como-obtener-claves-api-de-servicio
 ---
 
 
-Algunos servicios permiten la conexión directa a su API utilizando las claves API de su servicio CloudMC. Para obtener tus claves de API de servicio, navega hasta el menú de usuario en la parte superior derecha de la página, haz clic en **Credenciales de API**, luego desplácete hacia abajo hasta la sección titulada *Claves de API de servicio*. Haz clic en el cuadro de búsqueda y selecciona el servicio deseado. Las claves API de servicio para el servicio seleccionado aparecerán debajo.
+Algunos servicios permiten la conexión directa a su API utilizando las claves API de su servicio CloudOps. Para obtener tus claves de API de servicio, navega hasta el menú de usuario en la parte superior derecha de la página, haz clic en **Credenciales de API**, luego desplácete hacia abajo hasta la sección titulada *Claves de API de servicio*. Haz clic en el cuadro de búsqueda y selecciona el servicio deseado. Las claves API de servicio para el servicio seleccionado aparecerán debajo.
 
 ![Claves API de servicio](/assets/api-service-keys-es-1.png)
 

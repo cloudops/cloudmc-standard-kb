@@ -24,7 +24,7 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
    - **Nom :** Nom du VPC (ex. *acme-prod-vpc01*)
    - **Description :** Description du VPC (ex. "Site de production A").
    - **CIDR :**  Plage d'adresses IP à utiliser pour le VPC. La plage doit être un réseau /22.
-   - **Domaine du réseau :** (Facultatif) Nom de domaine pour la résolution DNS interne (ex: *interne.acme.com*). CloudMC ajoutera ce nom de domaine au fichier */etc/hosts* pour les futures instances.
+   - **Domaine du réseau :** (Facultatif) Nom de domaine pour la résolution DNS interne (ex: *interne.acme.com*). CloudOps ajoutera ce nom de domaine au fichier */etc/hosts* pour les futures instances.
    - **Offre de VPC :** Choisissez le niveau de service pour ce VPC.
    ![Page ajouter VPC](/assets/working-with-vpcs-2-fr.png)
 1. Cliquez sur **Valider**.

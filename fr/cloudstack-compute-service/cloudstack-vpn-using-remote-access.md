@@ -3,7 +3,7 @@ title: "Connexion à un VPC par une connexion VPN sécurisée"
 slug: connexion-a-un-vpc-par-un-vpn-a-distance-ikev2
 ---
 
-CloudMC vous offre la possibilité de vous connecter de façon sécurisée depuis votre maison ou votre bureau aux réseaux de vos VPCs.  Grâce à un client VPN basé sur IKEv2 et IPSec installé sur votre plateforme (Windows, macOS, Ubuntu…), vous pourrez accéder à vos machines virtuelles sans utiliser la redirection de port sur adresses IP publiques.
+CloudOps vous offre la possibilité de vous connecter de façon sécurisée depuis votre maison ou votre bureau aux réseaux de vos VPCs.  Grâce à un client VPN basé sur IKEv2 et IPSec installé sur votre plateforme (Windows, macOS, Ubuntu…), vous pourrez accéder à vos machines virtuelles sans utiliser la redirection de port sur adresses IP publiques.
 
 ## Configuration du VPC
 **Note :** Les opérations suivantes sont uniquement disponibles si votre compte utilisateur possède ou le rôle **Éditeur** ou **Propriétaire** sur l'environnement cible.

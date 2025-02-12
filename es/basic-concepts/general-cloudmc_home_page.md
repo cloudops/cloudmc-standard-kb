@@ -1,24 +1,24 @@
 ---
-title: "Página de inicio de CloudMC"
+title: "Página de inicio de CloudOps"
 slug: general-cloudmc-pagina-de-inicio
 ---
 
 
-La página de inicio de CloudMC es la página predeterminada que se le presenta a un usuario cuando inicia sesión en el sistema.
+La página de inicio de CloudOps es la página predeterminada que se le presenta a un usuario cuando inicia sesión en el sistema.
 
-![Captura de pantalla de la página de inicio de CloudMC, con puntos numerados que resaltan las funciones de interés](/assets/general-cmc-ui-home-en.png)
+![Captura de pantalla de la página de inicio de CloudOps, con puntos numerados que resaltan las funciones de interés](/assets/general-cmc-ui-home-en.png)
 
 1.  **El espacio de trabajo**
 
-    El espacio de trabajo es la sección principal de todas las pantallas de CloudMC. Los elementos que son visibles en el espacio de trabajo están determinados por el contexto de su ubicación en el sistema. Por ejemplo, en la página de inicio que se muestra aquí, puedes encontrar el mapa de servicios, el panel de acceso rápido, así como resúmenes del estado del sistema y la actividad reciente.
+    El espacio de trabajo es la sección principal de todas las pantallas de CloudOps. Los elementos que son visibles en el espacio de trabajo están determinados por el contexto de su ubicación en el sistema. Por ejemplo, en la página de inicio que se muestra aquí, puedes encontrar el mapa de servicios, el panel de acceso rápido, así como resúmenes del estado del sistema y la actividad reciente.
 
 2.  **La barra lateral**
 
-    La barra lateral está en el lado izquierdo de cualquier pantalla de CloudMC. La barra lateral es donde puedes navegar a todas las funciones principales del sistema, incluidas las conexiones de servicio, los informes, los registros de actividad y la administración.
+    La barra lateral está en el lado izquierdo de cualquier pantalla de CloudOps. La barra lateral es donde puedes navegar a todas las funciones principales del sistema, incluidas las conexiones de servicio, los informes, los registros de actividad y la administración.
 
 3.  **El selector de organización**
 
-    CloudMC es una plataforma multiinquilino. Utiliza el selector de organizaciones para navegar entre las organizaciones y suborganizaciones a las que tienes acceso. Ten en cuenta que la marca de la interfaz de usuario puede cambiar cuando cambia a una organización diferente.
+    CloudOps es una plataforma multiinquilino. Utiliza el selector de organizaciones para navegar entre las organizaciones y suborganizaciones a las que tienes acceso. Ten en cuenta que la marca de la interfaz de usuario puede cambiar cuando cambia a una organización diferente.
 
 4.  **La barra de menús**
 

@@ -12,7 +12,7 @@ Lors du déploiement d'une instance, une région AWS doit être sélectionnée. 
 
 Pour vous connecter à une instance, utilisez la paire de clés SSH créée automatiquement lors de la création de l'instance. La clé SSH privée est votre seul moyen de vous connecter à l'instance et doit être stockée et installée en toute sécurité dans l'application SSH que vous utiliserez pour vous connecter à l'instance. Lorsque plusieurs instances sont créées via la mise à l'échelle automatique, vous pouvez utiliser cette clé SSH privée pour vous connecter à chaque instance.
 
-**Important :** Vous devez immédiatement stocker en toute sécurité la clé SSH privée. Il ne sera stocké nulle part dans l'interface utilisateur CloudMC et ne pourra pas être récupéré une fois la notification effacée du panneau. Vous ne pouvez pas vous connecter à une instance sans cette clé. En cas de perte, vous devrez suivre une procédure de récupération, qui nécessite le redémarrage de l'instance.
+**Important :** Vous devez immédiatement stocker en toute sécurité la clé SSH privée. Il ne sera stocké nulle part dans l'interface utilisateur CloudOps et ne pourra pas être récupéré une fois la notification effacée du panneau. Vous ne pouvez pas vous connecter à une instance sans cette clé. En cas de perte, vous devrez suivre une procédure de récupération, qui nécessite le redémarrage de l'instance.
 
 Les instances sont répertoriées sous l'onglet **Calcul** de votre environnement AWS, dans la section **Instances**.
 

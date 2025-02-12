@@ -6,7 +6,7 @@ slug: aws-ajouter-un-instance
 
 ## À propos de cette tâche
 
-Cet article vous guidera tout au long du processus d'ajout d'une nouvelle instance à un environnement AWS. L'interface CloudMC fournit un assistant en plusieurs étapes pour sélectionner une configuration, et l'instance \(ou les instances\) sera créée après la dernière étape de l'assistant.
+Cet article vous guidera tout au long du processus d'ajout d'une nouvelle instance à un environnement AWS. L'interface CloudOps fournit un assistant en plusieurs étapes pour sélectionner une configuration, et l'instance \(ou les instances\) sera créée après la dernière étape de l'assistant.
 
 ## Avant de commencer
 

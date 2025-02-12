@@ -4,7 +4,7 @@ slug: azure-discos
 ---
 
 
-Los discos forman parte del conjunto básico de servicios de infraestructura proporcionados por Microsoft Azure. Este artículo analiza el concepto de discos y cómo se administran en CloudMC.
+Los discos forman parte del conjunto básico de servicios de infraestructura proporcionados por Microsoft Azure. Este artículo analiza el concepto de discos y cómo se administran en CloudOps.
 
 Los discos se enumeran en la pestaña **Discos** de su entorno de Azure.
 
@@ -18,7 +18,7 @@ Se pueden aprovisionar y conectar o desconectar discos adicionales de las instan
 
 Azure ofrece varios tipos de discos, que ofrecen diferentes niveles de rendimiento y precio del disco. Al crear un disco, especifique el tipo de rendimiento deseado. El tipo de rendimiento se puede cambiar después de aprovisionar un disco.
 
-Al conectar discos a instancias, cada disco debe tener un LUN \(número de unidad lógica\) único. Este es un número que el sistema operativo de la instancia utilizará al interactuar con el disco. El LUN para un disco de datos debe ser un número entero positivo mayor que 0. Al conectar un disco, CloudMC proporcionará un LUN predeterminado razonable.
+Al conectar discos a instancias, cada disco debe tener un LUN \(número de unidad lógica\) único. Este es un número que el sistema operativo de la instancia utilizará al interactuar con el disco. El LUN para un disco de datos debe ser un número entero positivo mayor que 0. Al conectar un disco, CloudOps proporcionará un LUN predeterminado razonable.
 
 ## Lista de discos
 

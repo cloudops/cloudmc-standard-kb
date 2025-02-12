@@ -4,7 +4,7 @@ slug: gcp-resumen-de-gke
 ---
 
 
-Si tu proyecto de Google Cloud Platform tiene un clúster de Google Kubernetes Engine configurado, CloudMC lo detectará automáticamente y te permitirá ver y administrar varias propiedades del clúster. En este momento, CloudMC no admite la creación de clústeres en GKE.
+Si tu proyecto de Google Cloud Platform tiene un clúster de Google Kubernetes Engine configurado, CloudOps lo detectará automáticamente y te permitirá ver y administrar varias propiedades del clúster. En este momento, CloudOps no admite la creación de clústeres en GKE.
 
 Para acceder a tus recursos de GKE, navega hasta el entorno de GCP deseado y haz clic en la pestaña **Motor Kubernetes**.
 

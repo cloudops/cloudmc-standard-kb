@@ -6,7 +6,7 @@ slug: gcp-verifications-d-etat
 
 Les vérifications de l'état de Google Cloud Platform vous permettent de définir les critères de disponibilité d'une instance fournissant un service de backend. Une vérification d'état est appliquée à un groupe d'instances lors de la configuration d'un service de backend GCP. Une fois la vérification de l'état est active, GCP envoie une simple requête à l'instance cible toutes les 5 secondes. Si l'instance répond avec un HTTP 200 OK, l'instance est considérée comme opérationnel. Si la demande expire au bout de 5 secondes ou si la réponse est autre que HTTP 200 OK, l'instance est considérée comme non opérationnelle et elle ne recevra aucune demande entrante tant qu'elle ne retournera pas à un état opérationnel.
 
-Les vérifications d'état peuvent être gérées en accédant à votre environnement GCP dans CloudMC, en cliquant sur l'onglet **Calcul** et en cliquant sur l'élément **Vérification d'état**.
+Les vérifications d'état peuvent être gérées en accédant à votre environnement GCP dans CloudOps, en cliquant sur l'onglet **Calcul** et en cliquant sur l'élément **Vérification d'état**.
 
 ### Créer une vérification d'état
 
@@ -15,7 +15,7 @@ Les vérifications d'état peuvent être gérées en accédant à votre environn
 1. Sélectionnez le protocole à utiliser (HTTP ou HTTPS) et saisissez le numéro de port auquel se connecter sur l'instance backend.
 1. Cliquez sur *Valider*. La page *Vérifications d'état* apparaîtra et la nouvelle vérification d'état sera répertoriée.
 
-Par défaut, CloudMC créera une vérification de l'état qui interroge le répertoire racine ("/"). GCP permet aux vérifications d'état d'interroger d'autres chemins d'accès. CloudMC affichera le chemin d'accès de la demande d'une vérification de l'état dans la liste de la page *Vérification d'état*.
+Par défaut, CloudOps créera une vérification de l'état qui interroge le répertoire racine ("/"). GCP permet aux vérifications d'état d'interroger d'autres chemins d'accès. CloudOps affichera le chemin d'accès de la demande d'une vérification de l'état dans la liste de la page *Vérification d'état*.
 
 ### Supprimer une vérification d'état
 

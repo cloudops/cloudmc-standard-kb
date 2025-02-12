@@ -6,11 +6,11 @@ slug: activar-autenticacion-dos-factores
 
 Según Wikipedia, la **autenticación de dos factores** (también conocida como **2FA**) proporciona una identificación inequívoca de los usuarios mediante la combinación de dos componentes diferentes. Estos componentes pueden ser algo que el usuario conoce, algo que el usuario posee o algo que es inseparable del usuario.
 
-En el contexto de CloudMC, esto se logra aprovechando el teléfono inteligente o la computadora portátil del usuario como un token. Combinado con un nombre de usuario y contraseña, eso nos da una autenticación de dos factores.
+En el contexto de CloudOps, esto se logra aprovechando el teléfono inteligente o la computadora portátil del usuario como un token. Combinado con un nombre de usuario y contraseña, eso nos da una autenticación de dos factores.
 
 ### Instalar un generador de tókenes
 
-En tu teléfono inteligente, debes instalar un generador de tókenes para que el proceso funcione. CloudMC funciona bien con la aplicación Google Authenticator o Authy. Ambos están disponibles de forma gratuita para Android o iPhone. Si no posees un teléfono inteligente, este software tiene una versión para computadoras de escritorio.
+En tu teléfono inteligente, debes instalar un generador de tókenes para que el proceso funcione. CloudOps funciona bien con la aplicación Google Authenticator o Authy. Ambos están disponibles de forma gratuita para Android o iPhone. Si no posees un teléfono inteligente, este software tiene una versión para computadoras de escritorio.
 
 Consulta la documentación específica de la aplicación sobre cómo instalarla en su dispositivo.
 
@@ -38,4 +38,4 @@ Si por alguna razón pierdes tus códigos de seguridad, tus códigos se pueden v
 
 ### Desactivar la autenticación de dos factores
 
-Si deseas desactivar la autenticación de dos factores en tu cuenta, ve a *Mi perfil* y en la sección **Seguridad**, haz clic en *Desactivar la autenticación de dos factores*. Te pedirá que ingreses tu contraseña. Una vez hecho esto, solo te pedirá tu nombre de usuario y contraseña cuando te autentiques en CloudMC.
+Si deseas desactivar la autenticación de dos factores en tu cuenta, ve a *Mi perfil* y en la sección **Seguridad**, haz clic en *Desactivar la autenticación de dos factores*. Te pedirá que ingreses tu contraseña. Una vez hecho esto, solo te pedirá tu nombre de usuario y contraseña cuando te autentiques en CloudOps.

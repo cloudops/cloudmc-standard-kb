@@ -12,7 +12,7 @@ Con las reglas de escalado automático, puedes definir las condiciones bajo las 
 
 Para iniciar sesión en una instancia, usa el par de claves SSH que se crea automáticamente al crear la instancia. La clave SSH privada es su única forma de iniciar sesión en la instancia y debe almacenarse e instalarse de manera segura en la aplicación SSH que usará para conectarse a la instancia. Cuando se crean varias instancias a través del escalado automático, puedes usar esta clave SSH privada para conectarte a cada instancia.
 
-**Importante:** Debes almacenar de forma segura la clave SSH privada inmediatamente. No se almacenará en ningún lugar de la interfaz de usuario de CloudMC y no se podrá recuperar una vez que se borre la notificación del panel. No se puede iniciar sesión en una instancia sin esta clave. Si se pierde, deberás seguir un procedimiento de recuperación, que requiere el reinicio de la instancia.
+**Importante:** Debes almacenar de forma segura la clave SSH privada inmediatamente. No se almacenará en ningún lugar de la interfaz de usuario de CloudOps y no se podrá recuperar una vez que se borre la notificación del panel. No se puede iniciar sesión en una instancia sin esta clave. Si se pierde, deberás seguir un procedimiento de recuperación, que requiere el reinicio de la instancia.
 
 Las instancias se enumeran en la pestaña **Cómputo** de tu entorno de AWS, en la sección **Instancias**.
 

@@ -4,7 +4,7 @@ slug: gestionar-usuarios
 ---
 
 
-Puedes proporcionar acceso a CloudMC a varios usuarios de tu organización. De forma predeterminada, los usuarios con el permiso *Usuarios: Gestionar* pueden crear nuevas cuentas de usuario.
+Puedes proporcionar acceso a CloudOps a varios usuarios de tu organización. De forma predeterminada, los usuarios con el permiso *Usuarios: Gestionar* pueden crear nuevas cuentas de usuario.
 1. En el menú *Administración*, haz clic en *Usuarios*.
 1. Haz clic en *Agregar usuario*.
 1. En la sección Identificación, escribe el **Nombre**, el **Apellido**, la **Dirección de correo electrónico** y el **Nombre de usuario**, y selecciona el **Idioma**.

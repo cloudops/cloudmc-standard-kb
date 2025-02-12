@@ -1,18 +1,18 @@
 ---
-title: "Gérer la base de connaissances CloudMC"
+title: "Gérer la base de connaissances CloudOps"
 slug: gerer-kb
 ---
 
 
 <!-- Need to add information about inheritance and branding. -->
 
-La base de connaissances de CloudMC est la source d'informations relatives au fonctionnement et à l'administration du système CloudMC. Il est conçu pour être hautement personnalisable pour les besoins de chaque entreprise. Des articles, des catégories et des langues peuvent être ajoutés ou supprimés selon vos besoins.
+La base de connaissances de CloudOps est la source d'informations relatives au fonctionnement et à l'administration du système CloudOps. Il est conçu pour être hautement personnalisable pour les besoins de chaque entreprise. Des articles, des catégories et des langues peuvent être ajoutés ou supprimés selon vos besoins.
 
 La base de connaissances est accessible depuis l'interface utilisateur en allant dans le menu Aide et en cliquant sur Centre d'aide. L'authentification n'est pas nécessaire pour accéder au Centre d'aide, qui est également accessible directement via son URL.
 
-Le contenu est stocké dans un dépôt Git et est récupéré manuellement pour le stockage local par CloudMC. Tous les articles sont rédigés au format Markdown standard et peuvent inclure des images, des références à d'autres articles de la base de connaissances, des liens externes et d'autres fonctionnalités. Une catégorie donnée peut être marquée comme **en vedette** (*featured*, en anglais) et aura une icône plus grande et sera disposée au-dessus des autres catégories dans le Centre d'aide.
+Le contenu est stocké dans un dépôt Git et est récupéré manuellement pour le stockage local par CloudOps. Tous les articles sont rédigés au format Markdown standard et peuvent inclure des images, des références à d'autres articles de la base de connaissances, des liens externes et d'autres fonctionnalités. Une catégorie donnée peut être marquée comme **en vedette** (*featured*, en anglais) et aura une icône plus grande et sera disposée au-dessus des autres catégories dans le Centre d'aide.
 
-Les revendeurs et administrateurs travaillant avec la base de connaissances CloudMC auront besoin d'une connaissance de base des outils Git et du format Markdown.
+Les revendeurs et administrateurs travaillant avec la base de connaissances CloudOps auront besoin d'une connaissance de base des outils Git et du format Markdown.
 
 La gestion de la base de connaissances nécessite le rôle **Revendeur** ou le rôle **Administrateur** avec le rôle *Base de connaissances: Gérer* appliqué.
 
@@ -20,7 +20,7 @@ Pour gérer la base de connaissances, cliquez sur *Administration* dans la barre
 
 ### Démarrage rapide
 
-1. Git clone le dépôt de base de connaissances standard CloudMC sur votre poste de travail local :  https://github.com/cloudops/cloudmc-standard-kb <!-- Rephrase this in v2 -->
+1. Git clone le dépôt de base de connaissances standard CloudOps sur votre poste de travail local :  https://github.com/cloudops/cloudmc-standard-kb <!-- Rephrase this in v2 -->
 1. Explorez la structure de répertoires de niveau supérieur:
     - Le répertoire `assets` contient toutes les images.
     - Chaque langue prise en charge a un répertoire, par exemple `fr` pour le contenu en français et `en` pour l'anglais.
@@ -31,7 +31,7 @@ Pour gérer la base de connaissances, cliquez sur *Administration* dans la barre
 1. Accédez à la page *Base de connaissances*.
 1. Cliquez sur le bouton *Créer une nouvelle base de connaissances*.
 1. Une boîte de dialogue apparaîtra, demandant l'URL du dépôt à utiliser pour la base de connaissances. Entrez-le dans le champ de texte et cliquez sur *Valider*.
-1. CloudMC récupérera le contenu du dépôt et toutes les catégories et tous les articles seront répertoriés. Le contenu peut maintenant être consulté dans le Centre d'aide.
+1. CloudOps récupérera le contenu du dépôt et toutes les catégories et tous les articles seront répertoriés. Le contenu peut maintenant être consulté dans le Centre d'aide.
 
 ### La structure du dépôt de la base de connaissances
 
@@ -65,11 +65,11 @@ Le fichier `README.md` est une exigence de l'outil Git. Il peut s'agir d'un fich
 
 #### Le répertoire ≪ assets ≫
 
-CloudMC recherchera dans le répertoire `assets` les images référencées à partir des fichiers d'article. Les formats d'image pris en charge incluent JPEG, GIF et PNG.
+CloudOps recherchera dans le répertoire `assets` les images référencées à partir des fichiers d'article. Les formats d'image pris en charge incluent JPEG, GIF et PNG.
 
 #### Langues
 
-CloudMC peut être configuré pour la prise en charge de plusieurs langues via la page [Brand Management](../administration/brand.md). Pour chaque langue activée, un répertoire de niveau supérieur peut être créé dans le dépôt de la base de connaissances pour le contenu dans cette langue. Le nom du répertoire doit être le code ISO 639-1 de la langue, en lettres minuscules, par exemple `fr` pour le français, `en` pour l'anglais, ou `es` pour l'espagnol.
+CloudOps peut être configuré pour la prise en charge de plusieurs langues via la page [Brand Management](../administration/brand.md). Pour chaque langue activée, un répertoire de niveau supérieur peut être créé dans le dépôt de la base de connaissances pour le contenu dans cette langue. Le nom du répertoire doit être le code ISO 639-1 de la langue, en lettres minuscules, par exemple `fr` pour le français, `en` pour l'anglais, ou `es` pour l'espagnol.
 
 Si une langue activée n'a pas de répertoire de niveau supérieur dans le dépôt, le contenu n'apparaîtra pas pour cette langue dans le Centre d'aide.
 
@@ -119,7 +119,7 @@ Les liens vers le contenu externe ainsi que les commentaires HTML fonctionnent c
 
 ### Synchronisation avec un dépôt
 
-Lorsque des modifications ont été validées dans la branche `master` de votre dépôt, une synchronisation est nécessaire pour rendre les modifications disponibles dans le Centre d'aide. Sachez que bien qu'un dépôt donné puisse avoir plusieurs branches de travail, CloudMC extrait exclusivement de la branche `master`.
+Lorsque des modifications ont été validées dans la branche `master` de votre dépôt, une synchronisation est nécessaire pour rendre les modifications disponibles dans le Centre d'aide. Sachez que bien qu'un dépôt donné puisse avoir plusieurs branches de travail, CloudOps extrait exclusivement de la branche `master`.
 
 1. Accédez à la page *Base de connaissances*.
 1. Cliquez sur le bouton *Synchroniser à partir du dépôt*.

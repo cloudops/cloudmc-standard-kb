@@ -12,7 +12,7 @@ Des volumes supplémentaires peuvent être provisionnés et attachés ou détach
 
 AWS propose plusieurs types de volumes, qui offrent différents niveaux de performances de disque et de prix. Lors de la création d'un volume, spécifiez le type de volume souhaité. Le type de volume ne peut pas être modifié une fois qu'un volume est provisionné.
 
-Lorsque vous attachez des volumes à des instances, chaque volume doit avoir un nom de périphérique unique. Il s'agit d'un nom de fichier que le système d'exploitation de l'instance utilisera lors de l'interaction avec le volume. Le nom du périphérique prend la forme `/dev/sd*` ou `/dev/xvd*`. Lors de la connexion d'un volume, CloudMC fournira un nom de périphérique par défaut raisonnable. Le nom de périphérique `/dev/sda1` est un nom spécial et est réservé au volume racine d'une instance.
+Lorsque vous attachez des volumes à des instances, chaque volume doit avoir un nom de périphérique unique. Il s'agit d'un nom de fichier que le système d'exploitation de l'instance utilisera lors de l'interaction avec le volume. Le nom du périphérique prend la forme `/dev/sd*` ou `/dev/xvd*`. Lors de la connexion d'un volume, CloudOps fournira un nom de périphérique par défaut raisonnable. Le nom de périphérique `/dev/sda1` est un nom spécial et est réservé au volume racine d'une instance.
 
 Dans certaines circonstances, un volume attaché à une instance peut être configuré avec l'option **Suppression lors de la résiliation**. Lorsqu'il est activé pour un volume, le volume sera automatiquement supprimé si son instance attachée est supprimée. Utilisez cette option avec prudence, la suppression d'un volume est une opération permanente et ne peut pas être annulée.
 

@@ -4,7 +4,7 @@ slug: cloudstack-agregar-capacidad-de-almacenamiento-a-una-instancia
 ---
 
 
-Las diversas plantillas informáticas de CloudMC (por ejemplo, Ubuntu, CentOS) se implementan en un volumen de sistema operativo relativamente pequeño porque preferimos que nuestros usuarios finales asignen el espacio de almacenamiento exacto que necesitan. El pequeño tamaño inicial del volumen del sistema operativo puede ser suficiente si los requisitos de almacenamiento de tu instancia son modestos, pero existen varios escenarios en los que podrías necesitar espacio de almacenamiento adicional, por ejemplo:
+Las diversas plantillas informáticas de CloudOps (por ejemplo, Ubuntu, CentOS) se implementan en un volumen de sistema operativo relativamente pequeño porque preferimos que nuestros usuarios finales asignen el espacio de almacenamiento exacto que necesitan. El pequeño tamaño inicial del volumen del sistema operativo puede ser suficiente si los requisitos de almacenamiento de tu instancia son modestos, pero existen varios escenarios en los que podrías necesitar espacio de almacenamiento adicional, por ejemplo:
 
 - Espacio de intercambio
 - Instalación de grandes aplicaciones

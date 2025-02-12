@@ -4,7 +4,7 @@ slug: cloudstack-configurar-equilibrio-de-carga
 ---
 
 
-El equilibrio de carga proporciona una forma de distribuir las cargas de trabajo entre varios recursos informáticos. Esto generalmente aumenta el rendimiento y la disponibilidad a través de la redundancia. En el contexto de CloudMC, esto se logra asociando reglas de equilibrio de carga a la dirección IP pública de una VPC.
+El equilibrio de carga proporciona una forma de distribuir las cargas de trabajo entre varios recursos informáticos. Esto generalmente aumenta el rendimiento y la disponibilidad a través de la redundancia. En el contexto de CloudOps, esto se logra asociando reglas de equilibrio de carga a la dirección IP pública de una VPC.
 
 Solo una red que se creó con la oferta de **Load Balanced Tier** se puede usar para el equilibrio de carga, y una VPC solo puede tener una red configurada con esta oferta. No se pueden configurar reglas de equilibrio de carga en una dirección IP pública que ya se está utilizando para **NAT de origen**, **VPN** o **reenvío de puertos**.
 

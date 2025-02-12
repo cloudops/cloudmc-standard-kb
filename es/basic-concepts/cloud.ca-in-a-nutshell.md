@@ -1,13 +1,13 @@
 ---
-title:  "CloudMC en breve"
+title:  "CloudOps en breve"
 slug: cloudmc-en-breve
 ---
 
-### ¿Qué es CloudMC?
+### ¿Qué es CloudOps?
 
-CloudMC es una plataforma de orquestación de borde en la nube. Ofrece servicios en la nube escalables, seguros, de alto rendimiento, rentables y resistentes.
+CloudOps es una plataforma de orquestación de borde en la nube. Ofrece servicios en la nube escalables, seguros, de alto rendimiento, rentables y resistentes.
 
-### ¿Por qué CloudMC?
+### ¿Por qué CloudOps?
 
 - **Acelere tu innovación**: plataforma de autoservicio bajo demanda para DevOps, con automatización API completa para entrega continua
 - **Transparencia en el uso y los costos**: la medición y los informes granulares hacen posible la gobernanza sin burocracia

@@ -10,11 +10,11 @@ Este artículo presenta el concepto de autenticación de dos factores y describe
 
 La autenticación de dos factores, también conocida como autenticación de múltiples factores, 2FA o MFA, proporciona una identificación inequívoca de un usuario por medio de dos piezas de identificación separadas. El primer componente es algo que el usuario debe saber, como una contraseña o una frase de contraseña. El segundo componente es algo que el usuario debes tener, por ejemplo, un token de una sola vez. Este mecanismo ayuda a demostrarle al sistema que eres quien dices ser.
 
-En general, se recomienda habilitar siempre 2FA para tu cuenta de CloudMC. Una vez que se configura 2FA, al iniciar sesión se te solicitará el token único:
+En general, se recomienda habilitar siempre 2FA para tu cuenta de CloudOps. Una vez que se configura 2FA, al iniciar sesión se te solicitará el token único:
 
-![Captura de pantalla de la página de inicio de sesión de CloudMC que solicita un token único](/assets/enable-2fa-login-es.png)
+![Captura de pantalla de la página de inicio de sesión de CloudOps que solicita un token único](/assets/enable-2fa-login-es.png)
 
-Para generar un token único, deberás instalar una aplicación generadora de tokens, ya sea en tu teléfono inteligente o en tu estación de trabajo. Hay muchas aplicaciones que pueden funcionar con el sistema 2FA de CloudMC, como LastPass, 1Password, Google Authenticator, Microsoft Authenticator y otras. Consulta la documentación proporcionada por el proveedor de tu software para obtener información sobre la instalación y la configuración.
+Para generar un token único, deberás instalar una aplicación generadora de tokens, ya sea en tu teléfono inteligente o en tu estación de trabajo. Hay muchas aplicaciones que pueden funcionar con el sistema 2FA de CloudOps, como LastPass, 1Password, Google Authenticator, Microsoft Authenticator y otras. Consulta la documentación proporcionada por el proveedor de tu software para obtener información sobre la instalación y la configuración.
 
 ## Habilitación de la autenticación de dos factores
 
@@ -24,7 +24,7 @@ Para generar un token único, deberás instalar una aplicación generadora de to
 
 ### Procedimiento
 
-1.  Haz clic en el **Menú de usuario** \> **Mi perfil** \> **Seguridad**. El menú de usuario se encuentra en la esquina superior derecha de la barra de menú de CloudMC.
+1.  Haz clic en el **Menú de usuario** \> **Mi perfil** \> **Seguridad**. El menú de usuario se encuentra en la esquina superior derecha de la barra de menú de CloudOps.
 
 2.  Desplácete hasta la parte inferior de la página y haz clic en el botón titulado **Habilitar autenticación de dos factores \(2FA\)**.
 
@@ -49,7 +49,7 @@ Para generar un token único, deberás instalar una aplicación generadora de to
 
 ### Resultados
 
-- La autenticación de dos factores ahora está habilitada en tu cuenta de CloudMC
+- La autenticación de dos factores ahora está habilitada en tu cuenta de CloudOps
 - En tu próximo inicio de sesión, después de verificar tu nombre de usuario y contraseña, el sistema te pedirá que ingreses el token único de tu generador de tokens
 
 ### Regenera tus códigos de respaldo
@@ -58,7 +58,7 @@ Si pierdes tus códigos de respaldo, tus códigos se pueden volver a generar.
 
 #### Procedimiento
 
-1. Haz clic en el **Menú de usuario** \> **Mi perfil** \> **Seguridad**. El menú de usuario se encuentra en la esquina superior derecha de la barra de menú de CloudMC.
+1. Haz clic en el **Menú de usuario** \> **Mi perfil** \> **Seguridad**. El menú de usuario se encuentra en la esquina superior derecha de la barra de menú de CloudOps.
 
 2. Desplácete hasta la parte inferior de la página y haz clic en el botón titulado **Gestionar la autenticación de dos factores \(2FA\)**.
 
@@ -73,7 +73,7 @@ Si pierdes tus códigos de respaldo, tus códigos se pueden volver a generar.
 
 #### Procedimiento
 
-1. Haz clic en el **Menú de usuario** \> **Mi perfil** \> **Seguridad**. El menú de usuario se encuentra en la esquina superior derecha de la barra de menú de CloudMC.
+1. Haz clic en el **Menú de usuario** \> **Mi perfil** \> **Seguridad**. El menú de usuario se encuentra en la esquina superior derecha de la barra de menú de CloudOps.
 
 2. Desplácete hasta la parte inferior de la página y haz clic en el botón titulado **Gestionar autenticación de dos factores \(2FA\)**.
 

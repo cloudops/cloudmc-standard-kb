@@ -31,7 +31,7 @@ slug: aws-recipients
      Chaque entrée de la liste d'objets possède un menu des actions cachées. Cliquez sur le menu des actions cachées pour accéder à une liste des opérations fréquemment utilisées pour l'objet ou le dossier.
 
 
-CloudMC permet d'accéder à AWS Simple Storage Service via l'onglet **Stockage d'objets** dans n'importe quel environnement AWS. Les utilisateurs peuvent définir des récipients pour stocker des objets. Les utilisateurs peuvent ensuite téléverser des fichiers et accéder à ces objets avec une simple URL.
+CloudOps permet d'accéder à AWS Simple Storage Service via l'onglet **Stockage d'objets** dans n'importe quel environnement AWS. Les utilisateurs peuvent définir des récipients pour stocker des objets. Les utilisateurs peuvent ensuite téléverser des fichiers et accéder à ces objets avec une simple URL.
 
 Chaque récipient a un nom, une région AWS et des autorisations d'accès.
 
