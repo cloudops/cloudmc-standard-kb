@@ -57,25 +57,6 @@ categories:
       - azure-working-with-instances.md
       - azure-disks.md
       - azure-working-with-disks.md
-- category: stackpath-service
-  icon: fa fa-cloud
-  articles:
-      - stackpath-overview-workloads.md
-      - stackpath-managing-workloads.md
-      - stackpath-create-a-workload.md
-      - stackpath-images.md
-      - stackpath-connect-to-vm-via-ssh.md
-      - stackpath-connect-to-vm-console.md
-      - stackpath-connect-to-container.md
-      - stackpath-enable-remote-mgt.md
-      - stackpath-sites-overview.md
-      - stackpath-sites-cdn.md
-      - stackpath-sites-lifetimes-ttls.md
-      - stackpath-sites-cache-keys.md
-      - stackpath-sites-cdn-features.md
-      - stackpath-sites-sslcert.md
-      - stackpath-sites-waf.md
-      - stackpath-sites-scripts.md
 - category: aws-compute-service
   icon: fa fa-cloud
   articles:
