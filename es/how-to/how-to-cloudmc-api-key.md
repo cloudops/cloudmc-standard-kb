@@ -1,12 +1,12 @@
 ---
-title: "Generar una clave API de CloudMC"
+title: "Generar una clave API de CloudOps"
 slug: clave-api-cloudmc
 ---
 
 
-Cuando trabajas con la API de CloudMC, deberás generar una clave de API para usar con tu código. Las claves API brindan un método conveniente para que tu aplicación se identifique ante un servicio cuando realiza llamadas a la API del servicio.
+Cuando trabajas con la API de CloudOps, deberás generar una clave de API para usar con tu código. Las claves API brindan un método conveniente para que tu aplicación se identifique ante un servicio cuando realiza llamadas a la API del servicio.
 
-Cualquier usuario de CloudMC puede generar una clave API. Las claves API de un usuario tendrán el mismo nivel de privilegio que tiene el usuario. No hay límite para la cantidad de claves API que un usuario puede generar. Se recomienda aprovechar esto generando una clave API para cada aplicación que accederá al sistema.
+Cualquier usuario de CloudOps puede generar una clave API. Las claves API de un usuario tendrán el mismo nivel de privilegio que tiene el usuario. No hay límite para la cantidad de claves API que un usuario puede generar. Se recomienda aprovechar esto generando una clave API para cada aplicación que accederá al sistema.
 
 Para administrar tus claves de API, navega hasta el menú de usuario en la parte superior derecha de la página, haz clic en *Mi perfil*, luego haz clic en el elemento etiquetado como *Credenciales de API*.
 

@@ -12,7 +12,7 @@ Se pueden aprovisionar y adjuntar o separar volúmenes adicionales de las instan
 
 AWS ofrece varios tipos de volúmenes, que ofrecen diferentes niveles de rendimiento y precio del disco. Al crear un volumen, especifica el tipo de volumen deseado. El tipo de volumen no se puede cambiar una vez que se aprovisiona un volumen.
 
-Al adjuntar volúmenes a instancias, cada volumen debe tener un nombre de dispositivo único. Este es un nombre de archivo que usará el sistema operativo en la instancia cuando interactúe con el volumen. El nombre del dispositivo toma la forma de `/dev/sd*` o `/dev/xvd*`. Al adjuntar un volumen, CloudMC proporcionará un nombre de dispositivo predeterminado razonable. El nombre del dispositivo `/dev/sda1` es un nombre especial y está reservado para el volumen raíz de una instancia.
+Al adjuntar volúmenes a instancias, cada volumen debe tener un nombre de dispositivo único. Este es un nombre de archivo que usará el sistema operativo en la instancia cuando interactúe con el volumen. El nombre del dispositivo toma la forma de `/dev/sd*` o `/dev/xvd*`. Al adjuntar un volumen, CloudOps proporcionará un nombre de dispositivo predeterminado razonable. El nombre del dispositivo `/dev/sda1` es un nombre especial y está reservado para el volumen raíz de una instancia.
 
 En algunas circunstancias, un volumen adjunto a una instancia puede configurarse con la opción **Eliminar en el momento de terminar**. Cuando está habilitado para un volumen, el volumen se eliminará automáticamente si se elimina su instancia adjunta. Utilice esta opción con precaución, la eliminación de un volumen es una operación permanente y no se puede deshacer.
 

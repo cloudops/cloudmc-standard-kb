@@ -4,7 +4,7 @@ slug: cloudstack-gestion-de-claves-ssh
 ---
 
 
-En lugar de usar solo una contraseña para iniciar sesión en tu instancia, CloudMC admite la inserción de claves SSH. Este artículo cubre los diferentes requisitos previos para que esta función funcione y cómo generar y cargar una clave SSH.
+En lugar de usar solo una contraseña para iniciar sesión en tu instancia, CloudOps admite la inserción de claves SSH. Este artículo cubre los diferentes requisitos previos para que esta función funcione y cómo generar y cargar una clave SSH.
 
 ### Prerrequisitos
 Esta función ejecutará correctamente solamente si:

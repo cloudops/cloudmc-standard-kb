@@ -8,15 +8,15 @@ slug: openid-connect
 
 OpenID Connect (OIDC) es un sistema de autenticación basado en OAuth 2.0 y actualmente es el sistema de autenticación externo más adoptado.
 
-Con OpenID Connect configurado, una persona puede iniciar sesión en su cuenta de CloudMC utilizando credenciales válidas de un proveedor de identidad externo. Además, si una organización ha configurado un dominio personalizado, CloudMC puede, opcionalmente, crear una nueva cuenta de usuario automáticamente para una persona que inicia sesión con éxito utilizando el proveedor de identidad externo, según el dominio de la dirección de correo electrónico con la que el usuario está iniciando sesión. Esto facilita la gestión de usuarios para las empresas y la integración en un entorno de inicio de sesión único (SSO).
+Con OpenID Connect configurado, una persona puede iniciar sesión en su cuenta de CloudOps utilizando credenciales válidas de un proveedor de identidad externo. Además, si una organización ha configurado un dominio personalizado, CloudOps puede, opcionalmente, crear una nueva cuenta de usuario automáticamente para una persona que inicia sesión con éxito utilizando el proveedor de identidad externo, según el dominio de la dirección de correo electrónico con la que el usuario está iniciando sesión. Esto facilita la gestión de usuarios para las empresas y la integración en un entorno de inicio de sesión único (SSO).
 
-Cuando está configurado el inicio de sesión por OIDC, aparecerá un botón en la página de inicio de sesión que permite al usuario iniciar un sesión a través del proveedor externo. Es importante destacar que si una cuenta de CloudMC está configurada para usar la autenticación de dos factores, se le pedirá al usuario su token 2FA después de un inicio de sesión OIDC exitoso.
+Cuando está configurado el inicio de sesión por OIDC, aparecerá un botón en la página de inicio de sesión que permite al usuario iniciar un sesión a través del proveedor externo. Es importante destacar que si una cuenta de CloudOps está configurada para usar la autenticación de dos factores, se le pedirá al usuario su token 2FA después de un inicio de sesión OIDC exitoso.
 
 ### Cómo configurar un proveedor OpenID Connect externo
 
-La integración de CloudMC con un proveedor de OpenID Connect es un proceso de tres pasos, que se describen en las siguientes secciones:
+La integración de CloudOps con un proveedor de OpenID Connect es un proceso de tres pasos, que se describen en las siguientes secciones:
     - Configurar el proveedor de identidad
-    - Configurar CloudMC
+    - Configurar CloudOps
     - Enviar un **URL de devolución de llamada** (un **URL de callback**) al proveedor
 
 Un usuario con el rol de **Revendedor**, o cualquier otro rol que tenga el permiso *Autenticación: Gestionar*, puede agregar un proveedor de identidad OpenID Connect.
@@ -25,12 +25,12 @@ Navega a *Administración* -> *Autenticación* para llegar a la página *Autenti
 
 #### Configurar un proveedor de identidad
 
-El primer paso al integrarse con un proveedor de identidad es configurar un cliente para CloudMC dentro de tu proveedor de identidad OpenID Connect. Sigue el procedimiento de tu proveedor de identidad para configurar un cliente y obten las credenciales de cliente requeridas por CloudMC:
+El primer paso al integrarse con un proveedor de identidad es configurar un cliente para CloudOps dentro de tu proveedor de identidad OpenID Connect. Sigue el procedimiento de tu proveedor de identidad para configurar un cliente y obten las credenciales de cliente requeridas por CloudOps:
     - El URL del emisor
     - La identificación del cliente
     - El secreto del cliente
 
-#### Configurar CloudMC
+#### Configurar CloudOps
 
 1. Haz clic en *Agregar un proveedor de identidad*. Aparecerá la página *Agregar un proveedor de identidad*.
 ![Página del proveedor de identidad](/assets/oidc-add-1-en.png)
@@ -42,21 +42,21 @@ El primer paso al integrarse con un proveedor de identidad es configurar un clie
 1. Ingrese los detalles requeridos que obtuviste del proveedor de identidad.
 1. Opcionalmente, si tienes varios proveedores de identidad externos configurados, puedes controlar el orden en el que aparecen en la página de inicio de sesión asignándoles un **orden de visualización**. Los proveedores aparecen ordenados en orden ascendente según sus valores de orden de visualización. Las entradas sin un orden de visualización establecido se enumerarán al final, en orden alfabético.
 1. Haz clic en *Aplicar*.
-1. Aparece la página *Autenticación* y se enumera el nuevo proveedor. Además, la página de inicio de sesión de CloudMC ahora presenta a los usuarios un botón para iniciar sesión con el proveedor de identidad.
+1. Aparece la página *Autenticación* y se enumera el nuevo proveedor. Además, la página de inicio de sesión de CloudOps ahora presenta a los usuarios un botón para iniciar sesión con el proveedor de identidad.
 
 #### Enviar el URL de devolución de llamada al proveedor
 
-Para completar la integración con el proveedor de identidad, CloudMC generará un URL de devolución de llamada para pasarlo al proveedor:
+Para completar la integración con el proveedor de identidad, CloudOps generará un URL de devolución de llamada para pasarlo al proveedor:
 
 1. Desde la página *Autenticación*, selecciona el menú *Acción* a la derecha de su proveedor de identidad configurado. Selecciona *Copiar URL de devolución de llamada*.
 1. En la configuración de tu proveedor de identidad, navega hasta el cliente e ingrese el URL de devolución de llamada a la lista de URL de redireccionamiento autorizadas.
-1. CloudMC ahora se autenticará correctamente a través de tu proveedor de identidad.
+1. CloudOps ahora se autenticará correctamente a través de tu proveedor de identidad.
 
 ### Creación automática de cuentas
 
-Si lo deseas, CloudMC puede crear automáticamente una cuenta para una persona que inicia sesión con credenciales válidas del proveedor de identidad externo, pero que aún no tenga una cuenta en CloudMC.
+Si lo deseas, CloudOps puede crear automáticamente una cuenta para una persona que inicia sesión con credenciales válidas del proveedor de identidad externo, pero que aún no tenga una cuenta en CloudOps.
 
-Esta configuración se aplica a nivel de la organización, lo que permite a una organización optar por no participar en esta función. La organización debe tener al menos un [dominio personalizado](https://cloudops.github.io/cloudmc-docs/#/reseller/custom-domains) configurado. CloudMC emparejará el nombre de dominio de la dirección de correo electrónico utilizada para iniciar sesión con el dominio personalizado seleccionado para determinar la organización en la que crear la cuenta de usuario final.
+Esta configuración se aplica a nivel de la organización, lo que permite a una organización optar por no participar en esta función. La organización debe tener al menos un [dominio personalizado](https://cloudops.github.io/cloudmc-docs/#/reseller/custom-domains) configurado. CloudOps emparejará el nombre de dominio de la dirección de correo electrónico utilizada para iniciar sesión con el dominio personalizado seleccionado para determinar la organización en la que crear la cuenta de usuario final.
 
 1. Haz clic en *Organizaciones* en la barra lateral.
 1. Busca la organización deseada y haz clic en el menú de tres puntos *Acción* en el extremo derecho de la entrada.

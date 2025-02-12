@@ -3,7 +3,7 @@ title: "El control de acceso basado en roles - Casos prácticos avanzados"
 slug: el-control-de-acceso-basado-en-roles-casos-practicos-avanzados
 ---
 
-Los siguientes casos prácticos ilustran la flexibilidad de roles en CloudMC con ejemplos del mundo real.  A menos que se indique lo contrario, los ejemplos suponen que la cuenta usuario tiene un rol primario de *Invitado*, sin roles adicionales, el acceso *Espectador* para un entorno en la organización, y que la cuenta sea creada en la organización intentada a acceder.  Estos son solamente ejemplos, varian las necesidades individuales.
+Los siguientes casos prácticos ilustran la flexibilidad de roles en CloudOps con ejemplos del mundo real.  A menos que se indique lo contrario, los ejemplos suponen que la cuenta usuario tiene un rol primario de *Invitado*, sin roles adicionales, el acceso *Espectador* para un entorno en la organización, y que la cuenta sea creada en la organización intentada a acceder.  Estos son solamente ejemplos, varian las necesidades individuales.
 
 El diagrama abajo representa tres organizaciones hipotéticas con entornos y una sub-organización.  Tomar nota de que Organización A tiene dos etiquetas, **billable** y **managed**, y Sub-Organización C tiene una etiqueta, **billable**.
 

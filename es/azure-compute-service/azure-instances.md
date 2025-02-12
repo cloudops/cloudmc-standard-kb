@@ -4,7 +4,7 @@ slug: azure-instancias
 ---
 
 
-Las máquinas virtuales son un tipo fundamental de infraestructura proporcionada por Microsoft Azure. Este artículo analiza el concepto de máquinas virtuales y cómo se administran en CloudMC.
+Las máquinas virtuales son un tipo fundamental de infraestructura proporcionada por Microsoft Azure. Este artículo analiza el concepto de máquinas virtuales y cómo se administran en CloudOps.
 
 Las máquinas virtuales se enumeran en la sección **Instancias** del entorno de Azure seleccionado.
 

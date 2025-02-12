@@ -4,7 +4,7 @@ slug: vmware-vapps
 ---
 
 
-Una aplicación virtual es un contenedor de máquinas virtuales que proporciona la infraestructura para una aplicación nativa de la nube. Este artículo analiza el concepto de aplicaciones virtuales y cómo se administran en CloudMC.
+Una aplicación virtual es un contenedor de máquinas virtuales que proporciona la infraestructura para una aplicación nativa de la nube. Este artículo analiza el concepto de aplicaciones virtuales y cómo se administran en CloudOps.
 
 Las aplicaciones virtuales se enumeran en la sección **Aplicaciones virtuales** del entorno VMware seleccionado.
 

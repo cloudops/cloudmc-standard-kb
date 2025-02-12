@@ -31,7 +31,7 @@ slug: aws-cubos
      Cada entrada en la lista de objetos tiene un menú de acciones escondidas. Haz clic en el menú de acciones escondidas para acceder a una lista de operaciones de uso frecuente para el objeto o la carpeta.
 
 
-CloudMC brinda acceso a AWS Simple Storage Service a través de la pestaña **Almacenamiento de objetos** en cualquier entorno de AWS. Los usuarios pueden definir cubos para almacenar objetos. Luego, los usuarios pueden cargar archivos y acceder a estos objetos con una simple URL.
+CloudOps brinda acceso a AWS Simple Storage Service a través de la pestaña **Almacenamiento de objetos** en cualquier entorno de AWS. Los usuarios pueden definir cubos para almacenar objetos. Luego, los usuarios pueden cargar archivos y acceder a estos objetos con una simple URL.
 
 Cada cubo tiene un nombre, una región de AWS y permisos de acceso.
 

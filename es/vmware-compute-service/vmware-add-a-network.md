@@ -5,7 +5,7 @@ slug: vmware-agregar-una-red
 
 ## Acerca de esta tarea
 
-Este artículo lo guiará a través del proceso de agregar una nueva red a un entorno VMware. La interfaz de CloudMC proporciona un asistente de una sola página para seleccionar e implementar una nueva configuración de red.
+Este artículo lo guiará a través del proceso de agregar una nueva red a un entorno VMware. La interfaz de CloudOps proporciona un asistente de una sola página para seleccionar e implementar una nueva configuración de red.
 
 ## Antes de comenzar
 

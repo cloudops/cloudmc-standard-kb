@@ -3,7 +3,7 @@ title: "Conectar a una VPC mediante una VPN de acceso remoto (IKEv2)"
 slug: conectar-a-una-vpc-con-vpn-ikev2
 ---
 
-CloudMC brinda la capacidad de conectarte de forma segura desde tu hogar u oficina a tu VPC. Usando un cliente VPN basado en IKEv2 sobre IPSec en tu plataforma preferida (por ejemplo, Windows, macOS, Ubuntu...), podrás acceder a tus instancias sin tener que pasar por el reenvío de puertos en direcciones IP públicas.
+CloudOps brinda la capacidad de conectarte de forma segura desde tu hogar u oficina a tu VPC. Usando un cliente VPN basado en IKEv2 sobre IPSec en tu plataforma preferida (por ejemplo, Windows, macOS, Ubuntu...), podrás acceder a tus instancias sin tener que pasar por el reenvío de puertos en direcciones IP públicas.
 
 ## Configuración de VPC
 **Nota:** Para realizar las siguientes operaciones, tu cuenta de usuario debe tener asignada la función de **Editor** o **Propietario** en el entorno de destino.

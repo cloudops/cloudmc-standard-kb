@@ -4,7 +4,7 @@ slug: gcp-balanceo-de-carga
 ---
 
 
-CloudMC es compatible con las funciones de balanceo de carga de Google Cloud Platform, mediante las cuales el tráfico puede dirigirse a un servicio de backend confiable con múltiples servidores para entregar una aplicación.
+CloudOps es compatible con las funciones de balanceo de carga de Google Cloud Platform, mediante las cuales el tráfico puede dirigirse a un servicio de backend confiable con múltiples servidores para entregar una aplicación.
 
 Se accede al balanceo de carga de GCP navegando al entorno de GCP deseado, haciendo clic en la pestaña **Redes** y haciendo clic en el elemento **Balanceo de carga**.
 
@@ -37,7 +37,7 @@ Antes de configurar manualmente un nuevo balanceador de carga, ya debes tener lo
 
 #### Configurar un balanceador de carga en un solo paso
 
-Si ya se ha definido un servicio de backend, CloudMC permite la creación de un balanceador de carga en una sola página y creará los componentes necesarios en tu nombre utilizando valores predeterminados razonables.
+Si ya se ha definido un servicio de backend, CloudOps permite la creación de un balanceador de carga en una sola página y creará los componentes necesarios en tu nombre utilizando valores predeterminados razonables.
 
 1. Desde la página *Balanceadores de carga*, haz clic en el botón *Agregar balanceador de carga*.
 1. Ingrese un nombre para el balanceador de carga o acepte el predeterminado.
@@ -63,7 +63,7 @@ El nuevo balanceador de carga ya está activo y listo para realizar pruebas con 
     - Haz clic en **Proxies de destino** y haz clic en el botón *Agregar un proxy de destino*
     - Ingresa un nombre o acepta el predeterminado e ingresa una descripción si lo deseas.
     - Selecciona el protocolo que utilizará el proxy de destino para escuchar las solicitudes entrantes de los clientes.
-       - Para admitir conexiones HTTPS de clientes, selecciona HTTPS. Aparecerá una lista de los certificados SSL disponibles para CloudMC debajo de **Protocolo**, y deberás seleccionar el apropiado para este balanceador de carga.
+       - Para admitir conexiones HTTPS de clientes, selecciona HTTPS. Aparecerá una lista de los certificados SSL disponibles para CloudOps debajo de **Protocolo**, y deberás seleccionar el apropiado para este balanceador de carga.
     - Selecciona un mapa de URL. Si no se han creado mapas de URL, se creará un mapa de URL predeterminado al mismo tiempo que el proxy de destino.
     - Haga clic en *Aplicar*.
 1. Crea una regla de reenvío de puertos.
