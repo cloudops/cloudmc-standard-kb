@@ -8,15 +8,15 @@ slug: openid-connect
 
 OpenID Connect (OIDC) is an authentication system based on OAuth 2.0, and is currently the most widely adopted external authentication system.
 
-With OpenID Connect configured, an individual can log into their CloudMC account using valid credentials from an external identity provider. Additionally, if an organization has configured a custom domain, CloudMC can optionally create a new user account automatically for an individual who logs in successfully using the external identity provider, based on the domain of the email address the user is logging in with.  This facilitates easier user management for enterprises and integration into a single sign-on (SSO) environment.
+With OpenID Connect configured, an individual can log into their CloudOps account using valid credentials from an external identity provider. Additionally, if an organization has configured a custom domain, CloudOps can optionally create a new user account automatically for an individual who logs in successfully using the external identity provider, based on the domain of the email address the user is logging in with.  This facilitates easier user management for enterprises and integration into a single sign-on (SSO) environment.
 
-When OIDC login is configured, a button will appear on the login page allowing a user to initiate a login via the external provider.  Importantly, if a CloudMC account is configured to use two-factor authentication, the user will be asked for their 2FA token after a successful OIDC login.
+When OIDC login is configured, a button will appear on the login page allowing a user to initiate a login via the external provider.  Importantly, if a CloudOps account is configured to use two-factor authentication, the user will be asked for their 2FA token after a successful OIDC login.
 
 ### How to configure an external OpenID Connect provider
 
-Integrating CloudMC with an OpenID Connect provider is a three-step process, described in the following sections:
+Integrating CloudOps with an OpenID Connect provider is a three-step process, described in the following sections:
    - Configure the identity provider
-   - Configure CloudMC
+   - Configure CloudOps
    - Submit a **callback URL** to the provider
 
 A user with the **Reseller** role, or any other role which has the *Authentication: Manage* permission, may add an OpenID Connect identity provider.
@@ -25,12 +25,12 @@ Navigate to *System* -> *Authentication* to get to the *Authentication* page, wh
 
 #### Configure identity provider
 
-The first step when integrating with an identity provider is to configure a client for CloudMC within your OpenID Connect identity provider.  Follow your identity provider's procedure for configuring a client, and obtain the client credentials required by CloudMC:
+The first step when integrating with an identity provider is to configure a client for CloudOps within your OpenID Connect identity provider.  Follow your identity provider's procedure for configuring a client, and obtain the client credentials required by CloudOps:
    - Issuer URL
    - Client ID
    - Client secret
 
-#### Configure CloudMC
+#### Configure CloudOps
 
 1. Click *Add identity provider*.  The *Add identity provider* page will appear.
 ![Identity provider page](/assets/oidc-add-1-en.png)
@@ -42,21 +42,21 @@ The first step when integrating with an identity provider is to configure a clie
 1. Enter the required details you obtained from the identity provider.
 1. Optionally, if you have multiple external identity providers configured, you may control the order in which they appear on the login page by assigning them a **display order**.  The providers appear sorted in ascending order of their display order values.  Entries with no display order set will be listed at the end, in alphabetical order.
 1. Click *Submit*.
-1. The *Authentication* page appears and the new provider is listed.  Additionally, the CloudMC login page now presents users with a button to sign on with the identity provider.
+1. The *Authentication* page appears and the new provider is listed.  Additionally, the CloudOps login page now presents users with a button to sign on with the identity provider.
 
 #### Submit callback URL to provider
 
-To complete the integration with the identity provider, CloudMC will generate a callback URL to pass to the provider:
+To complete the integration with the identity provider, CloudOps will generate a callback URL to pass to the provider:
 
 1. From the *Authentication* page, select the *Action* menu to the right of your configured identity provider.  Select *Copy callback URL*.
 1. In your identity provider's configuration, navigate to the client, and enter the callback URL to the list of authorized redirect URLs.
-1. CloudMC will now authenticate properly through your identity provider.
+1. CloudOps will now authenticate properly through your identity provider.
 
 ### Automatic account creation
 
-If desired, CloudMC can automatically create an account for an individual who is signing in with valid credentials from the external identity provider but who does not already have an account in CloudMC.
+If desired, CloudOps can automatically create an account for an individual who is signing in with valid credentials from the external identity provider but who does not already have an account in CloudOps.
 
-This setting is applied at the organization level, allowing an organization to opt out of this feature.  The organization must have at least one [custom domain](https://cloudops.github.io/cloudmc-docs/#/reseller/custom-domains) configured.  CloudMC will match domain name of the email address used to log in against the selected custom domain to determine the organization in which to create the end-user account.
+This setting is applied at the organization level, allowing an organization to opt out of this feature.  The organization must have at least one [custom domain](https://cloudops.github.io/cloudmc-docs/#/reseller/custom-domains) configured.  CloudOps will match domain name of the email address used to log in against the selected custom domain to determine the organization in which to create the end-user account.
 
 1. Click on *Organizations* in the sidebar.
 1. Locate the desired organization, and click on the three-dot *Action* menu on the far right of the entry.
