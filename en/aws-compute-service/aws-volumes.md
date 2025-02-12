@@ -12,7 +12,7 @@ Additional volumes may be provisioned and attached or detached from instances as
 
 AWS offers several types of volumes, which offer different levels of disk performance and price. When creating a volume, specify the desired type of volume. The type of volume cannot be changed once a volume is provisioned.
 
-When attaching volumes to instances, every volume must have a unique device name. This is a file name that the operating system in the instance will use when interacting with the volume. The device name takes the form of `/dev/sd*` or `/dev/xvd*`. When attaching a volume, CloudMC will provide a reasonable default device name. The device name `/dev/sda1` is a special name, and is reserved for the root volume of an instance.
+When attaching volumes to instances, every volume must have a unique device name. This is a file name that the operating system in the instance will use when interacting with the volume. The device name takes the form of `/dev/sd*` or `/dev/xvd*`. When attaching a volume, CloudOps will provide a reasonable default device name. The device name `/dev/sda1` is a special name, and is reserved for the root volume of an instance.
 
 Under some circumstances, a volume attached to an instance may be configured with the **Delete on termination** option. When enabled for a volume, the volume will be automatically deleted if its attached instance is deleted. Use this option with caution, deleting a volume is a permanent operation and cannot be undone.
 

@@ -4,7 +4,7 @@ slug: azure-disks
 ---
 
 
-Disks are part of the base set of infrastructure services provided by Microsoft Azure. This article discusses the concept of disks and how they are managed in CloudMC.
+Disks are part of the base set of infrastructure services provided by Microsoft Azure. This article discusses the concept of disks and how they are managed in CloudOps.
 
 Disks are listed under the **Disks** tab of your Azure environment.
 
@@ -18,7 +18,7 @@ Additional disks may be provisioned and attached or detached from instances as n
 
 Azure offers several types of disks, which offer different levels of disk performance and price. When creating a disk, specify the desired type of performance. The type of performance can be changed after a disk is provisioned.
 
-When attaching disks to instances, every disk must have a unique LUN \(Logical Unit Number\). This is a number that the operating system in the instance will use when interacting with the disk. The LUN for a data disk must be a positive integer greater than 0. When attaching a disk, CloudMC will provide a reasonable default LUN.
+When attaching disks to instances, every disk must have a unique LUN \(Logical Unit Number\). This is a number that the operating system in the instance will use when interacting with the disk. The LUN for a data disk must be a positive integer greater than 0. When attaching a disk, CloudOps will provide a reasonable default LUN.
 
 ## Disk list
 

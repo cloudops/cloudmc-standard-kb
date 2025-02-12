@@ -3,11 +3,11 @@ title: "Guide for Resellers"
 slug: guide-for-resellers
 ---
 
-CloudMC is a powerful, API-based edge orchestration platform.
+CloudOps is a powerful, API-based edge orchestration platform.
 
 ### Useful information for resellers
 
-[Main CloudMC entities](../basic-concepts/main-cloudmc-entities.md)
+[Main CloudOps entities](../basic-concepts/main-cloudmc-entities.md)
 [Authentication](.,/basic-concepts/authentication.md)
 [Using environments](environments-to-organize-workloads-and-users.md)
 

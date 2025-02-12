@@ -4,11 +4,11 @@ slug: cloudstack-working-with-snapshots-and-recovery-points
 ---
 
 
-CloudMC supports two kind of snapshots: typical volume snapshots, and recovery points. This article covers the differences between these two items, and explain how to use them.
+CloudOps supports two kind of snapshots: typical volume snapshots, and recovery points. This article covers the differences between these two items, and explain how to use them.
 
 ### Snapshots vs. Recovery Point
 
-A **Snapshot** in the context of CloudMC means **Volume Snapshot**. A Volume Snapshot is a full image of a volume. They are often considered as backups, but in reality this is not 100% true since you have only the data written on disk. Volume Snapshots are typically used to derive new templates out of a running instance. These objects are pushed to a Region-Wide object storage to allow for their usage in multiple zones.
+A **Snapshot** in the context of CloudOps means **Volume Snapshot**. A Volume Snapshot is a full image of a volume. They are often considered as backups, but in reality this is not 100% true since you have only the data written on disk. Volume Snapshots are typically used to derive new templates out of a running instance. These objects are pushed to a Region-Wide object storage to allow for their usage in multiple zones.
 
 A **Recovery Point** is the same kind of image, but it is kept locally on the hypervisors and are used to rollback an Instance to a previous state. Recovery Points can also maintain the Memory state as well as the disk data. They are not transferred to the Region-Wide object storage.
 

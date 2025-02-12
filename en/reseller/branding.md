@@ -4,7 +4,7 @@ slug: branding
 ---
 
 
-The CloudMC Web user interface is designed to easily align with your corporate branding.  Brand management in CloudMC allows an Operator, a Reseller, or someone with the *Branding: Manage* permission to:
+The CloudOps Web user interface is designed to easily align with your corporate branding.  Brand management in CloudOps allows an Operator, a Reseller, or someone with the *Branding: Manage* permission to:
    - Override the default colours for the interface
    - Select the available and default languages
    - Change the logo on the login page, in the side menu, and the favicon
@@ -16,7 +16,7 @@ Additionally, advanced users can apply custom CSS settings to modify the appeara
 
 ### Branding hierarchy
 
-CloudMC ships with factory branding.  This cannot be modified or deleted.  Creating a new branding within the System organization creates a **default branding**.  Upon creation, the branding will be listed with the "Default" badge on the *Branding* page.  Once the default branding has been saved,
+CloudOps ships with factory branding.  This cannot be modified or deleted.  Creating a new branding within the System organization creates a **default branding**.  Upon creation, the branding will be listed with the "Default" badge on the *Branding* page.  Once the default branding has been saved,
 
    - Note: System branding is a special case, only an operator or account with *Branding: Manage* scoped to all organizations can manage the branding for System.
 
@@ -30,13 +30,13 @@ The is the string displayed in the browser window title bar or name of tab.  It 
 
 #### Logo
 
-CloudMC has support for two types of logos:
+CloudOps has support for two types of logos:
    - Small, square logo: Used on the miniature side menu and favicon
    - Large, rectangular logo: Used on the login page, side menu, and email notifications
 
 #### Colours <a name="colours"></a>
 
-Colours are managed through defined CSS variables.  The following variables govern the core set of colours used throughout the CloudMC interface:
+Colours are managed through defined CSS variables.  The following variables govern the core set of colours used throughout the CloudOps interface:
 
    - **secondary**: Larger area of unselected side menu
    - **secondary-light**: Inner area of selected side menu

@@ -4,18 +4,18 @@ slug: rbac
 ---
 
 
-Access control in CloudMC is achieved through a flexible, multi-tenant model that provides a simplified way to manage permissions across a hierarchy of organizations and environments.  Role-based access control (RBAC) features built into CloudMC allow fine-grained control over the permissions which are granted to users.
+Access control in CloudOps is achieved through a flexible, multi-tenant model that provides a simplified way to manage permissions across a hierarchy of organizations and environments.  Role-based access control (RBAC) features built into CloudOps allow fine-grained control over the permissions which are granted to users.
 
 ## Definitions
-- **Permission:** An authorization to execute a particular task.  **System permissions** govern access to functionality in the CloudMC console, **environment permissions** govern access to a service's resources.
+- **Permission:** An authorization to execute a particular task.  **System permissions** govern access to functionality in the CloudOps console, **environment permissions** govern access to a service's resources.
 
-- **System Role:** A collection of system permissions inside an organization.  CloudMC comes with **fixed roles** which cannot be modified, and **custom roles** can be created.  Generally, system roles are referred to simply as "roles".
+- **System Role:** A collection of system permissions inside an organization.  CloudOps comes with **fixed roles** which cannot be modified, and **custom roles** can be created.  Generally, system roles are referred to simply as "roles".
 
 - **Scope:** The organization or organizations to which a system role is applied.
 
-- **Organization:** A grouping of related end-users and resources.  An organization may contain sub-organizations.  A base installation of CloudMC comes with the **System** organization.
+- **Organization:** A grouping of related end-users and resources.  An organization may contain sub-organizations.  A base installation of CloudOps comes with the **System** organization.
 
-- **User:**  A user account is how an individual connects to the CloudMC portal.  A user is always assigned a primary system role in the organization the account was created. A user can be assigned additional system roles, which can be scoped to one or more organizations.
+- **User:**  A user account is how an individual connects to the CloudOps portal.  A user is always assigned a primary system role in the organization the account was created. A user can be assigned additional system roles, which can be scoped to one or more organizations.
 
 - **Environment:**  A logical unit within an organization, used to isolate and group resources securely. Access is controlled via a combination of environment roles and organization access controls.
 
@@ -27,10 +27,10 @@ Access control in CloudMC is achieved through a flexible, multi-tenant model tha
 
 ## System roles
 
-The function of a system role is to control access to CloudMC functionality in a simple, standard way.  A system role can be assigned to users within an organization, and can also enable cross-organization collaboration.  System roles are enforced in the Web user interface as well as in the CloudMC API.  Custom roles can be defined with permissions that are aligned to business needs.
+The function of a system role is to control access to CloudOps functionality in a simple, standard way.  A system role can be assigned to users within an organization, and can also enable cross-organization collaboration.  System roles are enforced in the Web user interface as well as in the CloudOps API.  Custom roles can be defined with permissions that are aligned to business needs.
 
 All system roles have a *scope*, which can be one of the following:
-- All organizations in CloudMC.
+- All organizations in CloudOps.
 - Only the top-level organizations.
 - A specific organization but not its sub-organizations.
 - A specific organization and all of its sub-organizations.
@@ -40,7 +40,7 @@ All system roles have a *scope*, which can be one of the following:
 Through the use of tagging, scope for an assigned role can be automatically extended to organizations that get tagged, and removed when a tag is erased.  This feature enables scenarios where role scope changes dynamically based on business rules.
 
 ### Fixed roles
-The fixed roles included with CloudMC are applicable to a broad range of use cases.  They can be assigned to a user's primary role, or as an additional role.
+The fixed roles included with CloudOps are applicable to a broad range of use cases.  They can be assigned to a user's primary role, or as an additional role.
 
 A summary of each fixed role when applied as a primary role:
 
@@ -61,7 +61,7 @@ As the diagram below indicates, rising through the hierarchy every role has all 
 
 ### Custom Roles
 
-CloudMC allows a user with the *Administrator* role and higher (or a user with a custom role that includes the *Roles: Manage* permission, explained in this section) to create new roles with permissions that are aligned with specific business needs.  The administrator can select individual permissions and save the role, then apply that role to users within the organization.  A user's effective rights are governed by the union of all the permissions and scope of the primary role with all additional roles.  A user's primary role must be one of the built-in fixed roles, it cannot be a custom role.
+CloudOps allows a user with the *Administrator* role and higher (or a user with a custom role that includes the *Roles: Manage* permission, explained in this section) to create new roles with permissions that are aligned with specific business needs.  The administrator can select individual permissions and save the role, then apply that role to users within the organization.  A user's effective rights are governed by the union of all the permissions and scope of the primary role with all additional roles.  A user's primary role must be one of the built-in fixed roles, it cannot be a custom role.
 
 **Important:** When an organization is deleted, any custom roles that were defined within that organization are also deleted.
 
@@ -71,7 +71,7 @@ The *Administration* -> *Roles* page lists system roles and any custom roles tha
 ![add custom role page](/assets/rbac-add_custom_role-en.png)
 
 ## Environment roles
-To control access to resources within an environment, CloudMC introduces the concept of the *environment role*.  When adding a new member to an environment, that user must be assigned an environment role, which governs the level of access this user will be granted within the environment.  Most plugins ship with these standard environment roles:
+To control access to resources within an environment, CloudOps introduces the concept of the *environment role*.  When adding a new member to an environment, that user must be assigned an environment role, which governs the level of access this user will be granted within the environment.  Most plugins ship with these standard environment roles:
 
 - **Viewer:**  Read-only access to the environment.
 - **Editor:** Can read, write, and provision resources in the environment, but cannot change the environment settings nor manage users.
@@ -79,7 +79,7 @@ To control access to resources within an environment, CloudMC introduces the con
 
 ## How to assign roles
 
-CloudMC allows a user with the *Administrator* role and higher (or a user with a custom role that includes the *Users: Manage* permission) to assign fixed and custom roles to users.  The administrator cannot assign a permission to another user if the administrator does not already have that same permission.  This security model prevents a user from escalating their own access without authorization (privilege escalation).
+CloudOps allows a user with the *Administrator* role and higher (or a user with a custom role that includes the *Users: Manage* permission) to assign fixed and custom roles to users.  The administrator cannot assign a permission to another user if the administrator does not already have that same permission.  This security model prevents a user from escalating their own access without authorization (privilege escalation).
 
 Primary roles are assigned to a user in the *Edit user* page.
 

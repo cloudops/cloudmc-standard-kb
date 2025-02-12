@@ -10,11 +10,11 @@ This article introduces the concept of two-factor authentication, and describes 
 
 Two-factor authentication, also known as multi-factor authentication, 2FA, or MFA, provides unambiguous identification of a user by means of two separate pieces of identification. The first component is something that the user must know, such as a password or a passphrase. The second component is something that the user must have, for example, a one-time token. This mechanism helps to prove to the system that you are who you say you are.
 
-It is generally recommended to always enable 2FA for your CloudMC account. Once 2FA is configured, when logging in you will be prompted for the one-time token:
+It is generally recommended to always enable 2FA for your CloudOps account. Once 2FA is configured, when logging in you will be prompted for the one-time token:
 
-![Screenshot of the CloudMC login page prompting for a one-time token](/assets/enable-2fa-login-en.png)
+![Screenshot of the CloudOps login page prompting for a one-time token](/assets/enable-2fa-login-en.png)
 
-To generate a one-time token, you will need to install a token generator application, either on your smartphone or on your workstation. There are many applications that can work with CloudMC's 2FA system, such as LastPass, 1Password, Google Authenticator, Microsoft Authenticator, and others. Please refer to the documentation provided by the vendor of your software for installation and configuration information.
+To generate a one-time token, you will need to install a token generator application, either on your smartphone or on your workstation. There are many applications that can work with CloudOps's 2FA system, such as LastPass, 1Password, Google Authenticator, Microsoft Authenticator, and others. Please refer to the documentation provided by the vendor of your software for installation and configuration information.
 
 ## Enabling two-factor authentication
 
@@ -24,7 +24,7 @@ To generate a one-time token, you will need to install a token generator applica
 
 ### Procedure
 
-1.  Click on the **User menu** \> **My profile** \> **Security**. The User menu is in the upper right corner of the CloudMC menu bar.
+1.  Click on the **User menu** \> **My profile** \> **Security**. The User menu is in the upper right corner of the CloudOps menu bar.
 
 2.  Scroll to the bottom of the page and click on the button titled **Enable two-factor authentication \(2FA\)**.
 
@@ -49,7 +49,7 @@ To generate a one-time token, you will need to install a token generator applica
 
 ### Results
 
--   Two-factor authentication is now enabled on your CloudMC account
+-   Two-factor authentication is now enabled on your CloudOps account
 -   Upon your next login, after verifying your username and password the system will prompt you to enter the one-time token from your token generator
 
 ### Regenerate your backup codes
@@ -58,7 +58,7 @@ If you should lose your backup codes, your codes can be re-generated.
 
 #### Procedure
 
-1.  Click on the **User menu** \> **My profile** \> **Security**. The User menu is in the upper right corner of the CloudMC menu bar.
+1.  Click on the **User menu** \> **My profile** \> **Security**. The User menu is in the upper right corner of the CloudOps menu bar.
 
 2.  Scroll to the bottom of the page and click on the button titled **Manage two-factor authentication \(2FA\)**.
 
@@ -73,7 +73,7 @@ If you should lose your backup codes, your codes can be re-generated.
 
 #### Procedure
 
-1.  Click on the **User menu** \> **My profile** \> **Security**. The User menu is in the upper right corner of the CloudMC menu bar.
+1.  Click on the **User menu** \> **My profile** \> **Security**. The User menu is in the upper right corner of the CloudOps menu bar.
 
 2.  Scroll to the bottom of the page and click on the button titled **Manage two-factor authentication \(2FA\)**.
 

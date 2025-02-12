@@ -4,7 +4,7 @@ slug: k8s-basic-concepts
 ---
 
 
-The Kubernetes standalone plugin enables CloudMC to serve as a console for managing the complete lifyecycle of a Kubernetes-based application, from infrastructure deployment to update release, without having to be concerned with managing the control plane.
+The Kubernetes standalone plugin enables CloudOps to serve as a console for managing the complete lifyecycle of a Kubernetes-based application, from infrastructure deployment to update release, without having to be concerned with managing the control plane.
 
 Requires a connection to an existing Kubernetes cluster.
 

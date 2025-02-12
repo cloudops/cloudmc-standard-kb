@@ -21,7 +21,7 @@ The following instructions apply to Microsoft Windows 10 using its native VPN cl
 ![All tasks menu, import option](/assets/Win-2-Import.png)
 
 8. In the next window, click *Next*.
-8. Click on *Browse…* and select the certificate file that you saved on disk with the **.crt** extension (the certificate is provided in the CloudMC UI, in the page to configure the remote management VPN) and click on *Next*.
+8. Click on *Browse…* and select the certificate file that you saved on disk with the **.crt** extension (the certificate is provided in the CloudOps UI, in the page to configure the remote management VPN) and click on *Next*.
 
 ![Certificate import wizard](/assets/Win-3-Browse.png)
 

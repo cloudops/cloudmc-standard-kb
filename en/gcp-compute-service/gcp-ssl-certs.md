@@ -4,14 +4,14 @@ slug: gcp-ssl-certificates
 ---
 
 
-CloudMC allows you to upload an [SSL certificate](https://en.wikipedia.org/wiki/Public_key_certificate) and its associated private key to your Google Cloud Platform environment, and bind them to a **target proxy** to provide HTTPS connections to your clients.  Certificates may be signed by a Certificate Authority (CA), by an intermediate certificate, or they may be self-signed.
+CloudOps allows you to upload an [SSL certificate](https://en.wikipedia.org/wiki/Public_key_certificate) and its associated private key to your Google Cloud Platform environment, and bind them to a **target proxy** to provide HTTPS connections to your clients.  Certificates may be signed by a Certificate Authority (CA), by an intermediate certificate, or they may be self-signed.
 
 Currently, GCP limits SSL certificates to the following:
    - The certificate and the private key must be in PEM format
    - The private key must have no passphrase
    - The private key must be 2048-bit
 
-SSL certificates can be managed in CloudMC by navigating to the desired GCP environment, selecting the **Networking** tab, clicking on the **Load balancing** item, and clicking on **SSL certificates**.
+SSL certificates can be managed in CloudOps by navigating to the desired GCP environment, selecting the **Networking** tab, clicking on the **Load balancing** item, and clicking on **SSL certificates**.
 
 ### Uploading an SSL certificate
 

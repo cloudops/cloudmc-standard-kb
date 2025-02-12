@@ -24,7 +24,7 @@ For more information about VPCs, please see [What is a VPC](../cloudstack-comput
    - **Name:** Name of the VPC (ex: *acme-prod-vpc01*).
    - **Description:** (Optional) Description of the VPC (ex: "Production network site A").
    - **CIDR:** The IP range to use for the VPC.  The range must be a /22 network.
-   - **Network Domain:** (Optional) Domain name for internal DNS resolution (ex: *internal.acme.com*).  CloudMC will add this domain name to the */etc/hosts* file for new instances.
+   - **Network Domain:** (Optional) Domain name for internal DNS resolution (ex: *internal.acme.com*).  CloudOps will add this domain name to the */etc/hosts* file for new instances.
    - **VPC offering:** Choose the Service Level of this VPC.
    ![Add VPC page](/assets/working-with-vpcs-2-en.png)
 1. Click on **Submit**.

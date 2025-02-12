@@ -1,13 +1,13 @@
 ---
-title:  "CloudMC in a nutshell"
+title:  "CloudOps in a nutshell"
 slug: cloudmc-in-a-nutshell
 ---
 
-### What is CloudMC?
+### What is CloudOps?
 
-CloudMC is a cloud edge orchestration platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
+CloudOps is a cloud edge orchestration platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
 
-### Why CloudMC?
+### Why CloudOps?
 
 - **Speed your innovation**  − On demand, self-service platform for DevOps, with complete API automation for continuous delivery
 - **Usage and cost transparency**  − Granular metering and reporting make governance without bureaucracy possible

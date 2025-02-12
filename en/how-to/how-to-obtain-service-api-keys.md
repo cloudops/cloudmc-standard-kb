@@ -4,7 +4,7 @@ slug: how-to-obtain-service-api-keys
 ---
 
 
-Some services allow direct connection to their API using your CloudMC service API keys.  To get your service API keys, navigate to the user menu on the upper right of the page, click on **API credentials**, then scroll down to the section titled *Service API keys*.  Click in the search box and select the desired service.  The service API keys for the selected service will then appear below.
+Some services allow direct connection to their API using your CloudOps service API keys.  To get your service API keys, navigate to the user menu on the upper right of the page, click on **API credentials**, then scroll down to the section titled *Service API keys*.  Click in the search box and select the desired service.  The service API keys for the selected service will then appear below.
 
 ![Service API keys](/assets/api-service-keys-en-1.png)
 

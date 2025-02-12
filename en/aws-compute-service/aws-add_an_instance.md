@@ -6,7 +6,7 @@ slug: aws-add-an-instance
 
 ## About this task
 
-This article will guide you through the process of adding a new instance to an AWS environment. The CloudMC interface provides a multi-step wizard for selecting a configuration, and the instance \(or instances\) will be created after the final step of the wizard.
+This article will guide you through the process of adding a new instance to an AWS environment. The CloudOps interface provides a multi-step wizard for selecting a configuration, and the instance \(or instances\) will be created after the final step of the wizard.
 
 ## Before you begin
 

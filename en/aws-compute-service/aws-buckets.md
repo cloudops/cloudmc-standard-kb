@@ -31,7 +31,7 @@ slug: aws-buckets
     Each entry in the object list has a Hidden Actions menu. Click on the Hidden Actions menu to access a list of frequently-used operations for the object or folder.
 
 
-CloudMC provides access to the AWS Simple Storage Service via the **Object Storage** tab in any AWS environment. Users can define buckets for storing objects. Users can then upload files and access these objects with a simple URL.
+CloudOps provides access to the AWS Simple Storage Service via the **Object Storage** tab in any AWS environment. Users can define buckets for storing objects. Users can then upload files and access these objects with a simple URL.
 
 Each bucket has a name, an AWS region, and access permissions.
 

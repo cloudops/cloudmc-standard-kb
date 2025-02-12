@@ -4,7 +4,7 @@ slug: vmware-vms
 ---
 
 
-Virtual machines are a fundamental type of infrastructure provided by VMware Cloud Director. This article discusses the concept of virtual machines and how they are managed in CloudMC.
+Virtual machines are a fundamental type of infrastructure provided by VMware Cloud Director. This article discusses the concept of virtual machines and how they are managed in CloudOps.
 
 Virtual machines are listed under the **Virtual Machines** section of the selected VMware environment.
 
@@ -39,7 +39,7 @@ A virtual machine may also transition through the following sub-states:
 
 -   **Inconsistent state**
 
-    A virtual machine in this state has been modified directly within VMware vSphere instead of through CloudMC, and is now out of synchronization with VMware Cloud Director. Power off the virtual machine and then power it back on to return it to a normal status.
+    A virtual machine in this state has been modified directly within VMware vSphere instead of through CloudOps, and is now out of synchronization with VMware Cloud Director. Power off the virtual machine and then power it back on to return it to a normal status.
 
 -   **Unresolved**
 
