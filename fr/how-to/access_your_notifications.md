@@ -4,7 +4,7 @@ slug: gerer-vos-notifications
 ---
 
 
-Cet article décrit les notifications et comment y accéder et les gérer dans CloudMC.
+Cet article décrit les notifications et comment y accéder et les gérer dans CloudOps.
 
 ## Aperçu
 
@@ -20,18 +20,18 @@ Afin d'assurer la responsabilité et la traçabilité, toutes les opérations de
 
 De plus, lorsque certaines opérations sont effectuées, le système peut être amené à vous communiquer des informations complémentaires afin de finaliser l'opération. Par exemple, lors de l'ajout d'une nouvelle instance, de nouvelles informations d'identification seront générées, ou, lors de la génération de nouvelles informations d'identification API, le système générera une nouvelle clé. Ceux-ci vous seront fournis via des notifications d’activité.
 
-Pour ces situations, CloudMC créera une notification dans le panneau Notifications, un badge ambre apparaîtra sur l'icône en forme de cloche et les informations sensibles seront présentées dans la notification. Vous pouvez copier les informations de la notification, puis effacer la notification pour préserver la sécurité.
+Pour ces situations, CloudOps créera une notification dans le panneau Notifications, un badge ambre apparaîtra sur l'icône en forme de cloche et les informations sensibles seront présentées dans la notification. Vous pouvez copier les informations de la notification, puis effacer la notification pour préserver la sécurité.
 
 ![Une capture d'écran d'une notification contenant un mot de passe caché avec des gadgets pour exposer le mot de passe et le copier dans le presse-papiers](/assets/announcements-credentials-en.png)
 
-En raison de la nature transitoire et sensible des notifications d'activité, elles sont accessibles uniquement à partir du panneau de notifications et ne sont jamais enregistrées par CloudMC. Elles peuvent être effacées manuellement si vous le souhaitez en cliquant sur les boutons **Effacer** ou **Effacer toutes**.
+En raison de la nature transitoire et sensible des notifications d'activité, elles sont accessibles uniquement à partir du panneau de notifications et ne sont jamais enregistrées par CloudOps. Elles peuvent être effacées manuellement si vous le souhaitez en cliquant sur les boutons **Effacer** ou **Effacer toutes**.
 
 ## Annonces de votre organisation
 
 Lorsque votre organisation a besoin de communiquer avec vous, votre administrateur système publiera une annonce. Les annonces de votre organisation apparaîtront de deux manières :
 
 - **Annonces régulières** : elles apparaîtront dans le panneau **Notifications** et concernent normalement des sujets généraux ou non urgents.
-- **Annonce splash** : celles-ci apparaîtront au centre de l'interface CloudMC, semblable à une boîte de dialogue, et concernent normalement des sujets urgents qui nécessitent votre attention immédiate.
+- **Annonce splash** : celles-ci apparaîtront au centre de l'interface CloudOps, semblable à une boîte de dialogue, et concernent normalement des sujets urgents qui nécessitent votre attention immédiate.
 
 Lorsqu'une nouvelle annonce régulière est publiée, un badge ambre apparaîtra sur l'icône de cloche. Cliquez sur l'icône de cloche pour afficher le panneau Notifications. Cliquez sur l'onglet **Annonces** pour répertorier vos annonces. Toutes les annonces publiées apparaîtront, classées de la plus récente à la plus ancienne. Une fois que vous fermez le panneau Notifications, toutes les annonces seront considérées comme lues et le badge ambre sera supprimé de l'icône de cloche. Ouvrir, cliquer sur l'onglet Annonces, puis fermer le panneau Notifications est le seul moyen de reconnaître la réception d'une annonce.
 
@@ -39,9 +39,9 @@ Les annonces persisteront dans votre panneau de notifications même après avoir
 
 ![Capture d'écran du panneau de Notifications avec une annonce régulière indiquant une modification à venir sur un produit affiché](/assets/announcements-regular-en.png)
 
-Les annonces splash n'apparaissent pas dans le panneau Notifications. Au lieu de cela, ceux-ci apparaissent au centre de l'interface CloudMC. Ils ont un bouton **Effacer** et toutes les fonctionnalités de la plateforme ne sont pas disponibles jusqu'à ce que vous fermiez l'annonce. Si vous vous déconnectez puis vous reconnectez, l'annonce s'affichera à nouveau jusqu'à ce que vous cliquiez sur le bouton **Fermer**.
+Les annonces splash n'apparaissent pas dans le panneau Notifications. Au lieu de cela, ceux-ci apparaissent au centre de l'interface CloudOps. Ils ont un bouton **Effacer** et toutes les fonctionnalités de la plateforme ne sont pas disponibles jusqu'à ce que vous fermiez l'annonce. Si vous vous déconnectez puis vous reconnectez, l'annonce s'affichera à nouveau jusqu'à ce que vous cliquiez sur le bouton **Fermer**.
 
 Une fois qu'une annonce splash a été fermée, elle ne réapparaîtra pas.
 
-![Capture d'écran de l'interface utilisateur CloudMC avec une annonce splash indiquant un temps d'arrêt d'urgence plus tard dans la journée](/assets/announcements-splash-en.png)
+![Capture d'écran de l'interface utilisateur CloudOps avec une annonce splash indiquant un temps d'arrêt d'urgence plus tard dans la journée](/assets/announcements-splash-en.png)
 

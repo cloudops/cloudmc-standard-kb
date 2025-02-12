@@ -4,7 +4,7 @@ slug: gcp-equilibrage-de-charge
 ---
 
 
-CloudMC prend en charge les fonctionnalités d'équilibrage de charge de Google Cloud Platform, grâce auxquelles le trafic peut être dirigé vers un service backend fiable avec plusieurs serveurs pour fournir une application.
+CloudOps prend en charge les fonctionnalités d'équilibrage de charge de Google Cloud Platform, grâce auxquelles le trafic peut être dirigé vers un service backend fiable avec plusieurs serveurs pour fournir une application.
 
 L'équilibrage de charge GCP est accessible en accédant à l'environnement GCP souhaité, en cliquant sur l'onglet **Réseautique**, puis en cliquant sur l'élément **Équilibrage de charge**.
 
@@ -37,7 +37,7 @@ Avant de configurer manuellement un nouvel équilibreur de charge, vous devez d�
 
 #### Configuration de l'équilibreur de charge en une étape
 
-Si un service backend a déjà été défini, CloudMC permet la création d'un équilibreur de charge sur une seule page et créera les composants nécessaires en votre nom en utilisant des valeurs raisonnables par défaut.
+Si un service backend a déjà été défini, CloudOps permet la création d'un équilibreur de charge sur une seule page et créera les composants nécessaires en votre nom en utilisant des valeurs raisonnables par défaut.
 
 1. Depuis la page *Équilibreurs de charge*, cliquez sur le bouton *Ajouter équilibreur de charge*.
 1. Entrez un nom pour l'équilibreur de charge ou acceptez la valeur par défaut.
@@ -63,7 +63,7 @@ Le nouvel équilibreur de charge est maintenant actif et prêt à être testé a
     - Cliquez sur **Proxy cibles**, et cliquez sur le bouton *Ajout proxy cible*
     - Entrez un nom ou acceptez la valeur par défaut, et entrez une description si vous le souhaitez.
     - Sélectionnez le protocole que le proxy cible utilisera pour écouter les demandes entrantes des clients.
-       - Pour prendre en charge les connexions HTTPS des clients, sélectionnez HTTPS. Une liste des certificats SSL disponibles pour CloudMC apparaîtra sous **Protocole**, et vous devrez sélectionner celui qui convient pour cet équilibreur de charge.
+       - Pour prendre en charge les connexions HTTPS des clients, sélectionnez HTTPS. Une liste des certificats SSL disponibles pour CloudOps apparaîtra sous **Protocole**, et vous devrez sélectionner celui qui convient pour cet équilibreur de charge.
     - Sélectionnez un mappage d'URL. Si aucun mappage d'URL n'a été créé, un mappage d'URL par défaut sera créé en même temps que le proxy cible.
     - Cliquez sur *Valider*.
 1. Créez une règle de redirection de ports.

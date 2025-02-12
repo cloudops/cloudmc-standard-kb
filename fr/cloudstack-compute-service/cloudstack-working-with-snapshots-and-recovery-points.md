@@ -4,11 +4,11 @@ slug: cloudstack-gestion-des-copies-instantanees-et-points-de-reprise
 ---
 
 
-CloudMC supporte deux types de « Snapshot », la copie instantanée d'un volume et un point de reprise. Cet article discute des différences entre ces deux items et explique comment les utiliser.
+CloudOps supporte deux types de « Snapshot », la copie instantanée d'un volume et un point de reprise. Cet article discute des différences entre ces deux items et explique comment les utiliser.
 
 ### Snapshot vs. Point de reprise
 
-Un « **Snapshot** » dans le contexte de CloudMC réfère à une **copie instantanée d'un Volume**. Une copie instantanée de volume est en fait une image identique d'un volume existant. Ils sont souvent considérés comme des copies de sauvegarde, mais en réalité ce n'est pas 100% vrai car on ne copie que les données écrites sur le disque. Ce type de copie est utilisée principalement pour dériver des modèles d'instance. Également, ces objets sont copier vers le stockage d'objet de la région pour permettre leur utilisation dans plusieurs zones.
+Un « **Snapshot** » dans le contexte de CloudOps réfère à une **copie instantanée d'un Volume**. Une copie instantanée de volume est en fait une image identique d'un volume existant. Ils sont souvent considérés comme des copies de sauvegarde, mais en réalité ce n'est pas 100% vrai car on ne copie que les données écrites sur le disque. Ce type de copie est utilisée principalement pour dériver des modèles d'instance. Également, ces objets sont copier vers le stockage d'objet de la région pour permettre leur utilisation dans plusieurs zones.
 
 Un *point de reprise* est le même genre d'image, mais qui reste localement sur l'hyperviseur. Ils sont utilisé pour effectuer des restaurations (rollback) d'état. Les points de reprise peuvent aussi conserver l'état de la mémoire en plus des données sur disque. Ils ne sont pas transférés vers le stockage d'objet de la région.
 

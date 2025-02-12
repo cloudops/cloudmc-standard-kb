@@ -1,12 +1,12 @@
 ---
-title: "Entités principales de CloudMC"
+title: "Entités principales de CloudOps"
 slug: entites-principales-cloudmc
 ---
 
 
-CloudMC dispose d'un puissant modèle d'utilisateurs et de ressources, fournissant des fonctionnalités multi-locataires au niveau de l'entreprise pour connecter une variété de services différents. Voici une liste des principales entités qui fournissent la fonctionnalité et la sécurité dans CloudMC.
+CloudOps dispose d'un puissant modèle d'utilisateurs et de ressources, fournissant des fonctionnalités multi-locataires au niveau de l'entreprise pour connecter une variété de services différents. Voici une liste des principales entités qui fournissent la fonctionnalité et la sécurité dans CloudOps.
 
-### Entités de CloudMC
+### Entités de CloudOps
 
 - **Organisation :** Un regroupement d'utilisateurs finaux et de ressources connexes. Une organisation peut contenir des sous-organisations.
 
@@ -16,11 +16,11 @@ CloudMC dispose d'un puissant modèle d'utilisateurs et de ressources, fournissa
 
 - **Application :** Une application externe qui a été configurée pour l'accès via Master Portal.
 
-- **Utilisateur :** Un compte utilisateur est la manière dont un individu se connecte à CloudMC.
+- **Utilisateur :** Un compte utilisateur est la manière dont un individu se connecte à CloudOps.
 
 - **Permission :** Une autorisation d'exécuter une tâche particulière.
 
-- **Rôle :** Une collection nommée d'autorisations qui régissent l'accès aux fonctionnalités de la console CloudMC, ainsi que l'accès aux ressources d'un service.
+- **Rôle :** Une collection nommée d'autorisations qui régissent l'accès aux fonctionnalités de la console CloudOps, ainsi que l'accès aux ressources d'un service.
 
 ### Voir aussi
 

@@ -4,13 +4,13 @@ slug: configurer-un-domaine-personnalise
 ---
 
 
-Pour les revendeurs qui ajoutent un nouveau client à CloudMC, le système doit être configuré pour servir la bonne marque pour ce client. Ceci est accompli en identifiant le nom de domaine que les utilisateurs finaux utiliseront, et en associant ce nom à l'organisation souhaitée.
+Pour les revendeurs qui ajoutent un nouveau client à CloudOps, le système doit être configuré pour servir la bonne marque pour ce client. Ceci est accompli en identifiant le nom de domaine que les utilisateurs finaux utiliseront, et en associant ce nom à l'organisation souhaitée.
 
 Pour créer, modifier, ou supprimer un domaine personnalisé, un compte doit avoir le rôle *Revendeur* attribué. De plus, pour le nom de domaine que vous souhaitez ajouter, vous devez pouvoir accéder aux serveurs de noms DNS, et pouvoir ajouter et modifier des enregistrements DNS.
 
 ### Présentation de la configuration d'un domaine personnalisé
 
-Avant qu'un nom de domaine puisse être associé à une organisation, un code unique généré par CloudMC doit être ajouté aux enregistrements DNS de ce nom de domaine. La présence de cet enregistrement valide à CloudMC la propriété du nom de domaine. Une fois validé, le nom de domaine peut alors être associé à l'organisation souhaitée. À ce stade, CloudMC fournira l'adresse IP dont vous aurez besoin pour configurer votre DNS. Les étapes des sous-sections suivantes incluent des modifications des enregistrements DNS. La procédure suppose que vous ne disposez pas d'un enregistrement A dans DNS pour le nom de domaine souhaité.
+Avant qu'un nom de domaine puisse être associé à une organisation, un code unique généré par CloudOps doit être ajouté aux enregistrements DNS de ce nom de domaine. La présence de cet enregistrement valide à CloudOps la propriété du nom de domaine. Une fois validé, le nom de domaine peut alors être associé à l'organisation souhaitée. À ce stade, CloudOps fournira l'adresse IP dont vous aurez besoin pour configurer votre DNS. Les étapes des sous-sections suivantes incluent des modifications des enregistrements DNS. La procédure suppose que vous ne disposez pas d'un enregistrement A dans DNS pour le nom de domaine souhaité.
 
 ### Ajouter un domaine personnalisé
 
@@ -34,7 +34,7 @@ Les étapes exactes pour apporter des modifications à vos enregistrements de no
 
 En fonction de votre fournisseur, vous devrez peut-être redémarrer les services DNS ou prendre d'autres mesures.
 
-CloudMC vérifiera périodiquement les domaines dans l'état **En attente**. Une fois que les modifications DNS se sont propagées et que CloudMC est en mesure de faire correspondre le code de vérification dans l'enregistrement TXT, le domaine passera à l'état **Vérifié**. Vous pouvez utiliser une commande telle que `dig` ou un autre utilitaire pour effectuer manuellement la recherche DNS:
+CloudOps vérifiera périodiquement les domaines dans l'état **En attente**. Une fois que les modifications DNS se sont propagées et que CloudOps est en mesure de faire correspondre le code de vérification dans l'enregistrement TXT, le domaine passera à l'état **Vérifié**. Vous pouvez utiliser une commande telle que `dig` ou un autre utilitaire pour effectuer manuellement la recherche DNS:
 
 ```
 $ dig -t TXT votre.nomdedomaine.com
@@ -52,7 +52,7 @@ Confirmez que le domaine est à l'état **Vérifié**.
 
 #### Ajouter l'enregistrement A au DNS
 
-Pour terminer le processus, vous devrez configurer un enregistrement A dans votre fournisseur DNS, et la valeur des enregistrements doit être l'adresse IP renvoyée par CloudMC ci-dessus. Encore une fois, les étapes exactes pour apporter des modifications à vos enregistrements de nom de domaine varient en fonction de votre fournisseur DNS.
+Pour terminer le processus, vous devrez configurer un enregistrement A dans votre fournisseur DNS, et la valeur des enregistrements doit être l'adresse IP renvoyée par CloudOps ci-dessus. Encore une fois, les étapes exactes pour apporter des modifications à vos enregistrements de nom de domaine varient en fonction de votre fournisseur DNS.
 
 1. Connectez-vous aux serveurs de noms qui hébergent le nom de domaine.
 1. Créez un enregistrement A pour le nom de domaine et collez l'adresse IP ci-dessus comme valeur de l'enregistrement A.

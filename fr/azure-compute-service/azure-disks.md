@@ -4,7 +4,7 @@ slug: azure-disques
 ---
 
 
-Les disques font partie de l'ensemble de base des services d'infrastructure fournis par Microsoft Azure. Cet article traite du concept de disques et de la façon dont ils sont gérés dans CloudMC.
+Les disques font partie de l'ensemble de base des services d'infrastructure fournis par Microsoft Azure. Cet article traite du concept de disques et de la façon dont ils sont gérés dans CloudOps.
 
 Les disques sont répertoriés sous l'onglet **Disques** de votre environnement Azure.
 
@@ -18,7 +18,7 @@ Des disques supplémentaires peuvent être provisionnés et attachés ou détach
 
 Azure propose plusieurs types de disques, qui offrent différents niveaux de performances et de prix. Lors de la création d'un disque, précisez le type de performances souhaité. Le type de performances peut être modifié une fois le disque provisionné.
 
-Lors de la connexion de disques à des instances, chaque disque doit avoir un LUN unique (numéro d'unité logique). Il s'agit d'un numéro que le système d'exploitation de l'instance utilisera lors de l'interaction avec le disque. Le LUN d'un disque de données doit être un entier positif supérieur à 0. Lors de la connexion d'un disque, CloudMC fournira un LUN par défaut raisonnable.
+Lors de la connexion de disques à des instances, chaque disque doit avoir un LUN unique (numéro d'unité logique). Il s'agit d'un numéro que le système d'exploitation de l'instance utilisera lors de l'interaction avec le disque. Le LUN d'un disque de données doit être un entier positif supérieur à 0. Lors de la connexion d'un disque, CloudOps fournira un LUN par défaut raisonnable.
 
 ## Liste des disques
 

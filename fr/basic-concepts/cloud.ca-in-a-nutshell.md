@@ -1,13 +1,13 @@
 ---
-title: "CloudMC en bref"
+title: "CloudOps en bref"
 slug: cloudmc-en-bref
 ---
 
-### Qu'est-ce que CloudMC?
+### Qu'est-ce que CloudOps?
 
-CloudMC est une plateforme d'orchestration en périphérie. CloudMC permet l'extensibilité, la sécurité, la performance, le contrôle des coûts et la résilience de vos services infonuagiques.
+CloudOps est une plateforme d'orchestration en périphérie. CloudOps permet l'extensibilité, la sécurité, la performance, le contrôle des coûts et la résilience de vos services infonuagiques.
 
-### Pourquoi CloudMC?
+### Pourquoi CloudOps?
 
 - **Accélérez votre innovation** - À la demande, plateforme libre-service pour développeurs,API complet pour favoriser l'automatisation et le déploiement continue
 - **Utilisation et transparence des coûts** - Mesures et rapports granulaires rendant possible la gouvernance sans avoir de bureaucratie

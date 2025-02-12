@@ -1,24 +1,24 @@
 ---
-title: "Page d'accueil CloudMC"
+title: "Page d'accueil CloudOps"
 slug: general-cloudmc-page-d-accueil
 ---
 
 
-La page d'accueil CloudMC est la page par défaut qui s'affiche lorsqu'un utilisateur se connecte au système.
+La page d'accueil CloudOps est la page par défaut qui s'affiche lorsqu'un utilisateur se connecte au système.
 
-![Capture d'écran de la page d'accueil de CloudMC, avec des points numérotés mettant en évidence les fonctionnalités intéressantes](/assets/general-cmc-ui-home-en.png)
+![Capture d'écran de la page d'accueil de CloudOps, avec des points numérotés mettant en évidence les fonctionnalités intéressantes](/assets/general-cmc-ui-home-en.png)
 
 1.  **L'espace de travail**
 
-    L'espace de travail est la section principale de tous les écrans CloudMC. Les éléments visibles dans l'espace de travail sont déterminés par le contexte dans lequel vous vous trouvez dans le système. Par exemple, dans la page d'accueil répertoriée ici, vous pouvez trouver la carte des services, le panneau d'accès rapide, ainsi que des résumés de la santé du système et de l'activité récente.
+    L'espace de travail est la section principale de tous les écrans CloudOps. Les éléments visibles dans l'espace de travail sont déterminés par le contexte dans lequel vous vous trouvez dans le système. Par exemple, dans la page d'accueil répertoriée ici, vous pouvez trouver la carte des services, le panneau d'accès rapide, ainsi que des résumés de la santé du système et de l'activité récente.
 
 2.  **La barre latérale**
 
-    La barre latérale se trouve sur le côté gauche de n'importe quel écran CloudMC. La barre latérale est l'endroit où vous pouvez accéder à toutes les fonctionnalités principales du système, y compris les connexions de service, les rapports, les journaux d'activité et l'administration.
+    La barre latérale se trouve sur le côté gauche de n'importe quel écran CloudOps. La barre latérale est l'endroit où vous pouvez accéder à toutes les fonctionnalités principales du système, y compris les connexions de service, les rapports, les journaux d'activité et l'administration.
 
 3.  **Le sélecteur d'organisation**
 
-    CloudMC est une plate-forme multi-tenant. Utilisez le sélecteur d'organisation pour naviguer entre les organisations et les sous-organisations auxquelles vous avez accès. Notez que la marque de l'interface utilisateur peut changer lorsque vous changez d'organisation.
+    CloudOps est une plate-forme multi-tenant. Utilisez le sélecteur d'organisation pour naviguer entre les organisations et les sous-organisations auxquelles vous avez accès. Notez que la marque de l'interface utilisateur peut changer lorsque vous changez d'organisation.
 
 4.  **La barre de menu**
 

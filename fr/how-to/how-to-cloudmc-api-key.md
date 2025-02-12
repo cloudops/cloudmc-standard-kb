@@ -1,12 +1,12 @@
 ---
-title: "Générer une clé API CloudMC"
+title: "Générer une clé API CloudOps"
 slug: cloudmc-cle-api
 ---
 
 
-Lorsque vous travaillez avec l'API CloudMC, vous devrez générer une clé API à utiliser avec votre code. Les clés d'API fournissent une méthode pratique permettant à votre application de s'identifier à un service lors des appels à l'API du service.
+Lorsque vous travaillez avec l'API CloudOps, vous devrez générer une clé API à utiliser avec votre code. Les clés d'API fournissent une méthode pratique permettant à votre application de s'identifier à un service lors des appels à l'API du service.
 
-Tout utilisateur CloudMC peut générer une clé API. Les clés API d'un utilisateur auront le même niveau de privilège que celui de l'utilisateur. Il n'y a pas de limite au nombre de clés API qu'un utilisateur peut générer. Il est recommandé de profiter de ce en générant une clé API pour chaque application qui accédera au système.
+Tout utilisateur CloudOps peut générer une clé API. Les clés API d'un utilisateur auront le même niveau de privilège que celui de l'utilisateur. Il n'y a pas de limite au nombre de clés API qu'un utilisateur peut générer. Il est recommandé de profiter de ce en générant une clé API pour chaque application qui accédera au système.
 
 Pour gérer vos clés API, accédez au menu utilisateur en haut à droite de la page, cliquez sur *Mon profil*, puis cliquez sur l'élément intitulé *Identifiants d'API*.
 

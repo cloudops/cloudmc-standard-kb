@@ -4,7 +4,7 @@ slug: produire-un-rapport-d-utilisation
 ---
 
 
-CloudMC utilise un modèle de facturation de type “services publics” afin de facturer uniquement les ressources utilisées. Pour vous aider à garder une visibilité sur votre niveau d’utilisation, nous fournissons un rapport d’utilisation qui peut être regénéré sur demande pour vous permettre de surveiller l’utilisation des ressources et les frais associés.
+CloudOps utilise un modèle de facturation de type “services publics” afin de facturer uniquement les ressources utilisées. Pour vous aider à garder une visibilité sur votre niveau d’utilisation, nous fournissons un rapport d’utilisation qui peut être regénéré sur demande pour vous permettre de surveiller l’utilisation des ressources et les frais associés.
 
 1. Dans la barre de menu, cliquez **Utilisation**.
 1. Sélectionnez l’environnement pour lequel vous désirez produire un rapport, ou laissez **Tous** pour produire un rapport englobant tous les environnements de votre organisation.

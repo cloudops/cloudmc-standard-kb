@@ -4,7 +4,7 @@ slug: azure-instances
 ---
 
 
-Les machines virtuelles constituent un type fondamental d'infrastructure fournie par Microsoft Azure. Cet article traite du concept de machines virtuelles et de la manière dont elles sont gérées dans CloudMC.
+Les machines virtuelles constituent un type fondamental d'infrastructure fournie par Microsoft Azure. Cet article traite du concept de machines virtuelles et de la manière dont elles sont gérées dans CloudOps.
 
 Les machines virtuelles sont répertoriées dans la section **Instances** de l'environnement Azure sélectionné.
 
