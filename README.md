@@ -1,4 +1,4 @@
 # cloudmc-standard-kb
-### CloudMC knowledge base repository
+### CloudOps knowledge base repository
 
-Hello! Welcome to the CloudMC knowledge base, standard edition.
+Hello! Welcome to the CloudOps knowledge base, standard edition.
