@@ -4,11 +4,11 @@ slug: manage-my-objects-using-the-self-service-portal
 ---
 
 
-You have three ways of managing objects in CloudMC, either using the [Swift API](https://docs.openstack.org/api-ref/object-store/), by leveraging the [Swift CLI](https://ops.Swift/hc/object-storage-service/manage-my-objects-using-the-swift-command-line-client) or finally using the web object browser provided in our self-service portal, as described in this article.
+You have three ways of managing objects in CloudOps, either using the [Swift API](https://docs.openstack.org/api-ref/object-store/), by leveraging the [Swift CLI](https://ops.Swift/hc/object-storage-service/manage-my-objects-using-the-swift-command-line-client) or finally using the web object browser provided in our self-service portal, as described in this article.
 
 ### Managing Buckets
 
-CloudMC's web object browser is designed to be very simple and straightforward. You access it from the **Services** menu on the left, by selecting **Object Storage** and selecting one of your objet-storage environments.
+CloudOps's web object browser is designed to be very simple and straightforward. You access it from the **Services** menu on the left, by selecting **Object Storage** and selecting one of your objet-storage environments.
 
 The following image shows the buckets view. This is where you will see the list of your actual buckets, their access level (public or private), their storage policy and their overall size. You can also add or delete buckets from this view.
 

@@ -4,7 +4,7 @@ slug: vmware-vapps
 ---
 
 
-A virtual application is a container of virtual machines which provide the infrastructure for a cloud-native application. This article discusses the concept of virtual applications and how they are managed in CloudMC.
+A virtual application is a container of virtual machines which provide the infrastructure for a cloud-native application. This article discusses the concept of virtual applications and how they are managed in CloudOps.
 
 Virtual applications are listed under the **Virtual Applications** section of the selected VMware environment.
 
