@@ -20,6 +20,7 @@ The AWS platform is a public cloud, where customers can allocate resources to bu
     -   [VPCs](aws-vpcs.md)
     -   [Subnetworks](aws-subnetworks.md)
 -   [Object storage resources](aws-object_storage.md)
+-   [Relational Database Service \(RDS\)](aws-relational-database-service.md)
 -   Kubernetes clusters
 
 Because CloudOps acts as a portal to AWS services, you may find that some operations appear to behave differently than when interacting with AWS directly. However, behind the scenes, all operations execute exactly as they normally would. Changes made to AWS entities in CloudOps will be reflected immediately in the actual resources.
