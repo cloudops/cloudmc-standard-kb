@@ -75,6 +75,8 @@ categories:
       - aws-add_a_subnetwork.md
       - aws-add_an_instance.md
       - aws-add_a_volume.md
+      - aws-relational-database-service.md
+      - aws-deploy-rds.md
 - category: vmware-compute-service
   icon: fa fa-cloud
   articles:
