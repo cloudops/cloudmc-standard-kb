@@ -19,9 +19,9 @@ Este artículo te guiará por los pasos para implementar RDS y también incluye 
 
 Crear un grupo de subredes de base de datos
 
-1. Navega al entorno de AWS de destino y haz clic en la pestaña **Bases de datos**. Luego, haz clic en **Grupos de subredes de base de datos**.
+1. Navega al entorno de AWS de destino y haz clic en la pestaña **Bases de datos**. Luego, haz clic en **Grupos de subredes de BD**.
 
-2. Haz clic en el botón **Añadir grupo de subredes de base de datos**. Aparecerá la página **Añadir grupo de subredes de base de datos**.
+2. Haz clic en el botón **Añadir grupo de subredes de base de datos**. Aparecerá la página **Añadir grupo de subredes de BD**.
 
 3. Ingresa un nombre y una descripción para el grupo de subredes.
 
@@ -31,7 +31,7 @@ Crear un grupo de subredes de base de datos
 
    Se debe seleccionar al menos dos subredes para poder continuar.
 
-6. Haz clic en el botón **Enviar** para guardar el grupo de subredes de base de datos.
+6. Haz clic en el botón **Aplicar** para guardar el grupo de subredes de base de datos.
 
 Desplegar la instancia de base de datos
 
@@ -51,15 +51,15 @@ Desplegar la instancia de base de datos
 
 13. Haz clic en el botón **Siguiente**. Revisa los parámetros seleccionados en todas las secciones.
 
-14. Haz clic en el botón **Enviar** para crear la instancia de la base de datos.
+14. Haz clic en el botón **Aplicar** para crear la instancia de la base de datos.
 
 **Nota:** La implementación puede tardar varios minutos en completarse.
 
 Probar la conectividad
 
-15. Una vez creada la base de datos, navega a la pestaña **Bases de datos**, haz clic en ella para ver sus detalles y navega a la sección **Punto final**.
+15. Una vez creada la base de datos, navega a la pestaña **Bases de datos**, haz clic en ella para ver sus detalles y navega a la sección **Punto de acceso**.
 
-La sección **Punto final** mostrará el nombre de dominio y el número de puerto que debes usar para acceder a la instancia de la base de datos.
+La sección **Punto de acceso** mostrará el nombre de dominio y el número de puerto que debes usar para acceder a la instancia de la base de datos.
 
 16. Utiliza el cliente de base de datos adecuado con el nombre de usuario y la contraseña definidos en la sección **Credenciales** para conectarte a la instancia de la base de datos.
 
