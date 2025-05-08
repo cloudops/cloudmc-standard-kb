@@ -28,7 +28,8 @@ This article will guide you through the steps for deploying RDS, and also contai
 4\.  Select the target VPC from the **VPC** popup menu.
 
 5\.  Select the target subnets from the **Subnets** popup menu.
-    You must select at least two subnets before you can proceed.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You must select at least two subnets before you can proceed.
 
 6\.  Click the **Submit** button to save the database subnet group.
 
@@ -46,19 +47,19 @@ This article will guide you through the steps for deploying RDS, and also contai
 
 12\. The **Credentials** section allows you to enter a username and password for the master user in the database.
 
-    **Attention:** Be sure to store the password in a safe location as it cannot be retrieved. If you lose the password, you will have to reset it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Attention:** Be sure to store the password in a safe location as it cannot be retrieved. If you lose the password, you will have to reset it.
 
 13\. Click the **Next** button. Review the parameters you selected in all sections.
 
 14\. Click the **Submit** button to create the database instance.
 
-    **Note:** It may take several minutes for the deployment to complete.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Note:** It may take several minutes for the deployment to complete.
 
 **Test connectivity**
 
 15\. Once the database has been created, navigate to the **Databases** tab, click on the database to see its details, and go to the **Endpoint** section.
 
-    The **Endpoint** section will list the domain name and port number you must use to access the database instance.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The **Endpoint** section will list the domain name and port number you must use to access the database instance.
 
 16\. Use the appropriate database client with the username and password you defined in the **Credentials** section to connect to the database instance.
 
