@@ -17,7 +17,7 @@ Cet article vous guidera à travers les étapes de déploiement de RDS et contie
 
 ## Procédure
 
-Créer un groupe de sous-réseaux de base de données
+**Créer un groupe de sous-réseaux de base de données**
 
 1\. Accédez à l'environnement AWS cible et cliquez sur l'onglet **Bases de données**, puis cliquez sur l'élément **Groupes de sous-réseaux DBs**.
 
@@ -33,7 +33,7 @@ Créer un groupe de sous-réseaux de base de données
 
 6\. Cliquez sur le bouton **Valider** pour enregistrer le groupe de sous-réseaux de base de données.
 
-Déployer l'instance de base de données
+**Déployer l'instance de base de données**
 
 7\. Cliquez sur l'élément **Bases de données**, puis cliquez sur le bouton **Ajouter une base de données**.
 
@@ -55,7 +55,7 @@ Déployer l'instance de base de données
 
 **Remarque :** le déploiement peut prendre plusieurs minutes.
 
-Tester la connectivité
+**Tester la connectivité**
 
 15\. Une fois la base de données créée, allez à l'onglet **Bases de données**, cliquez sur la base de données pour voir ses détails et allez à la section **Point d'accès**. 
 
