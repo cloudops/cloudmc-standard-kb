@@ -28,7 +28,7 @@ This article will guide you through the steps for deploying RDS, and also contai
 4\.  Select the target VPC from the **VPC** popup menu.
 
 5\.  Select the target subnets from the **Subnets** popup menu.
-   You must select at least two subnets before you can proceed.
+    You must select at least two subnets before you can proceed.
 
 6\.  Click the **Submit** button to save the database subnet group.
 
