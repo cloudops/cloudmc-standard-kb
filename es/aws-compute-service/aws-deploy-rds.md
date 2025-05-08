@@ -17,7 +17,7 @@ Este artículo te guiará por los pasos para implementar RDS y también incluye 
 
 ## Procedimiento
 
-Crear un grupo de subredes de base de datos
+**Crear un grupo de subredes de base de datos**
 
 1\. Navega al entorno de AWS de destino y haz clic en la pestaña **Bases de datos**. Luego, haz clic en **Grupos de subredes de BD**.
 
@@ -33,7 +33,7 @@ Crear un grupo de subredes de base de datos
 
 6\. Haz clic en el botón **Aplicar** para guardar el grupo de subredes de base de datos.
 
-Desplegar la instancia de base de datos
+**Desplegar la instancia de base de datos**
 
 7\. Haz clic en la opción **Bases de datos** y, a continuación, en el botón **Añadir base de datos**.
 
@@ -55,7 +55,7 @@ Desplegar la instancia de base de datos
 
 **Nota:** La implementación puede tardar varios minutos en completarse.
 
-Probar la conectividad
+**Probar la conectividad**
 
 15\. Una vez creada la base de datos, navega a la pestaña **Bases de datos**, haz clic en ella para ver sus detalles y navega a la sección **Punto de acceso**.
 

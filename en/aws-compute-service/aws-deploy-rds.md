@@ -17,7 +17,7 @@ This article will guide you through the steps for deploying RDS, and also contai
 
 ## Procedure
 
-Create a database subnet group
+**Create a database subnet group**
 
 1\.  Navigate to the target AWS environment, and click on the **Databases** tab, then click on the **DB Subnet Groups** item.
 
@@ -33,7 +33,7 @@ Create a database subnet group
 
 6\.  Click the **Submit** button to save the database subnet group.
 
-Deploy the database instance
+**Deploy the database instance**
 
 7\.  Click on the **Databases** item, then click on the **Add Database** button.
 
@@ -55,7 +55,7 @@ Deploy the database instance
 
     **Note:** It may take several minutes for the deployment to complete.
 
-Test connectivity
+**Test connectivity**
 
 15\. Once the database has been created, navigate to the **Databases** tab, click on the database to see its details, and go to the **Endpoint** section.
 
