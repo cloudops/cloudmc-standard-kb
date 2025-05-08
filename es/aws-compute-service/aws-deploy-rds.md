@@ -29,7 +29,7 @@ Este artículo te guiará por los pasos para implementar RDS y también incluye 
 
 5\. Selecciona las subredes de destino en el menú emergente **Subredes**.
 
-   Se debe seleccionar al menos dos subredes para poder continuar.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se debe seleccionar al menos dos subredes para poder continuar.
 
 6\. Haz clic en el botón **Aplicar** para guardar el grupo de subredes de base de datos.
 
@@ -47,19 +47,19 @@ Este artículo te guiará por los pasos para implementar RDS y también incluye 
 
 12\. La sección **Credenciales** te permite introducir un nombre de usuario y una contraseña para el usuario maestro en la base de datos.
 
-**Atención:** Asegúrate de guardar la contraseña en un lugar seguro, ya que no se puede recuperar. Si la pierdes, deberás restablecerla.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Atención:** Asegúrate de guardar la contraseña en un lugar seguro, ya que no se puede recuperar. Si la pierdes, deberás restablecerla.
 
 13\. Haz clic en el botón **Siguiente**. Revisa los parámetros seleccionados en todas las secciones.
 
 14\. Haz clic en el botón **Aplicar** para crear la instancia de la base de datos.
 
-**Nota:** La implementación puede tardar varios minutos en completarse.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Nota:** La implementación puede tardar varios minutos en completarse.
 
 **Probar la conectividad**
 
 15\. Una vez creada la base de datos, navega a la pestaña **Bases de datos**, haz clic en ella para ver sus detalles y navega a la sección **Punto de acceso**.
 
-La sección **Punto de acceso** mostrará el nombre de dominio y el número de puerto que debes usar para acceder a la instancia de la base de datos.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La sección **Punto de acceso** mostrará el nombre de dominio y el número de puerto que debes usar para acceder a la instancia de la base de datos.
 
 16\. Utiliza el cliente de base de datos adecuado con el nombre de usuario y la contraseña definidos en la sección **Credenciales** para conectarte a la instancia de la base de datos.
 

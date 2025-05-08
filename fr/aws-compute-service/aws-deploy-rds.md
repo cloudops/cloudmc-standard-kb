@@ -29,7 +29,7 @@ Cet article vous guidera à travers les étapes de déploiement de RDS et contie
 
 5\. Sélectionnez les sous-réseaux cibles dans le menu contextuel **Sous-réseaux**. 
 
-    Vous devez sélectionner au moins deux sous-réseaux avant de pouvoir continuer.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vous devez sélectionner au moins deux sous-réseaux avant de pouvoir continuer.
 
 6\. Cliquez sur le bouton **Valider** pour enregistrer le groupe de sous-réseaux de base de données.
 
@@ -47,19 +47,19 @@ Cet article vous guidera à travers les étapes de déploiement de RDS et contie
 
 12\. La section **Identifiants** vous permet d'entrer un nom d'utilisateur et un mot de passe pour l'utilisateur principal dans la base de données. 
 
-**Attention :**  Veuillez prendre en note le mot de passe dans un endroit sûr, car il ne peut pas être récupéré. Si vous perdez le mot de passe, vous devrez le réinitialiser.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Attention :**  Veuillez prendre en note le mot de passe dans un endroit sûr, car il ne peut pas être récupéré. Si vous perdez le mot de passe, vous devrez le réinitialiser.
 
 13\. Cliquez sur le bouton **Suivant**. Vérifiez les paramètres que vous avez sélectionnés dans toutes les sections.
 
 14\. Cliquez sur le bouton **Valider** pour créer l'instance de base de données. 
 
-**Remarque :** le déploiement peut prendre plusieurs minutes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Remarque :** le déploiement peut prendre plusieurs minutes.
 
 **Tester la connectivité**
 
 15\. Une fois la base de données créée, allez à l'onglet **Bases de données**, cliquez sur la base de données pour voir ses détails et allez à la section **Point d'accès**. 
 
-La section **Point d'accès** énumère le nom de domaine et le numéro de port que vous devez utiliser pour accéder à l'instance de base de données.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La section **Point d'accès** énumère le nom de domaine et le numéro de port que vous devez utiliser pour accéder à l'instance de base de données.
 
 16\. Utilisez le client de base de données approprié avec le nom d'utilisateur et le mot de passe que vous avez définis dans la section **Identifiants** pour vous connecter à l'instance de base de données.
 
