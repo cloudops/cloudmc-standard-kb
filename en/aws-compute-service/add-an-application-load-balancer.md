@@ -1,6 +1,6 @@
 ---
-author: "AWS: Add an application load balancer"
-publisher: aws-add-app-load-balancer
+title: "AWS: Add an application load balancer"
+slug: aws-add-app-load-balancer
 ---
 
 # Add an application load balancer
