@@ -77,6 +77,8 @@ categories:
       - aws-add_a_volume.md
       - aws-relational-database-service.md
       - aws-deploy-rds.md
+      - add-target-group.md
+      - add-an-application-load-balancer.md
 - category: vmware-compute-service
   icon: fa fa-cloud
   articles:
