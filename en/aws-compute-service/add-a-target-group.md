@@ -1,6 +1,6 @@
 ---
-author: "AWS: Add a target group"
-publisher: aws-add-target-group
+title: "AWS: Add a target group"
+slug: aws-add-target-group
 ---
 
 # Add a target group
