@@ -41,11 +41,11 @@ slug: aws-add-target-group
 
     **Instances**: Select the VPC with the desired target instances, then mark the checkboxe for each of the instances to register with the target group. Once an instance is selected, the port to send traffic to on that individual instance may be overridden with the **Port** field.
 
-    ![](aws-add-target-instances.png)
+    ![Screenshot of the Register Targets instances list](aws-add-target-instances.png)
 
     **IP address\(es\)**: Enter the IP address for each destination target. Every address must be in the selected VPC. You cannot enter a block of addresses, an address in another VPC, or a publicly routed IP address.
 
-    ![](aws-add-target-addresses.png)
+    ![Screenshot of the Register Targets addresses fields](aws-add-target-addresses.png)
 
 11. Click the **Submit** button.
 
