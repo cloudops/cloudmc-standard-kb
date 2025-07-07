@@ -3,7 +3,10 @@ title: "AWS: Add an application load balancer"
 slug: aws-add-app-load-balancer
 ---
 
-# Add an application load balancer
+
+## About this task
+
+This article will guide you through the steps required to deploy an application load balancer.
 
 ## Before you begin
 
