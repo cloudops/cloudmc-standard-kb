@@ -1,6 +1,6 @@
 ---
 title: "AWS: Añadir un equilibrador de carga de aplicaciones"
-slug: aws-añadir-equilibrador-de-carga-de-aplicaciones
+slug: aws-anadir-equilibrador-de-carga-de-aplicaciones
 ---
 
 

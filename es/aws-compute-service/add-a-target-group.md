@@ -1,6 +1,6 @@
 ---
 title: "AWS: Añadir un grupo de destino"
-slug: aws-añadir-grupo-de-destino
+slug: aws-anadir-grupo-de-destino
 ---
 
 
