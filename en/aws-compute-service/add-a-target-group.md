@@ -3,7 +3,10 @@ title: "AWS: Add a target group"
 slug: aws-add-target-group
 ---
 
-# Add a target group
+
+## About this task
+
+This article will guide you through the steps required to create a new target group in your AWS environment.
 
 ## Before you begin
 
@@ -39,7 +42,7 @@ slug: aws-add-target-group
 
 10. Selection of targets for the group will be different depending on the target type of the group:
 
-    **Instances**: Select the VPC with the desired target instances, then mark the checkboxe for each of the instances to register with the target group. Once an instance is selected, the port to send traffic to on that individual instance may be overridden with the **Port** field.
+    **Instances**: Select the VPC with the desired target instances, then mark the checkbox for each of the instances to register with the target group. Once an instance is selected, the port to send traffic to on that individual instance may be overridden with the **Port** field.
 
     ![Screenshot of the Register Targets instances list](aws-add-target-instances.png)
 
@@ -47,7 +50,7 @@ slug: aws-add-target-group
 
     ![Screenshot of the Register Targets addresses fields](aws-add-target-addresses.png)
 
-11. Click the **Submit** button.
+11. Click the **Next** button, then the **Submit** button.
 
 
 ## Results
