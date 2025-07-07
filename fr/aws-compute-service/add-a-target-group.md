@@ -27,12 +27,12 @@ Cet article vous guidera à travers les étapes nécessaires à la création d'u
 
 5. Choisissez entre ces versions de protocole pour la communication entre l'équilibreur de charge et les cibles enregistrées :
 
-- HTTP/1.1
-- HTTP/2
-- GRPC
+    -    HTTP/1.1
+    -    HTTP/2
+    -    GRPC
 6. Sélectionnez si les cibles utilisent des adresses IPv4 ou IPv6. 
 
-   Toutes les cibles d'un groupe cible doivent utiliser le même type d'adresse IP. De plus, seulement les équilibreurs de charge dualstack prennent en charge l'adressage IPv6.
+    Toutes les cibles d'un groupe cible doivent utiliser le même type d'adresse IP. De plus, seulement les équilibreurs de charge dualstack prennent en charge l'adressage IPv6.
 
 7. \(Optionnel\) Vérification de l'état de santé, voir la section suivante.
 
@@ -42,7 +42,7 @@ Cet article vous guidera à travers les étapes nécessaires à la création d'u
 
 10. La sélection des cibles pour le groupe sera différente selon le type de cible du groupe :
 
-   **Instances** : Sélectionnez le VPC avec les instances cibles souhaitées, puis cochez la case de chacune des instances à enregistrer auprès du groupe cible. Une fois qu'une instance est sélectionnée, le port vers lequel envoyer le trafic sur cette instance individuelle peut être remplacé par le champ **Port**.
+    **Instances** : Sélectionnez le VPC avec les instances cibles souhaitées, puis cochez la case de chacune des instances à enregistrer auprès du groupe cible. Une fois qu'une instance est sélectionnée, le port vers lequel envoyer le trafic sur cette instance individuelle peut être remplacé par le champ **Port**.
 
     ![Capture d'écran de la liste des instances d'enregistrer les cibles](aws-add-target-instances.png)
 

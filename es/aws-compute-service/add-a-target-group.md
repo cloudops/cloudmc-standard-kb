@@ -27,12 +27,12 @@ Este artículo te guiará por los pasos necesarios para crear un nuevo grupo de 
 
 5. Selecciona entre estas versiones de protocolo para la comunicación entre el equilibriador de carga y los destinos registrados:
 
-- HTTP/1.1
-- HTTP/2
-- GRPC
+    -   HTTP/1.1
+    -   HTTP/2
+    -   GRPC
 6. Selecciona si los destinos utilizan direcciones IPv4 o IPv6.
 
-   Todos los destinos de un grupo de destinos deben utilizar el mismo tipo de dirección IP. Además, solo los equilibriadores de carga dualstack admiten el direccionamiento IPv6.
+    Todos los destinos de un grupo de destinos deben utilizar el mismo tipo de dirección IP. Además, solo los equilibriadores de carga dualstack admiten el direccionamiento IPv6.
 
 7. \(Opcional\) Comprobación del estado (consulte la siguiente sección).
 
@@ -42,7 +42,7 @@ Este artículo te guiará por los pasos necesarios para crear un nuevo grupo de 
 
 10. La selección de destinos para el grupo variará según el tipo de destino:
 
-   **Instancias**: Selecciona la VPC con las instancias de destino deseadas y marca la casilla de verificación de cada instancia que deseas registrar en el grupo de destino. Una vez seleccionada una instancia, el puerto al que se enviará el tráfico en esa instancia individual puede sobrescribirse con el campo **Puerto**.
+    **Instancias**: Selecciona la VPC con las instancias de destino deseadas y marca la casilla de verificación de cada instancia que deseas registrar en el grupo de destino. Una vez seleccionada una instancia, el puerto al que se enviará el tráfico en esa instancia individual puede sobrescribirse con el campo **Puerto**.
 
     ![Captura de pantalla de la lista de instancias de registrar destinos](aws-add-target-instances.png)
 
