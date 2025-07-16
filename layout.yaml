@@ -9,7 +9,7 @@ categories:
       - general-cloudmc_home_page.md
       - main-cloudmc-entities.md
       - environments.md
-      - create-an-environment.md
+      - create-a-new-environment.md
       - need-more-help.md
 - category: cloudstack-compute-service
   icon: fa fa-cloud
