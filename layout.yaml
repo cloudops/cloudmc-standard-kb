@@ -8,7 +8,8 @@ categories:
       - cloud.ca-in-a-nutshell.md
       - general-cloudmc_home_page.md
       - main-cloudmc-entities.md
-      - environments-to-organize-workloads-and-users.md
+      - environments.md
+      - create-an-environment.md
       - need-more-help.md
 - category: cloudstack-compute-service
   icon: fa fa-cloud
