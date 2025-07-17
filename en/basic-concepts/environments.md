@@ -52,9 +52,9 @@ Environments are accessed by navigating to the **Services** menu, then clicking 
 
 ## Membership, environment roles, and restricted environments
 
-An environment belongs to an organization, and is contained within a particular service. However, unless specifically configured, not all users inside that organization will have access to that environment. Users must first be added as members. To add or delete members from an environment, use its Hidden Actions menu and select **Manage Members**. Alternatively, from within an environment the [environment menu](environments.md#environment-menu) also gives access to the **Manage Members** page.
+An environment belongs to an organization, and is contained within a particular service. However, unless specifically configured, not all users inside that organization will have access to that environment. Users must first be added as members. To add or delete members from an environment, use its Hidden Actions menu and select **Manage Members**. Alternatively, from within an environment the [environment menu](#environment-menu) also gives access to the **Manage Members** page.
 
-Environment membership is coupled with an environment role. The environment role controls what a user can do with the resources contained in the environment. The system provides basic environment roles, and your administrator may define custom environment roles tailored to your needs. Certain system roles also grant visibility into environments for users with higher levels of privilege, even if they aren't members of a given environment. See \[Role-based access controls\]\(../administration/rbac.md\) for more information on system and environment roles.
+Environment membership is coupled with an environment role. The environment role controls what a user can do with the resources contained in the environment. The system provides basic environment roles, and your administrator may define custom environment roles tailored to your needs. Certain system roles also grant visibility into environments for users with higher levels of privilege, even if they aren't members of a given environment. See [Role-based access controls](../administration/rbac.md) for more information on system and environment roles.
 
 When creating a new environment, two options are available which relate to access control. First, an option is available to **allow external members** to be assigned to the environment. If this option is enabled, the **Add member to environment** pop-up menu will accept usernames from other organizations when typed into the pop-up menu's search field.
 
@@ -72,7 +72,7 @@ To automatically grant membership to all user accounts in the organization which
 
 2.  **Environment menu**
 
-    See the [Environment menu](environments.md#section_vzv_g24_zfc) section for more information.
+    See the [Environment menu](#environment-menu) section for more information.
 
 3.  **Feature toolbar**
 
