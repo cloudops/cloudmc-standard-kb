@@ -8,7 +8,7 @@ This article introduces the concept of environments in CloudOps, how they relate
 
 ## Overview
 
-In CloudOps, service connections \(or, simply *services*\) provide the mechanism for connecting to a remote service such a cloud provider. To access the resources provided by the remote service, CloudOps users interact with an entity called an environment, which exists inside of a service connection. Each environment has its own resources, separate from all other environments, even those that are in the same service connection. This enables the existence of distinct environments to isolate production workloads from development systems, or to establish project-specific sandboxes. Additionally, an environment is accessible only to users that have been added to the environment as members, or to those users whose level privilege overrides the default behavior.
+In CloudOps, service connections \(or, simply *services*\) provide the mechanism for connecting to a remote service such as a cloud provider. To access the resources provided by the remote service, CloudOps users interact with an entity called an environment, which exists inside of a service connection. Each environment has its own resources, separate from all other environments, even those that are in the same service connection. This enables the existence of distinct environments to isolate production workloads from development systems, or to establish project-specific sandboxes. Additionally, an environment is accessible only to users that have been added to the environment as members, or to those users whose level privilege overrides the default behavior.
 
 Environments act as logical containers, abstracting functionality which may vary greatly between different types of service connections. For more information on which entities an environment maps to in a specific service, refer to that service's Overview article. Furthermore, the system calculates service usage at the organization-level for billing purposes, and the resources consumed by each environments are also tracked separately, which allows businesses to generate internal chargeback reports on a per-environment basis if they wish.
 
@@ -52,7 +52,7 @@ Environments are accessed by navigating to the **Services** menu, then clicking 
 
 ## Membership, environment roles, and restricted environments
 
-An environment belongs to an organization, and is contained within a particular service. However, unless specifically configured, not all users inside that organization will have access to that environment. Users must first be added as members. To add or delete members from an environment, use its Hidden Actions menu and select **Manage Members**. Alternatively, from within an environment the [environment menu](environments.md) also gives access to the **Manage Members** page.
+An environment belongs to an organization, and is contained within a particular service. However, unless specifically configured, not all users inside that organization will have access to that environment. Users must first be added as members. To add or delete members from an environment, use its Hidden Actions menu and select **Manage Members**. Alternatively, from within an environment the [environment menu](#environment-menu) also gives access to the **Manage Members** page.
 
 Environment membership is coupled with an environment role. The environment role controls what a user can do with the resources contained in the environment. The system provides basic environment roles, and your administrator may define custom environment roles tailored to your needs. Certain system roles also grant visibility into environments for users with higher levels of privilege, even if they aren't members of a given environment. See [Role-based access controls](../administration/rbac.md) for more information on system and environment roles.
 
@@ -72,7 +72,7 @@ To automatically grant membership to all user accounts in the organization which
 
 2.  **Environment menu**
 
-    See the [Environment menu](environments.md) section for more information.
+    See the [Environment menu](#environment-menu) section for more information.
 
 3.  **Feature toolbar**
 
@@ -85,7 +85,11 @@ To automatically grant membership to all user accounts in the organization which
 
 Depending on the type of service, the feature toolbar will display different items exposed by the service. However, all services will have a dashboard page. The default page when entering an environment will vary by service type.
 
+<div id="environment-name">
+
 ## Environment menu
+
+</div>
 
 Use the environment menu to quickly switch between environments in the same service connection, and to access environment management features:
 
