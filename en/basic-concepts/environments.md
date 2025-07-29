@@ -85,9 +85,9 @@ To automatically grant membership to all user accounts in the organization which
 
 Depending on the type of service, the feature toolbar will display different items exposed by the service. However, all services will have a dashboard page. The default page when entering an environment will vary by service type.
 
-<div id="environment-menu">
+<div id="environment-menu"></div>
 ## Environment menu
-</div>
+
 
 Use the environment menu to quickly switch between environments in the same service connection, and to access environment management features:
 
