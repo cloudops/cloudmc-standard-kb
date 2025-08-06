@@ -6,7 +6,7 @@ slug: glossaire
 <br>
 <br>
 
-Consultez le [glossaire de CloudOps](https://docs.cloudops.com/#/quickstart/glossary) dans le site de documentation (disponible seulement en anglais).
+Consultez le <a href="https://docs.cloudops.com/#/quickstart/glossary" target="_blank">glossaire de CloudOps</a> dans le site de documentation (disponible seulement en anglais).
 
 <br>
 <br>
