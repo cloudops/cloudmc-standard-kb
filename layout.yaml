@@ -103,7 +103,10 @@ categories:
   icon: fa fa-signal
   articles:
       - generate-a-usage-report.md
-      - reporting-in-cloudops.md
+      - reporting-overview.md
+      - usage-reports.md
+      - utility-pricing-versus-commitment.md
+      - infrastructure-reports.md
 - category: administration
   icon: fa fa-wrench
   articles:
