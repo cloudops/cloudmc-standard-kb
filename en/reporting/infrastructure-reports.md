@@ -1,5 +1,5 @@
 ---
-title: "Infrastructure Reports"
+title: "Infrastructure reports"
 slug: infrastructure-reports
 ---
 
