@@ -1,5 +1,5 @@
 ---
-title: "Utility Pricing versus Commitment"
+title: "Utility pricing versus commitment"
 slug: utility-vs-commitment
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Overview of Reporting"
+title: "Overview of reporting"
 slug: overview-of-reporting
 ---
 

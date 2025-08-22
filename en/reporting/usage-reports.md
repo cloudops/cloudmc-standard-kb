@@ -1,5 +1,5 @@
 ---
-title: "Usage Reports"
+title: "Usage reports"
 slug: usage-reports
 ---
 
