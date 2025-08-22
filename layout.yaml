@@ -103,6 +103,7 @@ categories:
   icon: fa fa-signal
   articles:
       - generate-a-usage-report.md
+      - reporting-in-cloudops.md
 - category: administration
   icon: fa fa-wrench
   articles:
