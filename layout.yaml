@@ -102,7 +102,6 @@ categories:
 - category: reporting
   icon: fa fa-signal
   articles:
-      - generate-a-usage-report.md
       - reporting-overview.md
       - usage-reports.md
       - utility-pricing-versus-commitment.md
