@@ -8,7 +8,7 @@ Para los usuarios del complemento CloudStack, el sistema proporciona dos informe
 
 - **Entidades de infraestructura**
 
-Este informe enumera todas las entidades en la conexión de servicio CloudStack seleccionada. Se puede seleccionar entre IP públicas, máquinas sin sistema operativo o instancias. El informe proporciona información básica de cada entidad.
+Este informe enumera todas las entidades en la conexión de servicio CloudStack seleccionada. Se puede seleccionar entre IP públicas, instancias, o instancias dedicadas. El informe proporciona información básica de cada entidad.
 
 - **Informe de capacidad**
 

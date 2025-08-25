@@ -8,9 +8,9 @@ CloudOps admite dos modelos para asignar cargos por uso a los clientes:
 
 - **Uso a demanda**
 
-    Uso a demanda calcula los cargos correspondientes por uso según los precios definidos por el distribuidor en la configuración de monetización. La tarifa definida se aplica a la cantidad de uso a lo largo del ciclo de facturación, e incluye cualquier descuento o crédito aplicable. Si no hay uso, no se aplica ningún cargo.
+    El uso a demanda calcula los cargos correspondientes por uso según los precios definidos por el distribuidor en la configuración de monetización. La tarifa definida se aplica a la cantidad de uso a lo largo del ciclo de facturación, e incluye cualquier descuento o crédito aplicable. Si no hay uso, no se aplica ningún cargo.
 
-    Este modelo también se conoce como pago por uso. Al ser variable, siempre se pospaga (se factura al final del ciclo de facturación). Uso a demanda permite al cliente pagar solo por lo que usa y ofrece flexibilidad para aumentar o disminuir la carga de trabajo según sea necesario.
+    Este modelo también se conoce como pago por uso. Al ser variable, siempre se pospaga \(se factura al final del ciclo de facturación\). El uso a demanda permite al cliente pagar solo por lo que usa y ofrece flexibilidad para aumentar o disminuir la carga de trabajo según sea necesario.
 
 -   **Compromisos**
 
