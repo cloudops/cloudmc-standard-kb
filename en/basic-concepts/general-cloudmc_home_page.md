@@ -22,7 +22,7 @@ The CloudOps home page is the default page a user is presented with when logging
 
 4.  **Menu bar**
 
-    Across the top of all screens is the menu bar. The right-hand side of the menu bar contains three items: the help menu, the notifications menu, and the user menu.
+    Across the top of all screens is the menu bar. The right-hand side of the menu bar contains three items: the help menu, the notifications menu, and the User Settings menu.
 
 5.  **Collapse gadget**
 

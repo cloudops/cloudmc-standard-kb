@@ -22,7 +22,7 @@ La página de inicio de CloudOps es la página predeterminada que se le presenta
 
 4.  **La barra de menús**
 
-    En la parte superior de todas las pantallas se encuentra la barra de menú. El lado derecho de la barra de menú contiene tres elementos: el menú de ayuda, el menú de notificaciones y el menú de usuario.
+    En la parte superior de todas las pantallas se encuentra la barra de menú. El lado derecho de la barra de menú contiene tres elementos: el menú de ayuda, el menú de notificaciones y el menú de parámetros de usuario.
 
 5.  **El gadget de contracción**
 

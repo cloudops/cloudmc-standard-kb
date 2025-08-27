@@ -22,7 +22,7 @@ La page d'accueil CloudOps est la page par défaut qui s'affiche lorsqu'un utili
 
 4.  **La barre de menu**
 
-    En haut de tous les écrans se trouve la barre de menus. Le côté droit de la barre de menus contient trois éléments : le menu d'aide, le menu des notifications et le menu utilisateur.
+    En haut de tous les écrans se trouve la barre de menus. Le côté droit de la barre de menus contient trois éléments : le menu d'aide, le menu des notifications et le menu de paramètres de l'utilisateur.
 
 5.  **Le gadget de réduction**
 
