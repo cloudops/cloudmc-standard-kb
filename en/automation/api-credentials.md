@@ -14,7 +14,7 @@ Any CloudOps user may generate an API key. A user's API keys will have the same 
 
 API keys are created and managed in the **User Settings** panel, under the **API Credentials** section.
 
-![Screenshot of the User Settings panel, with relevant features highlighted](api-credentials.png)
+
 <img src="api-credentials.png" width="100">
 
 1.  **User Settings menu**
