@@ -14,7 +14,7 @@ Any CloudOps user may generate an API key. A user's API keys will have the same 
 
 API keys are created and managed in the **User Settings** panel, under the **API Credentials** section.
 
-![Screenshot of the User Settings panel, with relevant features highlighted](api-credentials.png "The User Settings panel")
+![Screenshot of the User Settings panel, with relevant features highlighted](api-credentials.png)
 
 1.  **User Settings menu**
 
@@ -27,7 +27,7 @@ API keys are created and managed in the **User Settings** panel, under the **API
 
 ## List existing API keys and endpoints
 
-![Screenshot of the API Credentials section of the User Settings panel](api-credentials-list.png "The API Credentials section")
+![Screenshot of the API Credentials section of the User Settings panel](api-credentials-list.png)
 
 1.  **Link to the API documentation**
 
@@ -44,7 +44,7 @@ API keys are created and managed in the **User Settings** panel, under the **API
 
 ## Generate a new API key
 
-See \[Generate a CloudOps API key\]\(../how-to/how-to-cloudmc-api-key\).
+See [Generate a CloudOps API key](../how-to/how-to-cloudmc-api-key).
 
 ## Delete an API key
 
