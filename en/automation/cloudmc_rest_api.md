@@ -16,7 +16,7 @@ In order to use the CloudOps API, you will start by logging into the system and 
 
 -   [Generate a CloudOps API key](../how-to/how-to-cloudmc-api-key.md)
 
-In addition to the API keys, the **API credentials** page will also list the URL to use when connecting to an endpoint.
+In addition to the API keys, the **API credentials** page will also list the URL to use when connecting to an endpoint.  See the [API Credentials](api-credentials.md) article for full details.
 
 ## API documentation
 

@@ -1,39 +1,35 @@
 ---
 title: "Generate a CloudOps API key"
-slug: cloudmc-api-key
+slug: how-to-cloudmc-api-key
 ---
 
 
-When working with the CloudOps API, you will need to generate an API key for use with your code.  API keys provide a convenient method for your application to identify itself to a service when making calls to the service's API.
+## About this task
 
-Any CloudOps user may generate an API key.  A user's API keys will have the same level of privilege that the user has.  There is no limit to the number of API keys that a user may generate.  It is recommended to take advantage of this by generating an API key for each application that will be accessing the system.
+This article will guide you through the steps required to generate a key for accessing your account via the CloudOps API.
 
-To manage your API keys, navigate to the user menu on the upper right of the page, click on *My profile*, then click on the item labeled *API credentials*.
+## Before you begin
 
-### List existing API keys and endpoints
+-   You must be logged into the CloudOps Web user interface
 
-![API credentials screen](/assets/cloudmc-api-key-en-01.png)
+## Procedure
 
-The *API credentials* screen lists all existing keys under the **API keys** section.  The name of each key, the IP address from which it was used last, and the time and date it was last used are displayed.
+1.  Click on the **User Settings** menu in the upper-right corner of the UI.
 
-To rename a key, click the icon labeled *Edit API key* icon on the far right side of the desired entry.
+2.  When the User Settings drawer appears, click on **API Credentials**.
 
-The endpoint for making API calls to the system is displayed above the list of keys.  Click the clipboard icon to copy the URL into your clipboard.
+3.  Click on the **Generate API Key** button.
 
-### Generate a new API key
+4.  When the key value appears, copy it by clicking on the clipboard icon.
 
-![API key generated](/assets/cloudmc-api-key-en-02.png)
+5.  Click on the **Done** button. You may now close the User Settings drawer.
 
-1. From the *API credentials* screen, click the button labeled *Generate API key*.
-1. Enter a name for the new key into the **Name** text field.  You may wish to give the key a name which reflects the application it will be used for.  Click *Generate*.
-1. You will be returned to the *API credentials* screen.  A notification will appear with the new API key hidden.
-   - You **must** retrieve the new key from this notification.  Once the notification is dismissed, there is no way to display the API key again.
-   - Click the eye symbol to reveal the API key.
-   - Click the clipboard icon to copy the API key into your clipboard.
-1. The API key is now ready for use.  Store it in a secure location.
 
-### Revoke an API key
+## Results
 
-1. From the *API credentials* screen, click the icon labeled *Revoke API key* on the far right side of the desired entry.
-1. A confirmation dialog box will appear.  Click *Revoke*.
-1. The API key will be revoked immediately and is no longer valid for use.
+-   The API key is now in your clipboard.
+
+    **Note:** Store your key securely. You will not be able to view it again in the UI after the User Settings drawer is closed.
+
+-   If you wish, you can rename your API key instead of using the randomly-generated default name.
+
