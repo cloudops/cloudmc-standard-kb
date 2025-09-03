@@ -14,7 +14,7 @@ The first section of the report presents the full-month \(billing cycle\) aggreg
 
 The final section of the report is a list of events which occurred during the selected time period. This enables a user to potentially correspond events and changes in spend, and to find root causes for trends.
 
-![A screenshot of the Daily Cost Overview Report](reporting-daily-cost-overview.png "The Daily Cost Overview Report")
+![A screenshot of the Daily Cost Overview Report](reporting-daily-cost-overview.png)
 
 1.  **Group by**
 
