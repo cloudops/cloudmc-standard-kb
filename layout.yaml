@@ -106,6 +106,7 @@ categories:
       - usage-reports.md
       - utility-pricing-versus-commitment.md
       - infrastructure-reports.md
+      - reporting-daily-cost-overview.md
 - category: administration
   icon: fa fa-wrench
   articles:
