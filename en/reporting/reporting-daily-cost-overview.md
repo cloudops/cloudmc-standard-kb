@@ -21,7 +21,7 @@ The final section of the report is a list of events which occurred during the se
     Determines the aggregation method for the charts in the first and second sections of the report.
 
     -   Product category: Cost data for all products will be grouped by the category \(and by extension, the product catalog\) in which each product is located.
-    -   Plan type: Cost data for all products will be grouped into either utility usage or commitments. On the daily aggregtion chart, costs attributable to commitments will be evenly spread across every day in the month.
+    -   Plan type: Cost data for all products will be grouped into either utility usage or commitments. On the daily aggregation chart, costs attributable to commitments will be evenly spread across every day in the month.
     Note that the default grouping for a reseller can be set in **Admin** &gt; **Reporting**.
 
 2.  **Organization**
