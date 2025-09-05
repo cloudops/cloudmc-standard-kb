@@ -32,7 +32,7 @@ The final section of the report is a list of events which occurred during the se
 
     By default, the Daily Cost Overview shows cost data for all service connections in the selected organization. To narrow down the displayed data to only a single service, select the desired service from the **Service Connection** field.
 
-    Selecting the **Others** item will display cost data that cannot be associated with any single connection. Examples of these costs include
+    Selecting the **Others** item will display cost data that cannot be associated with any single connection, such as commitments that are scoped to the selected organization.
 
     Click on the **X** icon to clear the field. Upon clearing, data for all service connections and all environments will be displayed.
 
