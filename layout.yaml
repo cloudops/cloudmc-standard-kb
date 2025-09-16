@@ -128,7 +128,7 @@ categories:
 - category: automation
   icon: fa fa-retweet
   articles:
-      - cloudmc_rest_api.md
+      - automation-cloudops-api.md
       - api-credentials.md
       - deploy-virtual-machine-using-terraform.md
       - deploy-a-kubernetes-cluster-with-rancher-2-x.md
