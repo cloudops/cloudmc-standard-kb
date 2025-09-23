@@ -131,5 +131,7 @@ categories:
       - automation-cloudops-api.md
       - api-credentials.md
       - automation-list-roles-for-environment.md
+      - automation-get-knowledge-base.md
+      - automation-sync-knowledge-base.md
       - deploy-virtual-machine-using-terraform.md
       - deploy-a-kubernetes-cluster-with-rancher-2-x.md

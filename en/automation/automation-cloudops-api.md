@@ -4,6 +4,7 @@ slug: cloudops-api
 ---
 
 
+
 This article is a beginner's introduction to the CloudOps REST API, providing details on how to access it, and also builds context for the other articles in the Automation category.
 
 ## Overview
@@ -40,6 +41,8 @@ When working with any API, there is always going to be some technical aspect to 
 This wall of text may seem daunting and unrecognizable. There will be a lot of symbols, such as brackets and parentheses. Although these symbols are important because they help to structure the response, but luckily they can be ignored for the most part, because they are not the data you need. Particularly if you are simply executing an operation, all you might be looking for is a value that says `OK`, to indicate that the operation succeeded.
 
 Similarly, the response may contain a lot of extraneous data. For example, the API call above returns many fields with values. It is not just a list of environments, it includes parameters about each listed environment. To identify each environment, you will have to inspect the response to find the value you need. This is where it becomes important to take the response, put it into a text editing tool, and use the Find feature to locate the target date. For more complex responses with a large amount of data, you may wish to use a text editor which can reformat a JSON document to make the response more human-readable.
+
+For a detailed example on parsing the JSON data, see the [Get knowledge base ID](automation-get-knowledge-base.md) article.
 
 ## Windows users only
 
