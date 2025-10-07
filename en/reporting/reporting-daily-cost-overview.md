@@ -6,7 +6,7 @@ slug: reporting-daily-cost-overview
 
 This article provides details on how to use the Daily Cost Overview report, and its various options.
 
-## Overview
+## General description
 
 The Daily Cost Overview is an interactive report intended for a financial, accounting, and executive audience, to enable them to understand the evolution of their usage costs over time. The default report provides a high-level view of all costs in a billing cycle. The user may then select from various filtering criteria to focus on interesting aspects of the cost data. If desired, the report can compare against the cost data from another billing cycle, or drill down to see more details.
 
