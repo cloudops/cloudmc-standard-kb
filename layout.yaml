@@ -103,9 +103,9 @@ categories:
   icon: fa fa-signal
   articles:
       - reporting-overview.md
-      - usage-reports.md
-      - utility-pricing-versus-commitment.md
-      - infrastructure-reports.md
+      - reporting-usage-reports.md
+      - reporting-utility-pricing-versus-commitment.md
+      - reporting-infrastructure-reports.md
       - reporting-daily-cost-overview.md
 - category: administration
   icon: fa fa-wrench
