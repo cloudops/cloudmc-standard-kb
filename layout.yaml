@@ -79,6 +79,7 @@ categories:
       - aws-add_a_volume.md
       - aws-relational-database-service.md
       - aws-deploy-rds.md
+      - aws-alb-overview.md
       - add-a-target-group.md
       - add-an-application-load-balancer.md
 - category: vmware-compute-service
