@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="970 -180.825 556.74653 759.825" width="556.74653" height="759.825">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#62b5e5">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="Canvas_1" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="970" y="-180.825" width="556.74653" height="759.825"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_59">
+        <path d="M 982 -13.5 L 1374 -13.5 C 1376.2091 -13.5 1378 -11.709139 1378 -9.5 L 1378 281 C 1378 283.20914 1376.2091 285 1374 285 L 982 285 C 979.7909 285 978 283.20914 978 281 L 978 -9.5 C 978 -11.709139 979.7909 -13.5 982 -13.5 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(983 258)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="98.16797" y="17" xml:space="preserve">Application Load Balancer</tspan>
+        </text>
+      </g>
+      <g id="Graphic_58">
+        <path d="M 1102 -1.5 L 1254 -1.5 C 1256.2091 -1.5 1258 .290861 1258 2.5 L 1258 94.5 C 1258 96.70914 1256.2091 98.5 1254 98.5 L 1102 98.5 C 1099.7909 98.5 1098 96.70914 1098 94.5 L 1098 2.5 C 1098 .290861 1099.7909 -1.5 1102 -1.5 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(1103 37.5)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="45.03125" y="17" xml:space="preserve">Listener</tspan>
+        </text>
+      </g>
+      <g id="Group_60">
+        <g id="Group_62">
+          <g id="Graphic_67">
+            <rect x="1120.7365" y="-137.1204" width="98.73025" height="52.65613" fill="#bfbfbf"/>
+          </g>
+          <g id="Graphic_66">
+            <circle cx="1126.6603" cy="-111.05562" r="26.3281086330365" fill="#bfbfbf"/>
+          </g>
+          <g id="Graphic_65">
+            <circle cx="1221.1122" cy="-119.28313" r="34.5556474160687" fill="#bfbfbf"/>
+          </g>
+          <g id="Graphic_64">
+            <circle cx="1144.695" cy="-135.67236" r="17.3765522135597" fill="#bfbfbf"/>
+          </g>
+          <g id="Graphic_63">
+            <circle cx="1186.5566" cy="-146.2694" r="34.5556474160687" fill="#bfbfbf"/>
+          </g>
+        </g>
+        <g id="Graphic_61">
+          <text transform="translate(1102 -82.35944)" fill="#4b4f54">
+            <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="46.058594" y="17" xml:space="preserve">Internet</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_68">
+        <path d="M 974 383 L 1382 383 C 1384.2091 383 1386 384.79086 1386 387 L 1386 575 C 1386 577.20914 1384.2091 579 1382 579 L 974 579 C 971.7909 579 970 577.20914 970 575 L 970 387 C 970 384.79086 971.7909 383 974 383 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(975 552)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="188.375" y="17" xml:space="preserve">VPC</tspan>
+        </text>
+      </g>
+      <g id="Graphic_69">
+        <path d="M 990 399 L 1158 399 C 1160.2091 399 1162 400.79086 1162 403 L 1162 535 C 1162 537.20914 1160.2091 539 1158 539 L 990 539 C 987.7909 539 986 537.20914 986 535 L 986 403 C 986 400.79086 987.7909 399 990 399 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(991 512)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="56.57422" y="17" xml:space="preserve">Subnet</tspan>
+        </text>
+      </g>
+      <g id="Graphic_70">
+        <path d="M 1198 399 L 1366 399 C 1368.2091 399 1370 400.79086 1370 403 L 1370 535 C 1370 537.20914 1368.2091 539 1366 539 L 1198 539 C 1195.7909 539 1194 537.20914 1194 535 L 1194 403 C 1194 400.79086 1195.7909 399 1198 399 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(1199 512)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="56.57422" y="17" xml:space="preserve">Subnet</tspan>
+        </text>
+      </g>
+      <g id="Graphic_71">
+        <path d="M 998 407 L 1150 407 C 1152.2091 407 1154 408.79086 1154 411 L 1154 503 C 1154 505.20914 1152.2091 507 1150 507 L 998 507 C 995.7909 507 994 505.20914 994 503 L 994 411 C 994 408.79086 995.7909 407 998 407 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(999 446)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="43.5625" y="17" xml:space="preserve">Instance</tspan>
+        </text>
+      </g>
+      <g id="Graphic_72">
+        <path d="M 1206 407 L 1358 407 C 1360.2091 407 1362 408.79086 1362 411 L 1362 503 C 1362 505.20914 1360.2091 507 1358 507 L 1206 507 C 1203.7909 507 1202 505.20914 1202 503 L 1202 411 C 1202 408.79086 1203.7909 407 1206 407 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(1207 446)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="43.5625" y="17" xml:space="preserve">Instance</tspan>
+        </text>
+      </g>
+      <g id="Line_73">
+        <line x1="1178" y1="-52.112676" x2="1178" y2="-14.4" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_75">
+        <path d="M 1206 149 L 1366 149 C 1368.2091 149 1370 150.79086 1370 153 L 1370 245 C 1370 247.20914 1368.2091 249 1366 249 L 1206 249 C 1203.7909 249 1202 247.20914 1202 245 L 1202 153 C 1202 150.79086 1203.7909 149 1206 149 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(1207 188)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="29.871094" y="17" xml:space="preserve">Health Check</tspan>
+        </text>
+      </g>
+      <g id="Graphic_76">
+        <path d="M 994 149 L 1154 149 C 1156.2091 149 1158 150.79086 1158 153 L 1158 245 C 1158 247.20914 1156.2091 249 1154 249 L 994 249 C 991.7909 249 990 247.20914 990 245 L 990 153 C 990 150.79086 991.7909 149 994 149 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(995 188)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="29.351562" y="17" xml:space="preserve">Target Group</tspan>
+        </text>
+      </g>
+      <g id="Line_77">
+        <path d="M 1178 98.5 L 1178 123.75 L 1074 123.75 L 1074 136.1" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_78">
+        <path d="M 1074 249 L 1074 260 L 1073.9138 339.56034 L 1047.3333 339.56034 L 1047.3333 394.1" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_79">
+        <path d="M 1074 249 L 1074 260 L 1073.9138 339.56034 L 1255.3333 339.56034 L 1255.3333 394.1" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_80">
+        <path d="M 1286 249 L 1286 312.54818 L 1121.5909 312.54818 L 1121.5909 394.1" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Line_81">
+        <path d="M 1286 249 L 1286 312.42122 L 1308.6667 312.42122 L 1308.6667 394.1" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Group_86">
+        <g id="Line_82">
+          <line x1="1271.5264" y1="-78" x2="1320.6264" y2="-78" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_83">
+          <line x1="1271.5264" y1="-54" x2="1320.6264" y2="-54" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        </g>
+        <g id="Graphic_84">
+          <text transform="translate(1347.6557 -87)" fill="#4b4f54">
+            <tspan font-family="Open Sans" font-size="14" fill="#4b4f54" x="0" y="15" xml:space="preserve">Path of application traffic</tspan>
+          </text>
+        </g>
+        <g id="Graphic_85">
+          <text transform="translate(1347.6557 -63)" fill="#4b4f54">
+            <tspan font-family="Open Sans" font-size="14" fill="#4b4f54" x="0" y="15" xml:space="preserve">Path of health check traffic</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 992 100" width="992" height="100">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#62b5e5">
+      <g>
+        <path d="M 3.84 0 L 0 -1.44 L 0 1.44 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#62b5e5">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="Workflow" fill="none" stroke-dasharray="none" fill-opacity="1" stroke="none" stroke-opacity="1">
+    <title>Workflow</title>
+    <rect fill="white" x="0" y="0" width="992" height="100"/>
+    <g id="Workflow_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <path d="M 4 0 L 156 0 C 158.20914 13527075e-23 160 1.790861 160 4 L 160 96 C 160 98.20914 158.20914 100 156 100 L 4 100 C 1.790861 100 2705415e-22 98.20914 0 96 L 53290705e-22 4 C 5599612e-21 1.790861 1.790861 -2705415e-22 4 0 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(5 17)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="14.949219" y="17" xml:space="preserve">Deploy Network </tspan>
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="24.214844" y="39" xml:space="preserve">and Compute </tspan>
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="23.320312" y="61" xml:space="preserve">Infrastructure</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <path d="M 836 0 L 988 0 C 990.2091 13527075e-23 992 1.790861 992 4 L 992 96 C 992 98.20914 990.2091 100 988 100 L 836 100 C 833.7909 100 832 98.20914 832 96 L 832 4 C 832 1.790861 833.7909 -2705415e-22 836 0 Z" fill="#62b5e5"/>
+        <text transform="translate(837 39)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="16" fill="white" x="6.109375" y="17" xml:space="preserve">Ready for Service</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 212 0 L 364 0 C 366.20914 13527075e-23 368 1.790861 368 4 L 368 96 C 368 98.20914 366.20914 100 364 100 L 212 100 C 209.79086 100 208 98.20914 208 96 L 208 4 C 208 1.790861 209.79086 -2705415e-22 212 0 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(213 28)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="60.13281" y="17" xml:space="preserve">Add</tspan>
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="25.351562" y="39" xml:space="preserve">Target Group</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <path d="M 420 0 L 572 0 C 574.20914 13527075e-23 576 1.790861 576 4 L 576 96 C 576 98.20914 574.20914 100 572 100 L 420 100 C 417.79086 100 416 98.20914 416 96 L 416 4 C 416 1.790861 417.79086 -2705415e-22 420 0 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(421 19.5)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="31.527344" y="17" xml:space="preserve">Acquire SSL </tspan>
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="37.046875" y="39" xml:space="preserve">Certificate</tspan>
+          <tspan font-family="Open Sans" font-size="12" fill="#4b4f54" x="47.302734" y="57" xml:space="preserve">(Optional)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <path d="M 628 0 L 780 0 C 782.2091 13527075e-23 784 1.790861 784 4 L 784 96 C 784 98.20914 782.2091 100 780 100 L 628 100 C 625.79086 100 624 98.20914 624 96 L 624 4 C 624 1.790861 625.79086 -2705415e-22 628 0 Z" fill="#62b5e5" fill-opacity=".3"/>
+        <text transform="translate(629 28)" fill="#4b4f54">
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="60.13281" y="17" xml:space="preserve">Add</tspan>
+          <tspan font-family="Open Sans" font-size="16" fill="#4b4f54" x="22.007812" y="39" xml:space="preserve">Load Balancer</tspan>
+        </text>
+      </g>
+      <g id="Line_9">
+        <line x1="160" y1="50" x2="197.02" y2="50" marker-end="url(#FilledArrow_Marker)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_12">
+        <line x1="368" y1="50" x2="403.1" y2="50" marker-end="url(#FilledArrow_Marker_2)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_13">
+        <line x1="576" y1="50" x2="611.1" y2="50" marker-end="url(#FilledArrow_Marker_2)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_14">
+        <line x1="784" y1="50" x2="819.1" y2="50" marker-end="url(#FilledArrow_Marker_2)" stroke="#62b5e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
