@@ -34,7 +34,7 @@ Cet article vous guidera à travers les étapes nécessaires à la création d'u
 
     Toutes les cibles d'un groupe cible doivent utiliser le même type d'adresse IP. De plus, seulement les équilibreurs de charge dualstack prennent en charge l'adressage IPv6.
 
-7. \(Optionnel\) Vérification de l'état de santé, voir la section suivante.
+7. \(Optionnel\) Vérification de l'état, voir la section suivante.
 
 8. \(Optionnel\) Vous pouvez également spécifier des paires nom-valeur pour étiqueter votre groupe cible.
 

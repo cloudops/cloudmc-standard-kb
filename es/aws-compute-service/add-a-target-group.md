@@ -34,7 +34,7 @@ Este artículo te guiará por los pasos necesarios para crear un nuevo grupo de 
 
     Todos los destinos de un grupo de destinos deben utilizar el mismo tipo de dirección IP. Además, solo los equilibriadores de carga dualstack admiten el direccionamiento IPv6.
 
-7. \(Opcional\) Comprobación del estado (consulte la siguiente sección).
+7. \(Opcional\) Comprobación de estado (consulta la siguiente sección).
 
 8. \(Opcional\) También puedes especificar pares nombre-valor para etiquetar tu grupo de destino.
 
