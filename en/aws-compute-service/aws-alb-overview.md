@@ -10,7 +10,7 @@ This article provides information about application load balancers in AWS, their
 
 Within the Elastic Load Balancing offering, AWS supports load balancers that are specifically designed for acting as a front-end for a Web application. The application load balancer, or ALB, is a virtual device that listens for incoming requests from clients on a specific port and protocol. When the **listenter** receives a request, it is forwarded by the load balancer to a server in the back-end. The server is an instance in a VPC to which the load balancer has been granted access, and typically the load balancer is configured with more than one server in the back-end. The back-end instance processes the request, then returns a response to the load balancer. The load balancer then delivers the response to the client.
 
-![Diagram of the AWS application load balancer feature](aws-alb-overview.svg "Main components in an AWS application load balancer configuration")
+![Diagram of the AWS application load balancer feature](/assets/aws-alb-overview.svg)
 
 Use cases for application load balancing include:
 
@@ -24,7 +24,7 @@ The application load balancer acts as the termination point of connections from 
 
 ## Workflow for ALB creation
 
-![Diagram showing the major steps required to deploy an application load balancer](aws-alb-workflow.svg "Steps required to deploy an application load balancer")
+![Diagram showing the major steps required to deploy an application load balancer](/assets/aws-alb-workflow.svg)
 
 1.  **Deploy network and compute infrastructure**
 
