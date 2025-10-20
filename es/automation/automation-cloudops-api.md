@@ -7,25 +7,25 @@ slug: automatizar-tares-con-la-api
 
 Este artículo es una introducción para principiantes a la API REST de CloudOps y proporciona detalles sobre cómo acceder a ella, además de crear contexto para los demás artículos de la categoría Automatización.
 
-## Resumen <--Here
+## Resumen
 
-Para ciertas tareas sencillas, puede resultarte útil ejecutarlas sin tener que iniciar sesión en la interfaz de usuario web de CloudOps. Por ejemplo, puede que necesite repetidamente:
+Para ciertas tareas sencillas, puede resultarte útil ejecutarlas sin tener que iniciar sesión en la interfaz de usuario web de CloudOps. Por ejemplo, puede que necesites repetidamente:
 
 - Sincronizar la base de conocimientos después de realizar cambios en el contenido
 - Generar un informe mensual con los mismos criterios y filtros
 - Añadir nuevos usuarios como miembros a un entorno específico
 
-En estos casos, ejecutar una sola llamada a la API sin tener que iniciar sesión en la interfaz web puede ahorrarle tiempo y esfuerzo. Además, puede usar cualquier herramienta de programación para activar sus llamadas a la API automáticamente cuando lo desee.
+En estos casos, ejecutar una sola llamada a la API sin tener que iniciar sesión en la interfaz web puede ahorrarle tiempo y esfuerzo. Además, puedes usar cualquier herramienta de programación para activar tus llamadas a la API automáticamente cuando lo desees.
 
-Como plataforma de orquestación basada en API, CloudOps proporciona acceso a toda la funcionalidad a través de su API REST. Cualquier función accesible a través de la interfaz web también se puede acceder a través de la API. Todas las llamadas a la API están protegidas mediante conexiones HTTPS y una clave de API única para su cuenta.
+Como plataforma de orquestación basada en API, CloudOps proporciona acceso a toda la funcionalidad a través de su API REST. Cualquier función accesible a través de la interfaz web también se puede acceder a través de la API. Todas las llamadas a la API están protegidas mediante conexiones HTTPS y una clave de API única para tu cuenta.
 
-Los artículos de la categoría Automatización ofrecen un punto de partida para usuarios con poca o ninguna experiencia previa con herramientas API. No pretenden reemplazar la documentación completa de la API. Se trata de una guía intuitiva y sencilla para usar la API, con numerosos ejemplos, que evita la instalación de software. Cada ejemplo puede modificarse para adaptarlo a su situación particular e incluso utilizarse en conjunto para crear flujos de trabajo automatizados.
+Los artículos de la categoría Automatización ofrecen un punto de partida para usuarios con poca o ninguna experiencia previa con herramientas API. No pretenden reemplazar la documentación completa de la API. Se trata de una guía intuitiva y sencilla para usar la API, con numerosos ejemplos, que evita la instalación de software. Cada ejemplo puede modificarse para adaptarlo a tu situación particular e incluso utilizarse en conjunto para crear flujos de trabajo automatizados.
 
-## What to expect
+## Qué anticipar
 
-To make this guide accessible to the widest audience, the examples presented in these articles use an industry-standard utility called cURL. This program is included on all macOS, Linux, and Windows systems. It is a command that can be pasted into a terminal window for macOS and Linux users, or into a command prompt or PowerShell window for Windows users. When the cURL command is run, it will connect to the CloudOps API using your user account, send your API call as request to the CloudOps system, and then it will print out the response that CloudOps returned.
+Para que esta guía sea accesible al público más amplio, los ejemplos presentados en estos artículos utilizan una utilidad estándar llamada cURL. Este programa está incluido en todos los sistemas macOS, Linux y Windows. Es un comando que se puede pegar en una ventana de terminal para usuarios de macOS y Linux, o en un símbolo del sistema o una ventana de PowerShell para usuarios de Windows. Al ejecutar el comando cURL, se conectará a la API de CloudOps usando tu cuenta de usuario, enviará la llamada API al sistema CloudOps y, a continuación, imprimirá la respuesta devuelta por CloudOps.
 
-The cURL command presented with each example is meant to be copied from the article and pasted into a text editor. In the text editor, you can replace text within the braces with the required values, and then paste the modified command into you terminal or command prompt. For example, a cURL command to list all environments you have access to with your user account might look like this:
+El comando cURL que se presenta en cada ejemplo debe copiarse del artículo y pegarse en un editor de texto. En el editor de texto, puedes reemplazar el texto entre llaves con los valores necesarios y luego pegar el comando modificado en tu terminal o símbolo del sistema. Por ejemplo, un comando cURL para listar todos los entornos a los que tienes acceso con tu cuenta de usuario podría tener este aspecto:
 
 ```
 curl --request GET \
@@ -34,42 +34,41 @@ curl --request GET \
   --header 'MC-Api-Key: {api-key}'
 ```
 
-To prepare this example for execution, you will copy the full text from the article and paste it into a text editor. For readability, the cURL command is broken into multiple lines using the backslash \('`\`'\) symbol to force a line-wrap. \(Windows users please be sure to read the Windows users only section, because you will need to use a different symbol to accomplish this.\) Notice that there are two markers, which act as placeholders for the data you will supply: `{endpoint-url}`, and `{api-key}`. You will replace these markers \(including the surrounding braces\) with the relevant values, as explained in the API key and API endpoint sections.
+Para preparar este ejemplo para su ejecución, copiarás el texto completo del artículo y lo pegarás en un editor de texto. Para facilitar la lectura, el comando cURL se divide en varias líneas mediante la barra invertida \('`\`'\) para forzar un ajuste de línea. (Si eres usuario de Windows, lee la sección para solamente los usuarios de Windows, ya que necesitarás usar un símbolo diferente para lograr esto). Observa que hay dos marcadores que actúan como marcadores de posición para los datos que proporcionarás: `{endpoint-url}` y `{api-key}`. Reemplace estos marcadores (incluidas las llaves) con los valores correspondientes, como se explica en las secciones "Clave API" y "Punto de conexión de API".
 
-When working with any API, there is always going to be some technical aspect to the functionality. However, when executing simple tasks, many details can be safely ignored. For example, when you execute your API task \(often referred to as "making an API call"\), the system will return a response which will contain a lot of text. This text will be in a standard format called JSON.
+Al trabajar con cualquier API, siempre habrá algún aspecto técnico en su funcionalidad. Sin embargo, al ejecutar tareas sencillas, muchos detalles pueden ignorarse sin problemas. Por ejemplo, al ejecutar una tarea de API (a menudo denominada "hacer una llamada a la API"), el sistema devolverá una respuesta con mucho texto. Este texto estará en un formato estándar llamado JSON.
 
-This wall of text may seem daunting and unrecognizable. There will be a lot of symbols, such as brackets and parentheses. Although these symbols are important because they help to structure the response, but luckily they can be ignored for the most part, because they are not the data you need. Particularly if you are simply executing an operation, all you might be looking for is a value that says `OK`, to indicate that the operation succeeded.
+Este bloque de texto puede parecer abrumador e irreconocible. Contendrá muchos símbolos, como corchetes y paréntesis. Aunque estos símbolos son importantes porque ayudan a estructurar la respuesta, afortunadamente se pueden ignorar en su mayor parte, ya que no son los datos que necesitas. Sobre todo si simplemente estás ejecutando una operación, es posible que solo busques un valor que indique "OK" para verificar que la operación se realizó correctamente.
 
-Similarly, the response may contain a lot of extraneous data. For example, the API call above returns many fields with values. It is not just a list of environments, it includes parameters about each listed environment. To identify each environment, you will have to inspect the response to find the value you need. This is where it becomes important to take the response, put it into a text editing tool, and use the Find feature to locate the target date. For more complex responses with a large amount of data, you may wish to use a text editor which can reformat a JSON document to make the response more human-readable.
+De igual forma, la respuesta puede contener muchos datos superfluos. Por ejemplo, la llamada a la API anterior devuelve muchos campos con valores. No se trata simplemente de una lista de entornos, sino que incluye parámetros sobre cada uno de ellos. Para identificar cada entorno, deberás inspeccionar la respuesta y encontrar el valor necesario. Aquí es donde resulta importante tomar la respuesta, introducirla en un editor de texto y usar la función Buscar para localizar la fecha objetivo. Para respuestas más complejas con una gran cantidad de datos, se puede utilizar un editor de texto que pueda reformatear un documento JSON para que la respuesta sea más legible.
 
-For a detailed example on parsing the JSON data, see the [Get knowledge base ID](automation-get-knowledge-base.md) article.
+Para obtener un ejemplo detallado sobre cómo analizar datos JSON, consulta el artículo [Obtener ID de la base de conocimientos](automation-get-knowledge-base.md).
 
-## Windows users only
+## Sólo usuarios de Windows
 
-Windows users, please note that you will have to edit the examples before they can be used, due to how Windows treats special characters.
+Usuarios de Windows, tengan en cuenta que deberán editar los ejemplos antes de poder usarlos, debido a la forma en que Windows trata los caracteres especiales.
 
--   If you are using a **command prompt** \(`cmd.exe`\) window: Replace the backslash with a carat symbol \('`^`'\)
--   If you are using a **PowerShell** window: Replace the backslash with a space and a backtick symbol \('```\)
+-   Si estás utilizando una **ventana de símbolo del sistema** \(`cmd.exe`\): reemplaza la barra invertida con un símbolo de acento circunflejo \('`^`'\)
+-   Si estás utilizando una ventana de **PowerShell**: reemplaza la barra invertida con un espacio y un símbolo de tilde invertida \('`` ` ``'\)
 
-**Attention:** In both cases, the carat or the backtick must be the last character on the line.
+**Atención:** En ambos casos, el símbolo de acento circunflejo o la tilde invertida debe ser el último carácter de la línea.
 
-## API key
+## Clave API
 
-In order to use the CloudOps API, you will start by logging into the system and creating an API key for your requests. The API key acts as the credentials that cURL will send to CloudOps to authenticate itself using your user account.
+Para usar la API de CloudOps, inicia sesión en el sistema y crea una clave API para tus solicitudes. Esta clave actúa como las credenciales que cURL enviará a CloudOps para autenticarse con tu cuenta de usuario.
 
-The following article provides the steps on creating a new API key:
+El siguiente artículo describe los pasos para crear una nueva clave API:
 
--   [Generate a CloudOps API key](../how-to/how-to-cloudmc-api-key.md)
+-   [Generar una clave API de CloudOps](../how-to/how-to-cloudmc-api-key.md)
 
-Once you have generated your API key, store it in a safe place, because the system will never display it to you again. Use your API key to replace the `{api-key}` marker in the example cURL commands.
+Una vez generada la clave API, guárdala en un lugar seguro, ya que el sistema no la volverá a mostrar. Úsala para reemplazar el marcador `{api-key}` en los comandos cURL de ejemplo.
 
-## API endpoint
+## Punto de conexión de la API
 
-In addition to the API keys, the API credentials section of the User Settings panel will also list the URL to use when connecting to an endpoint. See the [API Credentials](api-credentials.md) article for full details.
+Además de las claves API, la sección de credenciales de la API del panel Parámetros de usuario también mostrará la URL que se debe usar para conectarse a un punto de conexión. Consulta el artículo [Credenciales de la API](api-credentials.md) para obtener más información.
 
-## API documentation
+## Documentación de la API
 
-For full documentation of the API, including the structure of requests and responses, available functionality, and a listing of all endpoints, see the Develop section of the CloudOps Documentation Home:
-
--   [Develop](https://docs.cloudops.com/#/develop/)
+Para obtener la documentación completa de la API, incluyendo la estructura de solicitudes y respuestas, la funcionalidad disponible y una lista de todos los puntos de conexión, consulta la sección "Developer" de la página principal de la documentación de CloudOps.
+-   [Develop](https://docs.cloudops.com/#/develop/) (disponible solamente en inglés)
 
