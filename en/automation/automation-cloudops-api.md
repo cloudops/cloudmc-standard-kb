@@ -1,6 +1,6 @@
 ---
 title: "Automating tasks with the CloudOps API"
-slug: cloudops-api
+slug: automating-tasks-with-api
 ---
 
 

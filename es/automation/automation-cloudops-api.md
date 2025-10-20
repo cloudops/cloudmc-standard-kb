@@ -34,7 +34,7 @@ curl --request GET \
   --header 'MC-Api-Key: {api-key}'
 ```
 
-Para preparar este ejemplo para su ejecución, copiarás el texto completo del artículo y lo pegarás en un editor de texto. Para facilitar la lectura, el comando cURL se divide en varias líneas mediante la barra invertida \('`\`'\) para forzar un ajuste de línea. (Si eres usuario de Windows, lee la sección para solamente los usuarios de Windows, ya que necesitarás usar un símbolo diferente para lograr esto). Observa que hay dos marcadores que actúan como marcadores de posición para los datos que proporcionarás: `{endpoint-url}` y `{api-key}`. Reemplace estos marcadores (incluidas las llaves) con los valores correspondientes, como se explica en las secciones "Clave API" y "Punto de conexión de API".
+Para preparar este ejemplo para su ejecución, copiarás el texto completo del artículo y lo pegarás en un editor de texto. Para facilitar la lectura, el comando cURL se divide en varias líneas mediante la barra invertida \('`\`'\) para forzar un ajuste de línea. (Los usuarios de Windows, lee la sección para solamente los usuarios de Windows, ya que necesitarás usar un símbolo diferente para lograr esto). Observa que hay dos marcadores que actúan como marcadores de posición para los datos que proporcionarás: `{endpoint-url}` y `{api-key}`. Reemplace estos marcadores (incluidas las llaves) con los valores correspondientes, como se explica en las secciones "Clave API" y "Punto de conexión de API".
 
 Al trabajar con cualquier API, siempre habrá algún aspecto técnico en su funcionalidad. Sin embargo, al ejecutar tareas sencillas, muchos detalles pueden ignorarse sin problemas. Por ejemplo, al ejecutar una tarea de API (a menudo denominada "hacer una llamada a la API"), el sistema devolverá una respuesta con mucho texto. Este texto estará en un formato estándar llamado JSON.
 
@@ -69,6 +69,7 @@ Además de las claves API, la sección de credenciales de la API del panel Pará
 
 ## Documentación de la API
 
-Para obtener la documentación completa de la API, incluyendo la estructura de solicitudes y respuestas, la funcionalidad disponible y una lista de todos los puntos de conexión, consulta la sección "Developer" de la página principal de la documentación de CloudOps.
+Para obtener la documentación completa de la API, incluyendo la estructura de solicitudes y respuestas, la funcionalidad disponible y una lista de todos los puntos de conexión, consulta la sección "Develop" de la página principal de la documentación de CloudOps.
+
 -   [Develop](https://docs.cloudops.com/#/develop/) (disponible solamente en inglés)
 
