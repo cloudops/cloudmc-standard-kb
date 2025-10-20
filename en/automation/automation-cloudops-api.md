@@ -1,6 +1,6 @@
 ---
 title: "Automating tasks with the CloudOps API"
-slug: cloudops-api
+slug: automating-tasks-with-api
 ---
 
 
@@ -23,7 +23,7 @@ The articles in the Automation category provide a starting point for users who h
 
 ## What to expect
 
-To make this guide accessible to the widest audience, the examples presented in these articles use an industry-standard utility called cURL. This program is included on all macOS, Linux, and Windows systems. It is a command that can be pasted into a terminal window for macOS and Linux users, or into a command prompt or PowerShell window for Windows users. When the cURL command is run, it will connect to the CloudOps API using your user account, send your API call as request to the CloudOps system, and then it will print out the response that CloudOps returned.
+To make this guide accessible to the widest audience, the examples presented in these articles use an industry-standard utility called cURL. This program is included on all macOS, Linux, and Windows systems. It is a command that can be pasted into a terminal window for macOS and Linux users, or into a command prompt or PowerShell window for Windows users. When the cURL command is run, it will connect to the CloudOps API using your user account, send your API call to the CloudOps system, and then it will print out the response that CloudOps returned.
 
 The cURL command presented with each example is meant to be copied from the article and pasted into a text editor. In the text editor, you can replace text within the braces with the required values, and then paste the modified command into you terminal or command prompt. For example, a cURL command to list all environments you have access to with your user account might look like this:
 
@@ -49,7 +49,7 @@ For a detailed example on parsing the JSON data, see the [Get knowledge base ID]
 Windows users, please note that you will have to edit the examples before they can be used, due to how Windows treats special characters.
 
 -   If you are using a **command prompt** \(`cmd.exe`\) window: Replace the backslash with a carat symbol \('`^`'\)
--   If you are using a **PowerShell** window: Replace the backslash with a space and a backtick symbol \('```\)
+-   If you are using a **PowerShell** window: Replace the backslash with a space and a backtick symbol \('`` ` ``'\)
 
 **Attention:** In both cases, the carat or the backtick must be the last character on the line.
 
