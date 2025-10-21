@@ -1,5 +1,5 @@
 ---
-title: "Glossary of CloudOps Terms"
+title: "Glossary of CloudOps terms"
 slug: glossary
 ---
 
