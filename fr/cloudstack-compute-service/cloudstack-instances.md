@@ -28,7 +28,7 @@ L'utilisateur peut fournir au système une clé SSH publique à installer sur l'
 
 De plus, lors de la configuration, un estimateur de coûts apparaîtra en bas de page. L'estimateur de coûts répertorie les options de configuration sélectionnées et leurs coûts individuels, ainsi qu'un total estimé horaire et mensuel. Il sera mis à jour dynamiquement à mesure que vous sélectionnez la configuration souhaitée pour votre instance.
 
-![Capture d'écran de la page Ajouter une instance avec l'estimateur de coût affiché](/assets/cloudstack-instances-cost-estimator.png)
+![Capture d'écran de la page Ajouter une instance avec l'estimateur de coût affiché](/assets/cloudstack-add-an-instance.png)
 
 ## Liste des instances
 
