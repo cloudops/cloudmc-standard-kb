@@ -8,14 +8,14 @@ This article provides details on CloudOps API credentials, and how to manage the
 
 ## Overview
 
-When working with the CloudOps API, you will need to generate an API key for use with your code. API keys provide a convenient method for your application to identify itself to a service when making calls to the service's API.
+To work with the CloudOps API, you will need to generate an API key for use with your code. API keys provide a convenient method for your application to identify itself to a service when making calls to the service's API.
 
 Any CloudOps user may generate an API key. A user's API keys will have the same level of privilege that the user has. There is no limit to the number of API keys that a user may generate. It is recommended to take advantage of this by generating an API key for each application that will be accessing the system.
 
 API keys are created and managed in the **User Settings** panel, under the **API Credentials** section.
 
 
-![Screenshot of the User Settings panel, with relevant features highlighted](api-credentials.png)
+![Screenshot of the User Settings panel, with relevant features highlighted](/assets/api-credentials.png)
 
 1.  **User Settings menu**
 
@@ -28,7 +28,7 @@ API keys are created and managed in the **User Settings** panel, under the **API
 
 ## List existing API keys and endpoints
 
-![Screenshot of the API Credentials section of the User Settings panel](api-credentials-list.png)
+![Screenshot of the API Credentials section of the User Settings panel](/assets/api-credentials-list.png)
 
 1.  **Link to the API documentation**
 
