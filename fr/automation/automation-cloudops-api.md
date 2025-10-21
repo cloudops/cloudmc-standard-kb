@@ -65,7 +65,7 @@ Une fois votre clé API générée, gardez-la en lieu sûr, car le système ne v
 
 ## Point de terminaison API
 
-Outre les clés API, la section « Identifiants d'API » du panneau « Paramètres de l'utilisateur » indique également l'URL à utiliser pour se connecter à un point de terminaison. Consultez l'article [Identifiants de l'API](api-credentials.md) pour plus de détails.
+Outre les clés API, la section « Identifiants d'API » du panneau « Paramètres de l'utilisateur » indique également l'URL à utiliser pour se connecter à un point de terminaison. Consultez l'article [Identifiants d'API](api-credentials.md) pour plus de détails.
 
 ## Documentation de l'API
 
