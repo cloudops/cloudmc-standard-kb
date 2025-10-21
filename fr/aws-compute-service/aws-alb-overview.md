@@ -6,7 +6,7 @@ slug: aws-alb-apercu
 
 Cet article fournit des renseignements sur les équilibreurs de charge d'application dans AWS, leurs propriétés et les composants dont ils dépendent, ainsi que sur le déroulement de leur création.
 
-## Présentation
+## Aperçu
 
 Dans l'offre Elastic Load Balancing, AWS supporte les équilibreurs de charge spécialement conçus pour servir de front-end à une application web. L'équilibreur de charge d'application, ou ALB (de son orthographe en anglais), est un appareil virtuel qui écoute les requêtes entrantes des clients sur un port et un protocole spécifiques. Lorsque **l'écouteur** reçoit une requête, l'équilibreur la passe à un serveur back-end. Ce serveur est une instance d'un VPC auquel l'équilibreur de charge a accès. Généralement, ce dernier est configuré avec plusieurs serveurs back-end. L'instance back-end traite la requête, puis retourne une réponse à l'équilibreur de charge. Ce dernier transmet ensuite la réponse au client.
 
