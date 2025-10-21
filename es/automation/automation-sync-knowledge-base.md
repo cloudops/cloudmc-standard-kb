@@ -29,4 +29,4 @@ curl --request GET \
 
 ## Discusión
 
-Al ejecutar esta llamada a la API, el sistema devolverá el contenido completo de la base de conocimiento existente. Posteriormente, extraerá la información más reciente del repositorio de Git y actualizará la base de conocimiento. Esta operación es de larga duración y tardará unos minutos en completarse. En la interfaz web, verás la operación en el panel de notificaciones. La API no permite comprobar si la sincronización se ha completado en este momento.
+Al ejecutar esta llamada a la API, el sistema devolverá el contenido completo de la base de conocimiento existente. Posteriormente, extraerá la información más reciente del repositorio de Git y actualizará la base de conocimiento. Esta operación es de larga duración y tardará unos minutos en completarse. En la interfaz web, verás la operación en el panel Notificaciones. La API no permite comprobar si la sincronización se ha completado en este momento.
