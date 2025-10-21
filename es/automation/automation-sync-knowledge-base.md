@@ -25,7 +25,7 @@ curl --request GET \
 ## Resultado
 
 - La respuesta contendrá el contenido completo de la base de conocimiento existente.
-- El campo `data/state` contendrá el valor `"SYNCHING"`.
+- El campo `data/state` contendrá el valor `SYNCHING`.
 
 ## Discusión
 
