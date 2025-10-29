@@ -1,6 +1,6 @@
 ---
-title: "Déployer un cluster Kubernetes avec Rancher 2.x"
-slug:  deployer-un-cluster-kubernetes-avec-rancher-2-x
+title: "CloudStack: Déployer un cluster Kubernetes avec Rancher 2.x"
+slug:  cloudstack-deployer-un-cluster-kubernetes-avec-rancher-2-x
 ---
 
 

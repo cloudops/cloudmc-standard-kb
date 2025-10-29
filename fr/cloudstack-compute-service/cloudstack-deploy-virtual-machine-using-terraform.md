@@ -1,6 +1,6 @@
 ---
-title: "Déployer une machine virtuelle à l'aide de Terraform"
-slug: deployer-une-machine-virtuelle-a-l-aide-de-terraform
+title: "CloudStack: Déployer une machine virtuelle à l'aide de Terraform"
+slug: cloudstack-deployer-une-machine-virtuelle-a-l-aide-de-terraform
 ---
 
 

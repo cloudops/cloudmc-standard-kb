@@ -1,6 +1,6 @@
 ---
-title: "Deploy a virtual machine using Terraform"
-slug: deploy-virtual-machine-using-terraform
+title: "CloudStack: Deploy a virtual machine using Terraform"
+slug: cloudstack-deploy-virtual-machine-using-terraform
 ---
 
 

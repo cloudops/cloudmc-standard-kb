@@ -42,6 +42,8 @@ categories:
       - cloudstack-vpn-config-mac.md
       - cloudstack-vpn-config-windows.md
       - cloudstack-vpn-config-ubuntu.md
+      - cloudstack-deploy-virtual-machine-using-terraform.md
+      - cloudstack-deploy-a-kubernetes-cluster-with-rancher-2-x.md
 - category: gcp-compute-service
   icon: fa fa-cloud
   articles:
@@ -134,5 +136,3 @@ categories:
       - automation-list-roles-for-environment.md
       - automation-get-knowledge-base.md
       - automation-sync-knowledge-base.md
-      - deploy-virtual-machine-using-terraform.md
-      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
