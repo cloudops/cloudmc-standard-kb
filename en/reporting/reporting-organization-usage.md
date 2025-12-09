@@ -1,3 +1,8 @@
+---
+title: "Organization Usage report"
+slug: reporting-organization-usage
+---
+
 
 This article provides details on how to use the Organization Usage report, and its various options.
 
