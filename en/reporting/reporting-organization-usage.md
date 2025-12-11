@@ -28,11 +28,11 @@ When multiple currencies are configured for one or more of the selected service 
 -   Each sub-section will have a total displayed accordingly for the currency
 -   Each currency will have its own set of product category filters.
 
-When only a single currency is configured, the total of the usage costs for the selected time period appears at the bottom of the report. It is important to note that the Organization Report is not an invoice, and it does not include any discounts, credits, or taxes. Also, the charges within the current billing cycle are estimates and are subject to change until the final invoice is issued.
+When only a single currency is configured, the total of the usage costs for the selected time period appears at the bottom of the report. It is important to note that the Organization Usage report is not an invoice, and it does not include any discounts, credits, or taxes. Also, the charges within the current billing cycle are estimates and are subject to change until the final invoice is issued.
 
 ## Filters
 
-![Screenshot of the filters available for the Organization Usage report, with the Where and What tab selected](/assets/reporting-organization-usage-filters.png)
+![Screenshot of the filters available for the Organization Usage report, with the Where and What? tab selected](/assets/reporting-organization-usage-filters.png)
 
 1.  **List of currently selected filters**
 
@@ -62,7 +62,7 @@ When only a single currency is configured, the total of the usage costs for the 
 
 3.  **Product category selector**
 
-    A list of buttons appears, each with a product category and a sum of the charges for that product category. Click on any button to display only usage data associated with that product category. In the provided screenshot, the **Compute** category is selected. Multiple categories may be selected. The first button is marked **Total**, and clicking on it will reset the product category selector to include all categories.
+    A list of buttons appears, each with a product category and a sum of the charges for that product category. Click on any button to display only usage data associated with that product category. In the provided screenshot, the **Compute** category is selected. Multiple categories may be selected at the same time. The first button is marked **Total**, and clicking on it will reset the product category selector to include all categories.
 
     Note that when multiple currencies appear on a report, each currency sub-section will have its own product category selector.
 
@@ -71,7 +71,7 @@ When only a single currency is configured, the total of the usage costs for the 
 
 ![Commitment usage](/assets/reporting-organization-usage-commitment.png)
 
-Every commitment that has been configured for the selected organization and is active is the selected time frame will be listed here. The commitment name, product name, SKU, committed usage, rate, and cost appear, along with a total for each commitment. If more than one billing cycle is selected in the time period, each product in each commitment will display the committed quantities for each billing cycle within the span of the selected time period.
+Every commitment that has been configured for the selected organization and is active is the selected time frame will be listed here. The commitment name, product name, SKU, quantity of committed usage, rate, and cost appear, along with a total for each commitment. If more than one billing cycle is selected in the time period, each product in each commitment will display the committed quantities for each billing cycle within the span of the selected time period.
 
 ## Utility usage
 
