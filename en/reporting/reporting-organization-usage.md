@@ -38,7 +38,7 @@ When only a single currency is configured, the total of the usage costs for the 
 
     The list contains all the criteria that have been selected for the currently displayed report. Click on the **×** button to remove a single criterion, or click the **Clear all filters** to eliminate all criteria.
 
-2.  **Time filters**
+2.  **Date filter**
 
     Click on the **When?** tab to display a date selector and choose the desired period for the report. Use the preset buttons, or click on **Custom** to select an exact range.
 

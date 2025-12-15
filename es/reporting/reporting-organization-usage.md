@@ -38,7 +38,7 @@ Cuando se configura una sola moneda, el total de los costos de uso del período 
 
     La lista contiene todos los criterios seleccionados para el informe actual. Haz clic en el botón **×** para eliminar un solo criterio o en **Borrar todos los filtros** para eliminar todos los criterios.
 
-2.  **Filtros de fecha**
+2.  **Filtro de fecha**
 
     Haz clic en la pestaña **¿Cuándo?** para ver un selector de fechas y elegir el período deseado para el informe. Utiliza los botones predefinidos o haz clic en **Personalizado** para seleccionar un rango exacto.
 
@@ -62,7 +62,7 @@ Cuando se configura una sola moneda, el total de los costos de uso del período 
 
 3.  **Selector de categoría de producto**
 
-    Aparece una lista de botones, cada uno con una categoría de producto y la suma de los cargos correspondientes. Haz clic en cualquier botón para mostrar solo los datos de uso asociados a esa categoría. En la captura de pantalla, la categoría **Cómputo** está seleccionada. Se pueden seleccionar varias categorías al mismo tiempo. El primer botón está marcado como **Total** y, al hacer clic en él, se restablecerá el selector de categorías de producto para incluir todas las categorías.
+    Aparece una lista de botones, cada uno con una categoría de producto y la suma de los cargos correspondientes. Haz clic en cualquier botón para mostrar solo los datos de uso asociados a esa categoría. En la captura de pantalla, la categoría **Compute** está seleccionada. Se pueden seleccionar varias categorías al mismo tiempo. El primer botón está marcado como **Total** y, al hacer clic en él, se restablecerá el selector de categorías de producto para incluir todas las categorías.
 
     Ten en cuenta que cuando aparecen varias monedas en un informe, cada subsección de moneda tendrá su propio selector de categorías de producto.
 
