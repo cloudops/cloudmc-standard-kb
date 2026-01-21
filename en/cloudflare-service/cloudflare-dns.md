@@ -12,7 +12,7 @@ The Cloudflare DNS service provides high-performance name resolution for large-s
 
 For DNS resolution to function properly, your domain must be configured at the name registrar to point to the Cloudflare name servers. Cloudflare will host the DNS records \(also known as **resource records**\) for your domain. The CloudOps interface provides a simple way to manage those resource records alongside your other cloud services.
 
-![Diagram illustrating how the major entities in CloudOps and Cloudflare are related](cloudflare-dns-entities.svg)
+![Diagram illustrating how the major entities in CloudOps and Cloudflare are related](cloudflare-dns-entities.png)
 
 To enhance performance and security, you may also choose to have Cloudflare proxy the traffic for your A, AAAA, and CNAME records. When a client makes a DNS query for the host name of a proxied DNS record, Cloudflare will return the IP address of its own front-end servers. When the client makes an HTTP or HTTPS request, the client will send the request to Cloudflare's servers, which will in turn make the request to the origin server, which is the server identified in your DNS record. This content will be returned in the response to the client, and will also be cached at the Cloudflare servers for faster retrieval.
 
