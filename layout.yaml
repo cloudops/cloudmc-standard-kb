@@ -93,6 +93,12 @@ categories:
       - vmware-virtual-applications.md
       - vmware-add-a-network.md
       - vmware-add-a-virtual-machine.md
+- category: cloudflare-service
+  icon: fa fa-cloud
+  articles:
+      - cloudflare-dns.md
+      - cloudflare-add-a-domain.md
+      - cloudflare-add-a-dns-record.md
 - category: object-storage-service
   icon: fa fa-hdd-o
   articles:
