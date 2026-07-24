@@ -14,6 +14,11 @@ El siguiente ejemplo ilustra cómo conectar dos VPCs con una VPN de sitio a siti
 | dmz | entorno-dmz | 10.0.0.0/22 | 172.30.200.106 |
 | gestion | entorno-gestion | 10.0.4.0/22 | 172.30.200.107 |
 
+#### Antes de comenzar
+
+- Debes tener al menos una red en la VPC
+- Debes tener al menos una instancia desplegada en la red
+
 #### Configuración de VPN de sitio a sitio
 1. Ve al entorno **entorno-dmz**.
 1. Ve a la pestaña *Redes*.

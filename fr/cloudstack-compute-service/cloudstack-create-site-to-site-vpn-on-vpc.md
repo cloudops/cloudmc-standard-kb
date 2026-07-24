@@ -14,6 +14,11 @@ L'exemple suivant illustre comment à connecter deux VPCs avec un site-à-site V
 | dmz | env-dmz | 10.0.0.0/22 | 172.30.200.106 |
 | gestion | env-gest | 10.0.4.0/22 | 172.30.200.107 |
 
+#### Avant de commencer
+
+- Vous devez avoir au moins un réseau dans le VPC
+- Vous devez avoir au moins une instance déployée sur ce réseau
+
 #### Configuration du VPN site-à-site
 1. Aller à l'environnement **env-dmz**.
 1. Cliquer sur l'onglet *Réseautique*.

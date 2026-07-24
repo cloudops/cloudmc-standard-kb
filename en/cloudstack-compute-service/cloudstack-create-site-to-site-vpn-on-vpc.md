@@ -14,6 +14,11 @@ The following example illustrates how to connect two VPCs with a site-to-site VP
 | dmz | dmz-env | 10.0.0.0/22 | 172.30.200.106 |
 | management | mgt-env| 10.0.4.0/22 | 172.30.200.107 |
 
+#### Before you begin
+
+- You must have at least one network in the VPC
+- You must have at least one instance deployed in the network
+
 #### Site-to-site VPN configuration
 1. Go to **dmz-env** environment.
 1. Go to *Networking* tab.
